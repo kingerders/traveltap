@@ -9,7 +9,7 @@
   <meta property="og:description" content="Discover thousands of hand-picked attractions worldwide. Build your bucket list. Track your travels." />
   <meta property="og:url" content="https://traveltapapp.com" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="icon" type="image/png" href="traveltap_logo.png" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -44,16 +44,41 @@
       border-bottom: 1px solid rgba(196,69,105,0.08);
     }
     .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-    .nav-logo img { width: 36px; height: 36px; border-radius: 9px; }
+    .nav-logo img { width: 36px; height: 36px; border-radius: 9px; object-fit: contain; background: linear-gradient(135deg, #FF9A56, #C44569); padding: 4px; }
     .nav-logo span { font-size: 20px; font-weight: 700; color: var(--pink); letter-spacing: -0.3px; }
     .nav-cta {
-      background: linear-gradient(135deg, var(--orange2), var(--orange));
-      color: #fff; font-weight: 600; font-size: 14px;
+      background: rgba(196,69,105,0.1); color: var(--pink);
+      font-weight: 600; font-size: 14px;
       padding: 10px 22px; border-radius: 40px; text-decoration: none;
-      box-shadow: 0 4px 16px rgba(255,107,53,0.35);
-      transition: transform 0.2s, box-shadow 0.2s;
+      border: 1.5px solid rgba(196,69,105,0.25);
+      transition: background 0.2s;
     }
-    .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 22px rgba(255,107,53,0.45); }
+    .nav-cta:hover { background: rgba(196,69,105,0.18); }
+    .coming-soon-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(196,69,105,0.08); color: var(--pink);
+      font-size: 13px; font-weight: 600; padding: 6px 16px;
+      border-radius: 40px; border: 1.5px dashed rgba(196,69,105,0.35);
+    }
+    .notify-bar {
+      display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;
+      background: linear-gradient(135deg, rgba(255,154,86,0.15), rgba(196,69,105,0.1));
+      border: 1.5px solid rgba(196,69,105,0.2);
+      border-radius: 16px; padding: 20px 28px; max-width: 460px; margin: 0 auto;
+      text-align: center;
+    }
+    .notify-bar .nb-icon { font-size: 2rem; }
+    .notify-bar .nb-text { }
+    .notify-bar .nb-title { font-weight: 700; font-size: 1rem; color: var(--text); margin-bottom: 2px; }
+    .notify-bar .nb-sub { font-size: 0.875rem; color: var(--muted); }
+    .notify-mail {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, var(--orange2), var(--orange));
+      color: #fff; font-weight: 700; font-size: 14px;
+      padding: 10px 22px; border-radius: 40px; text-decoration: none;
+      box-shadow: 0 4px 14px rgba(255,107,53,0.35);
+      white-space: nowrap;
+    }
 
     /* Hero */
     .hero {
@@ -138,7 +163,7 @@
       align-items: center; justify-content: center;
       gap: 12px; padding: 20px;
     }
-    .phone-inner img { width: 72px; height: 72px; border-radius: 18px; }
+    .phone-inner img { width: 90px; height: 90px; border-radius: 22px; object-fit: contain; background: linear-gradient(135deg, #FF9A56, #C44569); padding: 8px; box-shadow: 0 6px 20px rgba(196,69,105,0.3); }
     .phone-inner .app-name { font-size: 20px; font-weight: 800; color: var(--pink); letter-spacing: -0.5px; }
     .phone-inner .app-tagline { font-size: 12px; color: var(--muted); text-align: center; line-height: 1.5; }
     .phone-inner .world-emoji { font-size: 48px; }
@@ -257,12 +282,10 @@
 
   <nav>
     <a class="nav-logo" href="#">
-      <img src="logo.png" alt="TravelTap" />
+      <img src="traveltap_logo.png" alt="TravelTap" />
       <span>TravelTap</span>
     </a>
-    <a class="nav-cta" href="https://apps.apple.com/app/traveltap" target="_blank" rel="noopener">
-      Download App
-    </a>
+    <span class="nav-cta">Coming Soon &#128338;</span>
   </nav>
 
   <section class="hero">
@@ -272,19 +295,27 @@
       Discover hand-picked attractions across every continent, build your dream bucket list, and track your adventures — all in your pocket.
     </p>
     <div class="hero-actions">
-      <a class="btn-primary" href="https://apps.apple.com/app/traveltap" target="_blank" rel="noopener">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.32.19-1.9 1.11-1.88 3.31.02 2.62 2.3 3.5 2.32 3.51-.03.07-.36 1.23-1.19 2.2zm-5.33-17.04c.74-.89 2-1.53 3.03-1.57.14 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.17-1.12.39-2.28 .96-3.04z"/></svg>
-        Download on the App Store
-      </a>
+      <div class="notify-bar">
+        <div class="nb-icon">&#127381;</div>
+        <div class="nb-text">
+          <div class="nb-title">Coming Soon to the App Store</div>
+          <div class="nb-sub">Get notified when we launch</div>
+        </div>
+        <a class="notify-mail" href="mailto:hello@traveltapapp.com?subject=Notify%20Me%20-%20TravelTap">
+          &#128231; Notify Me
+        </a>
+      </div>
+    </div>
+    <div style="margin-top:16px;">
       <a class="btn-secondary" href="#features">See Features &#8594;</a>
     </div>
     <div class="mockup-section">
       <div class="phone-frame">
         <div class="phone-inner">
-          <div class="world-emoji">&#127757;</div>
-          <img src="logo.png" alt="TravelTap App Icon" />
+          <img src="traveltap_logo.png" alt="TravelTap App Icon" />
           <div class="app-name">TravelTap</div>
           <div class="app-tagline">Your pocket travel companion for exploring the world</div>
+          <div style="font-size:11px;color:#C44569;font-weight:600;background:rgba(196,69,105,0.1);padding:4px 10px;border-radius:20px;margin-top:4px;">Coming Soon</div>
         </div>
       </div>
     </div>
@@ -403,11 +434,11 @@
 
   <section class="cta">
     <h2>Life is Short.<br />The World is Wide.</h2>
-    <p>Join thousands of travelers already using TravelTap to explore, discover, and dream bigger.</p>
-    <a class="btn-white" href="https://apps.apple.com/app/traveltap" target="_blank" rel="noopener">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.32.19-1.9 1.11-1.88 3.31.02 2.62 2.3 3.5 2.32 3.51-.03.07-.36 1.23-1.19 2.2zm-5.33-17.04c.74-.89 2-1.53 3.03-1.57.14 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.17-1.12.39-2.28 .96-3.04z"/></svg>
-      Download Free on iPhone
+    <p>TravelTap is launching soon on the App Store. Be among the first to explore the world with us.</p>
+    <a class="btn-white" href="mailto:hello@traveltapapp.com?subject=Notify%20Me%20-%20TravelTap">
+      &#128231; Get Notified at Launch
     </a>
+    <p style="margin-top:20px;font-size:13px;color:rgba(255,255,255,0.7);">hello@traveltapapp.com</p>
   </section>
 
   <footer>
@@ -418,8 +449,7 @@
     <div class="footer-links">
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Use</a>
-      <a href="mailto:hello@traveltapapp.com">Contact</a>
-      <a href="https://apps.apple.com/app/traveltap" target="_blank" rel="noopener">App Store</a>
+      <a href="mailto:hello@traveltapapp.com">hello@traveltapapp.com</a>
     </div>
     <p>&#169; 2026 TravelTap. All rights reserved.</p>
   </footer>
