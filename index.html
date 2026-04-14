@@ -233,6 +233,35 @@
     }
     .dest-pill:hover { background: rgba(196,69,105,0.06); border-color: rgba(196,69,105,0.3); }
 
+    /* Tech + About */
+    .tech, .about {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 88px 24px;
+    }
+    .tech {
+      background: linear-gradient(160deg, #fff7ef 0%, #ffe8dc 100%);
+      border-top: 1px solid rgba(196,69,105,0.08);
+      border-bottom: 1px solid rgba(196,69,105,0.08);
+    }
+    .tech-card {
+      background: var(--white);
+      border: 1px solid rgba(196,69,105,0.12);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 6px 24px rgba(196,69,105,0.1);
+    }
+    .tech-card p { color: #374151; font-size: 1rem; margin: 0; }
+    .about-inner {
+      background: var(--white);
+      border: 1px solid rgba(196,69,105,0.12);
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 6px 24px rgba(196,69,105,0.1);
+    }
+    .about-inner p { color: #374151; font-size: 1rem; }
+    .about-inner p + p { margin-top: 12px; }
+
     /* CTA */
     .cta {
       margin: 48px 24px; border-radius: 32px;
@@ -432,6 +461,30 @@
     </div>
   </section>
 
+  <section class="tech" id="technology">
+    <div class="section-label">Technology</div>
+    <h2 class="section-title">Powered by Google Cloud</h2>
+    <p class="section-sub">Built with reliable location services and cloud infrastructure for global scale.</p>
+    <div class="tech-card">
+      <p>
+        Powered by Google Cloud — TravelTap uses Google Maps Platform, Places API, and Cloud infrastructure to deliver accurate, real-time location data for thousands of attractions worldwide.
+      </p>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-label">About Us</div>
+    <h2 class="section-title">Our Story</h2>
+    <div class="about-inner">
+      <p>
+        TravelTap was created by an independent developer from Turkey with a passion for travel and technology. Our mission is to make the world's most amazing places accessible to every traveler.
+      </p>
+      <p>
+        We are building a practical travel companion that helps people discover destinations, save dream places, and confidently plan unforgettable trips.
+      </p>
+    </div>
+  </section>
+
   <section class="cta">
     <h2>Life is Short.<br />The World is Wide.</h2>
     <p>TravelTap is launching soon on the App Store. Be among the first to explore the world with us.</p>
@@ -449,6 +502,7 @@
     <div class="footer-links">
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Use</a>
+      <a href="contact/">Contact</a>
       <a href="mailto:hello@traveltapapp.com">hello@traveltapapp.com</a>
     </div>
     <p>&#169; 2026 TravelTap. All rights reserved.</p>
