@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About TravelTap</title>
+  <meta name="description" content="About TravelTap, an iOS travel app helping you explore, plan, and celebrate adventures." />
+  <link rel="icon" type="image/png" href="traveltap_logo.png" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --pink:    #C44569;
+      --orange:  #FF6B35;
+      --orange2: #FF9A56;
+      --bg:      #FFF8F0;
+      --bg2:     #FFE4D6;
+      --text:    #1a1a2e;
+      --muted:   #6b7280;
+      --white:   #ffffff;
+      --radius:  16px;
+      --shadow:  0 8px 32px rgba(196,69,105,0.13);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 48px;
+      background: rgba(255,248,240,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(196,69,105,0.08);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo img { width: 36px; height: 36px; object-fit: contain; }
+    .nav-logo span { font-size: 20px; font-weight: 700; color: var(--pink); letter-spacing: -0.3px; }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-links a { text-decoration: none; color: var(--text); font-weight: 600; font-size: 15px; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--pink); }
+
+    .section-label {
+      text-align: center; font-size: 13px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--orange); margin-bottom: 12px;
+    }
+    .section-title {
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 800; letter-spacing: -0.8px; margin-bottom: 16px;
+    }
+    .section-sub { text-align: center; color: var(--muted); max-width: 500px; margin: 0 auto 56px; font-size: 1.05rem; }
+
+    /* Footer */
+    footer { padding: 48px 24px 32px; text-align: center; border-top: 1px solid rgba(196,69,105,0.1); margin-top: auto; }
+    .footer-logo { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 16px; }
+    .footer-logo img { width: 32px; height: 32px; border-radius: 8px; }
+    .footer-logo span { font-size: 18px; font-weight: 700; color: var(--pink); }
+    footer p { color: var(--muted); font-size: 14px; }
+    .footer-links { display: flex; gap: 24px; justify-content: center; margin: 16px 0; flex-wrap: wrap; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--pink); }
+
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+    }
+  </style>
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+
+  <nav>
+    <a class="nav-logo" href="index.html">
+      <img src="traveltap_logo.png" alt="TravelTap" />
+      <span>TravelTap</span>
+    </a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <main style="flex: 1; padding: 140px 24px 80px;">
+    <div style="max-width: 800px; margin: 0 auto; color: var(--text); line-height: 1.8; font-size: 1.05rem;">
+      <div class="section-label">My Story</div>
+      <h2 class="section-title">About TravelTap</h2>
+
+      <p style="margin-bottom: 24px;">TravelTap was born from a simple question: why is it so hard to keep track of the places you dream of visiting? Spreadsheets feel impersonal. Notes apps get cluttered. Travel blogs inspire you but don't help you act. I wanted something different — a single, beautiful app that lives in your pocket and grows with every adventure you take.</p>
+
+      <p style="margin-bottom: 48px;">Built by an independent developer from Turkey, TravelTap started as a personal project to solve a personal problem: a love of travel and no good tool to capture it. What began as a handful of handpicked attractions quickly evolved into a global catalogue of over 10,000 curated destinations spanning 195+ countries across all seven continents.</p>
+
+      <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 16px; color: var(--pink);">What I Built</h3>
+      <p style="margin-bottom: 24px;">TravelTap is your pocket travel companion — part atlas, part bucket list, part travel diary. Open the app and you'll find a world of carefully selected attractions, from iconic landmarks like the Eiffel Tower and Machu Picchu to hidden temples, remote national parks, and neighbourhood gems that guidebooks overlook.</p>
+      <p style="margin-bottom: 48px;">Every attraction in TravelTap comes with rich details: practical information like entrance fees, opening hours, and tips for getting there, alongside inspiring descriptions and photos that make you feel the place before you even book a flight. Tap the map and see exactly where each attraction sits in context. Save the ones that call to you, mark the ones you've visited, and watch your travel story take shape over time.</p>
+
+      <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 16px; color: var(--pink);">Built for Every Kind of Traveler</h3>
+      <p style="margin-bottom: 24px;">Whether you're a seasoned explorer who has stamped dozens of passports, a first-time traveller nervous about where to start, or someone sitting at home building their dream bucket list for the years ahead — TravelTap was made for you. There are no complicated setups, no mandatory accounts, and no overwhelming interfaces. Just open the app and start discovering.</p>
+      <p style="margin-bottom: 48px;">The category filters let you navigate by what moves you — historical sites, natural wonders, museums, local culture, food scenes, or transport hubs. The interactive world map gives you a bird's-eye view of where you've been and where you're going, while your travel stats turn every trip into a milestone worth celebrating.</p>
+
+      <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 16px; color: var(--pink);">My Commitment</h3>
+      <p style="margin-bottom: 24px;">I believe that great travel tools should be accessible to everyone. That's why the core experience — discovery, bucket listing, and offline access to your saved places — is free. Premium country packs unlock deeper content for travellers who want to go further, helping me keep the app growing and improving.</p>
+      <p style="margin-bottom: 48px;">Every attraction in my catalogue is hand-reviewed. I don't rely on automated scraping or user-generated noise. If a place is in TravelTap, it's there because I believe it's genuinely worth your time and attention.</p>
+
+      <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 16px; color: var(--pink);">Technology Behind TravelTap</h3>
+      <p style="margin-bottom: 48px;">TravelTap is a native iPhone app built entirely in Swift and SwiftUI, designed to feel fast, fluid, and at home on iOS. Location services and rich point-of-interest data are powerfully backed by <strong>Google Maps Platform</strong> and <strong>Google Places API</strong>, running on scalable <strong>Google Cloud Infrastructure</strong>. This ensures highly accurate coordinates, authoritative reviews, and up-to-date place data at a global scale. Your bucket list and travel history are stored privately on your device — I don't collect or sell your personal data.</p>
+
+      <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 16px; color: var(--pink);">The Journey Ahead</h3>
+      <p style="margin-bottom: 24px;">I am a solo, independent developer — and that's something I'm proud of. Every update, every new country added, every bug fixed is done with genuine care. I'm building TravelTap for the long haul: more destinations, smarter recommendations, richer trip-planning features, and a community of travellers who inspire each other to see more of this extraordinary world.</p>
+      <p style="margin-bottom: 48px; font-weight: 600; font-size: 1.1rem; color: var(--orange);">Thank you for being part of this journey. The world is wide — let's explore it together.</p>
+
+      <div style="background: var(--white); border-radius: 20px; padding: 36px; border: 1.5px solid rgba(196,69,105,0.15); box-shadow: 0 8px 32px rgba(196,69,105,0.08); display: flex; gap: 24px; align-items: center; flex-wrap: wrap;">
+        <div style="width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#FF9A56,#C44569);display:flex;align-items:center;justify-content:center;font-size:2rem;flex-shrink:0;">&#128100;</div>
+        <div>
+          <div style="font-size:1.15rem;font-weight:800;color:var(--text);">Erdinc Ersoy</div>
+          <div style="font-size:0.9rem;color:var(--pink);font-weight:600;margin:3px 0 10px;">Solo Founder &amp; Developer &middot; TravelTap</div>
+          <div style="font-size:0.9rem;color:var(--muted);"><a href="mailto:hello@traveltapapp.com" style="color:var(--orange);text-decoration:none;font-weight:600;">hello@traveltapapp.com</a></div>
+        </div>
+      </div>
+
+      <div style="margin: 28px auto 0; display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
+          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Company</div>
+          <div style="font-weight:600;color:var(--text);">TravelTap</div>
+        </div>
+        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
+          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Stage</div>
+          <div style="font-weight:600;color:var(--text);">Pre-launch Startup</div>
+        </div>
+        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
+          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Location</div>
+          <div style="font-weight:600;color:var(--text);">Remote</div>
+        </div>
+        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
+          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Platform</div>
+          <div style="font-weight:600;color:var(--text);">iOS (iPhone)</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="traveltap_logo.png" alt="TravelTap" />
+      <span>TravelTap</span>
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="contact.html">Contact</a>
+      <a href="mailto:hello@traveltapapp.com">hello@traveltapapp.com</a>
+    </div>
+    <p>&#169; 2026 TravelTap. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+

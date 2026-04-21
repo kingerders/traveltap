@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TravelTap – Your Pocket Travel Companion</title>
-  <meta name="description" content="TravelTap is a travel discovery iOS app founded by Erdinc Ersoy in Ankara, Turkey. Discover 10,000+ hand-picked attractions across 195+ countries, build your dream travel bucket list, and track every adventure." />
+  <meta name="description" content="TravelTap is a travel discovery iOS app founded by Erdinc Ersoy. Discover 10,000+ hand-picked attractions across 195+ countries, build your dream travel bucket list, and track every adventure." />
   <meta property="og:title" content="TravelTap – Explore the World" />
   <meta property="og:description" content="Discover thousands of hand-picked attractions worldwide. Build your bucket list. Track your travels." />
   <meta property="og:url" content="https://traveltapapp.com" />
@@ -21,12 +21,12 @@
     "founder": {
       "@type": "Person",
       "name": "Erdinc Ersoy",
-      "jobTitle": "Founder & Developer",
+      "jobTitle": "Solo Founder & Developer",
       "worksFor": { "@type": "Organization", "name": "TravelTap" }
     },
     "foundingLocation": {
       "@type": "Place",
-      "name": "Ankara, Turkey"
+      "name": "Remote"
     },
     "areaServed": "Worldwide",
     "knowsAbout": ["Travel", "Mobile Apps", "iOS Development", "Travel Discovery"],
@@ -87,8 +87,11 @@
       border-bottom: 1px solid rgba(196,69,105,0.08);
     }
     .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-    .nav-logo img { width: 36px; height: 36px; border-radius: 9px; object-fit: contain; background: linear-gradient(135deg, #FF9A56, #C44569); padding: 4px; }
+    .nav-logo img { width: 36px; height: 36px; object-fit: contain; }
     .nav-logo span { font-size: 20px; font-weight: 700; color: var(--pink); letter-spacing: -0.3px; }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-links a { text-decoration: none; color: var(--text); font-weight: 600; font-size: 15px; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--pink); }
     .nav-cta {
       background: rgba(196,69,105,0.1); color: var(--pink);
       font-weight: 600; font-size: 14px;
@@ -188,28 +191,27 @@
     .mockup-section { display: flex; justify-content: center; margin-top: 64px; position: relative; z-index: 1; }
     .phone-frame {
       width: 260px; height: 520px;
-      background: linear-gradient(135deg, var(--orange2) 0%, var(--pink) 100%);
-      border-radius: 44px; padding: 18px;
-      box-shadow: 0 32px 80px rgba(196,69,105,0.3), 0 8px 16px rgba(0,0,0,0.1);
+      background: #111;
+      border-radius: 44px; padding: 12px;
+      box-shadow: 0 32px 80px rgba(0,0,0,0.2), 0 8px 16px rgba(0,0,0,0.1);
       position: relative;
+      border: 2px solid #2a2a2a;
     }
     .phone-frame::before {
-      content: ''; position: absolute; top: 18px; left: 50%;
+      content: ''; position: absolute; top: 12px; left: 50%;
       transform: translateX(-50%);
-      width: 80px; height: 6px; border-radius: 4px;
-      background: rgba(255,255,255,0.5);
+      width: 80px; height: 20px; border-radius: 20px;
+      background: #000;
+      z-index: 2;
     }
     .phone-inner {
       width: 100%; height: 100%; background: var(--bg);
       border-radius: 30px; overflow: hidden;
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
-      gap: 12px; padding: 20px;
+      padding: 0;
     }
-    .phone-inner img { width: 90px; height: 90px; border-radius: 22px; object-fit: contain; background: linear-gradient(135deg, #FF9A56, #C44569); padding: 8px; box-shadow: 0 6px 20px rgba(196,69,105,0.3); }
-    .phone-inner .app-name { font-size: 20px; font-weight: 800; color: var(--pink); letter-spacing: -0.5px; }
-    .phone-inner .app-tagline { font-size: 12px; color: var(--muted); text-align: center; line-height: 1.5; }
-    .phone-inner .world-emoji { font-size: 48px; }
+    .phone-inner video { width: 100%; height: 100%; object-fit: cover; }
 
     /* Stats */
     .stats {
@@ -328,7 +330,9 @@
       <img src="traveltap_logo.png" alt="TravelTap" />
       <span>TravelTap</span>
     </a>
-    <span class="nav-cta">Coming Soon &#128338;</span>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+    </div>
   </nav>
 
   <section class="hero">
@@ -337,7 +341,7 @@
       Discover hand-picked attractions across every continent, build your dream bucket list, and track your adventures — all in your pocket.
     </p>
     <div class="hero-actions">
-      <div class="notify-bar">
+      <div class="notify-bar" style="display:none;">
         <div class="nb-icon">&#127381;</div>
         <div class="nb-text">
           <div class="nb-title">Coming Soon to the App Store</div>
@@ -347,18 +351,22 @@
           &#128231; Notify Me
         </a>
       </div>
+      <a class="btn-primary" href="mailto:hello@traveltapapp.com?subject=Contact%20-%20TravelTap">
+        Contact Us
+      </a>
     </div>
     <div style="margin-top:16px;">
       <a class="btn-secondary" href="#features">See Features &#8594;</a>
     </div>
-    <div class="mockup-section">
+    <div class="mockup-section" style="flex-direction: column; align-items: center; gap: 24px;">
       <div class="phone-frame">
         <div class="phone-inner">
-          <img src="traveltap_logo.png" alt="TravelTap App Icon" />
-          <div class="app-name">TravelTap</div>
-          <div class="app-tagline">Your pocket travel companion for exploring the world</div>
-          <div style="font-size:11px;color:#C44569;font-weight:600;background:rgba(196,69,105,0.1);padding:4px 10px;border-radius:20px;margin-top:4px;">Coming Soon</div>
+          <video src="demo-optimized.mp4" autoplay loop muted playsinline onloadedmetadata="this.playbackRate = 2.00;" style="width: 100%; height: 100%; object-fit: cover;"></video>
         </div>
+      </div>
+      <div style="font-size: 14px; color: var(--text); font-weight: 600; display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.8); backdrop-filter: blur(8px); padding: 12px 24px; border-radius: 40px; box-shadow: 0 8px 24px rgba(196,69,105,0.08); border: 1.5px solid rgba(196,69,105,0.18);">
+        <span style="color: var(--orange2); font-size: 1.2rem;">⚡</span>
+        Live MVP Demonstration
       </div>
     </div>
   </section>
@@ -559,47 +567,6 @@
     </div>
   </section>
 
-  <section style="padding: 96px 24px; background: linear-gradient(160deg, #FFE4D6 0%, #FFF8F0 100%);">
-    <div style="max-width: 1100px; margin: 0 auto;">
-      <div class="section-label">Our Story</div>
-      <h2 class="section-title">About TravelTap</h2>
-      <p class="section-sub" style="max-width: 640px; font-size: 1.05rem; line-height: 1.8;">
-        TravelTap is a travel discovery iOS app built to help people explore, plan, and celebrate their adventures around the world. Our mission: <em>make the world's most amazing places accessible to every traveler.</em>
-      </p>
-      <p class="section-sub" style="max-width: 640px; color: var(--text); font-size: 1rem; margin-top: 16px; margin-bottom: 48px; line-height: 1.75;">
-        We believe travel changes perspectives, builds empathy, and creates lasting memories. TravelTap is designed to be the companion that inspires your next journey — whether it's a bucket-list landmark or a hidden gem around the corner.
-      </p>
-
-      <div style="max-width: 640px; margin: 0 auto; background: var(--white); border-radius: 20px; padding: 36px; border: 1.5px solid rgba(196,69,105,0.15); box-shadow: 0 8px 32px rgba(196,69,105,0.08); display: flex; gap: 24px; align-items: center; flex-wrap: wrap;">
-        <div style="width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#FF9A56,#C44569);display:flex;align-items:center;justify-content:center;font-size:2rem;flex-shrink:0;">&#128100;</div>
-        <div>
-          <div style="font-size:1.15rem;font-weight:800;color:var(--text);">Erdinc Ersoy</div>
-          <div style="font-size:0.9rem;color:var(--pink);font-weight:600;margin:3px 0 10px;">Founder &amp; Developer &middot; TravelTap</div>
-          <div style="font-size:0.9rem;color:var(--muted);">&#128205; Ankara, Turkey &nbsp;&nbsp;&#183;&nbsp;&nbsp; <a href="mailto:hello@traveltapapp.com" style="color:var(--orange);text-decoration:none;font-weight:600;">hello@traveltapapp.com</a></div>
-        </div>
-      </div>
-
-      <div style="max-width: 640px; margin: 28px auto 0; display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
-          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Company</div>
-          <div style="font-weight:600;color:var(--text);">TravelTap</div>
-        </div>
-        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
-          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Stage</div>
-          <div style="font-weight:600;color:var(--text);">Pre-launch Startup</div>
-        </div>
-        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
-          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Headquarters</div>
-          <div style="font-weight:600;color:var(--text);">Ankara, Turkey</div>
-        </div>
-        <div style="background:var(--white);border-radius:12px;padding:20px;border:1.5px solid rgba(196,69,105,0.12);">
-          <div style="font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:6px;">Platform</div>
-          <div style="font-weight:600;color:var(--text);">iOS (iPhone)</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section style="padding: 96px 24px; max-width: 1100px; margin: 0 auto;">
     <div class="section-label">Powered By</div>
     <h2 class="section-title">Built with Google Cloud</h2>
@@ -625,7 +592,7 @@
 
   <section class="cta">
     <h2>Life is Short.<br />The World is Wide.</h2>
-    <p>TravelTap is launching soon on the App Store. Be among the first to explore the world with us.</p>
+    <p>TravelTap is launching soon on the App Store. Be among the first to explore the world with me.</p>
     <a class="btn-white" href="mailto:hello@traveltapapp.com?subject=Notify%20Me%20-%20TravelTap">
       &#128231; Get Notified at Launch
     </a>
@@ -634,7 +601,7 @@
 
   <footer>
     <div class="footer-logo">
-      <img src="logo.png" alt="TravelTap" />
+      <img src="traveltap_logo.png" alt="TravelTap" />
       <span>TravelTap</span>
     </div>
     <div class="footer-links">
