@@ -1,0 +1,25 @@
+# Photos - stored locally only
+TravelTap/AttractionPhotos/
+
+# Build artifacts
+build/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Logs
+americas_logs/
+egypt_coord_logs/
+geocode_*.txt
+build_log*.txt
+errors.txt
+
+# macOS
+.DS_Store
