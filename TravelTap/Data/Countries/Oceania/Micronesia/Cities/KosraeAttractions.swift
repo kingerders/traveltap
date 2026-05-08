@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct KosraeAttractions {
+    static let city = City(
+        name: "Kosrae",
+        localName: "Kosrae",
+        latitude: 5.324363,
+        longitude: 162.989254,
+        description: "The 'Island of the Sleeping Lady' - pristine reefs and ancient ruins.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Lelu Stone Ruins",
+            localName: "Lelu Ruins",
+            category: .archaeological,
+            latitude: 5.3316667,
+            longitude: 163.025,
+            city: "Kosrae",
+            country: "Micronesia",
+            shortDescription: "Ancient royal city rivaling Nan Madol in scale.",
+            fullDescription: "The prehistoric capital of Kosrae, featuring massive basalt walls, royal compounds, and sacred enclosures. Built between 1250-1600 AD, it was the seat of the Tokosra paramount chiefs.",
+            photos: [],
+            entranceFee: "$5",
+            openingHours: "Daylight hours",
+            howToGetThere: "Short drive from Tofol, on Lelu Island.",
+            tips: "Hire a local guide to understand the history. Less visited than Nan Madol.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Menke Ruins",
+            localName: "Menke Ruins",
+            category: .archaeological,
+            latitude: 5.3316667,
+            longitude: 163.025,
+            city: "Kosrae",
+            country: "Micronesia",
+            shortDescription: "Atmospheric ancient ruins in jungle setting.",
+            fullDescription: "Ancient stone ruins hidden in the jungle, featuring walls and platforms from Kosrae's prehistoric period. Less restored than Lelu but more atmospheric.",
+            photos: [],
+            entranceFee: "$3",
+            openingHours: "Daylight hours",
+            howToGetThere: "Jungle path from main road in Malem.",
+            tips: "Combine with Menke Falls hike. Guide recommended.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Wiya Bird Cave",
+            localName: "Wiya Cave",
+            category: .park,
+            latitude: 5.368839899999999,
+            longitude: 162.9989311,
+            city: "Kosrae",
+            country: "Micronesia",
+            shortDescription: "Sea cave home to thousands of swiftlets.",
+            fullDescription: "A dramatic sea cave filled with thousands of cave swiftlets. The cave is accessible at low tide and features stalactites and the constant sound of birds.",
+            photos: [],
+            entranceFee: "$3",
+            openingHours: "Low tide only",
+            howToGetThere: "Boat or coastal hike from Utwe.",
+            tips: "Check tide times before going. Bring flashlight. Amazing acoustics.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Saolong Waterfall",
+            localName: "Saolong Falls",
+            category: .park,
+            latitude: 5.2842421,
+            longitude: 162.9571782,
+            city: "Kosrae",
+            country: "Micronesia",
+            shortDescription: "Beautiful jungle waterfall with swimming hole.",
+            fullDescription: "A picturesque waterfall cascading into a clear pool, surrounded by pristine rainforest. One of the most accessible waterfalls on Kosrae.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours",
+            howToGetThere: "Short hike from the main road.",
+            tips: "Great for swimming. Bring insect repellent.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Supyen Waterfall",
+            localName: "Supyen Falls",
+            category: .park,
+            latitude: 5.2842421,
+            longitude: 162.9571782,
+            city: "Kosrae",
+            country: "Micronesia",
+            shortDescription: "Kosrae's tallest waterfall deep in the jungle.",
+            fullDescription: "A dramatic waterfall hidden in Kosrae's interior, requiring a moderate jungle hike. The effort is rewarded with a stunning cascade and pristine swimming hole.",
+            photos: [],
+            entranceFee: "$3",
+            openingHours: "Daylight hours",
+            howToGetThere: "Jungle hike from Tafunsak.",
+            tips: "Guide recommended. Challenging but rewarding hike.",
+            duration: "3-4 hours"
+        ),
+        Attraction(
+            name: "Walung Marine Park",
+            localName: "Walung",
+            category: .beach,
+            latitude: 5.3316667,
+            longitude: 163.025,
+            city: "Kosrae",
+            country: "Micronesia",
+            shortDescription: "Premier snorkeling and diving on pristine reefs.",
+            fullDescription: "Some of the healthiest coral reefs in Micronesia, featuring an incredible diversity of hard corals, reef fish, and marine life. Protected as a community marine reserve.",
+            photos: [],
+            entranceFee: "$10",
+            openingHours: "Daylight hours",
+            howToGetThere: "Boat from Tofol or access from Walung village.",
+            tips: "Bring snorkel gear. Diving arranged through local operators. Pristine coral.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Mount Finkol",
+            localName: "Mount Finkol",
+            category: .park,
+            latitude: 5.309999899999999,
+            longitude: 162.9908333,
+            city: "Kosrae",
+            country: "Micronesia",
+            shortDescription: "Kosrae's highest peak with cloud forest hiking.",
+            fullDescription: "At 630 meters, the highest point on Kosrae. The challenging hike passes through pristine cloud forest with endemic plants and birds. Panoramic views from the summit.",
+            photos: [],
+            entranceFee: "Guide fee ~$40",
+            openingHours: "Start early morning",
+            howToGetThere: "Trailhead in interior, 4WD required.",
+            tips: "Full day hike. Essential to hire local guide. Bring rain gear.",
+            duration: "Full day"
+        )
+    ]
+}

@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct SylhetAttractions {
+    static let city = City(
+        name: "Sylhet",
+        localName: "সিলেট",
+        latitude: 24.707643,
+        longitude: 91.858429,
+        description: "Tea capital of Bangladesh, known for rolling hills, shrines, and natural beauty.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Srimangal Tea Gardens",
+            localName: "শ্রীমঙ্গল চা বাগান",
+            category: .park,
+            latitude: 24.3005252,
+            longitude: 91.75335129999999,
+            city: "Sylhet",
+            country: "Bangladesh",
+            shortDescription: "Endless tea estates known as the 'Tea Capital of Bangladesh'.",
+            fullDescription: "Srimangal is known as the 'Tea Capital of Bangladesh', surrounded by over 150 tea estates covering the rolling hills. Visitors can walk through the lush green tea gardens, visit tea factories to see the processing, and enjoy the famous 'seven-layer tea'. The misty mornings create magical scenery.",
+            photos: [],
+            entranceFee: "Free (tea factories may charge)",
+            openingHours: "Daylight hours recommended",
+            howToGetThere: "Srimangal is 60km from Sylhet. Accessible by bus or train.",
+            tips: "Try the famous 7-layer tea at Romesh Ram's shop. Best visited in dry season (Oct-Mar). Morning mist adds to the beauty.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Lawachara National Park",
+            localName: "লাউয়াছড়া জাতীয় উদ্যান",
+            category: .park,
+            latitude: 24.3251,
+            longitude: 91.7871,
+            city: "Sylhet",
+            country: "Bangladesh",
+            shortDescription: "Tropical rainforest home to the rare Hoolock Gibbon.",
+            fullDescription: "Lawachara National Park is one of Bangladesh's best-preserved tropical rainforests. It's famous for the endangered Western Hoolock Gibbon, the only ape found in Bangladesh. The park features well-marked trails through dense jungle, home to capped langurs, wild boar, and over 250 bird species.",
+            photos: [],
+            entranceFee: "50 BDT",
+            openingHours: "09:00-17:00",
+            howToGetThere: "8km from Srimangal. Accessible by CNG or rickshaw.",
+            tips: "Hire a local guide to spot wildlife. Early morning is best for gibbon sightings. Bring mosquito repellent and water.",
+            duration: "2-4 hours"
+        ),
+        Attraction(
+            name: "Ratargul Swamp Forest",
+            localName: "রাতারগুল জলাভূমি বন",
+            category: .park,
+            latitude: 25.0142,
+            longitude: 91.9187,
+            city: "Sylhet",
+            country: "Bangladesh",
+            shortDescription: "Bangladesh's only freshwater swamp forest, flooded year-round.",
+            fullDescription: "Ratargul is Bangladesh's only freshwater swamp forest and one of the few remaining in Asia. During monsoon (June-October), the forest is submerged in 20-30 feet of water. Visitors explore by boat through the flooded forest, creating a magical, ethereal experience.",
+            photos: [],
+            entranceFee: "Boat hire 500-1000 BDT",
+            openingHours: "Dawn to dusk",
+            howToGetThere: "Located 26km from Sylhet city. Reach Fatehpur then take boat.",
+            tips: "Best visited during monsoon (July-September) when water levels are highest. Bring waterproof bags for electronics.",
+            duration: "3-4 hours"
+        ),
+        Attraction(
+            name: "Jaflong",
+            localName: "জাফলং",
+            category: .park,
+            latitude: 25.1634,
+            longitude: 92.0175,
+            city: "Sylhet",
+            country: "Bangladesh",
+            shortDescription: "Scenic valley at the India border with river and stone collection.",
+            fullDescription: "Jaflong is a hill station and tourist destination located on the Dawki River at the Bangladesh-India border. Known for the collection of rolling stones (which are actually boulders carried down from the Indian hills by the river), it offers stunning views of the Khasi Hills of Meghalaya, India.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours",
+            howToGetThere: "60km from Sylhet city. Take a CNG or bus to Jaflong Bazar.",
+            tips: "The clear blue water is amazing during winter. Views of Meghalaya waterfalls from Bangladesh. Stone collection workers are photogenic but ask permission.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Madhabpur Lake",
+            localName: "মাধবপুর লেক",
+            category: .park,
+            latitude: 24.2812,
+            longitude: 91.8183,
+            city: "Sylhet",
+            country: "Bangladesh",
+            shortDescription: "Serene lake surrounded by tea gardens and rubber forest.",
+            fullDescription: "Madhabpur Lake is a beautiful man-made lake nestled within tea gardens of the same name, near Srimangal. Surrounded by rubber trees and tea estates, the tranquil waters reflect the greenery, making it a perfect spot for nature lovers and photographers.",
+            photos: [],
+            entranceFee: "50 BDT",
+            openingHours: "08:00-17:00",
+            howToGetThere: "15km from Srimangal. Take a CNG from Srimangal town.",
+            tips: "Early morning visits offer mist and fewer crowds. Combine with Lawachara for a full day trip.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Hazrat Shah Jalal Shrine",
+            localName: "হযরত শাহজালাল মাজার",
+            category: .religious,
+            latitude: 24.9022385,
+            longitude: 91.8665429,
+            city: "Sylhet",
+            country: "Bangladesh",
+            shortDescription: "Most revered Muslim shrine in Bangladesh.",
+            fullDescription: "The shrine of Hazrat Shah Jalal (1271-1346) is the most important pilgrimage site in Bangladesh. This 14th-century Sufi saint spread Islam in the Bengal region. The complex includes his tomb, a mosque, and ponds with sacred catfish that believers say appeared miraculously.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24 hours",
+            howToGetThere: "Located in central Sylhet city.",
+            tips: "Women should dress very modestly and cover their heads. The sacred catfish in the pond are fed by pilgrims. Very crowded on Thursdays.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Osmani International Airport (ZYL)",
+            localName: "ওসমানী আন্তর্জাতিক বিমানবন্দর",
+            category: .transport,
+            latitude: 24.9583415,
+            longitude: 91.8707201,
+            city: "Sylhet",
+            country: "Bangladesh",
+            shortDescription: "International airport serving Sylhet and the tea region.",
+            fullDescription: "Osmani International Airport serves Sylhet, the tea-growing region of Bangladesh. It has international connections to the UK (serving the large British-Bangladeshi community from Sylhet) and Middle East, plus domestic flights to Dhaka.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "Based on flight schedules",
+            howToGetThere: "Located 7km north of Sylhet city center.",
+            tips: "Direct flights available from London. Gateway to the tea estates and tourist attractions of Sylhet division.",
+            duration: "Varies"
+        )
+    ]
+}

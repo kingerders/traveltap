@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct BocasDelToroAttractions {
+    static let city = City(
+        name: "Bocas del Toro",
+        localName: "Bocas del Toro",
+        latitude: 9.328664,
+        longitude: -82.211240,
+        description: "A vibrant Caribbean archipelago famous for surfing, snorkeling, and nightlife.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Isla Colón",
+            localName: "Isla Colón",
+            category: .beach,
+            latitude: 9.4047951,
+            longitude: -82.269193,
+            city: "Bocas del Toro",
+            country: "Panama",
+            shortDescription: "The main island and hub of Bocas del Toro.",
+            fullDescription: "Isla Colón is the most populated island, hosting Bocas Town, the airport, and numerous hotels and restaurants.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Flight to Bocas Airport or water taxi from Almirante.",
+            tips: "Rent a bicycle to explore the island beaches.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Starfish Beach",
+            localName: "Playa Estrella",
+            category: .beach,
+            latitude: 9.4052761,
+            longitude: -82.32508419999999,
+            city: "Bocas del Toro",
+            country: "Panama",
+            shortDescription: "Calm beach famous for its abundance of starfish.",
+            fullDescription: "Located on the sheltered side of Isla Colón, this beach is famous for the large orange starfish.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus from Bocas Town to Boca del Drago, then walk or boat.",
+            tips: "Please do not lift the starfish out of the water!",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Red Frog Beach",
+            localName: "Red Frog Beach",
+            category: .beach,
+            latitude: 9.339489799999999,
+            longitude: -82.1795209,
+            city: "Bocas del Toro",
+            country: "Panama",
+            shortDescription: "Beautiful beach on Isla Bastimentos named after small red frogs.",
+            fullDescription: "One of the most popular beaches in Bocas, known for its jungle backdrop and waves.",
+            photos: [],
+            entranceFee: "Paid (Entrance fee + boat)",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Water taxi from Bocas Town.",
+            tips: "Short jungle walk from the dock to the beach.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Isla Bastimentos",
+            localName: "Isla Bastimentos",
+            category: .beach,
+            latitude: 9.3030589,
+            longitude: -82.1496049,
+            city: "Bocas del Toro",
+            country: "Panama",
+            shortDescription: "Large island with Old Bank town and National Marine Park.",
+            fullDescription: "Home to the Bastimentos National Marine Park, this island offers diverse experiences from Old Bank to pristine jungles.",
+            photos: [],
+            entranceFee: "National Park fees apply for some areas",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Water taxi from Bocas Town.",
+            tips: "Visit Wizard Beach or Red Frog Beach.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Zapatilla Islands",
+            localName: "Cayos Zapatilla",
+            category: .beach,
+            latitude: 9.2659354,
+            longitude: -82.056377,
+            city: "Bocas del Toro",
+            country: "Panama",
+            shortDescription: "Two uninhabited pristine islands in the Marine Park.",
+            fullDescription: "These two islands are the picture-perfect definition of paradise, offering white sand and excellent snorkeling.",
+            photos: [],
+            entranceFee: "Paid (Park fee)",
+            openingHours: "Day trips only",
+            howToGetThere: "Boat tour from Bocas Town.",
+            tips: "Most tours include lunch and snorkeling gear.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Bocas Town",
+            localName: "Pueblo de Bocas",
+            category: .neighborhood,
+            latitude: 9.3407804,
+            longitude: -82.2408032,
+            city: "Bocas del Toro",
+            country: "Panama",
+            shortDescription: "The colorful and lively capital of the province.",
+            fullDescription: "Bocas Town is the bustling heart of the islands, filled with colorful wooden houses, waterfront bars, and restaurants.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Isla Colón.",
+            tips: "Great nightlife.",
+            duration: "Evening"
+        ),
+        Attraction(
+            name: "Dolphin Bay",
+            localName: "Bahía de los Delfines",
+            category: .park,
+            latitude: 9.2413134,
+            longitude: -82.2581001,
+            city: "Bocas del Toro",
+            country: "Panama",
+            shortDescription: "Lagoon known for resident bottlenose dolphins.",
+            fullDescription: "A calm lagoon between islands that serves as a habitat for bottlenose dolphins.",
+            photos: [],
+            entranceFee: "Free (Tour cost)",
+            openingHours: "Daylight hours",
+            howToGetThere: "Boat tour.",
+            tips: "Boats should maintain distance.",
+            duration: "1 hour"
+        )
+    ]
+}

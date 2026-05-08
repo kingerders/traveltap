@@ -1,0 +1,9 @@
+{
+  "name": "TravelTap",
+  "version": "1.0.0",
+  "bspVersion": "2.0.0",
+  "languages": ["swift"],
+  "argv": [
+    "sourcekit-lsp"
+  ]
+}

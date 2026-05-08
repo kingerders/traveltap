@@ -1,0 +1,528 @@
+        // --- New Attractions ---
+        Attraction(
+            name: "Bairro Alto",
+            localName: "Bairro Alto",
+            category: .neighborhood,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Bohemian district famous for its nightlife and Fado houses.",
+            fullDescription: "Bairro Alto is a picturesque working-class quarter dating from the 16th century that has transformed into the city's nightlife hub. By day, it's a sleepy district of cobbled streets and graffiti. By night, it comes alive with eclectic bars, restaurants, and Fado houses where music spills onto the streets.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Come after 11 PM for the real nightlife experience. During the day, it's quiet and great for photos.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Miradouro da Senhora do Monte",
+            localName: "Miradouro da Senhora do Monte",
+            category: .viewpoint,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "The highest viewpoint in Lisbon offering the best panoramic sunset views.",
+            fullDescription: "Miradouro da Senhora do Monte offers the highest natural viewpoint in Lisbon. Located in the Graça neighborhood, it provides an unobstructed 180-degree panoramic view of the entire city, the castle, the river, and the 25 de Abril Bridge. It is a favorite spot for sunset lovers.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "It's a bit of a hike, so take a tuk-tuk or taxi if you're tired. The chapel nearby is often closed but beautiful outside.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Miradouro de Santa Luzia",
+            localName: "Miradouro de Santa Luzia",
+            category: .viewpoint,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Romantic terrace with pergola, tiles, and river views.",
+            fullDescription: "Located near the castle, this romantic terrace offers sweeping views over Alfama and the Tagus River. It features a charming pergola with bougainvillea and beautiful azulejo tile panels depicting scenes of Lisbon's history.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Often crowded with artists and musicians. Great stop on the way to the castle.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Miradouro das Portas do Sol",
+            localName: "Miradouro das Portas do Sol",
+            category: .viewpoint,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Balcony-like viewpoint overlooking the terracotta roofs of Alfama.",
+            fullDescription: "Just up the street from Santa Luzia, Portas do Sol offers a postcard-perfect view of Alfama's labyrinthine streets and the Monastery of São Vicente de Fora. It's a wide balcony filled with sunlight and often has live music.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "A perfect spot for a coffee at the kiosk while admiring the view.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Lisbon Cathedral",
+            localName: "Sé de Lisboa",
+            category: .religious,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Lisbon's oldest church, resembling a fortress.",
+            fullDescription: " The Sé de Lisboa is the city's oldest church, built in 1147 shortly after the Christians recaptured the city from the Moors. Its Romanesque facade looks like a fortress, having survived many earthquakes. The interior is a mix of architectural styles.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Pay a small fee to see the cloister and the treasury. Tram 28 passes right in front.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Rossio Square",
+            localName: "Praça do Rossio",
+            category: .landmark,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "The lively beating heart of Lisbon with its wavy mosaic pavement.",
+            fullDescription: "Officially named Praça Dom Pedro IV, Rossio has been one of Lisbon's main squares since the Middle Ages. It is famous for its wave-patterned cobblestone paving (calçada portuguesa), two baroque fountains, and the National Theatre D. Maria II.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "A great meeting point. Don't miss the art deco interior of Café Nicola.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Avenida da Liberdade",
+            localName: "Avenida da Liberdade",
+            category: .shopping,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Lisbon's grand boulevard lined with luxury shops and kiosks.",
+            fullDescription: "Comparison to Champs-Élysées, this wide tree-lined avenue connects the old town with upper Lisbon. It features cobbled pavements with abstract patterns, grand 19th-century buildings, luxury boutiques, and charming quiosques (kiosks) for drinks.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Walk from top (Parque Eduardo VII) to bottom (Restauradores).",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Chiado",
+            localName: "Chiado",
+            category: .neighborhood,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Elegant shopping and theater district.",
+            fullDescription: "Chiado is an elegant, sophisticated district of theaters, bookshops, old-style cafes, and art nouveau jewelry shops. It was rebuilt after a fire in 1988 and is now a prime shopping area connecting Baixa and Bairro Alto.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Take a photo with the statue of Fernando Pessoa outside Café A Brasileira.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Pastéis de Belém",
+            localName: "Pastéis de Belém",
+            category: .experience,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "The original bakery serving the famous Portuguese custard tarts.",
+            fullDescription: "This historic bakery has been making the original pastéis de nata since 1837, following a secret ancient recipe from the Jerónimos Monastery. The tarts are served warm with cinnamon and powdered sugar.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "The line is for take-away; the line for seated service is often shorter and moves fast. The interior is huge and tiled.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Day Trip to Cascais",
+            localName: "Cascais",
+            category: .beach,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Charming coastal resort town with beaches and mansions.",
+            fullDescription: "Formerly a royal fishing village, Cascais is now a refined seaside resort town famous for its sandy beaches, busy marina, and historic mansions. It's a perfect day trip from Lisbon, offering a relaxed atmosphere, great seafood, and coastal cycling paths.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Rent a bike (bicas) to cycle to Boca do Inferno. Take the scenic train ride from Cais do Sodré.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Museum of Ancient Art",
+            localName: "Museu Nacional de Arte Antiga",
+            category: .museum,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Portugal's national gallery with masterpieces from the Age of Discovery.",
+            fullDescription: "Housed in a 17th-century palace, MNAA holds the most important Portuguese public art collection, ranging from paintings and sculpture to gold and silverware. Highlights include the St. Vincent Panels and Namban art screens showing the arrival of Portuguese in Japan.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "The garden restaurant offers beautiful river views.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Church of São Roque",
+            localName: "Igreja de São Roque",
+            category: .religious,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Plain facade hiding one of the world's richest interiors.",
+            fullDescription: "Do not judge by the plain facade; inside, this Jesuit church is a dazzling display of gold, marble, and azulejos. The Chapel of St. John the Baptist is a masterpiece of European art, built in Rome and shipped to Lisbon.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Visit the adjacent museum of sacred art.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Carmo Convent",
+            localName: "Convento do Carmo",
+            category: .historical,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Gothic ruins of a church destroyed in the 1755 earthquake.",
+            fullDescription: "The roofless nave of the Carmo Convent stands as a haunting reminder of the Great Earthquake of 1755. It now houses an archaeological museum with a diverse collection including Peruvian mummies and medieval tombs.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Beautiful and atmospheric. Located right next to the top of Santa Justa Lift.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Restauradores Square",
+            localName: "Praça dos Restauradores",
+            category: .landmark,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Grand square commemorating Portuguese independence.",
+            fullDescription: "Located at the start of Avenida da Liberdade, this square features a large obelisk commemorating the restoration of Portugal's independence from Spain in 1640. It is surrounded by impressive buildings like the Foz Palace and the Art Deco Eden Theatre.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Look for the Glória Funicular nearby.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Parque Eduardo VII",
+            localName: "Parque Eduardo VII",
+            category: .park,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Massive park with geometric hedges and city views.",
+            fullDescription: "Lisbon's largest central park, occupying 26 hectares north of Avenida da Liberdade. It features manicured box hedging, a large greenhouse (Estufa Fria), and a monument to the Carnation Revolution. The view from the top down to the river is spectacular.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Visit the Estufa Fria (Cold Greenhouse), a hidden jungle gem.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Lisbon Botanical Garden",
+            localName: "Jardim Botânico de Lisboa",
+            category: .park,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "A quiet, scientific garden hidden in the city center.",
+            fullDescription: "Tucked away in the Príncipe Real district, this 19th-century garden is an oasis of calm. It houses a diverse collection of subtropical vegetation, including an impressive avenue of palm trees and massive ficus trees.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "A peaceful escape from the heat and crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Estádio da Luz",
+            localName: "Estádio da Luz",
+            category: .stadium,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Home of S.L. Benfica, one of Portugal's top football clubs.",
+            fullDescription: "Known as 'The Cathedral', this modern stadium hosted the Euro 2004 final. It offers tours including the locker rooms, pitch side, and the museum dedicated to the club's history and legend Eusébio.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Check the match schedule. Tours are available on non-match days.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Estádio José Alvalade",
+            localName: "Estádio José Alvalade",
+            category: .stadium,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Home stadium of Sporting CP.",
+            fullDescription: "A distinctive multi-colored modern stadium built for Euro 2004. It is the home ground of Sporting Clube de Portugal. The complex includes a mall and a health club.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Located near a major transport hub (Campo Grande).",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Feira da Ladra",
+            localName: "Feira da Ladra",
+            category: .shopping,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Lisbon's legendary 'Thieves Market' flea market.",
+            fullDescription: "Held every Tuesday and Saturday in Alfama, this is Lisbon's oldest market. Vendors sell everything from antiques and handmade artisan goods to second-hand clothes and bric-a-brac.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Go early for the best finds. Bargaining is expected.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Baixa District",
+            localName: "Baixa Pombalina",
+            category: .landmark,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "The elegant 18th-century downtown grid.",
+            fullDescription: "Rebuilt completely after the 1755 earthquake by the Marquis of Pombal, Baixa is Lisbon's downtown. It features a grid layout of streets, neo-classical architecture, and traditional shops. It was one of the first examples of earthquake-resistant urban planning.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Walk down Rua Augusta to the arch.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Casa dos Bicos",
+            localName: "Casa dos Bicos",
+            category: .landmark,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "The 'House of Spikes' hosting the José Saramago Foundation.",
+            fullDescription: "An architectural curiosity in Alfama, this 16th-century house features a façade of diamond-shaped stone spikes. It survived the Great Earthquake and now houses a foundation dedicated to Nobel laureate José Saramago.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Built in 1523, influenced by Italian Renaissance palaces.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Fado Museum",
+            localName: "Museu do Fado",
+            category: .museum,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Dedicated to the history of Lisbon's urban song.",
+            fullDescription: "Located in Alfama, this museum traces the history of Fado music from its working-class roots to international recognition. It features instruments, posters, and recordings.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Essential context before attending a Fado show.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Ginjinha Espinheira",
+            localName: "A Ginjinha",
+            category: .experience,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: " Historic bar serving the famous cherry liqueur.",
+            fullDescription: "Ginjinha is a sweet Portuguese liqueur made from ginja berries (sour cherries). Small hole-in-the-wall bars in Rossio, like A Ginjinha, have been serving it for over a century.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Order it 'com elas' (with a cherry inside) or 'sem elas' (without).",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Bica Funicular",
+            localName: "Elevador da Bica",
+            category: .transport,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "The most photographed funicular in Lisbon.",
+            fullDescription: "This 19th-century funicular climbs one of Lisbon's steepest streets, Rua da Bica. The yellow tram ascending against a backdrop of river views and colorful houses is one of the city's most iconic images.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Ride up and walk down.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Glória Funicular",
+            localName: "Elevador da Glória",
+            category: .transport,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Connects Restauradores Square with Bairro Alto.",
+            fullDescription: "Operating since 1885, this funicular is the busiest in Lisbon, ferrying people up the steep hill from downtown to the Miradouro de São Pedro de Alcântara in Bairro Alto.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "At the top, turn right for the viewpoint.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Praça da Figueira",
+            localName: "Praça da Figueira",
+            category: .landmark,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Large central square with a busy market history.",
+            fullDescription: "Adjacent to Rossio, this large square was once the site of the city's main market. It features a statue of King John I and is a major transport hub.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Great view of the castle from here.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "25 de Abril Bridge",
+            localName: "Ponte 25 de Abril",
+            category: .landmark,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Golden Gate-style suspension bridge over the Tagus.",
+            fullDescription: "Often compared to San Francisco's Golden Gate Bridge (and built by the same company), this massive suspension bridge connects Lisbon to Almada. It dominates the river skyline.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "You can't walk across, but driving or taking the train offers great views.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Cristo Rei",
+            localName: "Santuário de Cristo Rei",
+            category: .landmark,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Christ statue overlooking Lisbon from across the river.",
+            fullDescription: "Inspired by Christ the Redeemer in Rio, this massive statue stands on the south bank of the Tagus. The viewing platform at the base of the statue offers arguably the best full panoramic view of Lisbon's skyline.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Take the ferry to Cacilhas and then a bus to the monument.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Belém Cultural Center",
+            localName: "Centro Cultural de Belém",
+            category: .museum,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Modern complex housing the Berardo Collection Museum.",
+            fullDescription: "A massive modern fortress of culture in Belém, CCB hosts concerts, exhibitions, and the Berardo Collection Museum (modern and contemporary art). The building's architecture contrasts interestingly with the nearby Jerónimos Monastery.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "The Berardo Collection often has free entry (check beforehand).",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Estrela Garden",
+            localName: "Jardim da Estrela",
+            category: .park,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Romantic English-style garden opposite the basilica.",
+            fullDescription: "One of Lisbon's loveliest parks, built in the 19th century. It features exotic trees, duck ponds, a wrought-iron gazebo, and a cafe. Popular with families and locals.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "Great place to relax after visiting the Basilica.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Estrela Basilica",
+            localName: "Basílica da Estrela",
+            category: .religious,
+            latitude: 38.7223, // Placeholder
+            longitude: -9.1393, // Placeholder
+            city: "Lisbon",
+            country: "Portugal",
+            shortDescription: "Grand baroque basilica with a giant dome.",
+            fullDescription: "Built by Queen Maria I in thanks for a male heir, this basilica features a brilliant white dome visible from many points in the city. The interior uses grey and pink marble.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Taxi or Metro.",
+            tips: "You can climb to the dome and walk on the roof.",
+            duration: "1-2 hours"
+        ),

@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct PohnpeiAttractions {
+    static let city = City(
+        name: "Pohnpei",
+        localName: "Pohnpei",
+        latitude: 6.928419,
+        longitude: 158.255288,
+        description: "Lush volcanic island home to the mysterious ancient city of Nan Madol.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Nan Madol",
+            localName: "Nan Madol",
+            category: .archaeological,
+            latitude: 6.844570399999999,
+            longitude: 158.3356402,
+            city: "Pohnpei",
+            country: "Micronesia",
+            shortDescription: "Ancient 'Venice of the Pacific' - UNESCO World Heritage Site.",
+            fullDescription: "A mysterious ancient city built on 92 artificial islands linked by canals. Constructed from massive basalt columns between 1200-1500 AD, it was the ceremonial and political center of the Saudeleur dynasty. Often called the 'Venice of the Pacific'.",
+            photos: [],
+            entranceFee: "$5",
+            openingHours: "Daylight hours",
+            howToGetThere: "Boat from Kolonia (30 min) or drive to Temwen Island and kayak.",
+            tips: "Hire a local guide to understand the history. Best at high tide by boat. Mysterious and atmospheric.",
+            duration: "3-4 hours"
+        ),
+        Attraction(
+            name: "Kepirohi Waterfall",
+            localName: "Kepirohi Waterfall",
+            category: .park,
+            latitude: 6.8451384,
+            longitude: 158.2987946,
+            city: "Pohnpei",
+            country: "Micronesia",
+            shortDescription: "Stunning twin waterfall in pristine rainforest.",
+            fullDescription: "One of Pohnpei's most beautiful waterfalls, cascading into a natural swimming pool surrounded by lush tropical vegetation. A sacred site for the Pohnpeiian people.",
+            photos: [],
+            entranceFee: "$3",
+            openingHours: "Daylight hours",
+            howToGetThere: "Short drive from Kolonia, then easy walk.",
+            tips: "Bring swimsuit for the pool. Best after rain when water flow is strongest.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Liduduhniap Twin Falls",
+            localName: "Liduduhniap Falls",
+            category: .park,
+            latitude: 6.9196861,
+            longitude: 158.2066276,
+            city: "Pohnpei",
+            country: "Micronesia",
+            shortDescription: "Dramatic double waterfall deep in the rainforest.",
+            fullDescription: "Two impressive waterfalls plunging side by side through dense jungle. The hike involves crossing streams and muddy trails but rewards with an unforgettable sight.",
+            photos: [],
+            entranceFee: "$3",
+            openingHours: "Daylight hours",
+            howToGetThere: "Moderate jungle hike from the main road.",
+            tips: "Wear sturdy shoes and expect to get muddy. The hike is part of the adventure.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Sokehs Ridge",
+            localName: "Sokehs Ridge",
+            category: .experience,
+            latitude: 6.965068700000001,
+            longitude: 158.191216,
+            city: "Pohnpei",
+            country: "Micronesia",
+            shortDescription: "Challenging jungle hike with WWII history and panoramic views.",
+            fullDescription: "A demanding hike along a jungle ridge featuring WWII Japanese fortifications, bunkers, and artillery pieces. The trail offers stunning 360-degree views of the island and lagoon.",
+            photos: [],
+            entranceFee: "Free (guide recommended)",
+            openingHours: "Daylight hours - start early",
+            howToGetThere: "Trailhead near Sokehs Island causeway.",
+            tips: "Bring lots of water, wear long pants. Guide essential for finding WWII artifacts.",
+            duration: "4-6 hours"
+        ),
+        Attraction(
+            name: "Sokehs Rock",
+            localName: "Sokehs Rock",
+            category: .landmark,
+            latitude: 6.9755556,
+            longitude: 158.1869443,
+            city: "Pohnpei",
+            country: "Micronesia",
+            shortDescription: "Dramatic volcanic plug rising from the lagoon.",
+            fullDescription: "An iconic 240-meter volcanic formation dominating Pohnpei's northwest coast. Viewable from many points on the island, it's a symbol of Pohnpei. Challenging climbing routes exist.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7 (viewing)",
+            howToGetThere: "Visible from Kolonia. Best views from across the lagoon.",
+            tips: "Best photographed at sunrise/sunset. Technical climbing only with experienced guides.",
+            duration: "30 min (viewing)"
+        ),
+        Attraction(
+            name: "Kolonia Town",
+            localName: "Kolonia",
+            category: .neighborhood,
+            latitude: 6.962914,
+            longitude: 158.2109048,
+            city: "Pohnpei",
+            country: "Micronesia",
+            shortDescription: "Pohnpei's charming main town with colonial heritage.",
+            fullDescription: "The main town of Pohnpei featuring Spanish walls, German church, Japanese hospital ruins, and a bustling local market. The cultural center offers traditional dance performances.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Central location, near airport.",
+            tips: "Visit the morning market. Try sakau (kava) at a local bar. The Catholic mission has beautiful grounds.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Pohnpei Rainforest",
+            localName: "Pohnpei Cloud Forest",
+            category: .park,
+            latitude: 6.8518697,
+            longitude: 158.2146857,
+            city: "Pohnpei",
+            country: "Micronesia",
+            shortDescription: "One of the wettest places on Earth with pristine jungle.",
+            fullDescription: "Pohnpei receives over 400 inches of rain annually, creating incredibly lush rainforests. Home to endemic birds, tree ferns, and countless waterfalls. Several hiking trails penetrate the interior.",
+            photos: [],
+            entranceFee: "Free (guides recommended)",
+            openingHours: "Daylight hours",
+            howToGetThere: "Various trailheads accessible from the main road.",
+            tips: "Always bring rain gear. Hire local guides for deeper jungle treks.",
+            duration: "Half to full day"
+        )
+    ]
+}

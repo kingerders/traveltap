@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct ZanzibarStoneTownAttractions {
+    static let city = City(
+        name: "Zanzibar (Stone Town)",
+        localName: "Zanzibar (Stone Town)",
+        latitude: -6.1584976,
+        longitude: 39.1950665,
+        description: "Explore the wonders of Zanzibar (Stone Town), Tanzania.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Stone Town Zanzibar",
+            localName: "Stone Town Zanzibar",
+            category: .landmark,
+            latitude: -6.1584976,
+            longitude: 39.1950665,
+            city: "Zanzibar (Stone Town)",
+            country: "Tanzania",
+            shortDescription: "UNESCO World Heritage historic quarter with winding alleys, carved doors, and centuries of tradin...",
+            fullDescription: "UNESCO World Heritage historic quarter with winding alleys, carved doors, and centuries of trading history",
+            photos: [],
+            entranceFee: "Free (guided tours from $15 USD)",
+            openingHours: "Open 24/7",
+            howToGetThere: "15 min from Zanzibar Airport (ZNZ) by taxi; ferries arrive at the Stone Town port from Dar es Salaam",
+            tips: "Get lost in the alleys — that's part of the charm; hire a local guide for the full history; best explored on foot",
+            duration: "3–4 hours walking tour"
+        ),
+        Attraction(
+            name: "House of Wonders Zanzibar",
+            localName: "House of Wonders Zanzibar",
+            category: .landmark,
+            latitude: -6.1609089,
+            longitude: 39.1896248,
+            city: "Zanzibar (Stone Town)",
+            country: "Tanzania",
+            shortDescription: "Grand waterfront palace, formerly the Sultan's ceremonial residence and Zanzibar's most iconic bu...",
+            fullDescription: "Grand waterfront palace, formerly the Sultan's ceremonial residence and Zanzibar's most iconic building",
+            photos: [],
+            entranceFee: "$3 USD (exterior only during renovation)",
+            openingHours: "Daily 09:00–18:00",
+            howToGetThere: "Located on the Stone Town waterfront, walkable from any point in Stone Town",
+            tips: "Currently under restoration (check status before visiting); the facade is impressive even from outside; best photographed from Forodhani Gardens",
+            duration: "30 min–1 hour"
+        ),
+        Attraction(
+            name: "Old Fort Zanzibar",
+            localName: "Old Fort Zanzibar",
+            category: .castle,
+            latitude: -6.1613586,
+            longitude: 39.1890647,
+            city: "Zanzibar (Stone Town)",
+            country: "Tanzania",
+            shortDescription: "17th-century Omani fort now used as a cultural center with performances and craft shops.",
+            fullDescription: "17th-century Omani fort now used as a cultural center with performances and craft shops",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daily 08:00–22:00",
+            howToGetThere: "Located adjacent to Forodhani Gardens on the Stone Town waterfront",
+            tips: "Evening cultural shows and live music on some nights; the amphitheater hosts the Zanzibar International Film Festival",
+            duration: "30 min–1 hour"
+        ),
+        Attraction(
+            name: "Forodhani Gardens",
+            localName: "Forodhani Gardens",
+            category: .garden,
+            latitude: -6.1603409,
+            longitude: 39.18900259999999,
+            city: "Zanzibar (Stone Town)",
+            country: "Tanzania",
+            shortDescription: "Waterfront park that transforms into a famous night food market every evening.",
+            fullDescription: "Waterfront park that transforms into a famous night food market every evening",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Park 24/7; food market 18:00–22:00 nightly",
+            howToGetThere: "Located on the Stone Town waterfront, next to Old Fort",
+            tips: "The night market is a must — try Zanzibar pizza, urojo soup, and grilled seafood; arrive at sunset for the best atmosphere",
+            duration: "1–2 hours (evening market)"
+        ),
+        Attraction(
+            name: "Palace Museum Zanzibar",
+            localName: "Palace Museum Zanzibar",
+            category: .museum,
+            latitude: -6.1599704,
+            longitude: 39.1903755,
+            city: "Zanzibar (Stone Town)",
+            country: "Tanzania",
+            shortDescription: "Former Sultan's palace displaying royal artifacts, furniture, and Zanzibar's ruling history.",
+            fullDescription: "Former Sultan's palace displaying royal artifacts, furniture, and Zanzibar's ruling history",
+            photos: [],
+            entranceFee: "$3 USD",
+            openingHours: "Mon–Fri 09:00–18:00, Sat 09:00–15:00",
+            howToGetThere: "Located on the waterfront in Stone Town, next to House of Wonders",
+            tips: "The rooftop offers great waterfront views; the Sultan's personal belongings give a fascinating glimpse into royal life",
+            duration: "45 min–1 hour"
+        ),
+        Attraction(
+            name: "Anglican Cathedral Zanzibar",
+            localName: "Anglican Cathedral Zanzibar",
+            category: .religious,
+            latitude: -6.1629078,
+            longitude: 39.1925716,
+            city: "Zanzibar (Stone Town)",
+            country: "Tanzania",
+            shortDescription: "Cathedral built on the site of the last open slave market in East Africa, with a moving memorial.",
+            fullDescription: "Cathedral built on the site of the last open slave market in East Africa, with a moving memorial",
+            photos: [],
+            entranceFee: "$5 USD",
+            openingHours: "Mon–Sat 08:00–18:00",
+            howToGetThere: "Located on Creek Road in Stone Town, about 5 min walk from Forodhani Gardens",
+            tips: "The underground slave chambers are deeply moving; the altar stands exactly where the whipping post once was",
+            duration: "30 min–1 hour"
+        ),
+        Attraction(
+            name: "Darajani Market",
+            localName: "Darajani Market",
+            category: .shopping,
+            latitude: -6.162189800000001,
+            longitude: 39.1936954,
+            city: "Zanzibar (Stone Town)",
+            country: "Tanzania",
+            shortDescription: "Bustling local market selling spices, seafood, fruits, and household goods.",
+            fullDescription: "Bustling local market selling spices, seafood, fruits, and household goods",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daily 06:00–18:00",
+            howToGetThere: "Located on Creek Road at the edge of Stone Town",
+            tips: "The spice section is aromatic and photogenic; seafood auction happens early morning; a guide helps navigate and explain the goods",
+            duration: "30 min–1 hour"
+        )
+    ]
+}

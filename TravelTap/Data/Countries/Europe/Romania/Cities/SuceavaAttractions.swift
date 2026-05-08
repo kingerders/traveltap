@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct SuceavaAttractions {
+    static let city = City(
+        name: "Suceava",
+        localName: "Suceava",
+        latitude: 47.6426,
+        longitude: 26.2577,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Suceava Citadel",
+            localName: "Suceava Citadel",
+            category: .landmark,
+            latitude: 47.6450906,
+            longitude: 26.2706565,
+            city: "Suceava",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "St. George's Church",
+            localName: "St. George's Church",
+            category: .religious,
+            latitude: 47.6467616,
+            longitude: 26.2665811,
+            city: "Suceava",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Princely Inn",
+            localName: "Princely Inn",
+            category: .landmark,
+            latitude: 47.526323,
+            longitude: 25.8656057,
+            city: "Suceava",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Bukovina Village Museum",
+            localName: "Bukovina Village Museum",
+            category: .museum,
+            latitude: 47.6436392,
+            longitude: 26.2714498,
+            city: "Suceava",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Mirăuți Church",
+            localName: "Mirăuți Church",
+            category: .religious,
+            latitude: 47.6467616,
+            longitude: 26.2665811,
+            city: "Suceava",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "St. John the New Monastery",
+            localName: "St. John the New Monastery",
+            category: .religious,
+            latitude: 47.6415506,
+            longitude: 26.2627443,
+            city: "Suceava",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Bukovina History Museum",
+            localName: "Bukovina History Museum",
+            category: .museum,
+            latitude: 47.6414717,
+            longitude: 26.2574112,
+            city: "Suceava",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

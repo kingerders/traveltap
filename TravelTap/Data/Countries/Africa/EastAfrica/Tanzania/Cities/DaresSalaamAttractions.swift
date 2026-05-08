@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct DaresSalaamAttractions {
+    static let city = City(
+        name: "Dar es Salaam",
+        localName: "Dar es Salaam",
+        latitude: -6.8134816,
+        longitude: 39.2938613,
+        description: "Explore the wonders of Dar es Salaam, Tanzania.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "National Museum of Tanzania",
+            localName: "National Museum of Tanzania",
+            category: .museum,
+            latitude: -6.8134816,
+            longitude: 39.2938613,
+            city: "Dar es Salaam",
+            country: "Tanzania",
+            shortDescription: "Tanzania's largest museum covering natural history, ethnography, and colonial-era artifacts.",
+            fullDescription: "Tanzania's largest museum covering natural history, ethnography, and colonial-era artifacts",
+            photos: [],
+            entranceFee: "$5 USD",
+            openingHours: "Daily 09:00–18:00",
+            howToGetThere: "Located on Shaaban Robert Street in central Dar es Salaam, walkable from Askari Monument",
+            tips: "The human evolution exhibit is the highlight; combine with a visit to the nearby Botanical Gardens",
+            duration: "1.5–2 hours"
+        ),
+        Attraction(
+            name: "Village Museum",
+            localName: "Village Museum",
+            category: .museum,
+            latitude: -6.7752127,
+            longitude: 39.2463175,
+            city: "Dar es Salaam",
+            country: "Tanzania",
+            shortDescription: "Open-air museum with traditional houses from over 120 Tanzanian ethnic groups.",
+            fullDescription: "Open-air museum with traditional houses from over 120 Tanzanian ethnic groups",
+            photos: [],
+            entranceFee: "$5 USD",
+            openingHours: "Daily 09:00–18:00",
+            howToGetThere: "Located on Bagamoyo Road, about 10 km north of the city center; take a dala dala or taxi",
+            tips: "Traditional dance performances happen on weekends; try local food prepared on-site",
+            duration: "1.5–2 hours"
+        ),
+        Attraction(
+            name: "Kariakoo Market",
+            localName: "Kariakoo Market",
+            category: .shopping,
+            latitude: -6.8196612,
+            longitude: 39.2750446,
+            city: "Dar es Salaam",
+            country: "Tanzania",
+            shortDescription: "Bustling indoor market and Dar es Salaam's largest trading hub for food, textiles, and household ...",
+            fullDescription: "Bustling indoor market and Dar es Salaam's largest trading hub for food, textiles, and household goods",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Mon–Sat 06:00–18:00, Sun 06:00–13:00",
+            howToGetThere: "Located in the Kariakoo neighborhood, about 2 km west of the waterfront; accessible by dala dala",
+            tips: "Go early morning for the full experience; keep valuables secure; bargaining is expected",
+            duration: "1–2 hours"
+        ),
+        Attraction(
+            name: "Coco Beach",
+            localName: "Coco Beach",
+            category: .beach,
+            latitude: -6.774620800000001,
+            longitude: 39.2830054,
+            city: "Dar es Salaam",
+            country: "Tanzania",
+            shortDescription: "Popular urban beach along the Indian Ocean, lively with food vendors and local atmosphere.",
+            fullDescription: "Popular urban beach along the Indian Ocean, lively with food vendors and local atmosphere",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24/7",
+            howToGetThere: "Located on the Msasani Peninsula, about 7 km north of the city center; taxi or bajaj",
+            tips: "Best visited in the late afternoon for sunset; street food vendors sell grilled seafood and mishkaki",
+            duration: "1–2 hours"
+        ),
+        Attraction(
+            name: "Askari Monument",
+            localName: "Askari Monument",
+            category: .museum,
+            latitude: -6.8166331,
+            longitude: 39.2894789,
+            city: "Dar es Salaam",
+            country: "Tanzania",
+            shortDescription: "Bronze statue commemorating African soldiers who fought in World War I, a central city landmark.",
+            fullDescription: "Bronze statue commemorating African soldiers who fought in World War I, a central city landmark",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24/7 (outdoor monument)",
+            howToGetThere: "Located at the intersection of Samora Avenue and Azikiwe Street in the city center",
+            tips: "Quick photo stop; serves as a useful meeting point and orientation landmark in central Dar",
+            duration: "15–30 min"
+        ),
+        Attraction(
+            name: "Bongoyo Island",
+            localName: "Bongoyo Island",
+            category: .experience,
+            latitude: -6.7008469,
+            longitude: 39.2687149,
+            city: "Dar es Salaam",
+            country: "Tanzania",
+            shortDescription: "Uninhabited island with white sand beaches and snorkeling reefs, a popular day trip from Dar.",
+            fullDescription: "Uninhabited island with white sand beaches and snorkeling reefs, a popular day trip from Dar",
+            photos: [],
+            entranceFee: "$2 USD island fee + boat $20 USD return",
+            openingHours: "Boats depart 09:30, 11:30, 13:30, 15:30 from Slipway",
+            howToGetThere: "30-min boat ride from Slipway Marina on Msasani Peninsula",
+            tips: "Bring your own snorkeling gear for the best experience; fresh grilled seafood available on the island; last boat back is 17:30",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Mbudya Island",
+            localName: "Mbudya Island",
+            category: .experience,
+            latitude: -6.6563195,
+            longitude: 39.2442926,
+            city: "Dar es Salaam",
+            country: "Tanzania",
+            shortDescription: "Pristine uninhabited island with coral reefs, sea turtles, and quiet beaches.",
+            fullDescription: "Pristine uninhabited island with coral reefs, sea turtles, and quiet beaches",
+            photos: [],
+            entranceFee: "$2 USD island fee + boat $20 USD return",
+            openingHours: "Boats depart from White Sands Hotel, 09:00–15:00",
+            howToGetThere: "30-min boat ride from White Sands Beach, about 25 km north of Dar city center",
+            tips: "Less crowded than Bongoyo; excellent snorkeling on the southern reef; bring all supplies as facilities are minimal",
+            duration: "Half day"
+        )
+    ]
+}

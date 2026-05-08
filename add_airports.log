@@ -1,0 +1,128 @@
+======================================================================
+Adding Airports to Asian Cities
+======================================================================
+Found 115 attraction files
+
+[1/115] CentralAsia/Armenia/Cities/AlaverdiAttractions.swift ✅ Added: Zvartnots International Airport
+[2/115] CentralAsia/Armenia/Cities/AreniAttractions.swift ✅ Added: Zvartnots International Airport
+[3/115] CentralAsia/Armenia/Cities/AshtarakAttractions.swift ✅ Added: Zvartnots International Airport
+[4/115] CentralAsia/Armenia/Cities/DilijanAttractions.swift ✅ Added: Zvartnots International Airport
+[5/115] CentralAsia/Armenia/Cities/EtchmiadzinAttractions.swift ✅ Added: Zvartnots International Airport
+[6/115] CentralAsia/Armenia/Cities/GarniAttractions.swift ✅ Added: Zvartnots International Airport
+[7/115] CentralAsia/Armenia/Cities/SevanAttractions.swift ✅ Added: Zvartnots International Airport
+[8/115] CentralAsia/Armenia/Cities/YerevanAttractions.swift ✅ Added: Zvartnots International Airport
+[9/115] CentralAsia/Azerbaijan/Cities/BakuAttractions.swift ⏭️  Already has airport
+[10/115] CentralAsia/Azerbaijan/Cities/GabalaAttractions.swift ⏭️  Already has airport
+[11/115] CentralAsia/Azerbaijan/Cities/GanjaAttractions.swift ⏭️  Already has airport
+[12/115] CentralAsia/Azerbaijan/Cities/LankaranAttractions.swift ⏭️  Already has airport
+[13/115] CentralAsia/Azerbaijan/Cities/NaftalanAttractions.swift ✅ Added: Аэропорт нафталан
+[14/115] CentralAsia/Azerbaijan/Cities/NakhchivanAttractions.swift ⏭️  Already has airport
+[15/115] CentralAsia/Azerbaijan/Cities/QubaAttractions.swift ✅ Added: Gabala International Airport
+[16/115] CentralAsia/Azerbaijan/Cities/ShekiAttractions.swift ✅ Added: Şəki hava limani
+[17/115] CentralAsia/Georgia/Cities/BatumiAttractions.swift ✅ Added: Alexander Kartveli Batumi International Airport (BUS)
+[18/115] CentralAsia/Georgia/Cities/KazbegiAttractions.swift ✅ Added: Tbilisi International Airport
+[19/115] CentralAsia/Georgia/Cities/KutaisiAttractions.swift ✅ Added: Kutaisi International Airport (KUT)
+[20/115] CentralAsia/Georgia/Cities/MestiaAttractions.swift ✅ Added: Mestia Airport
+[21/115] CentralAsia/Georgia/Cities/SighnaghiAttractions.swift ✅ Added: Tbilisi International Airport
+[22/115] CentralAsia/Georgia/Cities/TbilisiAttractions.swift ✅ Added: Tbilisi International Airport
+[23/115] CentralAsia/Georgia/Cities/VardziaAttractions.swift ✅ Added: Vardzia
+[24/115] CentralAsia/Kazakhstan/Cities/AlmatyAttractions.swift ✅ Added: Almaty International Airport
+[25/115] CentralAsia/Kazakhstan/Cities/AstanaAttractions.swift ✅ Added: Astana International Airport
+[26/115] CentralAsia/Kazakhstan/Cities/MangystauAttractions.swift ✅ Added: Aktau Airport
+[27/115] CentralAsia/Kazakhstan/Cities/TurkestanAttractions.swift ✅ Added: Hazret-Sultan International Airport
+[28/115] CentralAsia/Kyrgyzstan/Cities/BishkekAttractions.swift ✅ Added: Manas International Airport
+[29/115] CentralAsia/Kyrgyzstan/Cities/KarakolAttractions.swift ✅ Added: Karakol Airport
+[30/115] CentralAsia/Kyrgyzstan/Cities/NarynAttractions.swift ✅ Added: Naryn Airport
+[31/115] CentralAsia/Kyrgyzstan/Cities/OshAttractions.swift ✅ Added: Osh International Airport
+[32/115] CentralAsia/Turkmenistan/Cities/AshgabatAttractions.swift ✅ Added: Ashgabat International Airport
+[33/115] CentralAsia/Turkmenistan/Cities/DarvazaAttractions.swift ✅ Added: Türkmenbaşy International Airport
+[34/115] CentralAsia/Turkmenistan/Cities/KunyaUrgenchAttractions.swift ✅ Added: Urgench International Airport
+[35/115] CentralAsia/Turkmenistan/Cities/MaryAttractions.swift ✅ Added: Mary International Airport
+[36/115] CentralAsia/Turkmenistan/Cities/YangykalaAttractions.swift ✅ Added: Ashgabat International Airport
+[37/115] CentralAsia/Uzbekistan/Cities/BukharaAttractions.swift ✅ Added: Bukhara International Airport
+[38/115] CentralAsia/Uzbekistan/Cities/KhivaAttractions.swift ✅ Added: Urgench International Airport
+[39/115] CentralAsia/Uzbekistan/Cities/NukusAttractions.swift ✅ Added: Nukus International Airport
+[40/115] CentralAsia/Uzbekistan/Cities/SamarkandAttractions.swift ✅ Added: Samarkand International Airport
+[41/115] CentralAsia/Uzbekistan/Cities/ShakhrisabzAttractions.swift ✅ Added: Shakhrisabz Airport
+[42/115] CentralAsia/Uzbekistan/Cities/TashkentAttractions.swift ✅ Added: Tashkent International Airport
+[43/115] CentralAsia/Uzbekistan/Cities/ZaaminAttractions.swift ✅ Added: Aeroport Zaamin
+[44/115] EastAsia/China/Cities/BeijingAttractions.swift ✅ Added: Beijing Capital International Airport
+[45/115] EastAsia/China/Cities/ChengduAttractions.swift ✅ Added: Chengdu Shuangliu International Airport
+[46/115] EastAsia/China/Cities/GuilinAttractions.swift ✅ Added: Guilin Liangjiang International Airport
+[47/115] EastAsia/China/Cities/HangzhouAttractions.swift ✅ Added: Hangzhou International Airport
+[48/115] EastAsia/China/Cities/LhasaAttractions.swift ✅ Added: Lhasa Gonggar Airport
+[49/115] EastAsia/China/Cities/ShanghaiAttractions.swift ✅ Added: Shanghai Pudong International Airport
+[50/115] EastAsia/China/Cities/ShenzhenAttractions.swift ✅ Added: Shenzhen Bao'an International Airport
+[51/115] EastAsia/China/Cities/SuzhouAttractions.swift ✅ Added: Sunan Shuofang International Airport
+[52/115] EastAsia/China/Cities/XianAttractions.swift ✅ Added: Xi'an Xianyang International Airport
+[53/115] EastAsia/China/Cities/ZhangjiajieAttractions.swift ✅ Added: 荷花机场
+[54/115] EastAsia/HongKong/Cities/HongKongCityAttractions.swift ✅ Added: Hong Kong International Airport
+[55/115] EastAsia/Japan/Cities/FukuokaAttractions.swift ✅ Added: Fukuoka Airport
+[56/115] EastAsia/Japan/Cities/HakoneAttractions.swift ✅ Added: Haneda Airport
+[57/115] EastAsia/Japan/Cities/HiroshimaAttractions.swift ✅ Added: Hiroshima Airport
+[58/115] EastAsia/Japan/Cities/KyotoAttractions.swift ✅ Added: Kansai International Airport
+[59/115] EastAsia/Japan/Cities/NaraAttractions.swift ✅ Added: Narita International Airport
+[60/115] EastAsia/Japan/Cities/NikkoAttractions.swift ✅ Added: Hotel Nikko Kansai Airport
+[61/115] EastAsia/Japan/Cities/OkinawaAttractions.swift ✅ Added: Naha International Airport
+[62/115] EastAsia/Japan/Cities/OsakaAttractions.swift ✅ Added: Osaka Itami Airport
+[63/115] EastAsia/Japan/Cities/SapporoAttractions.swift ✅ Added: New Chitose Airport
+[64/115] EastAsia/Japan/Cities/TokyoAttractions.swift ✅ Added: Haneda Airport
+[65/115] EastAsia/Mongolia/Cities/DalanzadgadAttractions.swift ✅ Added: Dalanzadgad Airport
+[66/115] EastAsia/Mongolia/Cities/KharkhorinAttractions.swift ✅ Added: Kharkhorin Airport
+[67/115] EastAsia/Mongolia/Cities/MurunAttractions.swift ✅ Added: Murun Airport
+[68/115] EastAsia/Mongolia/Cities/UlaanbaatarAttractions.swift ✅ Added: Chinggis Khaan International Airport
+[69/115] EastAsia/SouthKorea/Cities/BusanAttractions.swift ✅ Added: Gimhae International Airport
+[70/115] EastAsia/SouthKorea/Cities/GyeongjuAttractions.swift ✅ Added: Pohang-Gyeongju Airport
+[71/115] EastAsia/SouthKorea/Cities/IncheonAttractions.swift ✅ Added: Incheon International Airport
+[72/115] EastAsia/SouthKorea/Cities/JejuAttractions.swift ✅ Added: Jeju International Airport
+[73/115] EastAsia/SouthKorea/Cities/SeoulAttractions.swift ✅ Added: Incheon International Airport
+[74/115] EastAsia/Taiwan/Cities/HualienAttractions.swift ✅ Added: Hualien Airport
+[75/115] EastAsia/Taiwan/Cities/KaohsiungAttractions.swift ✅ Added: Kaohsiung International Airport
+[76/115] EastAsia/Taiwan/Cities/NantouAttractions.swift ✅ Added: Taiwan Taoyuan International Airport
+[77/115] EastAsia/Taiwan/Cities/TaichungAttractions.swift ✅ Added: Taichung International Airport
+[78/115] EastAsia/Taiwan/Cities/TainanAttractions.swift ✅ Added: Tainan Airport (TNN)
+[79/115] EastAsia/Taiwan/Cities/TaipeiAttractions.swift ✅ Added: Taiwan Taoyuan International Airport
+[80/115] MiddleEast/Bahrain/Cities/ManamaAttractions.swift ⏭️  Already has airport
+[81/115] MiddleEast/Iran/Cities/IsfahanAttractions.swift ✅ Added: Isfahan Shahid Beheshti International Airport
+[82/115] MiddleEast/Iran/Cities/ShirazAttractions.swift ✅ Added: Shahid Dastgheib International Airport
+[83/115] MiddleEast/Iran/Cities/TehranAttractions.swift ✅ Added: (IKIA) Imam Khomeini International Airport
+[84/115] MiddleEast/Iraq/Cities/BaghdadAttractions.swift ✅ Added: Baghdad International Airport
+[85/115] MiddleEast/Iraq/Cities/ErbilAttractions.swift ✅ Added: Erbil International Airport (EIA)
+[86/115] MiddleEast/Israel/Cities/HaifaAttractions.swift ✅ Added: Haifa Airport
+[87/115] MiddleEast/Israel/Cities/TelAvivAttractions.swift ✅ Added: Ben Gurion Airport
+[88/115] MiddleEast/Jordan/Cities/AmmanAttractions.swift ✅ Added: Queen Alia International Airport
+[89/115] MiddleEast/Jordan/Cities/PetraAttractions.swift ✅ Added: Petra VIP Lounge of Queen Alia International Airport
+[90/115] MiddleEast/Kuwait/Cities/KuwaitCityAttractions.swift ✅ Added: Kuwait International Airport
+[91/115] MiddleEast/Lebanon/Cities/BeirutAttractions.swift ✅ Added: Beirut-Rafic Hariri International Airport
+[92/115] MiddleEast/Oman/Cities/MuscatAttractions.swift ✅ Added: Muscat International Airport
+[93/115] MiddleEast/Qatar/Cities/DohaAttractions.swift ⏭️  Already has airport
+[94/115] MiddleEast/SaudiArabia/Cities/JeddahAttractions.swift ✅ Added: King Abdulaziz International Airport
+[95/115] MiddleEast/SaudiArabia/Cities/RiyadhAttractions.swift ✅ Added: King Khalid International Airport
+[96/115] MiddleEast/Syria/Cities/DamascusAttractions.swift ✅ Added: Damascus International Airport
+[97/115] MiddleEast/UAE/Cities/AbuDhabiAttractions.swift ✅ Added: Zayed International Airport
+[98/115] MiddleEast/UAE/Cities/DubaiAttractions.swift ✅ Added: Dubai International Airport
+[99/115] SouthAsia/Bangladesh/Cities/DhakaAttractions.swift ✅ Added: Hazrat Shahjalal International Airport
+[100/115] SouthAsia/Bhutan/Cities/ThimphuAttractions.swift ✅ Added: Paro International Airport
+[101/115] SouthAsia/India/Cities/DelhiAttractions.swift ✅ Added: Taj Mahal Tour from Delhi
+[102/115] SouthAsia/Maldives/Cities/MaleAttractions.swift ✅ Added: Velana International Airport
+[103/115] SouthAsia/Nepal/Cities/KathmanduAttractions.swift ✅ Added: Tribhuvan International Airport
+[104/115] SouthAsia/Pakistan/Cities/LahoreAttractions.swift ✅ Added: Allama Iqbal International Airport
+[105/115] SouthAsia/SriLanka/Cities/ColomboAttractions.swift ✅ Added: Colombo Bandaranaike International Airport
+[106/115] SoutheastAsia/Brunei/Cities/BandarSeriBegawanAttractions.swift ✅ Added: Brunei International Airport
+[107/115] SoutheastAsia/Cambodia/Cities/SiemReapAttractions.swift ✅ Added: Siem Reap International Airport
+[108/115] SoutheastAsia/Indonesia/Cities/BaliAttractions.swift ✅ Added: I Gusti Ngurah Rai International Airport
+[109/115] SoutheastAsia/Laos/Cities/VientianeAttractions.swift ✅ Added: Wattay International Airport
+[110/115] SoutheastAsia/Malaysia/Cities/KualaLumpurAttractions.swift ✅ Added: Kuala Lumpur International Airport
+[111/115] SoutheastAsia/Myanmar/Cities/YangonAttractions.swift ✅ Added: Yangon International Airport
+[112/115] SoutheastAsia/Philippines/Cities/ManilaAttractions.swift ✅ Added: Ninoy Aquino International Airport
+[113/115] SoutheastAsia/Singapore/Cities/SingaporeCityAttractions.swift ✅ Added: Singapore Changi Airport
+[114/115] SoutheastAsia/Thailand/Cities/BangkokAttractions.swift ✅ Added: Suvarnabhumi Airport
+[115/115] SoutheastAsia/Vietnam/Cities/HanoiAttractions.swift ✅ Added: Noi Bai International Airport
+
+======================================================================
+SUMMARY
+======================================================================
+Airports added: 108
+Already had airports: 7
+No airport found: 0
+Errors: 0

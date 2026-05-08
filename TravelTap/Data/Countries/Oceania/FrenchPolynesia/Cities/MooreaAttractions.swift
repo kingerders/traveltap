@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct MooreaAttractions {
+    static let city = City(
+        name: "Moorea",
+        localName: "Mo'orea",
+        latitude: -17.512419,
+        longitude: -149.851095,
+        description: "Tahiti's magical sister island with dramatic peaks and twin bays.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Cook's Bay",
+            localName: "Baie de Cook",
+            category: .viewpoint,
+            latitude: -17.4884447,
+            longitude: -149.8178442,
+            city: "Moorea",
+            country: "French Polynesia",
+            shortDescription: "Dramatic bay surrounded by jagged volcanic peaks.",
+            fullDescription: "One of the most photographed bays in the South Pacific, framed by the iconic Mount Rotui and verdant cliffs. Named after Captain Cook but he actually anchored in neighboring Opunohu Bay.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "North coast of Moorea, visible from coastal road.",
+            tips: "Best views from Belvedere Lookout or boat tours. Sunrise is spectacular.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Opunohu Bay",
+            localName: "Baie d'Opunohu",
+            category: .viewpoint,
+            latitude: -17.4927609,
+            longitude: -149.855504,
+            city: "Moorea",
+            country: "French Polynesia",
+            shortDescription: "Pristine bay where Captain Cook actually anchored.",
+            fullDescription: "A deeper, quieter bay than Cook's Bay, surrounded by lush vegetation and pineapple plantations. Often visited by dolphins and offers excellent kayaking.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "North coast of Moorea, west of Cook's Bay.",
+            tips: "Rent a kayak to explore. Less touristy than Cook's Bay.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Belvedere Lookout",
+            localName: "Belvédère",
+            category: .viewpoint,
+            latitude: -17.540325,
+            longitude: -149.8268667,
+            city: "Moorea",
+            country: "French Polynesia",
+            shortDescription: "Stunning viewpoint overlooking both bays and Mount Rotui.",
+            fullDescription: "The most iconic viewpoint in French Polynesia, offering panoramic views of Cook's Bay, Opunohu Bay, and the dramatic Mount Rotui between them. Surrounded by ancient marae ruins.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours",
+            howToGetThere: "Winding road from coast through pineapple fields. Accessible by car or 4WD tour.",
+            tips: "Combine with visit to nearby Marae ruins and juice factories. Best light in morning.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Ta'ahiamanu Beach",
+            localName: "Plage de Ta'ahiamanu (Mareto)",
+            category: .beach,
+            latitude: -17.4917238,
+            longitude: -149.8502714,
+            city: "Moorea",
+            country: "French Polynesia",
+            shortDescription: "Moorea's most beautiful public beach.",
+            fullDescription: "A stunning white sand beach with calm, crystal-clear water perfect for swimming and snorkeling. Backed by coconut palms with views of neighboring motus.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "North coast near Hauru Point. Look for 'Plage Publique' signs.",
+            tips: "Arrive early for best spots. Bring snorkel gear for coral exploring.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Magical Mountain",
+            localName: "Magical Mountain",
+            category: .viewpoint,
+            latitude: -17.498164,
+            longitude: -149.868301,
+            city: "Moorea",
+            country: "French Polynesia",
+            shortDescription: "360-degree panoramic views from an accessible peak.",
+            fullDescription: "A relatively easy hike or 4WD trip to a viewpoint offering spectacular 360-degree views of the entire island, lagoon, and distant Tahiti. Also known as Magic Mountain.",
+            photos: [],
+            entranceFee: "XPF 500-1000 (private land)",
+            openingHours: "Daylight hours",
+            howToGetThere: "Interior of island. Best accessed with guided 4WD ATV tour.",
+            tips: "Book a quad/ATV tour for the most fun way up. Views are incredible.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Stingray World",
+            localName: "Stingray World",
+            category: .experience,
+            latitude: -17.4830131,
+            longitude: -149.8449888,
+            city: "Moorea",
+            country: "French Polynesia",
+            shortDescription: "Swim with stingrays and blacktip sharks.",
+            fullDescription: "A shallow sandbar where friendly stingrays and blacktip reef sharks gather. Wade into waist-deep water for close encounters with these gentle creatures.",
+            photos: [],
+            entranceFee: "Boat tours from XPF 6,000",
+            openingHours: "Morning tours",
+            howToGetThere: "Accessed by boat from various hotels and tour operators.",
+            tips: "The rays are wild but very accustomed to humans. Safe for families.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Tiki Village",
+            localName: "Tiki Village",
+            category: .entertainment,
+            latitude: -17.531254,
+            longitude: -149.9048897,
+            city: "Moorea",
+            country: "French Polynesia",
+            shortDescription: "Traditional Polynesian village with cultural shows.",
+            fullDescription: "An authentic recreation of an ancient Polynesian village featuring traditional crafts, a feast, and spectacular fire dancing shows. Learn pareo tying, coconut opening, and Tahitian dance.",
+            photos: [],
+            entranceFee: "XPF 9,000-14,000 (includes dinner and show)",
+            openingHours: "Tue, Wed, Fri, Sat evenings",
+            howToGetThere: "Located in Haapiti. Free shuttle from hotels.",
+            tips: "Book the dinner package for the full experience. Show is spectacular.",
+            duration: "4-5 hours"
+        )
+    ]
+}

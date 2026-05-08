@@ -1,0 +1,85 @@
+import Foundation
+import CoreLocation
+
+struct NesvizhAttractions {
+    static let city = City(
+        name: "Nesvizh",
+        localName: "Nyasvizh",
+        latitude: 53.552025,
+        longitude: 27.359450,
+        description: "Small town home to the magnificent Radziwill family residence.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Nesvizh Castle",
+            localName: "Nyasvizhski zamak",
+            category: .castle,
+            latitude: 53.2226,
+            longitude: 26.6925,
+            city: "Nesvizh",
+            country: "Belarus",
+            shortDescription: "UNESCO World Heritage palace complex of the Radziwill family.",
+            fullDescription: "Nesvizh Castle is one of the most beautiful palace complexes in Eastern Europe. For centuries it was the residence of the powerful Radziwill magnate family. The complex includes the palace, fortifications, and vast landscaped parks. The interiors are lavishly restored.",
+            photos: ["https://images.unsplash.com/photo-1577017042514-4696459341aa?w=800&q=80"],
+            entranceFee: "Paid",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Bus from Minsk (approx 2 hours).",
+            tips: "Combine with a trip to the nearby Mir Castle (30km away).",
+            duration: "3-4 hours",
+            website: "niasvizh.by",
+        ),
+        Attraction(
+            name: "Corpus Christi Church",
+            localName: "Kascel Bozhaha Tzeula",
+            category: .religious,
+            latitude: 53.2205971,
+            longitude: 26.6840029,
+            city: "Nesvizh",
+            country: "Belarus",
+            shortDescription: "First Baroque church in Eastern Europe and Radziwill mausoleum.",
+            fullDescription: "Built between 1587 and 1593, this church is the first Baroque temple in Eastern Europe. Below the church is the crypt of the Radziwill family, containing over 70 coffins—the third largest family crypt in Europe (after the Habsburgs and Bourbons).",
+            photos: ["https://images.unsplash.com/photo-1577017042514-4696459341aa?w=800&q=80"],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Near the castle entrance.",
+            tips: "The frescoes inside are beautiful. Ask to see the crypt.",
+            duration: "30 min",
+        ),
+        Attraction(
+            name: "Minsk National Airport (Serving Nesvizh)",
+            localName: "Natsiyanalny aeraport Minsk",
+            category: .landmark,
+            latitude: 53.8896537,
+            longitude: 28.0342018,
+            city: "Nesvizh",
+            country: "Belarus",
+            shortDescription: "The closest major airport to the castle town.",
+            fullDescription: "To visit Nesvizh Castle, fly into Minsk National Airport (MSQ). Nesvizh is about 120 km southwest of Minsk, accessible by bus or car in about 1.5 to 2 hours.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24/7",
+            howToGetThere: "Bus from Minsk Central Bus Station.",
+            tips: "A day trip from Minsk is the most common way to visit.",
+            duration: "N/A",
+        ),
+        Attraction(
+            name: "Minsk Airport (Serving Nesvizh)",
+            localName: "Нацыянальны аэрапорт Мінск",
+            category: .landmark,
+            latitude: 53.86551249999999,
+            longitude: 27.5407858,
+            city: "Nesvizh",
+            country: "Belarus",
+            shortDescription: "Approx 1.5 - 2h drive.",
+            fullDescription: "Nesvizh Castle is easily reached from Minsk National Airport (MSQ). It is about 90-120 minutes by car. Buses also run from Minsk Central Station.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24/7",
+            howToGetThere: "Bus or Taxi from Minsk.",
+            tips: "Combine with Mir Castle on the way.",
+            duration: "N/A",
+        )
+    ]
+}

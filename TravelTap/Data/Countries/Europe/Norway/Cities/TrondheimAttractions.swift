@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct TrondheimAttractions {
+    static let city = City(
+        name: "Trondheim",
+        localName: "Trondheim",
+        latitude: 63.4305,
+        longitude: 10.3951,
+        description: "Historic viking capital known for Nidaros Cathedral and colorful wharves.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Archbishop's Palace",
+            localName: "Archbishop's Palace",
+            category: .landmark,
+            latitude: 63.42577989999999,
+            longitude: 10.3960392,
+            city: "Trondheim",
+            country: "Norway",
+            shortDescription: "Archbishop's Palace in Trondheim, Norway.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Old Town Bridge (Gamle Bybro)",
+            localName: "Old Town Bridge (Gamle Bybro)",
+            category: .landmark,
+            latitude: 63.4282219,
+            longitude: 10.4015296,
+            city: "Trondheim",
+            country: "Norway",
+            shortDescription: "Old Town Bridge (Gamle Bybro) in Trondheim, Norway.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Bakklandet",
+            localName: "Bakklandet",
+            category: .landmark,
+            latitude: 63.4270009,
+            longitude: 10.4040739,
+            city: "Trondheim",
+            country: "Norway",
+            shortDescription: "Bakklandet in Trondheim, Norway.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Stiftsgården",
+            localName: "Stiftsgården",
+            category: .landmark,
+            latitude: 63.4317161,
+            longitude: 10.396232,
+            city: "Trondheim",
+            country: "Norway",
+            shortDescription: "Stiftsgården in Trondheim, Norway.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Trondheim Fjord",
+            localName: "Trondheim Fjord",
+            category: .landmark,
+            latitude: 63.51937889999999,
+            longitude: 10.2808242,
+            city: "Trondheim",
+            country: "Norway",
+            shortDescription: "Trondheim Fjord in Trondheim, Norway.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Bicycle Lift (Trampe)",
+            localName: "Bicycle Lift (Trampe)",
+            category: .landmark,
+            latitude: 63.4279815,
+            longitude: 10.4034526,
+            city: "Trondheim",
+            country: "Norway",
+            shortDescription: "Bicycle Lift (Trampe) in Trondheim, Norway.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "NTNU University",
+            localName: "NTNU University",
+            category: .landmark,
+            latitude: 63.4194872,
+            longitude: 10.4019939,
+            city: "Trondheim",
+            country: "Norway",
+            shortDescription: "NTNU University in Trondheim, Norway.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

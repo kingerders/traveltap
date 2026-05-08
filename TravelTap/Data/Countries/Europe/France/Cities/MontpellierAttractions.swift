@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct MontpellierAttractions {
+    static let city = City(
+        name: "Montpellier",
+        localName: "Montpellier",
+        latitude: 43.6108,
+        longitude: 3.8767,
+        description: "Dynamic southern city blending medieval charm and modern architecture.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Place de la Comédie",
+            localName: "Place de la Comédie",
+            category: .landmark,
+            latitude: 43.6084213,
+            longitude: 3.8799107,
+            city: "Montpellier",
+            country: "France",
+            shortDescription: "The heart of Montpellier, dominated by the Opera House.",
+            fullDescription: "One of the largest pedestrian squares in Europe, known as 'l'Œuf' (the Egg) because of its oval shape. It connects the medieval city with the modern districts and is a popular meeting place.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Check local transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Promenade du Peyrou",
+            localName: "Promenade du Peyrou",
+            category: .park,
+            latitude: 43.61125,
+            longitude: 3.8707580999999998,
+            city: "Montpellier",
+            country: "France",
+            shortDescription: "Royal square with panoramic views and the water tower.",
+            fullDescription: "A grand esplanade featuring a statue of Louis XIV, a triumphal arch, and a hexagonal water tower (Château d'Eau) at the end of the Saint-Clément Aqueduct. It offers views of the Cévennes mountains.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Check local transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Musée Fabre",
+            localName: "Musée Fabre",
+            category: .museum,
+            latitude: 43.6117881,
+            longitude: 3.8801634000000003,
+            city: "Montpellier",
+            country: "France",
+            shortDescription: "One of France's leading fine arts museums.",
+            fullDescription: "Founded by painter François-Xavier Fabre in 1825, the museum houses an exceptional collection of European art from the Renaissance to the present day, including works by Delacroix, Courbet, and Soulages.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Check local transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Saint-Pierre Cathedral",
+            localName: "Saint-Pierre Cathedral",
+            category: .religious,
+            latitude: 43.6131138,
+            longitude: 3.87431,
+            city: "Montpellier",
+            country: "France",
+            shortDescription: "Imposing Gothic cathedral with a fortress-like appearance.",
+            fullDescription: "Originally a monastery chapel, it became a cathedral in 1536. distinctive for its massive porch supported by two conical pillars. It was severely damaged during the Wars of Religion but rebuilt in the 17th century.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Check local transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Jardin des Plantes",
+            localName: "Jardin des Plantes",
+            category: .garden,
+            latitude: 43.6142238,
+            longitude: 3.8732542999999997,
+            city: "Montpellier",
+            country: "France",
+            shortDescription: "France's oldest botanical garden.",
+            fullDescription: "Created in 1593 by Henri IV for the University of Medicine, creates a lush green oasis in the city center. It served as a model for the Jardin des Plantes in Paris.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Check local transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Antigone District",
+            localName: "Antigone District",
+            category: .neighborhood,
+            latitude: 43.6111103,
+            longitude: 3.8897149,
+            city: "Montpellier",
+            country: "France",
+            shortDescription: "Neoclassical district designed by Ricardo Bofill.",
+            fullDescription: "A modern district designed in the 1980s that reinterprets classical architecture with monumental scale. It creates a grand axis stretching from the city center to the Lez River.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Check local transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Porte du Peyrou",
+            localName: "Porte du Peyrou",
+            category: .monument,
+            latitude: 43.6111438,
+            longitude: 3.8724239,
+            city: "Montpellier",
+            country: "France",
+            shortDescription: "Triumphal arch dedicated to Louis XIV.",
+            fullDescription: "Built in 1691, this triumphal arch marks the entrance to the royal square of Peyrou. It features bas-reliefs glorifying the Sun King's reign.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Check local transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "2 hours"
+        )
+    ]
+}

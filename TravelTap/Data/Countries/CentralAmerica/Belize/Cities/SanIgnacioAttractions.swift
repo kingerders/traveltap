@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct SanIgnacioAttractions {
+    static let city = City(
+        name: "San Ignacio",
+        localName: "San Ignacio",
+        latitude: 17.136671,
+        longitude: -89.063591,
+        description: "Adventure hub of the Cayo District, surrounded by jungle, ruins, and caves.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Xunantunich Mayan Ruins",
+            localName: "Xunantunich",
+            category: .historical,
+            latitude: 17.0899,
+            longitude: -89.1422,
+            city: "San Ignacio",
+            country: "Belize",
+            shortDescription: "Archaeological site with the massive El Castillo pyramid.",
+            fullDescription: "Xunantunich (Stone Woman) is an ancient Maya archaeological site featuring 25 temples and palaces. The main pyramid, El Castillo, rises 130 feet high and offers panoramic views into Guatemala.",
+            photos: ["xunantunich_mayan_ruins"],
+            entranceFee: "Paid",
+            openingHours: "8:00 AM - 4:00 PM",
+            howToGetThere: "Take the hand-cranked ferry across the Mopan River in San Jose Succotz.",
+            tips: "Climb to the top of El Castillo. Look for the friezes on the east side.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Actun Tunichil Muknal (ATM Cave)",
+            localName: "ATM Cave",
+            category: .landmark,
+            latitude: 17.1507869,
+            longitude: -89.0749295,
+            city: "San Ignacio",
+            country: "Belize",
+            shortDescription: "Sacred cave containing Mayan pottery and skeletal remains.",
+            fullDescription: "Actun Tunichil Muknal (Cave of the Crystal Sepulchre) is one of the top sacred caves in the world. Visitors swim and hike deep into the cave to see ancient ceramics and the 'Crystal Maiden', a calcified skeleton of a sacrifice victim.",
+            photos: ["actun_tunichil_muknal_atm_cave"],
+            entranceFee: "Paid (Guided tour only)",
+            openingHours: "8:00 AM - 4:00 PM",
+            howToGetThere: "45-minute drive from San Ignacio, then a 45-minute hike.",
+            tips: "Cameras are NOT allowed inside. You must book a licensed guide. Be prepared to get wet.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Caracol Maya Site",
+            localName: "Caracol",
+            category: .historical,
+            latitude: 17.1507869,
+            longitude: -89.0749295,
+            city: "San Ignacio",
+            country: "Belize",
+            shortDescription: "Ancient Mayan city deep in the jungle with the massive Caana pyramid.",
+            fullDescription: "Caracol is the largest Maya site in Belize, located deep in the Chiquibul Forest Reserve. Its main temple, Caana (Sky Place), rises 140 feet high and is one of the tallest man-made structures in Belize.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "8:00 AM - 4:00 PM",
+            howToGetThere: "2.5-hour drive from San Ignacio on rough roads.",
+            tips: "A 4x4 vehicle is recommended. Bring plenty of water and insect repellent. Escorts are sometimes required.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Mountain Pine Ridge Forest Reserve",
+            localName: "Mountain Pine Ridge",
+            category: .park,
+            latitude: 17.1507869,
+            longitude: -89.0749295,
+            city: "San Ignacio",
+            country: "Belize",
+            shortDescription: "Pine forest landscape with waterfalls and pools.",
+            fullDescription: "Unlike the tropical jungle elsewhere, this reserve features pine forests upon a granite ridge. Key attractions include the 1,000 Foot Falls, Rio On Pools, and Big Rock Falls.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours",
+            howToGetThere: "Drive from San Ignacio.",
+            tips: "Stop at Rio Frio Cave. The road can be rough. Great place for a refreshing swim.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Rio On Pools",
+            localName: "Rio On Pools",
+            category: .park,
+            latitude: 17.1507869,
+            longitude: -89.0749295,
+            city: "San Ignacio",
+            country: "Belize",
+            shortDescription: "Series of natural swimming pools and small waterfalls.",
+            fullDescription: "Located in the Mountain Pine Ridge Reserve, Rio On Pools is a scenic series of small waterfalls and granite pools. The smooth rocks form natural waterslides and sunbathing spots.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours",
+            howToGetThere: "In Mountain Pine Ridge Reserve.",
+            tips: "Be careful on slippery rocks. A perfect picnic spot.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Barton Creek Cave",
+            localName: "Barton Creek Cave",
+            category: .landmark,
+            latitude: 17.1128645,
+            longitude: -88.9282906,
+            city: "San Ignacio",
+            country: "Belize",
+            shortDescription: "Cave explored by canoe, containing Mayan artifacts.",
+            fullDescription: "Barton Creek Cave is a large river cave in the Cayo District. Visitors explore it by canoeing along the underground river. The cave was used by the Maya for ceremonies and contains pottery shards and skeletal remains.",
+            photos: [],
+            entranceFee: "Paid (Tour)",
+            openingHours: "8:00 AM - 4:00 PM",
+            howToGetThere: "Drive through the Mennonite community of Barton Creek.",
+            tips: "Peaceful and less physically demanding than ATM. The drive through the Mennonite farmland is scenic.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "St. Herman's Blue Hole National Park",
+            localName: "St. Herman's Blue Hole",
+            category: .park,
+            latitude: 17.1507869,
+            longitude: -89.0749295,
+            city: "San Ignacio",
+            country: "Belize",
+            shortDescription: "Jungle park with a refreshing blue cenote and a cave.",
+            fullDescription: "Not to be confused with the offshore Blue Hole, this park along the Hummingbird Highway features a turquoise sinkhole for swimming and St. Herman's Cave, which visitors can explore.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "8:00 AM - 4:30 PM",
+            howToGetThere: "Located on the Hummingbird Highway (approx 1 hr from San Ignacio).",
+            tips: "Swim in the Blue Hole to cool off. You can walk about 200 yards into the cave without a guide.",
+            duration: "2-3 hours"
+        )
+    ]
+}

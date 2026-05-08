@@ -1,0 +1,224 @@
+{
+  "identifier" : "TravelTap StoreKit Configuration",
+  "type" : "automatic",
+  "version" : 2,
+  "products" : [
+    {
+      "displayPrice" : "24.99",
+      "familyShareable" : false,
+      "internalID" : "worldpass_001",
+      "localizations" : [
+        {
+          "description" : "Unlock every country, every city, every attraction",
+          "displayName" : "World Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.worldpass",
+      "referenceName" : "World Pass",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "continent_europe_001",
+      "localizations" : [
+        {
+          "description" : "Unlock every country in Europe",
+          "displayName" : "Europe Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.continent.europe",
+      "referenceName" : "Europe Pass",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "continent_asia_001",
+      "localizations" : [
+        {
+          "description" : "Unlock every country in Asia",
+          "displayName" : "Asia Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.continent.asia",
+      "referenceName" : "Asia Pass",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "continent_africa_001",
+      "localizations" : [
+        {
+          "description" : "Unlock every country in Africa",
+          "displayName" : "Africa Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.continent.africa",
+      "referenceName" : "Africa Pass",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "continent_americas_001",
+      "localizations" : [
+        {
+          "description" : "Unlock every country in the Americas",
+          "displayName" : "Americas Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.continent.americas",
+      "referenceName" : "Americas Pass",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "continent_oceania_001",
+      "localizations" : [
+        {
+          "description" : "Unlock every country in Oceania",
+          "displayName" : "Oceania Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.continent.oceania",
+      "referenceName" : "Oceania Pass",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "region_southeast_asia_001",
+      "localizations" : [
+        {
+          "description" : "All Southeast Asian countries",
+          "displayName" : "Southeast Asia",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.region.southeast_asia",
+      "referenceName" : "Southeast Asia Region",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "bundle_balkans_001",
+      "localizations" : [
+        {
+          "description" : "Serbia, Croatia, Bosnia, Montenegro, North Macedonia, Kosovo, Albania",
+          "displayName" : "Balkans Bundle",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.bundle.balkans",
+      "referenceName" : "Balkans Bundle",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "bundle_scandinavia_001",
+      "localizations" : [
+        {
+          "description" : "Denmark, Sweden, Norway, Finland, Iceland",
+          "displayName" : "Scandinavia Bundle",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.bundle.scandinavia",
+      "referenceName" : "Scandinavia Bundle",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "single_france_001",
+      "localizations" : [
+        {
+          "description" : "Unlock France with Paris and more",
+          "displayName" : "France",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.france",
+      "referenceName" : "France",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "themed_beach_001",
+      "localizations" : [
+        {
+          "description" : "The world's most stunning beach destinations",
+          "displayName" : "Beach Paradise",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.traveltap.themed.beach_paradise",
+      "referenceName" : "Beach Paradise Theme",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Purchases"
+      }
+    ]
+  }
+}

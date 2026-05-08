@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct TransfagarasanAttractions {
+    static let city = City(
+        name: "Transfăgărășan",
+        localName: "Transfăgărășan",
+        latitude: 45.5986,
+        longitude: 24.6167,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "High Altitude Road",
+            localName: "High Altitude Road",
+            category: .landmark,
+            latitude: 45.6094784,
+            longitude: 24.6175256,
+            city: "Transfăgărășan",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Bâlea Lake",
+            localName: "Bâlea Lake",
+            category: .park,
+            latitude: 45.4533844,
+            longitude: 24.6248668,
+            city: "Transfăgărășan",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Bâlea Waterfall",
+            localName: "Bâlea Waterfall",
+            category: .park,
+            latitude: 45.6269308,
+            longitude: 24.6117296,
+            city: "Transfăgărășan",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Vidraru Dam",
+            localName: "Vidraru Dam",
+            category: .landmark,
+            latitude: 45.36657899999999,
+            longitude: 24.6307214,
+            city: "Transfăgărășan",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Poenari Citadel (Vlad's Real Castle)",
+            localName: "Poenari Citadel (Vlad's Real Castle)",
+            category: .landmark,
+            latitude: 45.3536249,
+            longitude: 24.6348214,
+            city: "Transfăgărășan",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Tunnel",
+            localName: "Tunnel",
+            category: .landmark,
+            latitude: 45.5945786,
+            longitude: 24.6186895,
+            city: "Transfăgărășan",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Carpathian Views",
+            localName: "Carpathian Views",
+            category: .park,
+            latitude: 45.6094784,
+            longitude: 24.6175256,
+            city: "Transfăgărășan",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

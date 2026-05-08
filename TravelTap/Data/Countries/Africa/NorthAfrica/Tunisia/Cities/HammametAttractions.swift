@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct HammametAttractions {
+    static let city = City(
+        name: "Hammamet",
+        localName: "Hammamet",
+        latitude: 36.4000,
+        longitude: 10.6167,
+        description: "Tunisia's premier beach resort town, known for its jasmine-scented medina and golden sandy beaches.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Medina of Hammamet",
+            localName: "Medina",
+            category: .historical,
+            latitude: 36.3944,
+            longitude: 10.6125,
+            city: "Hammamet",
+            country: "Tunisia",
+            shortDescription: "Seaside old town.",
+            fullDescription: "A small, charming walled medina right on the beach, with white walls and blue doors.",
+            photos: ["hammamet_medina"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City center.",
+            tips: "Sea wall walk.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Kasbah of Hammamet",
+            localName: "The Fort",
+            category: .historical,
+            latitude: 36.3947,
+            longitude: 10.6117,
+            city: "Hammamet",
+            country: "Tunisia",
+            shortDescription: "Sea fort.",
+            fullDescription: "A massive fortress dating back to the 9th century, offering commanding views of the sea and medina.",
+            photos: ["hammamet_kasbah"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Next to Medina.",
+            tips: "Sunset view.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Hammamet Beach",
+            localName: "Plage",
+            category: .beach,
+            latitude: 36.4000,
+            longitude: 10.6167,
+            city: "Hammamet",
+            country: "Tunisia",
+            shortDescription: "Sandy beach.",
+            fullDescription: "A long stretch of golden sand typical of Cap Bon, ideal for swimming and sunbathing.",
+            photos: ["hammamet_beach"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Downtown.",
+            tips: "Watersports.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Yasmine Hammamet",
+            localName: "Yasmine",
+            category: .landmark,
+            latitude: 36.3667,
+            longitude: 10.5500,
+            city: "Hammamet",
+            country: "Tunisia",
+            shortDescription: "Resort district.",
+            fullDescription: "A modern tourist resort area south of the main town, with hotels, a marina, and theme park.",
+            photos: ["yasmine_hammamet"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Taxi/Bus.",
+            tips: "Carthageland.",
+            duration: "3 hours"
+        ),
+        Attraction(
+            name: "Pupput",
+            localName: "Pupput",
+            category: .archaeological,
+            latitude: 36.4000,
+            longitude: 10.5833,
+            city: "Hammamet",
+            country: "Tunisia",
+            shortDescription: "Roman ruins.",
+            fullDescription: "Archaeological site of the Roman settlement that preceded Hammamet.",
+            photos: ["pupput_ruins"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Near hotels.",
+            tips: "Mosaics.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "George Sebastian Villa",
+            localName: "Cultural Center",
+            category: .historical,
+            latitude: 36.4050,
+            longitude: 10.5936,
+            city: "Hammamet",
+            country: "Tunisia",
+            shortDescription: "Historic villa.",
+            fullDescription: "A beautiful 1920s villa and gardens, now the International Cultural Center. Frank Lloyd Wright called it the most beautiful house he knew.",
+            photos: ["sebastian_villa"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Taxi.",
+            tips: "Open air theater.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Hammamet Marina",
+            localName: "Marina",
+            category: .landmark,
+            latitude: 36.3667,
+            longitude: 10.5500,
+            city: "Hammamet",
+            country: "Tunisia",
+            shortDescription: "Yasmine marina.",
+            fullDescription: "Large marina complex in Yasmine Hammamet, surrounded by restaurants and shops.",
+            photos: ["hammamet_marina"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Yasmine.",
+            tips: "Boat tours.",
+            duration: "1 hour"
+        )
+    ]
+}

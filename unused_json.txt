@@ -1,0 +1,57 @@
+CyrenaicaAttractions.swift::Apollonia
+CyrenaicaAttractions.swift::Atiq Mosque
+CyrenaicaAttractions.swift::Benghazi Corniche
+CyrenaicaAttractions.swift::Cyrene
+CyrenaicaAttractions.swift::Jabal Akhdar
+CyrenaicaAttractions.swift::Ptolemais
+CyrenaicaAttractions.swift::Qasr Libya
+CyrenaicaAttractions.swift::Ras al-Hilal
+CyrenaicaAttractions.swift::Tobruk War Cemetery
+FezzanSaharaAttractions.swift::Germa
+FezzanSaharaAttractions.swift::Ghadames Old Town
+FezzanSaharaAttractions.swift::Idehan Murzuq
+FezzanSaharaAttractions.swift::Tadrart Acacus
+FezzanSaharaAttractions.swift::Ubari Lakes
+FezzanSaharaAttractions.swift::Waw an Namus
+KhartoumOmdurmanAttractions.swift::Great Mosque
+KhartoumOmdurmanAttractions.swift::Hamed al-Nil Mosque
+KhartoumOmdurmanAttractions.swift::Khalifa's House Museum
+KhartoumOmdurmanAttractions.swift::Mahdi's Tomb
+KhartoumOmdurmanAttractions.swift::Nile Confluence
+KhartoumOmdurmanAttractions.swift::Omdurman Souq
+KhartoumOmdurmanAttractions.swift::Presidential Palace
+KhartoumOmdurmanAttractions.swift::Souq Arabi
+KhartoumOmdurmanAttractions.swift::Sudan National Museum
+KhartoumOmdurmanAttractions.swift::Tuti Island
+NorthernSudanPyramidsAttractions.swift::El-Kurru
+NorthernSudanPyramidsAttractions.swift::Jebel Barkal
+NorthernSudanPyramidsAttractions.swift::Kerma
+NorthernSudanPyramidsAttractions.swift::Meroe Pyramids
+NorthernSudanPyramidsAttractions.swift::Musawwarat es-Sufra
+NorthernSudanPyramidsAttractions.swift::Naqa
+NorthernSudanPyramidsAttractions.swift::Old Dongola
+NorthernSudanPyramidsAttractions.swift::Pyramids of Nuri
+NorthernSudanPyramidsAttractions.swift::Sai Island
+NorthernSudanPyramidsAttractions.swift::Soleb Temple
+RedSeaKassalaAttractions.swift::Dungonab Bay
+RedSeaKassalaAttractions.swift::Kassala
+RedSeaKassalaAttractions.swift::Khatmiyya Mosque
+RedSeaKassalaAttractions.swift::Port Sudan
+RedSeaKassalaAttractions.swift::Sanganeb
+RedSeaKassalaAttractions.swift::Suakin
+RedSeaKassalaAttractions.swift::Taka Mountains
+SudanWildernessAttractions.swift::Bayuda Desert
+SudanWildernessAttractions.swift::Dinder National Park
+SudanWildernessAttractions.swift::Nubian Desert
+SudanWildernessAttractions.swift::Sixth Cataract
+SudanWildernessAttractions.swift::Third Cataract
+SudanWildernessAttractions.swift::Wadi Halfa
+TripolitaniaAttractions.swift::Arch of Marcus Aurelius
+TripolitaniaAttractions.swift::Gurgi Mosque
+TripolitaniaAttractions.swift::Janzur Beach
+TripolitaniaAttractions.swift::Leptis Magna
+TripolitaniaAttractions.swift::Martyrs' Square
+TripolitaniaAttractions.swift::Red Castle Museum
+TripolitaniaAttractions.swift::Sabratha
+TripolitaniaAttractions.swift::Tripoli Medina
+TripolitaniaAttractions.swift::Tripoli Zoo

@@ -1,0 +1,153 @@
+import Foundation
+import CoreLocation
+
+struct RabatAttractions {
+    static let city = City(
+        name: "Rabat",
+        localName: "Rabat",
+        latitude: 34.0209,
+        longitude: -6.8416,
+        description: "Morocco's elegant capital city, blending royal heritage, ancient ruins, and a charming Atlantic-side kasbah.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Hassan Tower",
+            localName: "Tour Hassan",
+            category: .landmark,
+            latitude: 34.0244,
+            longitude: -6.8225,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "Minaret tower.",
+            fullDescription: "The minaret of an incomplete mosque intended to be the largest in the world. A symbol of Rabat.",
+            photos: ["hassan_tower"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "Taxi/Walk.",
+            tips: "Photo at sunset.",
+            duration: "30 mins"
+        ),
+        Attraction(
+            name: "Mausoleum of Mohammed V",
+            localName: "Mausoleum",
+            category: .landmark,
+            latitude: 34.0242,
+            longitude: -6.8219,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "Royal tomb.",
+            fullDescription: "A masterpiece of modern Alaouite dynasty architecture, containing the tombs of the Moroccan king and his two sons.",
+            photos: ["mausoleum_mohammed_v"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "Next to Hassan Tower.",
+            tips: "Respect dress code.",
+            duration: "30 mins"
+        ),
+        Attraction(
+            name: "Kasbah of the Udayas",
+            localName: "Kasbah des Oudaias",
+            category: .historical,
+            latitude: 34.0328,
+            longitude: -6.8375,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "Blue fortress.",
+            fullDescription: "A picturesque fortress built in the 12th century with blue and white painted streets and Andalusian gardens.",
+            photos: ["kasbah_udayas"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "Walk from Medina.",
+            tips: "Mint tea at cafe.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Chellah Necropolis",
+            localName: "Chellah",
+            category: .archaeological,
+            latitude: 34.0103,
+            longitude: -6.8142,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "Roman ruins.",
+            fullDescription: "A medieval fortified Muslim necropolis and ancient Roman site. Known for its stork nests.",
+            photos: ["chellah_rabat"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Taxi.",
+            tips: "Jazz festival venue.",
+            duration: "1.5 hours"
+        ),
+        Attraction(
+            name: "Royal Palace of Rabat",
+            localName: "Dar al-Makhzen",
+            category: .palace,
+            latitude: 34.0156,
+            longitude: -6.8331,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "King's palace.",
+            fullDescription: "The primary and official residence of the King of Morocco. Visitors can only view the exterior and gates.",
+            photos: ["royal_palace_rabat"],
+            entranceFee: "No entry",
+            openingHours: "Exterior only",
+            howToGetThere: "Near Chellah.",
+            tips: "Bring passport.",
+            duration: "15 mins"
+        ),
+        // New
+        Attraction(
+            name: "Rabat Medina",
+            localName: "Old Medina",
+            category: .landmark,
+            latitude: 34.0269,
+            longitude: -6.8361,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "Old city.",
+            fullDescription: "A UNESCO World Heritage site, the Medina offers a traditional shopping experience with less hassle than Fes or Marrakech.",
+            photos: ["rabat_medina"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "City center.",
+            tips: "Buy leather goods.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Andalusian Gardens",
+            localName: "Jardins Andalous",
+            category: .park,
+            latitude: 34.0322,
+            longitude: -6.8367,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "Peaceful garden.",
+            fullDescription: "Located within the fortress of the Oudayas, these gardens offer a tranquil escape with beautiful flowers and cats.",
+            photos: ["andalusian_gardens"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "Inside Kasbah.",
+            tips: "Relaxing spot.",
+            duration: "45 mins"
+        ),
+        Attraction(
+            name: "Mohammed VI Museum of Modern Art",
+            localName: "MMVI",
+            category: .museum,
+            latitude: 34.0189,
+            longitude: -6.8331,
+            city: "Rabat",
+            country: "Morocco",
+            shortDescription: "Modern art.",
+            fullDescription: "The first large scale museum built in Morocco since independence, devoted to modern and contemporary art.",
+            photos: ["mmvi_museum"],
+            entranceFee: "Entry fee",
+            openingHours: "Tue-Sun",
+            howToGetThere: "Ville Nouvelle.",
+            tips: "Check exhibitions.",
+            duration: "1.5 hours"
+        )
+    ]
+}

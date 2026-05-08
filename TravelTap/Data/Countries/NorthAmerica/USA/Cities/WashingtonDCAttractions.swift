@@ -1,0 +1,747 @@
+import Foundation
+import CoreLocation
+
+struct WashingtonDCAttractions {
+    static let city = City(
+        name: "Washington D.C.",
+        localName: "Washington",
+        latitude: 38.892921,
+        longitude: -77.036565,
+        description: "Nation's capital with iconic monuments, museums, and political landmarks.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "National Mall",
+            localName: "National Mall",
+            category: .park,
+            latitude: 38.8875144,
+            longitude: -77.0363934,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "A two-mile parkland with America's most iconic monuments and memorials.",
+            fullDescription: "The National Mall is a landscaped park in downtown Washington, D.C. stretching from the Capitol to the Lincoln Memorial. It's home to iconic monuments, memorials, and the Smithsonian Institution museums, making it the heart of America's capital.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Take Metro to Smithsonian, Federal Triangle, or L'Enfant Plaza stations.",
+            tips: "The Mall is 2 miles long - rent bikes or take the Circulator bus. Most monuments are lit at night. Cherry blossoms in spring are spectacular.",
+            duration: "4-6 hours"
+        ),
+        Attraction(
+            name: "Lincoln Memorial",
+            localName: "Lincoln Memorial",
+            category: .monument,
+            latitude: 38.8893,
+            longitude: -77.0502,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Iconic memorial honoring Abraham Lincoln with his famous seated statue.",
+            fullDescription: "The Lincoln Memorial is a US national memorial built to honor the 16th President. The temple-like structure features a massive seated sculpture of Abraham Lincoln and inscriptions of two of his best-known speeches, the Gettysburg Address and his Second Inaugural Address.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours (staffed 9:30 AM - 10:00 PM)",
+            howToGetThere: "Walk from the Washington Monument or take Metro to Foggy Bottom.",
+            tips: "Visit at sunrise or sunset for the best light. The view from the steps down the Reflecting Pool is iconic. MLK gave his 'I Have a Dream' speech from these steps.",
+            duration: "30-45 minutes"
+        ),
+        Attraction(
+            name: "Washington Monument",
+            localName: "Washington Monument",
+            category: .monument,
+            latitude: 38.8895,
+            longitude: -77.0353,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "555-foot obelisk honoring George Washington with observation deck views.",
+            fullDescription: "The Washington Monument is an obelisk on the National Mall built to commemorate George Washington. At 555 feet, it's the world's tallest stone structure. An elevator takes visitors to an observation deck with 360-degree views of Washington, D.C.",
+            photos: [],
+            entranceFee: "Free (timed tickets required)",
+            openingHours: "9:00 AM - 5:00 PM",
+            howToGetThere: "Take Metro to Smithsonian station and walk.",
+            tips: "Free timed tickets can be reserved online up to 30 days in advance - they go quickly! Same-day tickets available at the Washington Monument Lodge.",
+            duration: "30 minutes"
+        ),
+        Attraction(
+            name: "Smithsonian National Air and Space Museum",
+            localName: "Air and Space Museum",
+            category: .museum,
+            latitude: 38.8882063,
+            longitude: -77.0198164,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "World's most visited aerospace museum with Wright Brothers plane and Apollo 11.",
+            fullDescription: "The National Air and Space Museum holds the largest collection of historic aircraft and spacecraft in the world. Exhibits include the 1903 Wright Flyer, Spirit of St. Louis, Apollo 11 command module, and a touchable moon rock.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "10:00 AM - 5:30 PM",
+            howToGetThere: "Take Metro to L'Enfant Plaza (Red, Orange, Silver, Blue, Yellow, Green lines).",
+            tips: "Timed entry passes required - reserve online. The Udvar-Hazy Center near Dulles has the Space Shuttle Discovery.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "White House",
+            localName: "The White House",
+            category: .landmark,
+            latitude: 38.8977,
+            longitude: -77.0366,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Official residence and workplace of the President of the United States.",
+            fullDescription: "The White House has been the residence of every U.S. president since John Adams in 1800. While public tours of the interior are available with advance planning through your Member of Congress, the exterior and grounds can be viewed from Pennsylvania Avenue.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Tours: 7:30 AM - 1:30 PM (Tue-Sat)",
+            howToGetThere: "Take Metro to Federal Triangle, McPherson Square, or Metro Center stations.",
+            tips: "Tours must be requested through your Member of Congress 21-90 days in advance. The White House Visitor Center is free and doesn't require reservations.",
+            duration: "30 minutes - 1 hour"
+        ),
+        Attraction(
+            name: "U.S. Capitol",
+            localName: "United States Capitol",
+            category: .landmark,
+            latitude: 38.9072873,
+            longitude: -77.0369274,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Meeting place of the United States Congress with iconic dome.",
+            fullDescription: "The United States Capitol is the seat of the United States Congress, the legislative branch of the federal government. Its iconic dome and the Statue of Freedom atop it are recognized worldwide. Free tours explore the historic building, including the stunning Rotunda and National Statuary Hall.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "8:30 AM - 4:30 PM (Mon-Sat)",
+            howToGetThere: "Take Metro to Capitol South (Blue/Orange/Silver) or Union Station (Red).",
+            tips: "Book tour tickets online in advance at recreation.gov. The Capitol Visitor Center has excellent exhibits. Contact your representatives' office for gallery passes to watch Congress in session.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Vietnam Veterans Memorial",
+            localName: "Vietnam Memorial",
+            category: .monument,
+            latitude: 38.8912933,
+            longitude: -77.04771319999999,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Moving memorial with names of over 58,000 service members who died or went missing.",
+            fullDescription: "The Vietnam Veterans Memorial honors service members who died or went missing during the Vietnam War. The black granite V-shaped wall, designed by Maya Lin, lists the names of over 58,000 Americans. The Three Soldiers statue and Vietnam Women's Memorial are nearby.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours (rangers until 10:00 PM)",
+            howToGetThere: "Walk from the Lincoln Memorial or take Metro to Foggy Bottom.",
+            tips: "Paper rubbing of names is a common practice. Rangers can help locate specific names. Early morning and evening are most reflective times to visit.",
+            duration: "30 minutes - 1 hour"
+        ),
+        Attraction(
+            name: "World War II Memorial",
+            localName: "WWII Memorial",
+            category: .monument,
+            latitude: 38.88940729999999,
+            longitude: -77.04052999999999,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Memorial honoring the 16 million who served in the Armed Forces during WWII.",
+            fullDescription: "The National World War II Memorial honors the 16 million who served in the Armed Forces during World War II, the more than 400,000 who died, and those who supported the war effort from home. The memorial features 56 pillars and two arches around a central plaza and fountain.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours (rangers until 10:00 PM)",
+            howToGetThere: "Located on the National Mall between the Lincoln Memorial and Washington Monument.",
+            tips: "Look for your state's pillar. The Freedom Wall has 4,048 gold stars, each representing 100 Americans who died. Night lighting is particularly beautiful.",
+            duration: "30 minutes"
+        ),
+        Attraction(
+            name: "Thomas Jefferson Memorial",
+            localName: "Jefferson Memorial",
+            category: .monument,
+            latitude: 38.8814,
+            longitude: -77.0365,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Neoclassical memorial honoring the third President and author of the Declaration.",
+            fullDescription: "The Thomas Jefferson Memorial is a neoclassical building on the Tidal Basin honoring Thomas Jefferson, the third President and principal author of the Declaration of Independence. The rotunda features a 19-foot bronze statue of Jefferson and excerpts from his writings on the walls.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours (rangers until 10:00 PM)",
+            howToGetThere: "Walk around the Tidal Basin or take Metro to Smithsonian and walk south.",
+            tips: "Best visited during cherry blossom season (late March-early April). Sunrise from the memorial is spectacular. The view across the Tidal Basin to the Washington Monument is iconic.",
+            duration: "30 minutes"
+        ),
+        Attraction(
+            name: "Martin Luther King Jr. Memorial",
+            localName: "MLK Memorial",
+            category: .monument,
+            latitude: 38.8862795,
+            longitude: -77.0442553,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Memorial featuring a 30-foot statue of Dr. King emerging from the Stone of Hope.",
+            fullDescription: "The Martin Luther King Jr. Memorial is a national memorial honoring civil rights leader Dr. Martin Luther King Jr. The centerpiece is a 30-foot statue of Dr. King carved into the Stone of Hope, flanked by the Mountain of Despair, with his quotations inscribed on the walls.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours (rangers until 10:00 PM)",
+            howToGetThere: "Walk from the Lincoln Memorial or take the Circulator bus.",
+            tips: "Located along the Tidal Basin near the cherry trees. Read the inscribed quotes. The memorial is in line with the Lincoln and Jefferson Memorials.",
+            duration: "30 minutes"
+        ),
+        Attraction(
+            name: "Arlington National Cemetery",
+            localName: "Arlington Cemetery",
+            category: .historical,
+            latitude: 38.8768684,
+            longitude: -77.0707857,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Nation's most hallowed military cemetery with the Tomb of the Unknown Soldier.",
+            fullDescription: "Arlington National Cemetery is a United States military cemetery across the Potomac River from Washington, D.C. It's the resting place of more than 400,000 service members, veterans, and their families. The Tomb of the Unknown Soldier and the changing of the guard ceremony are deeply moving.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "8:00 AM - 7:00 PM (summer), 8:00 AM - 5:00 PM (winter)",
+            howToGetThere: "Take Metro Blue or Yellow line to Arlington Cemetery station.",
+            tips: "Changing of the Guard occurs every 30 minutes in summer, hourly in winter. JFK's eternal flame is on the hillside. The cemetery is hilly - shuttle tours available.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "United States Holocaust Memorial Museum",
+            localName: "Holocaust Museum",
+            category: .museum,
+            latitude: 38.8867076,
+            longitude: -77.0326074,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "America's memorial to the millions murdered during the Holocaust.",
+            fullDescription: "The United States Holocaust Memorial Museum is America's national institution for the documentation, study, and interpretation of Holocaust history. The permanent exhibition tells the story of the Nazi rise to power, the Holocaust, and liberation through artifacts, photographs, and films.",
+            photos: [],
+            entranceFee: "Free (timed passes required for permanent exhibition)",
+            openingHours: "10:00 AM - 5:30 PM",
+            howToGetThere: "Take Metro to Smithsonian station and walk south.",
+            tips: "Timed entry passes required for the permanent exhibition during peak season - get them online. The exhibition is recommended for visitors 11 and older. Very emotionally powerful.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "National Gallery of Art",
+            localName: "National Gallery",
+            category: .museum,
+            latitude: 38.8913,
+            longitude: -77.0200,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "World-class art museum with European masterpieces and modern art.",
+            fullDescription: "The National Gallery of Art comprises two buildings connected by an underground passage. The West Building houses European masterpieces from the Middle Ages through the early 20th century, while the East Building features modern and contemporary art. The Sculpture Garden hosts outdoor works.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "10:00 AM - 5:00 PM",
+            howToGetThere: "Take Metro to Archives-Navy Memorial-Penn Quarter or Judiciary Square.",
+            tips: "Don't miss the only Leonardo da Vinci painting in the Americas. The East Building's Calder mobile is impressive. The Sculpture Garden has ice skating in winter.",
+            duration: "2-4 hours"
+        ),
+        Attraction(
+            name: "National Museum of Natural History",
+            localName: "Natural History Museum",
+            category: .museum,
+            latitude: 38.8912,
+            longitude: -77.0261,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Smithsonian museum with dinosaurs, the Hope Diamond, and natural wonders.",
+            fullDescription: "The National Museum of Natural History is the most visited natural history museum in the world. Highlights include the fossil halls with dinosaurs, the Hope Diamond, the Ocean Hall's giant squid, and a butterfly pavilion. Over 145 million specimens are in the collection.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "10:00 AM - 5:30 PM",
+            howToGetThere: "Take Metro to Smithsonian or Federal Triangle stations.",
+            tips: "The Hope Diamond is a must-see. The dinosaur hall was recently renovated. The Butterfly Pavilion requires timed tickets. Plan several hours.",
+            duration: "2-4 hours"
+        ),
+        Attraction(
+            name: "Library of Congress",
+            localName: "Library of Congress",
+            category: .landmark,
+            latitude: 38.8887,
+            longitude: -77.0047,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "World's largest library known for its stunning Great Hall and architecture.",
+            fullDescription: "The Library of Congress is the research library that officially serves the United States Congress and is the de facto national library of the United States. The Jefferson Building is famous for its magnificent Great Hall, reading room, and art.",
+            photos: [],
+            entranceFee: "Free (timed pass required)",
+            openingHours: "10:00 AM - 5:00 PM (closed Sundays)",
+            howToGetThere: "Located behind the U.S. Capitol. Metro to Capitol South.",
+            tips: "Free timed-entry passes are required. The architecture is arguably the most beautiful in D.C. See the Gutenberg Bible.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Supreme Court",
+            localName: "Supreme Court",
+            category: .landmark,
+            latitude: 38.8906116,
+            longitude: -77.0045361,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Highest court in the federal judiciary of the United States.",
+            fullDescription: "The Supreme Court Building is \"The Marble Palace\" and home to the highest court in the nation. Visitors can tour the building, view exhibitions, and even attend oral arguments on a first-come, first-served basis when the court is in session.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "9:00 AM - 4:30 PM (Mon-Fri)",
+            howToGetThere: "Located behind the U.S. Capitol. Metro to Capitol South.",
+            tips: "Arrive very early if you want to attend an oral argument. The building is closed on weekends. The spiral staircases are photogenic.",
+            duration: "30-60 minutes"
+        ),
+        Attraction(
+            name: "Smithsonian National Zoo",
+            localName: "National Zoo",
+            category: .zoo,
+            latitude: 38.9296,
+            longitude: -77.0498,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous free zoo known for its giant pandas (check current status).",
+            fullDescription: "The Smithsonian's National Zoo and Conservation Biology Institute is one of the oldest zoos in the United States. It's part of the Smithsonian Institution and admission is free. It houses over 2,000 animals representing 400 different species.",
+            photos: [],
+            entranceFee: "Free (entry pass required)",
+            openingHours: "8:00 AM - 4:00 PM (winter), until 6:00 PM (summer)",
+            howToGetThere: "Take Metro Red Line to Woodley Park-Zoo or Cleveland Park.",
+            tips: "Walk downhill from Cleveland Park station and take the Metro back from Woodley Park to avoid the steep hill. Passes required. Pandas returned to China in late 2023.",
+            duration: "2-4 hours"
+        ),
+        Attraction(
+            name: "Jefferson Memorial",
+            localName: "Jefferson Memorial",
+            category: .landmark,
+            latitude: 38.8814158, // Placeholder
+            longitude: -77.0364657, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Jefferson Memorial is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Korean War Veterans Memorial",
+            localName: "Korean War Veterans Memorial",
+            category: .landmark,
+            latitude: 38.8878422, // Placeholder
+            longitude: -77.0477385, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Korean War Veterans Memorial is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "U.S. Capitol Building",
+            localName: "U.S. Capitol Building",
+            category: .landmark,
+            latitude: 38.889938900000004, // Placeholder
+            longitude: -77.0090505, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "U.S. Capitol Building is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Supreme Court Building",
+            localName: "Supreme Court Building",
+            category: .landmark,
+            latitude: 38.8906424, // Placeholder
+            longitude: -77.0044398, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Supreme Court Building is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Smithsonian Institution",
+            localName: "Smithsonian Institution",
+            category: .landmark,
+            latitude: 38.8912662, // Placeholder
+            longitude: -77.0260654, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Smithsonian Institution is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Museum of American History",
+            localName: "National Museum of American History",
+            category: .landmark,
+            latitude: 38.89127930000001, // Placeholder
+            longitude: -77.03005089999999, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "National Museum of American History is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Air and Space Museum",
+            localName: "National Air and Space Museum",
+            category: .landmark,
+            latitude: 38.8882063, // Placeholder
+            longitude: -77.0198164, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "National Air and Space Museum is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Portrait Gallery",
+            localName: "National Portrait Gallery",
+            category: .landmark,
+            latitude: 38.897826699999996, // Placeholder
+            longitude: -77.02301899999999, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "National Portrait Gallery is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Smithsonian American Art Museum",
+            localName: "Smithsonian American Art Museum",
+            category: .landmark,
+            latitude: 38.8978934, // Placeholder
+            longitude: -77.02306879999999, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Smithsonian American Art Museum is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Museum of African American History and Culture",
+            localName: "National Museum of African American History and Culture",
+            category: .landmark,
+            latitude: 38.8910644, // Placeholder
+            longitude: -77.032614, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "National Museum of African American History and Culture is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Hirshhorn Museum",
+            localName: "Hirshhorn Museum",
+            category: .landmark,
+            latitude: 38.8881608, // Placeholder
+            longitude: -77.0229682, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Hirshhorn Museum is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Zoo",
+            localName: "National Zoo",
+            category: .landmark,
+            latitude: 38.9296156, // Placeholder
+            longitude: -77.0497844, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "National Zoo is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Pentagon Memorial",
+            localName: "Pentagon Memorial",
+            category: .landmark,
+            latitude: 38.8704969, // Placeholder
+            longitude: -77.0593233, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Pentagon Memorial is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Dupont Circle",
+            localName: "Dupont Circle",
+            category: .landmark,
+            latitude: 38.9096936, // Placeholder
+            longitude: -77.043339, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Dupont Circle is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Embassy Row",
+            localName: "Embassy Row",
+            category: .landmark,
+            latitude: 38.921822299999995, // Placeholder
+            longitude: -77.0658004, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Embassy Row is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Kennedy Center",
+            localName: "Kennedy Center",
+            category: .landmark,
+            latitude: 38.895848199999996, // Placeholder
+            longitude: -77.05568269999999, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Kennedy Center is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Ford's Theatre",
+            localName: "Ford's Theatre",
+            category: .landmark,
+            latitude: 38.8966765, // Placeholder
+            longitude: -77.0255908, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Ford's Theatre is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "International Spy Museum",
+            localName: "International Spy Museum",
+            category: .landmark,
+            latitude: 38.884141899999996, // Placeholder
+            longitude: -77.0255748, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "International Spy Museum is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Newseum Building",
+            localName: "Newseum Building",
+            category: .landmark,
+            latitude: 38.8930776, // Placeholder
+            longitude: -77.0192927, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Newseum Building is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Archives",
+            localName: "National Archives",
+            category: .landmark,
+            latitude: 38.892479699999996, // Placeholder
+            longitude: -77.0229382, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "National Archives is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Tidal Basin",
+            localName: "Tidal Basin",
+            category: .landmark,
+            latitude: 38.8840761, // Placeholder
+            longitude: -77.0384557, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Tidal Basin is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Cherry Blossoms",
+            localName: "Cherry Blossoms",
+            category: .landmark,
+            latitude: 38.8665162, // Placeholder
+            longitude: -77.027242, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Cherry Blossoms is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "National Cathedral",
+            localName: "National Cathedral",
+            category: .landmark,
+            latitude: 38.9305946, // Placeholder
+            longitude: -77.0707808, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "National Cathedral is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Mount Vernon",
+            localName: "Mount Vernon",
+            category: .landmark,
+            latitude: 38.707982, // Placeholder
+            longitude: -77.0861753, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Mount Vernon is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Old Town Alexandria",
+            localName: "Old Town Alexandria",
+            category: .landmark,
+            latitude: 38.8067193, // Placeholder
+            longitude: -77.0420541, // Placeholder
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Famous attraction in Washington D.C..",
+            fullDescription: "Old Town Alexandria is a must-visit location in Washington D.C., offering unique experiences for travelers.",
+            photos: [],
+            entranceFee: "Unknown",
+            openingHours: "Check local listings",
+            howToGetThere: "Central location, easily accessible.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Georgetown",
+            localName: "Georgetown",
+            category: .neighborhood,
+            latitude: 38.9097,
+            longitude: -77.0654,
+            city: "Washington D.C.",
+            country: "USA",
+            shortDescription: "Historic neighborhood with cobblestone streets, shopping, and waterfront.",
+            fullDescription: "Georgetown is D.C.'s oldest neighborhood, pre-dating the capital itself. It's known for its federal-style architecture, cobblestone streets, high-end shopping on M Street, and the waterfront park. It also houses Georgetown University.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Take the Circulator bus or walk. No direct Metro station.",
+            tips: "Walk down the Exorcist Steps. Cupcakes at Georgetown Cupcake or Baked & Wired are popular. Great dining along the waterfront.",
+            duration: "2-3 hours"
+        )
+    ]
+}

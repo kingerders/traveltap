@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct KairouanAttractions {
+    static let city = City(
+        name: "Kairouan",
+        localName: "Kairouan",
+        latitude: 35.6781,
+        longitude: 10.0963,
+        description: "Islam's fourth holiest city, home to the Great Mosque and a treasure trove of Islamic architecture.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Great Mosque of Kairouan",
+            localName: "Great Mosque",
+            category: .religious,
+            latitude: 35.6816,
+            longitude: 10.1038,
+            city: "Kairouan",
+            country: "Tunisia",
+            shortDescription: "Islamic masterpiece.",
+            fullDescription: "One of the most important mosques in Islam and a masterpiece of Islamic architecture in North Africa.",
+            photos: ["kairouan_mosque"],
+            entranceFee: "Multi-site ticket",
+            openingHours: "Mornings ex Fri",
+            howToGetThere: "NE of Medina.",
+            tips: "Minaret view.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Medina of Kairouan",
+            localName: "Medina",
+            category: .historical,
+            latitude: 35.6783,
+            longitude: 10.1033,
+            city: "Kairouan",
+            country: "Tunisia",
+            shortDescription: "Ancient walled city.",
+            fullDescription: "UNESCO World Heritage Site with white-washed houses, narrow alleys, and numerous mosques and zawiyas.",
+            photos: ["kairouan_medina"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City center.",
+            tips: "Carpet shopping.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Aghlabid Basins",
+            localName: "Bassins Aghlabides",
+            category: .historical,
+            latitude: 35.6833,
+            longitude: 10.1000,
+            city: "Kairouan",
+            country: "Tunisia",
+            shortDescription: "Ancient reservoirs.",
+            fullDescription: "Massive 9th-century open-air water cisterns that were a marvel of medieval engineering.",
+            photos: ["aghlabid_basins"],
+            entranceFee: "Free (view)",
+            openingHours: "Daily",
+            howToGetThere: "North Kairouan.",
+            tips: "Walk around.",
+            duration: "30 mins"
+        ),
+        Attraction(
+            name: "Mosque of the Three Doors",
+            localName: "Mosque",
+            category: .religious,
+            latitude: 35.6778,
+            longitude: 10.1042,
+            city: "Kairouan",
+            country: "Tunisia",
+            shortDescription: "Facade artwork.",
+            fullDescription: "Famous for its intricate facade with three doorways and Kufic inscriptions. One of the oldest in the city.",
+            photos: ["three_doors_mosque"],
+            entranceFee: "Free (external)",
+            openingHours: "External view",
+            howToGetThere: "Medina.",
+            tips: "Best for photos.",
+            duration: "15 mins"
+        ),
+        Attraction(
+            name: "Bir Barouta",
+            localName: "Bir Barouta",
+            category: .landmark,
+            latitude: 35.6783,
+            longitude: 10.1033,
+            city: "Kairouan",
+            country: "Tunisia",
+            shortDescription: "Camel well.",
+            fullDescription: "A 17th-century well in the medina where a camel traditionally draws water from the deep well.",
+            photos: ["bir_barouta"],
+            entranceFee: "Small fee",
+            openingHours: "Daily",
+            howToGetThere: "Main souk.",
+            tips: "Upstairs.",
+            duration: "20 mins"
+        ),
+        Attraction(
+            name: "Zaouia of Sidi Sahab",
+            localName: "Barber's Mosque",
+            category: .religious,
+            latitude: 35.6865,
+            longitude: 10.0956,
+            city: "Kairouan",
+            country: "Tunisia",
+            shortDescription: "Beautiful tiles.",
+            fullDescription: "The mausoleum of a companion of the Prophet. Renowned for its stunning ceramic tilework and stucco.",
+            photos: ["sidi_sahab_mosque"],
+            entranceFee: "Multi-site ticket",
+            openingHours: "Daily",
+            howToGetThere: "Outside walls.",
+            tips: "Courtyards.",
+            duration: "45 mins"
+        ),
+        Attraction(
+            name: "Zaouia of Sidi Abid",
+            localName: "El Ghariani",
+            category: .religious,
+            latitude: 35.6775,
+            longitude: 10.1050,
+            city: "Kairouan",
+            country: "Tunisia",
+            shortDescription: "Sufi saint tomb.",
+            fullDescription: "A beautiful zaouia with fine woodcarvings and tiles, home to the Museum/Association of the Medina.",
+            photos: ["sidi_abid_zaouia"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Medina.",
+            tips: "Cedar ceilings.",
+            duration: "30 mins"
+        )
+    ]
+}

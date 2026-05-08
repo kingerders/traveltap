@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct KhivaAttractions {
+    static let city = City(
+        name: "Khiva",
+        localName: "Xiva",
+        latitude: 41.410757,
+        longitude: 60.394386,
+        description: "An open-air museum city protected by UNESCO.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Itchan Kala",
+            localName: "Ichan-Qal’a",
+            category: .historical,
+            latitude: 41.3781,
+            longitude: 60.3593,
+            city: "Khiva",
+            country: "Uzbekistan",
+            shortDescription: "Walled inner town of Khiva, an open-air museum.",
+            fullDescription: "The walled inner city of Khiva, Itchan Kala is a UNESCO World Heritage site that feels like stepping back in time. Enclosed by 10-meter high brick walls, it contains over 50 historic monuments and 250 old houses, forming a coherent and well-preserved example of Muslim architecture.",
+            photos: [],
+            entranceFee: "Paid (Ticket covers most museums)",
+            openingHours: "09:00-18:00 (City open 24h)",
+            howToGetThere: "Enter through the West Gate (Ota Darvaza).",
+            tips: "Buy the full ticket at the West Gate. Sunset from the city walls is unforgettable.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Kalta Minor Minaret",
+            localName: "Kalta Minor",
+            category: .landmark,
+            latitude: 41.3783,
+            longitude: 60.3580,
+            city: "Khiva",
+            country: "Uzbekistan",
+            shortDescription: "Iconic unfinished turquoise minaret.",
+            fullDescription: "This dazzlingly blue, short, and stout minaret has become the symbol of Khiva. It was intended to be the tallest in the Islamic world but was never finished after the Khan died. Its entire surface is covered in beautiful glazed tiles.",
+            photos: [],
+            entranceFee: "View from outside is free",
+            openingHours: "24 hours",
+            howToGetThere: "Located near the West Gate, inside Itchan Kala.",
+            tips: "The best photo angle is from the Muhammad Amin Khan Madrasa (now a hotel).",
+            duration: "30 minutes"
+        ),
+        Attraction(
+            name: "Islam Khoja Minaret",
+            localName: "Islom Xoʻja minorasi",
+            category: .landmark,
+            latitude: 41.3766,
+            longitude: 60.3601,
+            city: "Khiva",
+            country: "Uzbekistan",
+            shortDescription: "Khiva's tallest minaret offering panoramic views.",
+            fullDescription: "The tallest structure in Khiva (57m) and the most elegant. Built in 1910, it mimics ancient designs. Visitors can climb the steep, narrow spiral staircase to the lantern at the top for bird's-eye views of the walled city.",
+            photos: [],
+            entranceFee: "Paid (Extra fee to climb)",
+            openingHours: "09:00-18:00",
+            howToGetThere: "Southeast part of Itchan Kala.",
+            tips: "The steps are high and steep; not for the claustrophobic. The view is worth it.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Kuhna Ark",
+            localName: "Koʻhna Ark",
+            category: .historical,
+            latitude: 41.3794,
+            longitude: 60.3579,
+            city: "Khiva",
+            country: "Uzbekistan",
+            shortDescription: "The 'Old Fortress' and residence of Khiva's rulers.",
+            fullDescription: "The citadel within the citadel. This fortified palace complex served as the residence of the Khans of Khiva. It includes a throne room, harem, mint, stables, and a mosque. The Watchtower offers one of the best sunset views in the city.",
+            photos: [],
+            entranceFee: "Included in main ticket",
+            openingHours: "09:00-18:00",
+            howToGetThere: "Next to the West Gate.",
+            tips: "Head to the Watchtower for sunset. The blue-tiled summer mosque is also beautiful.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Ayaz-Kala Fortress",
+            localName: "Ayaz-Qal'a",
+            category: .archaeological,
+            latitude: 42.0108375,
+            longitude: 61.0271719,
+            city: "Khiva",
+            country: "Uzbekistan",
+            shortDescription: "Spectacular mud-brick desert fortress ruins.",
+            fullDescription: "The most impressive of the 'Golden Ring of Ancient Khorezm' desert fortresses. Perched on a hilltop overlooking the Kyzylkum Desert, these ruins date back to the 4th century BC. The scale of the walls and the desert views are breathtaking.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24 hours",
+            howToGetThere: "100km from Khiva. Requires a taxi/tour.",
+            tips: "Combine with Toprak-Kala. Have lunch in the yurt camp nearby.",
+            duration: "Half-day trip"
+        ),
+        Attraction(
+            name: "Toprak-Kala Fortress",
+            localName: "Tuproqqal'a",
+            category: .archaeological,
+            latitude: 41.9271719,
+            longitude: 60.8224145,
+            city: "Khiva",
+            country: "Uzbekistan",
+            shortDescription: "Ruins of the ancient capital of Khorezm.",
+            fullDescription: "Means 'Clay Fortress'. This 2000-year-old complex was once the capital of Khorezm and a sophisticated city with a palace, temples, and residential quarters. Archaeologists found wall paintings and coins here still visible in museums.",
+            photos: [],
+            entranceFee: "Small fee",
+            openingHours: "09:00-18:00",
+            howToGetThere: "80km from Khiva, on the way to Ayaz-Kala.",
+            tips: "Climb the highest point for a view of the intricate room layouts visible from above.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Urgench International Airport",
+            localName: "Urgench International Airport",
+            category: .transport,
+            latitude: 41.5839,
+            longitude: 60.6424,
+            city: "Khiva",
+            country: "Uzbekistan",
+            shortDescription: "Main international airport serving Khiva.",
+            fullDescription: "The primary airport serving Khiva and the surrounding region. Offers domestic and international flights with connections to major cities worldwide.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24 hours",
+            howToGetThere: "Accessible by taxi, bus, or airport shuttle from Khiva city center.",
+            tips: "Arrive at least 2 hours before international flights. Check visa requirements before travel.",
+            duration: "Varies"
+        )
+    ]
+}

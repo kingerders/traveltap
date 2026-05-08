@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct BiokoIslandAttractions {
+    static let city = City(
+        name: "Bioko Island",
+        localName: "Bioko",
+        latitude: 3.491384,
+        longitude: 8.677651,
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Pico Basilé",
+            localName: "Pico Basilé",
+            category: .park,
+            latitude: 3.5896664,
+            longitude: 8.7591311,
+            city: "Bioko",
+            country: "Equatorial Guinea",
+            shortDescription: "Highest peak on Bioko.",
+            fullDescription: "A massive shield volcano forming the island. Offers spectacular views of Mount Cameroon on clear days.",
+            photos: ["pico_basile"],
+            entranceFee: "Permit required",
+            openingHours: "Daylight",
+            howToGetThere: "Road to summit (check access).",
+            tips: "Often cloudy.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Malabo National Park",
+            localName: "Parque Nacional de Malabo",
+            category: .park,
+            latitude: 3.7497934,
+            longitude: 8.7277157,
+            city: "Malabo",
+            country: "Equatorial Guinea",
+            shortDescription: "Urban park.",
+            fullDescription: "A large modern park near the airport, featuring walking paths, statues, and green spaces.",
+            photos: ["malabo_park"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "Near highway.",
+            tips: "Relaxing walk.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Arena Blanca Beach",
+            localName: "Playa de Arena Blanca",
+            category: .beach,
+            latitude: 3.5280001,
+            longitude: 8.5780364,
+            city: "Luba",
+            country: "Equatorial Guinea",
+            shortDescription: "White sand beach.",
+            fullDescription: "One of the few white sand beaches on the island, famous for its dry season butterflies.",
+            photos: ["arena_blanca"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Near Luba.",
+            tips: "Busy on weekends.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Sipopo",
+            localName: "Sipopo",
+            category: .beach,
+            latitude: 3.7653648,
+            longitude: 8.892443499999999,
+            city: "Sipopo",
+            country: "Equatorial Guinea",
+            shortDescription: "Resort area.",
+            fullDescription: "Modern resort area with the Sipopo Congress Center, luxury hotels, and a man-made beach.",
+            photos: ["sipopo_beach", "sipopo_congress"],
+            entranceFee: "Free (beach)",
+            openingHours: "24/7",
+            howToGetThere: "East of Malabo.",
+            tips: "High-end dining.",
+            duration: "Afternoon"
+        ),
+        Attraction(
+            name: "Ureka",
+            localName: "Ureka",
+            category: .park,
+            latitude: 3.248638,
+            longitude: 8.565980999999999,
+            city: "Bioko",
+            country: "Equatorial Guinea",
+            shortDescription: "Village of waterfalls.",
+            fullDescription: "Remote village in the south, known for its pristine beaches where turtles nest and nearby waterfalls.",
+            photos: ["ureka_village", "ureka_falls"],
+            entranceFee: "Guide fee",
+            openingHours: "Daylight",
+            howToGetThere: "4x4 required.",
+            tips: "Turtle watching (seasonal).",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Moka Valley",
+            localName: "Valle de Moka",
+            category: .park,
+            latitude: 3.3457031,
+            longitude: 8.665559199999999,
+            city: "Bioko",
+            country: "Equatorial Guinea",
+            shortDescription: "Highland valley.",
+            fullDescription: "Cool and misty valley in the highlands, known for its volcanic crater lakes and lush vegetation.",
+            photos: ["moka_valley"],
+            entranceFee: "Guide fee",
+            openingHours: "Daylight",
+            howToGetThere: "Uphill drive.",
+            tips: "Cool climate.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Luba Crater Scientific Reserve",
+            localName: "Reserva Científica de la Caldera de Luba",
+            category: .park,
+            latitude: 3.3530389,
+            longitude: 8.512362,
+            city: "Bioko",
+            country: "Equatorial Guinea",
+            shortDescription: "Biodiversity hotspot.",
+            fullDescription: "Protected area covering the volcanic caldera, home to diverse primate species.",
+            photos: ["luba_crater"],
+            entranceFee: "Restricted",
+            openingHours: "Permit only",
+            howToGetThere: "Hiking.",
+            tips: "Scientific interest.",
+            duration: "Full day"
+        ),
+        
+    ]
+}

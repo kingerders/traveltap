@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct PanamaCityAttractions {
+    static let city = City(
+        name: "Panama City",
+        localName: "Panamá",
+        latitude: 8.966756,
+        longitude: -79.538077,
+        description: "The modern capital city, home to the Panama Canal.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Panama Canal (Miraflores Locks)",
+            localName: "Miraflores Visitor's Center",
+            category: .landmark,
+            latitude: 8.997004400000002,
+            longitude: -79.59114439999999,
+            city: "Panama City",
+            country: "Panama",
+            shortDescription: "Visitor center with decks for watching ships pass through the locks.",
+            fullDescription: "Panama Canal visitor center with exhibits, food & decks for watching ships pass through the locks. A must-visit to understand the engineering marvel of the canal.",
+            photos: ["miraflores_visitor_s_center"],
+            entranceFee: "Paid",
+            openingHours: "8:00 AM - 6:00 PM",
+            howToGetThere: "Taxi or bus from Albrook Terminal.",
+            tips: "Ships pass through mostly in the morning or late afternoon.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Casco Viejo",
+            localName: "San Felipe",
+            category: .historical,
+            latitude: 8.9531326,
+            longitude: -79.5357556,
+            city: "Panama City",
+            country: "Panama",
+            shortDescription: "Historic district with colonial architecture.",
+            fullDescription: "A UNESCO World Heritage site known for its charming streets, plazas, churches, and rooftop bars. The heart of Panama's colonial history.",
+            photos: ["san_felipe"],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Taxi or Uber to Casco Viejo entry.",
+            tips: "Visit at sunset for rooftop drinks. Best walking area.",
+            duration: "3-4 hours"
+        ),
+        Attraction(
+            name: "Biomuseo",
+            localName: "Biomuseo",
+            category: .museum,
+            latitude: 8.9322,
+            longitude: -79.5446,
+            city: "Panama City",
+            country: "Panama",
+            shortDescription: "Colorful biodiversity museum designed by Frank Gehry.",
+            fullDescription: "Whimsical museum structure by the renowned Frank Gehry with 8 galleries on Panama's biodiversity and geological history.",
+            photos: ["biomuseo"],
+            entranceFee: "Paid",
+            openingHours: "Tue-Sun 10:00 AM - 4:00 PM",
+            howToGetThere: "Amador Causeway, accessible by taxi or bus.",
+            tips: "Great for families. The architecture itself is a highlight.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Amador Causeway",
+            localName: "Calzada de Amador",
+            category: .landmark,
+            latitude: 8.9151,
+            longitude: -79.5269,
+            city: "Panama City",
+            country: "Panama",
+            shortDescription: "Roadway connecting four islands with views.",
+            fullDescription: "Erected in 1913, this off-shore thoroughfare has a paved trail, restaurants & sweeping bay views. Perfect for biking or walking.",
+            photos: ["amador_causeway"],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "South of Panama City.",
+            tips: "Rent a bike to ride the full length.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Panama Viejo",
+            localName: "Panamá Viejo",
+            category: .historical,
+            latitude: 9.0070073,
+            longitude: -79.4914798,
+            city: "Panama City",
+            country: "Panama",
+            shortDescription: "Ruins of the original Panama City founded in 1519.",
+            fullDescription: "The archaeological ruins of old Panama include a museum & a bell observation tower. It was destroyed by pirate Henry Morgan in 1671.",
+            photos: ["old_panama"],
+            entranceFee: "Paid",
+            openingHours: "8:30 AM - 4:30 PM",
+            howToGetThere: "Costa del Este route buses or taxi.",
+            tips: "Climb the tower for a view of the modern skyline.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Cinta Costera",
+            localName: "Cinta Costera",
+            category: .park,
+            latitude: 8.9692523,
+            longitude: -79.5303661,
+            city: "Panama City",
+            country: "Panama",
+            shortDescription: "Waterfront park and walking trail.",
+            fullDescription: "A scenic waterfront beltway with parks, walkways, and bike paths offering stunning views of the skyline and the bay.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Runs alongside Avenida Balboa.",
+            tips: "Popular for jogging and evening walks. Visit the fish market nearby.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Metropolitan Natural Park",
+            localName: "Parque Natural Metropolitano",
+            category: .park,
+            latitude: 8.9935942,
+            longitude: -79.5462943,
+            city: "Panama City",
+            country: "Panama",
+            shortDescription: "Tropical rainforest within the city limits.",
+            fullDescription: "The only wildlife refuge in a Central American capital city. Offers hiking trails with views of the city and canal, plus chances to spot sloths and monkeys.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "7:00 AM - 5:30 PM",
+            howToGetThere: "Located on Juan Pablo II Avenue.",
+            tips: "Go early to see more wildlife and beat the heat.",
+            duration: "2-3 hours"
+        )
+    ]
+}

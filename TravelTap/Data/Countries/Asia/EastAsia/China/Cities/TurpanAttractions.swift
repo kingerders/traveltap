@@ -1,0 +1,152 @@
+import Foundation
+import CoreLocation
+
+struct TurpanAttractions {
+    static let city = City(
+        name: "Turpan",
+        localName: "Turpan", // Chinese name would be better
+        latitude: 42.9513,
+        longitude: 89.1895,
+        description: "Explore the wonders of Turpan.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Jiaohe Ancient City",
+            localName: "Jiaohe Ancient City",
+            category: .historical,
+            latitude: 42.953244,
+            longitude: 89.066056,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "A must-visit destination in Turpan.",
+            fullDescription: "Explore Jiaohe Ancient City, one of the key highlights of Turpan, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Gaochang Ancient City",
+            localName: "Gaochang Ancient City",
+            category: .historical,
+            latitude: 42.85971199999999,
+            longitude: 89.531908,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "A must-visit destination in Turpan.",
+            fullDescription: "Explore Gaochang Ancient City, one of the key highlights of Turpan, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Bezeklik Thousand Buddha Caves",
+            localName: "Bezeklik Thousand Buddha Caves",
+            category: .park,
+            latitude: 42.95731079999999,
+            longitude: 89.5423476,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "A must-visit destination in Turpan.",
+            fullDescription: "Explore Bezeklik Thousand Buddha Caves, one of the key highlights of Turpan, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Flaming Mountains",
+            localName: "Turpan (Grape Valley, Flaming Mountains)",
+            category: .park,
+            latitude: 42.94484500000001,
+            longitude: 89.52969499999999,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "A must-visit destination in Turpan.",
+            fullDescription: "Explore Turpan (Grape Valley, Flaming Mountains), one of the key highlights of Turpan, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Grape Valley",
+            localName: "Turpan (Grape Valley, Flaming Mountains)",
+            category: .park,
+            latitude: 42.9713984,
+            longitude: 89.2186459,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "A must-visit destination in Turpan.",
+            fullDescription: "Explore Turpan (Grape Valley, Flaming Mountains), one of the key highlights of Turpan, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Karez Wells",
+            localName: "Karez Wells",
+            category: .landmark,
+            latitude: 42.980859,
+            longitude: 89.129423,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "A must-visit destination in Turpan.",
+            fullDescription: "Explore Karez Wells, one of the key highlights of Turpan, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Emin Minaret",
+            localName: "Emin Minaret",
+            category: .landmark,
+            latitude: 42.93462,
+            longitude: 89.20339000000001,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "A must-visit destination in Turpan.",
+            fullDescription: "Explore Emin Minaret, one of the key highlights of Turpan, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Turpan Jiaohe Airport",
+            localName: "Turpan Jiaohe Airport",
+            category: .transport,
+            latitude: 43.028547,
+            longitude: 89.103459,
+            city: "Turpan",
+            country: "China",
+            shortDescription: "International airport serving Turpan.",
+            fullDescription: "Main transportation hub for travelers visiting Turpan.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24/7",
+            howToGetThere: "Accessible by taxi, bus, or metro.",
+            tips: "Arrive at least 2 hours before departure.",
+            duration: "N/A"
+        )
+    ]
+}

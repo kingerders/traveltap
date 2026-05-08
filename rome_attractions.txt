@@ -1,0 +1,324 @@
+        // --- New Attractions ---
+        Attraction(
+            name: "Archbasilica of St. John Lateran",
+            localName: "Basilica di San Giovanni in Laterano",
+            category: .religious,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "The cathedral church of Rome and the official ecclesiastical seat of the Pope.",
+            fullDescription: "San Giovanni in Laterano is the oldest and highest ranking of the four major papal basilicas, holding the unique title of 'archbasilica'. It is the official ecclesiastical seat of the Bishop of Rome, the Pope. The current structure features a 18th-century facade by Alessandro Galilei and 17th-century interior renovation by Borromini.",
+            photos: [],
+            entranceFee: "Free (Cloister: Paid)",
+            openingHours: "7:00 AM - 6:30 PM",
+            howToGetThere: "Metro Line A to San Giovanni.",
+            tips: "Don't miss the beautiful 13th-century cloister. Across the street is the Scala Sancta (Holy Stairs).",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "MAXXI",
+            localName: "MAXXI - Museo nazionale delle arti del XXI secolo",
+            category: .museum,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "National museum of contemporary art and architecture designed by Zaha Hadid.",
+            fullDescription: "MAXXI is Italy's first national museum dedicated to contemporary creativity. The building itself, designed by Zaha Hadid, is a masterpiece of fluid architecture characterized by curving walls and intersecting volumes. It hosts rotating exhibitions of 21st-century art and architecture.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "11:00 AM - 7:00 PM (Closed Mon)",
+            howToGetThere: "Tram 2 from Piazzale Flaminio.",
+            tips: "Check the exhibition schedule. The building's architecture is as impressive as the art.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Palazzo Barberini",
+            localName: "Gallerie Nazionali di Arte Antica",
+            category: .museum,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Grand Baroque palace housing a major collection of Renaissance art.",
+            fullDescription: "Palazzo Barberini is a 17th-century palace that houses part of the National Gallery of Ancient Art. Designed by Maderno, Borromini, and Bernini, it features a famous spiral staircase and grand frescoed ceilings. Highlights include Raphael's La Fornarina and Caravaggio's Judith Beheading Holofernes.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "10:00 AM - 6:00 PM (Closed Mon)",
+            howToGetThere: "Metro Line A to Barberini.",
+            tips: "Often less crowded than other major museums. Don't miss the Borromini helicoidal staircase.",
+            duration: "1.5-2 hours"
+        ),
+        Attraction(
+            name: "Villa Farnesina",
+            localName: "Villa Farnesina",
+            category: .museum,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Renaissance suburban villa famous for frescoes by Raphael.",
+            fullDescription: "Located in Trastevere, this Renaissance villa was built for the wealthy banker Agostino Chigi. It is renowned for its magnificent interior decoration, particularly the Loggia of Cupid and Psyche frescoed by Raphael and his workshop.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "10:00 AM - 2:00 PM (Closed Sun)",
+            howToGetThere: "Walk from Trastevere or Ponte Sisto.",
+            tips: "Open only in the mornings usually. A hidden gem for Raphael lovers.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Janiculum Hill",
+            localName: "Il Gianicolo",
+            category: .viewpoint,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Hill offering one of the best panoramic views of Rome.",
+            fullDescription: "Although not one of the ancient Seven Hills, the Janiculum offers arguably the best panorama of central Rome's domes and bell towers. At the top is a statue of Garibaldi. A cannon creates a loud boom every day at noon, a tradition dating back to 1847.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus 115 or 870.",
+            tips: "Go at noon for the cannon shot or at sunset for the view. Walk down into Trastevere afterwards.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Testaccio Neighborhood",
+            localName: "Rione Testaccio",
+            category: .neighborhood,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "A traditional working-class neighborhood known for authentic Roman food.",
+            fullDescription: "Testaccio is considered the culinary heart of Rome. Historically the site of the city's slaughterhouse, it is famous for 'quinto quarto' (offal) cuisine. The neighborhood is built around Monte Testaccio, an ancient artificial hill made of discarded olive oil amphorae.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Metro Line B to Piramide.",
+            tips: "Visit the Protestant Cemetery nearby. Eat Cacio e Pepe or Carbonara at a local trattoria.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Ponte Sant'Angelo",
+            localName: "Ponte Sant'Angelo",
+            category: .landmark,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "The 'Bridge of Angels' leading to Castel Sant'Angelo.",
+            fullDescription: "This ancient Roman bridge, originally built by Emperor Hadrian, was later adorned with ten angel statues designed by Bernini in the 17th century. It is one of Rome's most beautiful bridges, exclusively for pedestrians.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Walk from Piazza Navona towards Castel Sant'Angelo.",
+            tips: "Perfect for photography, especially with the castle in the background.",
+            duration: "30 minutes"
+        ),
+        Attraction(
+            name: "Via del Corso",
+            localName: "Via del Corso",
+            category: .shopping,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Rome's main shopping street stretching from Piazza del Popolo to Piazza Venezia.",
+            fullDescription: "Via del Corso is a long, straight street that forms the central axis of the historical center (Tridente). It is lined with high-street fashion brands, palaces, and churches, making it the city's primary shopping destination.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Shops usually 10:00 AM - 8:00 PM",
+            howToGetThere: "Metro A to Flaminio or Spagna.",
+            tips: "Very crowded on weekends. Pedestrianized in parts.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Via Condotti",
+            localName: "Via dei Condotti",
+            category: .shopping,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Rome's most exclusive luxury shopping street.",
+            fullDescription: "Via Condotti is the center of Rome's high fashion district. Beginning at the foot of the Spanish Steps, it is home to flagship stores of major Italian and international luxury brands like Gucci, Prada, and Bulgari. It also hosts the historic Antico Caffè Greco.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Shops usually 10:00 AM - 7:30 PM",
+            howToGetThere: "Metro A to Spagna.",
+            tips: "Even if you don't buy, window shopping here is an experience. Antico Caffè Greco is expensive but historic.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Monti Neighborhood",
+            localName: "Rione Monti",
+            category: .neighborhood,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Hip, vintage-loving neighborhood with narrow streets and artisans.",
+            fullDescription: "Monti is Rome's oldest rione (district), once a slum but now a trendy area filled with vintage shops, art galleries, and wine bars. Its central square, Piazza della Madonna dei Monti, is a popular local hang-out spot.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Metro B to Cavour.",
+            tips: "Great for aperitivo. Check out the Mercato Monti urban market on weekends.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Quartiere Coppedè",
+            localName: "Quartiere Coppedè",
+            category: .landmark,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "A bizarre and beautiful fantasy district of Art Nouveau architecture.",
+            fullDescription: "Not a true neighborhood but a small corner of Rome designed by architect Gino Coppedè in the 1920s. The architecture is a whimsical mix of Art Nouveau, medieval, Baroque, and ancient Greek styles, featuring fairy-tale towers, arches, and mosaics.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus or Tram 3 or 19 to Piazza Buenos Aires.",
+            tips: "Off the beaten path. The Fountain of the Frogs is the centerpiece.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "EUR District",
+            localName: "EUR (Esposizione Universale Roma)",
+            category: .neighborhood,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Modernist district built for a World Fair that never happened.",
+            fullDescription: "EUR represents Mussolini's vision for a new imperial Rome. Built for the 1942 World Fair (cancelled due to WWII), it is famous for its Rationalist architecture, including the 'Square Colosseum' (Palazzo della Civiltà Italiana). It feels largely different from the rest of Rome.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Metro Line B to EUR Magliana or EUR Fermi.",
+            tips: "Architecture buffs will love it. The Cloud (Nuvola) convention center by Fuksas is also here.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Ostia Antica",
+            localName: "Parco Archeologico di Ostia Antica",
+            category: .archaeological,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Ancient Rome's harbor city, remarkably well-preserved like Pompeii.",
+            fullDescription: "Ostia Antica was the harbor city of ancient Rome. The archaeological site is huge and excellently preserved, featuring mosaics, a theater, apartment blocks (insulae), and public baths. It offers a quieter, more shaded alternative to Pompeii, just a short train ride from Rome.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "8:30 AM - Sunset (Closed Mon)",
+            howToGetThere: "Train from Roma Porta San Paolo (Pyramid) to Ostia Antica.",
+            tips: "Bring water and comfortable shoes. It takes at least half a day.",
+            duration: "3-4 hours"
+        ),
+        Attraction(
+            name: "Tivoli Day Trip: Villa d'Este",
+            localName: "Villa d'Este",
+            category: .park,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Renaissance villa famous for its elaborate terraced water gardens.",
+            fullDescription: "Located in Tivoli, Villa d'Este is a masterpiece of the Italian Renaissance garden and a UNESCO World Heritage site. It is famous for its concentration of fountains, nymphs, grottoes, plays of water, and music, all gravity-driven.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "8:30 AM - Sunset (Closed Mon morning)",
+            howToGetThere: "Train to Tivoli or Bus from Ponte Mammolo.",
+            tips: "Combine with Hadrian's Villa. The Oval Fountain and Organ Fountain are highlights.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Tivoli Day Trip: Hadrian's Villa",
+            localName: "Villa Adriana",
+            category: .archaeological,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "The immense retreat estate of Emperor Hadrian.",
+            fullDescription: "Villa Adriana is a vast archaeological complex created for Emperor Hadrian. It was an imperial palace spread over 120 hectares, reproducing his favorite monuments from Greece and Egypt, such as the Canopus and Serapeum. It is a UNESCO World Heritage site.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "9:00 AM - Sunset",
+            howToGetThere: "Bus from Tivoli center or Rome.",
+            tips: "The Canopus pool is the most iconic spot. It's huge, so expect a lot of walking.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "National Gallery of Modern Art",
+            localName: "Galleria Nazionale d'Arte Moderna",
+            category: .museum,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Italy's largest collection of 19th and 20th-century art.",
+            fullDescription: "Located near Villa Borghese, the GNAM houses the largest collection of Italian modern art (19th-20th centuries), along with works by foreign artists like Van Gogh, Monet, and Klimt. The neo-classical building is impressive.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "9:00 AM - 7:00 PM (Closed Mon)",
+            howToGetThere: "Tram 3 or 19 to Galleria Arte Moderna.",
+            tips: "Great for fans of Canova, Klimt, and Modigliani. Quiet compared to Vatican museums.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Mercato di Testaccio",
+            localName: "Mercato di Testaccio",
+            category: .experience,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Modern covered market with gourmet street food stalls.",
+            fullDescription: "This modern, glass-roofed market is a foodie paradise. It houses traditional produce stalls alongside gourmet street food stands selling Roman classics like panini with tripe, fresh pasta, and craft beer.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "7:00 AM - 3:30 PM (Closed Sun)",
+            howToGetThere: "Metro B to Piramide.",
+            tips: "Go for lunch. Mordi e Vai is famous for its meat sandwiches.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Porta Portese Market",
+            localName: "Mercato di Porta Portese",
+            category: .shopping,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Rome's largest and most famous Sunday flea market.",
+            fullDescription: "Every Sunday morning, this massive street market takes over Trastevere and Portuense. It stretches for over a kilometer and sells everything from antique furniture and vintage clothes to new junk, books, and bike parts.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Sunday only, 6:00 AM - 2:00 PM",
+            howToGetThere: "Tram 3 or 8 to Trastevere.",
+            tips: "Watch your wallet (pickpockets). Bargaining is necessary. Go early (8 AM) to avoid the crush.",
+            duration: "1-3 hours"
+        ),
+        Attraction(
+            name: "Stadio Olimpico",
+            localName: "Stadio Olimpico",
+            category: .stadium,
+            latitude: 41.9028, // Placeholder
+            longitude: 12.4964, // Placeholder
+            city: "Rome",
+            country: "Italy",
+            shortDescription: "Rome's main stadium, home to AS Roma and SS Lazio.",
+            fullDescription: "The Stadio Olimpico is the largest sports facility in Rome, located within the Foro Italico sports complex. It hosted the 1960 Olympics and the 1990 World Cup final. It is the shared home ground of Serie A clubs AS Roma and Lazio. Tours are available.",
+            photos: [],
+            entranceFee: "Paid (Tours)",
+            openingHours: "Check locally for tours",
+            howToGetThere: "Tram 2 from Flaminio to Mancini, then cross bridge.",
+            tips: "The area outside features impressive Fascist-era mosaics and statues. Catching a match here is intense.",
+            duration: "1-2 hours"
+        ),

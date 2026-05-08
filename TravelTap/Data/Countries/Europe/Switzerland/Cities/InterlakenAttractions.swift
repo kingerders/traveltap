@@ -1,0 +1,341 @@
+import Foundation
+import CoreLocation
+
+struct InterlakenAttractions {
+    
+    static let city = City(
+        name: "Interlaken",
+        localName: "Interlaken",
+        latitude: 46.6863481,
+        longitude: 7.863204899999999,
+        description: "Experience the unique beauty of Interlaken, Switzerland.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+
+        Attraction(
+            name: "Höheweg Promenade",
+            localName: "Höheweg",
+            category: .landmark,
+            latitude: 46.6881475,
+            longitude: 7.8619263,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Höheweg Promenade in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "30 minutes - 1 hour"
+        ),
+
+        Attraction(
+            name: "Harder Kulm",
+            localName: "Harder Kulm",
+            category: .viewpoint,
+            latitude: 46.6973247,
+            longitude: 7.851655999999999,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Harder Kulm in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free or low cost",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "30 minutes - 1 hour"
+        ),
+
+        Attraction(
+            name: "Harder Kulm Funicular",
+            localName: "Harderbahn",
+            category: .landmark,
+            latitude: 46.6973773,
+            longitude: 7.8517751,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Harder Kulm Funicular in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Two Lakes View",
+            localName: "Zweisee-Aussicht",
+            category: .viewpoint,
+            latitude: 46.6889085,
+            longitude: 7.897709099999999,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Two Lakes View in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free or low cost",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "30 minutes - 1 hour"
+        ),
+
+        Attraction(
+            name: "Lake Thun",
+            localName: "Thunersee",
+            category: .park,
+            latitude: 46.6958354,
+            longitude: 7.7212158,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Lake Thun in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Lake Brienz",
+            localName: "Brienzersee",
+            category: .park,
+            latitude: 46.72674259999999,
+            longitude: 7.9674729,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Lake Brienz in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Unterseen Old Town",
+            localName: "Unterseen Altstadt",
+            category: .neighborhood,
+            latitude: 46.6852116,
+            longitude: 7.848157400000001,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Unterseen Old Town in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Interlaken Castle",
+            localName: "Schloss Interlaken",
+            category: .castle,
+            latitude: 46.6870208,
+            longitude: 7.863799599999998,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Interlaken Castle in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "9:00 AM - 5:00 PM",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Paragliding",
+            localName: "Paragliding Interlaken",
+            category: .experience,
+            latitude: 46.6882584,
+            longitude: 7.8620516,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Paragliding in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Jungfraujoch",
+            localName: "Jungfraujoch",
+            category: .landmark,
+            latitude: 46.5482766,
+            longitude: 7.9806434,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Jungfraujoch in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "30 minutes - 1 hour"
+        ),
+
+        Attraction(
+            name: "Top of Europe",
+            localName: "Top of Europe",
+            category: .viewpoint,
+            latitude: 46.6858502,
+            longitude: 7.8563402,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Top of Europe in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free or low cost",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "30 minutes - 1 hour"
+        ),
+
+        Attraction(
+            name: "Sphinx Observatory",
+            localName: "Sphinx-Observatorium",
+            category: .viewpoint,
+            latitude: 46.5475581,
+            longitude: 7.9852246,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Sphinx Observatory in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free or low cost",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "30 minutes - 1 hour"
+        ),
+
+        Attraction(
+            name: "Ice Palace",
+            localName: "Eispalast",
+            category: .experience,
+            latitude: 46.5475609,
+            longitude: 7.9817699,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Ice Palace in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Jungfrau Railway",
+            localName: "Jungfraubahn",
+            category: .landmark,
+            latitude: 46.6863481,
+            longitude: 7.863204899999999,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Jungfrau Railway in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Schynige Platte",
+            localName: "Schynige Platte",
+            category: .viewpoint,
+            latitude: 46.655173,
+            longitude: 7.9080771,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Schynige Platte in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free or low cost",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "30 minutes - 1 hour"
+        ),
+
+        Attraction(
+            name: "Alpine Garden",
+            localName: "Alpengarten",
+            category: .garden,
+            latitude: 46.6534747,
+            longitude: 7.9114853,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Alpine Garden in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Paid or free",
+            openingHours: "8:00 AM - 6:00 PM",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "St. Beatus Caves",
+            localName: "St. Beatus-Höhlen",
+            category: .park,
+            latitude: 46.68490269999999,
+            longitude: 7.7812703,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "St. Beatus Caves in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        ),
+
+        Attraction(
+            name: "Mystery Park",
+            localName: "Jungfrau Park",
+            category: .amusement,
+            latitude: 46.681925,
+            longitude: 7.877980600000001,
+            city: "Interlaken",
+            country: "Switzerland",
+            shortDescription: "Mystery Park in Interlaken, Switzerland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Check locally",
+            openingHours: "Check locally",
+            howToGetThere: "Check local transportation options",
+            tips: "Check current conditions before visiting",
+            duration: "1-2 hours"
+        )
+    ]
+}

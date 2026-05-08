@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct EssaouiraAttractions {
+    static let city = City(
+        name: "Essaouira",
+        localName: "Mogador",
+        latitude: 31.5085,
+        longitude: -9.7595,
+        description: "A windy Atlantic port town with a charming medina, vibrant arts scene, and excellent fresh seafood.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Essaouira Medina",
+            localName: "Medina",
+            category: .landmark,
+            latitude: 31.5125,
+            longitude: -9.7700,
+            city: "Essaouira",
+            country: "Morocco",
+            shortDescription: "Windy city.",
+            fullDescription: "A charming coastal fortified town known for fresh seafood, wind, and relaxed medina.",
+            photos: ["essaouira_medina"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City center.",
+            tips: "Buy argan oil.",
+            duration: "3 hours"
+        ),
+        Attraction(
+            name: "Essaouira Beach",
+            localName: "Plage",
+            category: .beach,
+            latitude: 31.5000,
+            longitude: -9.7667,
+            city: "Essaouira",
+            country: "Morocco",
+            shortDescription: "Kitesurfing hub.",
+            fullDescription: "A wide, sandy beach famous for its strong trade winds, making it a world-class destination for kitesurfing.",
+            photos: ["essaouira_beach"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Walk from Medina.",
+            tips: "Windy.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Skala de la Ville",
+            localName: "The Ramparts",
+            category: .landmark,
+            latitude: 31.5133,
+            longitude: -9.7728,
+            city: "Essaouira",
+            country: "Morocco",
+            shortDescription: "Sea walls.",
+            fullDescription: "Historic sea-facing ramparts lined with old Portuguese brass cannons. Game of Thrones filming location.",
+            photos: ["skala_de_la_ville"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "North Medina.",
+            tips: "Sunset ocean view.",
+            duration: "45 mins"
+        ),
+        Attraction(
+            name: "Skala du Port",
+            localName: "Port Bastion",
+            category: .landmark,
+            latitude: 31.5083,
+            longitude: -9.7750,
+            city: "Essaouira",
+            country: "Morocco",
+            shortDescription: "Harbour view.",
+            fullDescription: "The fortress protecting the fishing port. Offers the classic view of the white medina through a round window.",
+            photos: ["skala_du_port"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Port entrance.",
+            tips: "Best photo spot.",
+            duration: "30 mins"
+        ),
+        Attraction(
+            name: "Moulay Hassan Square",
+            localName: "Place Moulay Hassan",
+            category: .landmark,
+            latitude: 31.5117,
+            longitude: -9.7708,
+            city: "Essaouira",
+            country: "Morocco",
+            shortDescription: "Main plaza.",
+            fullDescription: "The lively main square between the port and the medina, filled with cafes and street musicians.",
+            photos: ["moulay_hassan_square"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Center.",
+            tips: "Cafe de France.",
+            duration: "30 mins"
+        ),
+        Attraction(
+            name: "Fish Market",
+            localName: "The Port",
+            category: .shopping,
+            latitude: 31.5089,
+            longitude: -9.7742,
+            city: "Essaouira",
+            country: "Morocco",
+            shortDescription: "Blue boats.",
+            fullDescription: "A bustling traditional fishing port famous for its blue wooden boats and fresh daily catch.",
+            photos: ["essaouira_fish_market"],
+            entranceFee: "Free",
+            openingHours: "Morning",
+            howToGetThere: "Port.",
+            tips: "Grill fish nearby.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Sidi Mohammed Ben Abdallah Museum",
+            localName: "The Museum",
+            category: .museum,
+            latitude: 31.5128,
+            longitude: -9.7703,
+            city: "Essaouira",
+            country: "Morocco",
+            shortDescription: "Regional history.",
+            fullDescription: "A museum located in a 19th-century mansion, showcasing musical instruments, jewelry, and weapons.",
+            photos: ["sidi_mohammed_museum"],
+            entranceFee: "Entry fee",
+            openingHours: "Tue-Sun",
+            howToGetThere: "Rue Laalouj.",
+            tips: "Gnawa culture.",
+            duration: "45 mins"
+        )
+    ]
+}

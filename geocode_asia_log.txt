@@ -1,0 +1,147 @@
+======================================================================
+Google Geocoding Script for All Asian Countries' Attractions
+Precision: 6 decimal places (at most ~10 meters accuracy)
+======================================================================
+
+============================================================
+📌 Processing CentralAsia
+============================================================
+
+📍 AktauAttractions.swift (Aktau, Kazakhstan)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Aktau' [low precision (43.6, 51.833)]...
+  ✓ MATCH: Aktau, Aktau, Kazakhstan -> (43.671863, 51.212051) [⚠ Approximate]
+  ✅ Updated 1 attractions in AktauAttractions.swift
+
+📍 PavlodarAttractions.swift (Pavlodar, Kazakhstan)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Pavlodar' [low precision (50.8, 75.666)]...
+  ✓ MATCH: Pavlodar, Pavlodar, Kazakhstan -> (52.287303, 76.967402) [⚠ Approximate]
+  ✅ Updated 1 attractions in PavlodarAttractions.swift
+
+📍 ShymkentAttractions.swift (Shymkent, Kazakhstan)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Shymkent' [low precision (42.3, 70.666)]...
+  ✓ MATCH: Shymkent, Shymkent, Kazakhstan -> (42.320534, 69.58763) [⚠ Approximate]
+  ✅ Updated 1 attractions in ShymkentAttractions.swift
+
+============================================================
+📌 Processing EastAsia
+============================================================
+
+📍 ZhangjiajieAttractions.swift (Zhangjiajie, China)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Zhangjiajie' [low precision (29.117, 110.479)]...
+  ✓ MATCH: Zhangjiajie, Zhangjiajie, China -> (29.11667, 110.47839) [⚠ Approximate]
+  ✅ Updated 1 attractions in ZhangjiajieAttractions.swift
+
+📍 LantauAttractions.swift (Lantau Island, Hong Kong)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Lantau Island' [low precision (22.313, 114.041)]...
+  ✓ MATCH: Lantau Island, Lantau Island, Hong Kong -> (22.247847, 113.917959) [⚠ Approximate]
+  ✅ Updated 1 attractions in LantauAttractions.swift
+
+📍 KamakuraAttractions.swift (Kamakura, Japan)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Kamakura' [low precision (35.326, 139.556)]...
+  ✓ MATCH: Kamakura, Kamakura, Japan -> (35.319213, 139.546673) [⚠ Approximate]
+  ✅ Updated 1 attractions in KamakuraAttractions.swift
+
+📍 TokyoAttractions.swift (Tokyo, Japan)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Tokyo' [low precision (35.71, 139.810)]...
+  ✓ MATCH: Tokyo, Tokyo, Japan -> (35.676423, 139.650027) [⚠ Approximate]
+  ✅ Updated 1 attractions in TokyoAttractions.swift
+
+📍 TaipeiAttractions.swift (Taipei, Taiwan)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Taipei' [low precision (25.04, 121.511)]...
+  ✓ MATCH: Taipei, Taipei, Taiwan -> (25.032969, 121.565418) [⚠ Approximate]
+  ✅ Updated 1 attractions in TaipeiAttractions.swift
+
+============================================================
+📌 Processing MiddleEast
+============================================================
+
+============================================================
+📌 Processing SouthAsia
+============================================================
+
+📍 GaafuAlifuAtollAttractions.swift (Gaafu Alifu Atoll, Maldives)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Gaafu Alifu Atoll' [low precision (0.5, 73.166)]...
+  ✓ MATCH: Gaafu Alifu Atoll, Gaafu Alifu Atoll, Maldives -> (0.612481, 73.323708) [⚠ Approximate]
+  ✅ Updated 1 attractions in GaafuAlifuAtollAttractions.swift
+
+📍 MaleAttractions.swift (Malé, Maldives)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Malé' [low precision (4.173, 73.525)]...
+  ✓ MATCH: Malé, Malé, Maldives -> (4.175271, 73.509117) [⚠ Approximate]
+  ✅ Updated 1 attractions in MaleAttractions.swift
+
+📍 NorthMaleAtollAttractions.swift (North Malé Atoll, Maldives)
+   - 2 attractions with low precision (< 4 decimals)
+  Geocoding 'Baiyoke Sky Hotel Reef' [low precision (4.6, 73.366)]...
+  ✓ MATCH: Baiyoke Sky Hotel Reef, North Malé Atoll, Maldives -> (4.416667, 73.5) [⚠ Approximate]
+  Geocoding 'North Malé Atoll' [low precision (4.225, 73.516)]...
+  ✓ MATCH: North Malé Atoll, North Malé Atoll, Maldives -> (4.416667, 73.5) [⚠ Approximate]
+  ✅ Updated 2 attractions in NorthMaleAtollAttractions.swift
+
+📍 SouthMaleAtollAttractions.swift (South Malé Atoll, Maldives)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'South Malé Atoll' [low precision (4.0, 73.4)]...
+  ✓ MATCH: South Malé Atoll, South Malé Atoll, Maldives -> (3.95, 73.416667) [⚠ Approximate]
+  ✅ Updated 1 attractions in SouthMaleAtollAttractions.swift
+
+📍 SigiriyaAttractions.swift (Sigiriya, Sri Lanka)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Sigiriya' [low precision (7.957, 80.760)]...
+  ✓ MATCH: Sigiriya, Sigiriya, Sri Lanka -> (7.945563, 80.761577) [⚠ Approximate]
+  ✅ Updated 1 attractions in SigiriyaAttractions.swift
+
+============================================================
+📌 Processing SoutheastAsia
+============================================================
+
+📍 KampotAttractions.swift (Kampot, Cambodia)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Kampot' [low precision (10.48, 104.293)]...
+  ✓ MATCH: Kampot, Kampot, Cambodia -> (10.605642, 104.171364) [⚠ Approximate]
+  ✅ Updated 1 attractions in KampotAttractions.swift
+
+📍 DumagueteAttractions.swift (Dumaguete, Philippines)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Dumaguete' [low precision (9.35, 123.183)]...
+  ✓ MATCH: Dumaguete, Dumaguete, Philippines -> (9.298409, 123.292486) [⚠ Approximate]
+  ✅ Updated 1 attractions in DumagueteAttractions.swift
+
+📍 SingaporeAttractions.swift (Singapore, Singapore)
+   - 5 attractions with low precision (< 4 decimals)
+  Geocoding 'Jewel Changi Airport' [low precision (1.276, 103.815)]...
+  ✓ MATCH: Jewel Changi Airport, Singapore, Singapore -> (1.360209, 103.98976) [Precision: GEOMETRIC_CENTER]
+  Geocoding 'MacRitchie Reservoir' [low precision (1.304, 103.831)]...
+  ✓ MATCH: MacRitchie Reservoir, Singapore, Singapore -> (1.344762, 103.822351) [⚠ Approximate]
+  Geocoding 'S.E.A. Aquarium' [low precision (1.315, 103.815)]...
+  ✓ MATCH: S.E.A. Aquarium, Singapore, Singapore -> (1.258321, 103.820515) [Precision: ROOFTOP]
+  Geocoding 'Merlion Park' [low precision (1.254, 103.823)]...
+  ✓ MATCH: Merlion Park, Singapore, Singapore -> (1.286745, 103.854387) [Precision: ROOFTOP]
+  Geocoding 'Singapore' [low precision (1.285, 103.864)]...
+  ✓ MATCH: Singapore, Singapore, Singapore -> (1.352083, 103.819836) [⚠ Approximate]
+  ✅ Updated 5 attractions in SingaporeAttractions.swift
+
+📍 HaLongBayAttractions.swift (Ha Long Bay, Vietnam)
+   - 1 attractions with low precision (< 4 decimals)
+  Geocoding 'Ha Long Bay' [low precision (20.9, 107.116)]...
+  ✓ MATCH: Ha Long Bay, Ha Long Bay, Vietnam -> (20.910051, 107.183902) [⚠ Approximate]
+  ✅ Updated 1 attractions in HaLongBayAttractions.swift
+
+======================================================================
+📊 GEOCODING SUMMARY
+======================================================================
+  Files processed:       17
+  Attractions found:     22
+  Successfully geocoded: 22
+  Failed to geocode:     0
+  Total coordinates updated: 22
+======================================================================
+✅ Geocoding complete!

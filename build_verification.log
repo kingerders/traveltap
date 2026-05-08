@@ -1,0 +1,1473 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project /Users/erders/Documents/TravelTap/TravelTap.xcodeproj -scheme TravelTap -configuration Debug -destination "generic/platform=iOS Simulator" clean build
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+** CLEAN SUCCEEDED **
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'TravelTap' in project 'TravelTap' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: eb302f839d429c974f7884b87eaa5b9b
+Build description path: /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/XCBuildData/eb302f839d429c974f7884b87eaa5b9b.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk /Users/erders/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C53-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -o /Users/erders/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C53-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache
+
+CreateBuildDirectory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    builtin-create-build-directory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    builtin-create-build-directory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products
+
+CreateBuildDirectory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    builtin-create-build-directory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    builtin-create-build-directory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    builtin-create-build-directory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    builtin-create-build-directory /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap-28cabccc476c4ac6153fbbf682269b5c-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/erders/Documents/TravelTap/TravelTap.xcodeproj
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap-28cabccc476c4ac6153fbbf682269b5c-VFS-iphonesimulator/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-generated-files.hmap (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-generated-files.hmap
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-all-non-framework-target-headers.hmap (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibPath-normal-x86_64.txt (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibPath-normal-arm64.txt (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.hmap (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.hmap
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibInstallName-normal-x86_64.txt (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibInstallName-normal-arm64.txt (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.DependencyStaticMetadataFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-all-target-headers.hmap (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-own-target-headers.hmap (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-project-headers.hmap (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-project-headers.hmap
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.DependencyMetadataFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap_const_extract_protocols.json (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.SwiftFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.SwiftFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.SwiftConstValuesFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.LinkFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.LinkFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap-OutputFileMap.json (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.SwiftFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.SwiftFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap-OutputFileMap.json (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap_const_extract_protocols.json (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.SwiftConstValuesFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.LinkFileList (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.LinkFileList
+
+WriteAuxiliaryFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/Entitlements-Simulated.plist (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    write-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/Entitlements-Simulated.plist
+
+MkDir /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /bin/mkdir -p /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app
+
+ProcessProductPackaging /Users/erders/Documents/TravelTap/TravelTap/TravelTap.entitlements /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app.xcent (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+    Entitlements:
+    
+    {
+}
+    
+    builtin-productPackagingUtility /Users/erders/Documents/TravelTap/TravelTap/TravelTap.entitlements -entitlements -format xml -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app.xcent
+
+ProcessProductPackaging /Users/erders/Documents/TravelTap/TravelTap/TravelTap.entitlements /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "428Z7G6L5F.com.erders.traveltap.app";
+    "com.apple.developer.icloud-container-identifiers" =     (
+        "iCloud.com.erders.TravelTap"
+    );
+    "com.apple.developer.icloud-services" =     (
+        CloudKit
+    );
+}
+    
+    builtin-productPackagingUtility /Users/erders/Documents/TravelTap/TravelTap/TravelTap.entitlements -entitlements -format xml -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent
+
+ProcessProductPackagingDER /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app.xcent /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app.xcent.der (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /usr/bin/derq query -f xml -i /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app.xcent -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app.xcent.der --raw
+
+ProcessProductPackagingDER /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent.der (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /usr/bin/derq query -f xml -i /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent.der --raw
+
+GenerateAssetSymbols /Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets --compile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_dependencies --output-partial-info-plist /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier com.erders.traveltap.app --generate-swift-asset-symbols /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.document.warnings */
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./SplashLogo.imageset/(null)[2d][SplashLogo.png]: warning: The image set "SplashLogo" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./AppIcon.appiconset/(null)[2d][AppIcon.png]: warning: The app icon set "AppIcon" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./SplashLogo.imageset/(null)[2d][SplashLogo.png]: warning: The image set "SplashLogo" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./AppIcon.appiconset/(null)[2d][AppIcon.png]: warning: The app icon set "AppIcon" has an unassigned child.
+/* com.apple.actool.compilation-results */
+/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CpResource /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/Quicksand-Bold.ttf /Users/erders/Documents/TravelTap/TravelTap/Fonts/Quicksand-Bold.ttf (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erders/Documents/TravelTap/TravelTap/Fonts/Quicksand-Bold.ttf /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app
+
+CpResource /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/Quicksand-Medium.ttf /Users/erders/Documents/TravelTap/TravelTap/Fonts/Quicksand-Medium.ttf (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erders/Documents/TravelTap/TravelTap/Fonts/Quicksand-Medium.ttf /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app
+
+Ld /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -L/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -F/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -install_name @rpath/TravelTap.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+Ld /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -O0 -L/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -F/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -install_name @rpath/TravelTap.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/Binary/__preview.dylib
+
+MkDir /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/unthinned (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /bin/mkdir -p /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/unthinned
+
+MkDir /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/thinned (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /bin/mkdir -p /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/thinned
+
+CompileAssetCatalogVariant thinned /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app /Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets --compile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator
+/* com.apple.actool.document.warnings */
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./AppIcon.appiconset/(null)[2d][AppIcon.png]: warning: The app icon set "AppIcon" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./SplashLogo.imageset/(null)[2d][SplashLogo.png]: warning: The image set "SplashLogo" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./AppIcon.appiconset: warning: A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./AppIcon.appiconset: warning: A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./AppIcon.appiconset/(null)[2d][AppIcon.png]: warning: The app icon set "AppIcon" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./SplashLogo.imageset/(null)[2d][SplashLogo.png]: warning: The image set "SplashLogo" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./AppIcon.appiconset/(null)[2d][AppIcon.png]: warning: The app icon set "AppIcon" has an unassigned child.
+/Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets:./SplashLogo.imageset/(null)[2d][SplashLogo.png]: warning: The image set "SplashLogo" has an unassigned child.
+/* com.apple.actool.compilation-results */
+/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_generated_info.plist_thinned
+/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/thinned/Assets.car
+
+
+CreateUniversalBinary /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/__preview.dylib normal arm64\ x86_64 (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/Binary/__preview.dylib /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/__preview.dylib
+
+SwiftDriver TravelTap normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TravelTap -Onone -enforce-exclusivity\=checked @/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -F /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64 -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C53-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache -output-file-map /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap_const_extract_protocols.json -Xcc -iquote -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-generated-files.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-own-target-headers.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-all-target-headers.hmap -Xcc -iquote -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-project-headers.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources-normal/x86_64 -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/x86_64 -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/x86_64/TravelTap-Swift.h -working-directory /Users/erders/Documents/TravelTap -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver TravelTap normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TravelTap -Onone -enforce-exclusivity\=checked @/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -F /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64 -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C53-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache -output-file-map /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap_const_extract_protocols.json -Xcc -iquote -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-generated-files.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-own-target-headers.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-all-target-headers.hmap -Xcc -iquote -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-project-headers.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources-normal/arm64 -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/arm64 -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap-Swift.h -working-directory /Users/erders/Documents/TravelTap -experimental-emit-module-separately -disable-cmo
+
+LinkAssetCatalog /Users/erders/Documents/TravelTap/TravelTap/Assets.xcassets (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    builtin-linkAssetCatalog --thinned /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/thinned --thinned-dependencies /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_generated_info.plist_unthinned --output /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app --plist-output /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/AppIcon60x60@2x.png (in target 'TravelTap' from project 'TravelTap')
+note: Emplaced /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/Assets.car (in target 'TravelTap' from project 'TravelTap')
+
+ProcessInfoPlistFile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/Info.plist /Users/erders/Documents/TravelTap/TravelTap/Info.plist (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    builtin-infoPlistUtility /Users/erders/Documents/TravelTap/TravelTap/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/assetcatalog_generated_info.plist -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/TravelTap.app/Info.plist
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Photos-74NLY0IX99GVCPW3BCAWB7W6V.pcm
+
+SwiftCompile normal arm64 Compiling\ EnnediOuniangaAttractions.swift,\ LakeChadAttractions.swift,\ NDjamenaAttractions.swift,\ SouthernChadAttractions.swift,\ TibestiAttractions.swift,\ ZakoumaAttractions.swift,\ CentralBasinAttractions.swift,\ DRCNorthEastAttractions.swift,\ KatangaAttractions.swift,\ KinshasaWestAttractions.swift,\ NorthKivuAttractions.swift,\ SouthKivuAttractions.swift,\ DRCPackage.swift,\ BataAttractions.swift,\ BiokoIslandAttractions.swift,\ EquatorialGuineaIslandsAttractions.swift,\ MalaboAttractions.swift,\ NationalParksAttractions.swift,\ RioMuniAttractions.swift,\ EquatorialGuineaPackage.swift,\ GabonInteriorAttractions.swift,\ GabonNationalParksAttractions.swift,\ LibrevilleAttractions.swift,\ PortGentilCoastalAttractions.swift,\ GabonPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/EnnediOuniangaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/LakeChadAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/NDjamenaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/SouthernChadAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/TibestiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/ZakoumaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/CentralBasinAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/DRCNorthEastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/KatangaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/KinshasaWestAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/NorthKivuAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/SouthKivuAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/DRCPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/BataAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/BiokoIslandAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/EquatorialGuineaIslandsAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/MalaboAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/NationalParksAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/RioMuniAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/EquatorialGuineaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/GabonInteriorAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/GabonNationalParksAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/LibrevilleAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/PortGentilCoastalAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/GabonPackage.swift (in target 'TravelTap' from project 'TravelTap')
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/EnnediOuniangaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/LakeChadAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/NDjamenaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/SouthernChadAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/TibestiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/Cities/ZakoumaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/CentralBasinAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/DRCNorthEastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/KatangaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/KinshasaWestAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/NorthKivuAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/Cities/SouthKivuAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/DRC/DRCPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/BataAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/BiokoIslandAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/EquatorialGuineaIslandsAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/MalaboAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/NationalParksAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/Cities/RioMuniAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/EquatorialGuinea/EquatorialGuineaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/GabonInteriorAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/GabonNationalParksAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/LibrevilleAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/Cities/PortGentilCoastalAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Gabon/GabonPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ TravelStatsCardView.swift,\ AngolaPackage.swift,\ BenguelaAttractions.swift,\ HuilaAttractions.swift,\ KwanzaNorteAttractions.swift,\ LuandaAttractions.swift,\ MalanjeAttractions.swift,\ MbanzaKongoAttractions.swift,\ MoxicoAttractions.swift,\ NamibeAttractions.swift,\ CameroonPackage.swift,\ DoualaAttractions.swift,\ NorthAttractions.swift,\ SouthAttractions.swift,\ SouthWestAttractions.swift,\ WestNorthWestAttractions.swift,\ YaoundeAttractions.swift,\ CentralAfricanRepublicPackage.swift,\ BanguiAttractions.swift,\ BoaliAttractions.swift,\ CentralCARAttractions.swift,\ DzangaSanghaAttractions.swift,\ NorthernParksAttractions.swift,\ SouthEastAttractions.swift,\ ChadPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Views/TravelStatsCardView.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/AngolaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/BenguelaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/HuilaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/KwanzaNorteAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/LuandaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/MalanjeAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/MbanzaKongoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/MoxicoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/NamibeAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/CameroonPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/DoualaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/NorthAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/SouthAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/SouthWestAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/WestNorthWestAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/YaoundeAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/CentralAfricanRepublicPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/BanguiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/BoaliAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/CentralCARAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/DzangaSanghaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/NorthernParksAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/SouthEastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/ChadPackage.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/TravelStatsCardView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/AngolaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/BenguelaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/HuilaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/KwanzaNorteAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/LuandaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/MalanjeAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/MbanzaKongoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/MoxicoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Angola/Cities/NamibeAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/CameroonPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/DoualaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/NorthAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/SouthAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/SouthWestAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/WestNorthWestAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Cameroon/Cities/YaoundeAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/CentralAfricanRepublicPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/BanguiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/BoaliAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/CentralCARAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/DzangaSanghaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/NorthernParksAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/CentralAfricanRepublic/Cities/SouthEastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/Chad/ChadPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ BrazzavilleAttractions.swift,\ NorthernCongoAttractions.swift,\ PointeNoireAttractions.swift,\ SouthernCongoAttractions.swift,\ RepublicoftheCongoPackage.swift,\ PrincipeAttractions.swift,\ SaoTomeCityAttractions.swift,\ SaoTomeNorthCentralAttractions.swift,\ SaoTomeSouthEastAttractions.swift,\ SaoTomeandPrincipePackage.swift,\ BurundiPackage.swift,\ BujumburaAttractions.swift,\ GitegaCentralAttractions.swift,\ NorthernBurundiAttractions.swift,\ SouthernBurundiAttractions.swift,\ AnjouanAttractions.swift,\ GrandeComoreAttractions.swift,\ MoheliAttractions.swift,\ ComorosPackage.swift,\ DjiboutiCityBeachesAttractions.swift,\ DjiboutiSouthWestAttractions.swift,\ TadjouraNorthAttractions.swift,\ DjiboutiPackage.swift,\ AsmaraAttractions.swift,\ KerenHighlandsAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/BrazzavilleAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/NorthernCongoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/PointeNoireAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/SouthernCongoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/RepublicoftheCongoPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/PrincipeAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/SaoTomeCityAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/SaoTomeNorthCentralAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/SaoTomeSouthEastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/SaoTomeandPrincipePackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/BurundiPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/BujumburaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/GitegaCentralAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/NorthernBurundiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/SouthernBurundiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/Cities/AnjouanAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/Cities/GrandeComoreAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/Cities/MoheliAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/ComorosPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/Cities/DjiboutiCityBeachesAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/Cities/DjiboutiSouthWestAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/Cities/TadjouraNorthAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/DjiboutiPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Eritrea/Cities/AsmaraAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Eritrea/Cities/KerenHighlandsAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/BrazzavilleAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/NorthernCongoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/PointeNoireAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/Cities/SouthernCongoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/RepublicoftheCongo/RepublicoftheCongoPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/PrincipeAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/SaoTomeCityAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/SaoTomeNorthCentralAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/Cities/SaoTomeSouthEastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/CentralAfrica/SaoTomeandPrincipe/SaoTomeandPrincipePackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/BurundiPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/BujumburaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/GitegaCentralAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/NorthernBurundiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Burundi/Cities/SouthernBurundiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/Cities/AnjouanAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/Cities/GrandeComoreAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/Cities/MoheliAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Comoros/ComorosPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/Cities/DjiboutiCityBeachesAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/Cities/DjiboutiSouthWestAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/Cities/TadjouraNorthAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Djibouti/DjiboutiPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Eritrea/Cities/AsmaraAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Eritrea/Cities/KerenHighlandsAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ TravelTapApp.swift,\ ContentView.swift,\ Attraction.swift,\ CountryPackage.swift,\ AttractionData.swift,\ WorldMapView.swift,\ TravelMapView.swift,\ CountryMapView.swift,\ AttractionInfoCard.swift,\ AttractionDetailView.swift,\ CityMapView.swift,\ MapAnnotationView.swift,\ RatingManager.swift,\ GooglePlacesManager.swift,\ TierVoteManager.swift,\ BrandColors.swift,\ StarRatingView.swift,\ ShareSheet.swift,\ VisitedAttractionsManager.swift,\ BucketListView.swift,\ SplashScreenView.swift,\ WelcomeView.swift,\ AttractionsListView.swift,\ BucketListCityView.swift,\ AppInfoView.swift /Users/erders/Documents/TravelTap/TravelTap/TravelTapApp.swift /Users/erders/Documents/TravelTap/TravelTap/ContentView.swift /Users/erders/Documents/TravelTap/TravelTap/Models/Attraction.swift /Users/erders/Documents/TravelTap/TravelTap/Models/CountryPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/AttractionData.swift /Users/erders/Documents/TravelTap/TravelTap/Views/WorldMapView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/TravelMapView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/CountryMapView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/AttractionInfoCard.swift /Users/erders/Documents/TravelTap/TravelTap/Views/AttractionDetailView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/CityMapView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/MapAnnotationView.swift /Users/erders/Documents/TravelTap/TravelTap/Services/RatingManager.swift /Users/erders/Documents/TravelTap/TravelTap/Services/GooglePlacesManager.swift /Users/erders/Documents/TravelTap/TravelTap/Services/TierVoteManager.swift /Users/erders/Documents/TravelTap/TravelTap/Services/BrandColors.swift /Users/erders/Documents/TravelTap/TravelTap/Views/StarRatingView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/ShareSheet.swift /Users/erders/Documents/TravelTap/TravelTap/Services/VisitedAttractionsManager.swift /Users/erders/Documents/TravelTap/TravelTap/Views/BucketListView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/SplashScreenView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/WelcomeView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/AttractionsListView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/BucketListCityView.swift /Users/erders/Documents/TravelTap/TravelTap/Views/AppInfoView.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/TravelTapApp.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/ContentView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Models/Attraction.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Models/CountryPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/AttractionData.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/WorldMapView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/TravelMapView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/CountryMapView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/AttractionInfoCard.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/AttractionDetailView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/CityMapView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/MapAnnotationView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Services/RatingManager.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Services/GooglePlacesManager.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Services/TierVoteManager.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Services/BrandColors.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/StarRatingView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/ShareSheet.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Services/VisitedAttractionsManager.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/BucketListView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/SplashScreenView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/WelcomeView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/AttractionsListView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/BucketListCityView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Views/AppInfoView.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ KhajurahoAttractions.swift,\ KolkataAttractions.swift,\ LadakhAttractions.swift,\ MumbaiAttractions.swift,\ MysoreAttractions.swift,\ RishikeshAttractions.swift,\ UdaipurAttractions.swift,\ VaranasiAttractions.swift,\ IndiaPackage.swift,\ AdduAtollAttractions.swift,\ AriAtollAttractions.swift,\ BaaAtollAttractions.swift,\ MaleAttractions.swift,\ NorthMaleAtollAttractions.swift,\ MaldivesPackage.swift,\ AnnapurnaAttractions.swift,\ ChitwanAttractions.swift,\ EverestRegionAttractions.swift,\ KathmanduAttractions.swift,\ LumbiniAttractions.swift,\ PokharaAttractions.swift,\ NepalPackage.swift,\ HunzaAttractions.swift,\ IslamabadAttractions.swift,\ KarachiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/KhajurahoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/KolkataAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/LadakhAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/MumbaiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/MysoreAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/RishikeshAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/UdaipurAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/VaranasiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/IndiaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/AdduAtollAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/AriAtollAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/BaaAtollAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/MaleAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/NorthMaleAtollAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/MaldivesPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/AnnapurnaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/ChitwanAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/EverestRegionAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/KathmanduAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/LumbiniAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/PokharaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/NepalPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Pakistan/Cities/HunzaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Pakistan/Cities/IslamabadAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Pakistan/Cities/KarachiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/KhajurahoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/KolkataAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/LadakhAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/MumbaiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/MysoreAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/RishikeshAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/UdaipurAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/Cities/VaranasiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/India/IndiaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/AdduAtollAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/AriAtollAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/BaaAtollAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/MaleAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/Cities/NorthMaleAtollAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Maldives/MaldivesPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/AnnapurnaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/ChitwanAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/EverestRegionAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/KathmanduAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/LumbiniAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/Cities/PokharaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Nepal/NepalPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Pakistan/Cities/HunzaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Pakistan/Cities/IslamabadAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Asia/SouthAsia/Pakistan/Cities/KarachiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ GjakovaAttractions.swift,\ PejaAttractions.swift,\ PristinaAttractions.swift,\ PrizrenAttractions.swift,\ KosovoPackage.swift,\ CesisAttractions.swift,\ JurmalaAttractions.swift,\ RigaAttractions.swift,\ SiguldaAttractions.swift,\ LatviaPackage.swift,\ BalzersAttractions.swift,\ MalbunAttractions.swift,\ VaduzAttractions.swift,\ LiechtensteinPackage.swift,\ KaunasAttractions.swift,\ KlaipedaAttractions.swift,\ SiauliaiAttractions.swift,\ TrakaiAttractions.swift,\ VilniusAttractions.swift,\ LithuaniaPackage.swift,\ EchternachAttractions.swift,\ LuxembourgCityAttractions.swift,\ ViandenAttractions.swift,\ LuxembourgPackage.swift,\ MaltaVictoriaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/GjakovaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PristinaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PrizrenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/CesisAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/JurmalaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/RigaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/SiguldaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/LatviaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/BalzersAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/MalbunAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/VaduzAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/LiechtensteinPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KaunasAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KlaipedaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/SiauliaiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/TrakaiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/VilniusAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/LithuaniaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/EchternachAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/LuxembourgCityAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/ViandenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/LuxembourgPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MaltaVictoriaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c -filelist /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/sources-2 -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/GjakovaAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PristinaAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PrizrenAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/CesisAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/JurmalaAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/RigaAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/SiguldaAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/LatviaPackage.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/BalzersAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/MalbunAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/VaduzAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/LiechtensteinPackage.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KaunasAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KlaipedaAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/SiauliaiAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/TrakaiAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/VilniusAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/LithuaniaPackage.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/EchternachAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/LuxembourgCityAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/ViandenAttractions.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/LuxembourgPackage.swift -primary-file /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MaltaVictoriaAttractions.swift -supplementary-output-file-map /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/supplementaryOutputs-99 -emit-localized-strings -emit-localized-strings-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64 -target arm64-apple-ios17.0-simulator -module-can-import-version DeveloperToolsSupport 23.0.4 23.0.4 -module-can-import-version SwiftUI 7.2.5.1 7.2.5 -module-can-import-version UIKit 9126.2.4.1 9126.2.4 -disable-cross-import-overlay-search -swift-module-cross-import MapKit /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MapKit.framework/Modules/MapKit.swiftcrossimport/SwiftUI.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap-dependencies-2.json -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -I /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -F /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TravelTap_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/erders/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/erders/Documents/TravelTap -enable-anonymous-context-mangled-names -file-compilation-dir /Users/erders/Documents/TravelTap -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C53-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-generated-files.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-own-target-headers.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-all-target-headers.hmap -Xcc -iquote -Xcc /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/TravelTap-project-headers.hmap -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources-normal/arm64 -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources/arm64 -Xcc -I/Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/DerivedSources -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name TravelTap -frontend-parseable-output -disable-clang-spi -target-sdk-version 26.2 -target-sdk-name iphonesimulator26.2 -clang-target arm64-apple-ios26.2-simulator -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/GjakovaAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/PejaAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/PristinaAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/PrizrenAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/KosovoPackage.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/CesisAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/JurmalaAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/RigaAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/SiguldaAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LatviaPackage.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/BalzersAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/MalbunAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/VaduzAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LiechtensteinPackage.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/KaunasAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/KlaipedaAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/SiauliaiAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TrakaiAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/VilniusAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LithuaniaPackage.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/EchternachAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LuxembourgCityAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/ViandenAttractions.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LuxembourgPackage.o -o /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Build/Intermediates.noindex/TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/MaltaVictoriaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/GjakovaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/PejaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/PristinaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/PrizrenAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/KosovoPackage.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/CesisAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/JurmalaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/RigaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/SiguldaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LatviaPackage.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/BalzersAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/MalbunAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/VaduzAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LiechtensteinPackage.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/KaunasAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/KlaipedaAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/SiauliaiAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/TrakaiAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/VilniusAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LithuaniaPackage.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/EchternachAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LuxembourgCityAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/ViandenAttractions.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/LuxembourgPackage.o -index-unit-output-path /TravelTap.build/Debug-iphonesimulator/TravelTap.build/Objects-normal/arm64/MaltaVictoriaAttractions.o -index-store-path /Users/erders/Library/Developer/Xcode/DerivedData/TravelTap-aoniybxgcgmexqcgzdslgsqiowxj/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/GjakovaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift:137:24: error: type 'AttractionCategory' has no member 'nature'
+            category: .nature,
+                      ~^~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift:154:24: error: type 'AttractionCategory' has no member 'nature'
+            category: .nature,
+                      ~^~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift:171:24: error: type 'AttractionCategory' has no member 'food'
+            category: .food,
+                      ~^~~~
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PristinaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PrizrenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:25:9: error: cannot find 'MitrovicaAttractions' in scope
+        MitrovicaAttractions.city,
+        ^~~~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:26:9: error: cannot find 'FerizajAttractions' in scope
+        FerizajAttractions.city,
+        ^~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:27:9: error: cannot find 'GjilanAttractions' in scope
+        GjilanAttractions.city,
+        ^~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:28:9: error: cannot find 'DecaniAttractions' in scope
+        DecaniAttractions.city,
+        ^~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:29:9: error: cannot find 'SharrMountainsAttractions' in scope
+        SharrMountainsAttractions.city,
+        ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:30:9: error: cannot find 'DragashAttractions' in scope
+        DragashAttractions.city,
+        ^~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:31:9: error: cannot find 'RahovecAttractions' in scope
+        RahovecAttractions.city,
+        ^~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:32:9: error: cannot find 'LipjanAttractions' in scope
+        LipjanAttractions.city,
+        ^~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:33:9: error: cannot find 'VushtrriAttractions' in scope
+        VushtrriAttractions.city,
+        ^~~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:34:9: error: cannot find 'PodujevaAttractions' in scope
+        PodujevaAttractions.city,
+        ^~~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:35:9: error: cannot find 'SkenderajAttractions' in scope
+        SkenderajAttractions.city,
+        ^~~~~~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:36:9: error: cannot find 'IstogAttractions' in scope
+        IstogAttractions.city,
+        ^~~~~~~~~~~~~~~~
+/Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift:37:9: error: cannot find 'KlinaAttractions' in scope
+        KlinaAttractions.city
+        ^~~~~~~~~~~~~~~~
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/CesisAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/JurmalaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/RigaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/SiguldaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/LatviaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/BalzersAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/MalbunAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/VaduzAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/LiechtensteinPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KaunasAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KlaipedaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/SiauliaiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/TrakaiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/VilniusAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/LithuaniaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/EchternachAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/LuxembourgCityAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/ViandenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/LuxembourgPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MaltaVictoriaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ MarsaxlokkAttractions.swift,\ MdinaAttractions.swift,\ StJuliansAttractions.swift,\ VallettaAttractions.swift,\ MaltaPackage.swift,\ ChisinauAttractions.swift,\ CricovaAttractions.swift,\ OrheiulVechiAttractions.swift,\ TiraspolAttractions.swift,\ MoldovaPackage.swift,\ FontvieilleAttractions.swift,\ MonacoVilleAttractions.swift,\ MonteCarloAttractions.swift,\ MonacoPackage.swift,\ BudvaAttractions.swift,\ KotorAttractions.swift,\ PerastAttractions.swift,\ PodgoricaAttractions.swift,\ ZabljakAttractions.swift,\ MontenegroPackage.swift,\ AmsterdamAttractions.swift,\ EindhovenAttractions.swift,\ RotterdamAttractions.swift,\ TheHagueAttractions.swift,\ UtrechtAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MarsaxlokkAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MdinaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/StJuliansAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/VallettaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/MaltaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/ChisinauAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/CricovaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/OrheiulVechiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/TiraspolAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/MoldovaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/Cities/FontvieilleAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/Cities/MonacoVilleAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/Cities/MonteCarloAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/MonacoPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/BudvaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/KotorAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/PerastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/PodgoricaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/ZabljakAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/MontenegroPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/AmsterdamAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/EindhovenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/RotterdamAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/TheHagueAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/UtrechtAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MarsaxlokkAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MdinaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/StJuliansAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/VallettaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/MaltaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/ChisinauAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/CricovaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/OrheiulVechiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/Cities/TiraspolAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Moldova/MoldovaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/Cities/FontvieilleAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/Cities/MonacoVilleAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/Cities/MonteCarloAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Monaco/MonacoPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/BudvaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/KotorAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/PerastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/PodgoricaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/Cities/ZabljakAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Montenegro/MontenegroPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/AmsterdamAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/EindhovenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/RotterdamAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/TheHagueAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/Cities/UtrechtAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ NetherlandsPackage.swift,\ BitolaAttractions.swift,\ MatkaCanyonAttractions.swift,\ OhridAttractions.swift,\ SkopjeAttractions.swift,\ NorthMacedoniaPackage.swift,\ BelfastAttractions.swift,\ BushmillsAttractions.swift,\ DerryAttractions.swift,\ NorthernIrelandPackage.swift,\ BergenAttractions.swift,\ OsloAttractions.swift,\ StavangerAttractions.swift,\ TromsoAttractions.swift,\ NorwayPackage.swift,\ GdanskAttractions.swift,\ KrakowAttractions.swift,\ WarsawAttractions.swift,\ WroclawAttractions.swift,\ PolandPackage.swift,\ SopotAttractions.swift,\ GdyniaAttractions.swift,\ PoznanAttractions.swift,\ TorunAttractions.swift,\ LodzAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/NetherlandsPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/BitolaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/MatkaCanyonAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/OhridAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/SkopjeAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/NorthMacedoniaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/Cities/BelfastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/Cities/BushmillsAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/Cities/DerryAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/NorthernIrelandPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/BergenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/OsloAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/StavangerAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/TromsoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/NorwayPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/GdanskAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/KrakowAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/WarsawAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/WroclawAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/PolandPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/SopotAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/GdyniaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/PoznanAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/TorunAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/LodzAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Netherlands/NetherlandsPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/BitolaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/MatkaCanyonAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/OhridAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/Cities/SkopjeAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthMacedonia/NorthMacedoniaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/Cities/BelfastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/Cities/BushmillsAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/Cities/DerryAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/NorthernIreland/NorthernIrelandPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/BergenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/OsloAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/StavangerAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/Cities/TromsoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Norway/NorwayPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/GdanskAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/KrakowAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/WarsawAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/WroclawAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/PolandPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/SopotAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/GdyniaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/PoznanAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/TorunAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Poland/Cities/LodzAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ BernAttractions.swift,\ GenevaAttractions.swift,\ LucerneAttractions.swift,\ ZermattAttractions.swift,\ ZurichAttractions.swift,\ SwitzerlandPackage.swift,\ BaselAttractions.swift,\ InterlakenAttractions.swift,\ GrindelwaldAttractions.swift,\ LauterbrunnenAttractions.swift,\ StMoritzAttractions.swift,\ DavosAttractions.swift,\ MontreuxAttractions.swift,\ LausanneAttractions.swift,\ LuganoAttractions.swift,\ LocarnoAttractions.swift,\ BellinzonaAttractions.swift,\ ThunAttractions.swift,\ BrigAttractions.swift,\ SionAttractions.swift,\ NeuchatelAttractions.swift,\ FribourgAttractions.swift,\ ChurAttractions.swift,\ AppenzellAttractions.swift,\ SchaffhausenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BernAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/GenevaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LucerneAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ZermattAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ZurichAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/SwitzerlandPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BaselAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/InterlakenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/GrindelwaldAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LauterbrunnenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/StMoritzAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/DavosAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/MontreuxAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LausanneAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LuganoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LocarnoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BellinzonaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ThunAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BrigAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/SionAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/NeuchatelAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/FribourgAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ChurAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/AppenzellAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/SchaffhausenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BernAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/GenevaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LucerneAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ZermattAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ZurichAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/SwitzerlandPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BaselAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/InterlakenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/GrindelwaldAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LauterbrunnenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/StMoritzAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/DavosAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/MontreuxAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LausanneAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LuganoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/LocarnoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BellinzonaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ThunAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/BrigAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/SionAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/NeuchatelAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/FribourgAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/ChurAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/AppenzellAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Switzerland/Cities/SchaffhausenAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ CardiffAttractions.swift,\ ConwyAttractions.swift,\ SnowdoniaAttractions.swift,\ TenbyAttractions.swift,\ WalesPackage.swift,\ CanadaPackage.swift,\ BanffAttractions.swift,\ CanadaVictoriaAttractions.swift,\ CharlottetownAttractions.swift,\ ChurchillAttractions.swift,\ DrumhellerAttractions.swift,\ GrosMorneAttractions.swift,\ HalifaxAttractions.swift,\ JasperAttractions.swift,\ KelownaAttractions.swift,\ MonctonAttractions.swift,\ MontrealAttractions.swift,\ OttawaAttractions.swift,\ QuebecCityAttractions.swift,\ RevelstokeAttractions.swift,\ SaguenayAttractions.swift,\ SaskatoonAttractions.swift,\ StJohnsAttractions.swift,\ TobermoryAttractions.swift,\ TofinoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/CardiffAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/ConwyAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/SnowdoniaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/TenbyAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/WalesPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/CanadaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/BanffAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/CanadaVictoriaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/CharlottetownAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/ChurchillAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/DrumhellerAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/GrosMorneAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/HalifaxAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/JasperAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/KelownaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/MonctonAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/MontrealAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/OttawaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/QuebecCityAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/RevelstokeAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/SaguenayAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/SaskatoonAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/StJohnsAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/TobermoryAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/TofinoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/CardiffAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/ConwyAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/SnowdoniaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/Cities/TenbyAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Wales/WalesPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/CanadaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/BanffAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/CanadaVictoriaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/CharlottetownAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/ChurchillAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/DrumhellerAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/GrosMorneAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/HalifaxAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/JasperAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/KelownaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/MonctonAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/MontrealAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/OttawaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/QuebecCityAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/RevelstokeAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/SaguenayAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/SaskatoonAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/StJohnsAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/TobermoryAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/NorthAmerica/Canada/Cities/TofinoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 Compiling\ GreatZimbabweMasvingoAttractions.swift,\ HarareAttractions.swift,\ KaribaManaPoolsAttractions.swift,\ VictoriaFallsHwangeAttractions.swift,\ ZimbabwePackage.swift,\ AlgeriaPackage.swift,\ AlgerianSaharaAttractions.swift,\ AlgiersCentralAttractions.swift,\ ConstantineEastAttractions.swift,\ KabylieCoastAttractions.swift,\ OranWestAttractions.swift,\ AlexandriaNorthCoastAttractions.swift,\ AswanNubiaAttractions.swift,\ CairoGizaAttractions.swift,\ LuxorNileValleyAttractions.swift,\ RedSeaSinaiAttractions.swift,\ WesternDesertAttractions.swift,\ EgyptPackage.swift,\ CyrenaicaAttractions.swift,\ FezzanSaharaAttractions.swift,\ TripolitaniaAttractions.swift,\ LibyaPackage.swift,\ DesertOuarzazateAttractions.swift,\ EssaouiraAgadirCoastAttractions.swift,\ FesMeknesNorthAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/GreatZimbabweMasvingoAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/HarareAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/KaribaManaPoolsAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/VictoriaFallsHwangeAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/ZimbabwePackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/AlgeriaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/AlgerianSaharaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/AlgiersCentralAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/ConstantineEastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/KabylieCoastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/OranWestAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/AlexandriaNorthCoastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/AswanNubiaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/CairoGizaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/LuxorNileValleyAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/RedSeaSinaiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/WesternDesertAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/EgyptPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/Cities/CyrenaicaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/Cities/FezzanSaharaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/Cities/TripolitaniaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/LibyaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Morocco/Cities/DesertOuarzazateAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Morocco/Cities/EssaouiraAgadirCoastAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Morocco/Cities/FesMeknesNorthAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/GreatZimbabweMasvingoAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/HarareAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/KaribaManaPoolsAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/Cities/VictoriaFallsHwangeAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/EastAfrica/Zimbabwe/ZimbabwePackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/AlgeriaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/AlgerianSaharaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/AlgiersCentralAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/ConstantineEastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/KabylieCoastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Algeria/Cities/OranWestAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/AlexandriaNorthCoastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/AswanNubiaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/CairoGizaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/LuxorNileValleyAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/RedSeaSinaiAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/Cities/WesternDesertAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Egypt/EgyptPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/Cities/CyrenaicaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/Cities/FezzanSaharaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/Cities/TripolitaniaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Libya/LibyaPackage.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Morocco/Cities/DesertOuarzazateAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Morocco/Cities/EssaouiraAgadirCoastAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Africa/NorthAfrica/Morocco/Cities/FesMeknesNorthAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ TravelTap (in target 'TravelTap' from project 'TravelTap')
+
+EmitSwiftModule normal arm64 (in target 'TravelTap' from project 'TravelTap')
+    cd /Users/erders/Documents/TravelTap
+    
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ TravelTap (in target 'TravelTap' from project 'TravelTap')
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftCompile normal arm64 Compiling\ GjakovaAttractions.swift,\ PejaAttractions.swift,\ PristinaAttractions.swift,\ PrizrenAttractions.swift,\ KosovoPackage.swift,\ CesisAttractions.swift,\ JurmalaAttractions.swift,\ RigaAttractions.swift,\ SiguldaAttractions.swift,\ LatviaPackage.swift,\ BalzersAttractions.swift,\ MalbunAttractions.swift,\ VaduzAttractions.swift,\ LiechtensteinPackage.swift,\ KaunasAttractions.swift,\ KlaipedaAttractions.swift,\ SiauliaiAttractions.swift,\ TrakaiAttractions.swift,\ VilniusAttractions.swift,\ LithuaniaPackage.swift,\ EchternachAttractions.swift,\ LuxembourgCityAttractions.swift,\ ViandenAttractions.swift,\ LuxembourgPackage.swift,\ MaltaVictoriaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/GjakovaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PristinaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PrizrenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/CesisAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/JurmalaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/RigaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/Cities/SiguldaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Latvia/LatviaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/BalzersAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/MalbunAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/Cities/VaduzAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Liechtenstein/LiechtensteinPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KaunasAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/KlaipedaAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/SiauliaiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/TrakaiAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/Cities/VilniusAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Lithuania/LithuaniaPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/EchternachAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/LuxembourgCityAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/Cities/ViandenAttractions.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Luxembourg/LuxembourgPackage.swift /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Malta/Cities/MaltaVictoriaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+	SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/Cities/PejaAttractions.swift (in target 'TravelTap' from project 'TravelTap')
+	SwiftCompile normal arm64 /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Kosovo/KosovoPackage.swift (in target 'TravelTap' from project 'TravelTap')
+	Building project TravelTap with scheme TravelTap and configuration Debug
+(4 failures)

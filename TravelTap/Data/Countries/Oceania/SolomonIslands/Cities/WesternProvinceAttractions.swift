@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct WesternProvinceAttractions {
+    static let city = City(
+        name: "Western Province",
+        localName: "Western Solomons",
+        latitude: -8.212292,
+        longitude: 157.317017,
+        description: "The tourism hub, famous for lagoons, diving, and skull islands.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Marovo Lagoon",
+            localName: "Marovo",
+            category: .park,
+            latitude: -8.512748799999999,
+            longitude: 157.9970757,
+            city: "Western Province",
+            country: "Solomon Islands",
+            shortDescription: "World's largest double barrier lagoon.",
+            fullDescription: "A UNESCO World Heritage candidate, this massive lagoon is dotted with hundreds of islands. It offers incredible snorkeling, diving, and is famous for its intricate wood carvings.",
+            photos: [],
+            entranceFee: "Free (Resort costs apply)",
+            openingHours: "24/7",
+            howToGetThere: "Flight to Seghe.",
+            tips: "Stay at Uepi Island Resort or an eco-lodge.",
+            duration: "3-5 days"
+        ),
+        Attraction(
+            name: "Gizo Island",
+            localName: "Gizo",
+            category: .neighborhood,
+            latitude: -8.1058258,
+            longitude: 156.8349986,
+            city: "Western Province",
+            country: "Solomon Islands",
+            shortDescription: "Capital of Western Province.",
+            fullDescription: "A laid-back island town that serves as a base for exploring the surrounding reefs and islands. Kennedy Island, where JFK was stranded, is a short boat ride away.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Flight to Gizo (Nusatupe).",
+            tips: "Visit the daily market on the waterfront.",
+            duration: "2-3 days"
+        ),
+        Attraction(
+            name: "Toa Maru Wreck",
+            localName: "Toa Maru",
+            category: .park,
+            latitude: -9.378728899999999,
+            longitude: 159.8706651,
+            city: "Western Province",
+            country: "Solomon Islands",
+            shortDescription: "Massive WWII Japanese transport shipwreck.",
+            fullDescription: "One of the best wreck dives in the Pacific, this 140m long ship lies on its side. Divers can explore the cargo holds containing tanks, motorbikes, and sake bottles.",
+            photos: [],
+            entranceFee: "Dive cost + Custom fee",
+            openingHours: "Daylight",
+            howToGetThere: "Boat from Gizo (15 mins).",
+            tips: "Requires Advanced Open Water certification for full exploration.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Kolombangara Island",
+            localName: "Kolombangara",
+            category: .park,
+            latitude: -8.0242519,
+            longitude: 157.0464591,
+            city: "Western Province",
+            country: "Solomon Islands",
+            shortDescription: "Distinctive dormant volcano.",
+            fullDescription: "A perfectly round volcanic island rising 1,770m from the sea. Hikers can trek to the crater rim or summit Mt Veve for spectacular views.",
+            photos: [],
+            entranceFee: "Guide/Conservation fee",
+            openingHours: "Daylight",
+            howToGetThere: "Boat from Gizo or Munda.",
+            tips: "The crater hike is a challenging 2-day trek.",
+            duration: "2 days"
+        ),
+        Attraction(
+            name: "Skull Island",
+            localName: "Kundukundu",
+            category: .historical,
+            latitude: 44.9498013,
+            longitude: -76.8001566,
+            city: "Western Province",
+            country: "Solomon Islands",
+            shortDescription: "Sacred shrine of headhunter trophies.",
+            fullDescription: "A tiny islet in Vona Vona Lagoon housing a shrine filled with human skulls – the trophies of headhunting days. It is a tapu (sacred) site.",
+            photos: [],
+            entranceFee: "Custom fee (approx SBD 50-100)",
+            openingHours: "Daylight",
+            howToGetThere: "Boat from Munda or Lola Island.",
+            tips: "Quiet respect is required. Ask permission before taking photos.",
+            duration: "30 min"
+        ),
+        Attraction(
+            name: "Peter Joseph WWII Museum",
+            localName: "Peter Joseph Museum",
+            category: .museum,
+            latitude: -8.3318063,
+            longitude: 157.2846343,
+            city: "Western Province",
+            country: "Solomon Islands",
+            shortDescription: "Extensive private collection of WWII relics.",
+            fullDescription: "Located in Munda, this museum houses an incredible collection of dog tags, weapons, and artifacts collected from the surrounding jungle battlefields.",
+            photos: [],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Munda, near the airfield.",
+            tips: "The owner provides fascinating stories about the finds.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Lola Island",
+            localName: "Zipolo Habu",
+            category: .park,
+            latitude: -8.3122222,
+            longitude: 157.1655556,
+            city: "Western Province",
+            country: "Solomon Islands",
+            shortDescription: "Idyllic island stay in Vona Vona Lagoon.",
+            fullDescription: "Home to Zipolo Habu Resort, this island offers white sand beaches and access to fishing and surfing breaks.",
+            photos: [],
+            entranceFee: "Resort guests",
+            openingHours: "24/7",
+            howToGetThere: "Boat from Munda (20 mins).",
+            tips: "Great place to relax and disconnect.",
+            duration: "Overnight"
+        )
+    ]
+}

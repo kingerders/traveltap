@@ -1,0 +1,152 @@
+import Foundation
+import CoreLocation
+
+struct SanyaAttractions {
+    static let city = City(
+        name: "Sanya (Hainan)",
+        localName: "Sanya (Hainan)", // Chinese name would be better
+        latitude: 18.2528,
+        longitude: 109.512,
+        description: "Explore the wonders of Sanya (Hainan).",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Yalong Bay",
+            localName: "Yalong Bay",
+            category: .beach,
+            latitude: 18.2023142,
+            longitude: 109.6520274,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "A must-visit destination in Sanya (Hainan).",
+            fullDescription: "Explore Yalong Bay, one of the key highlights of Sanya (Hainan), China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Dadonghai Beach",
+            localName: "Dadonghai Beach",
+            category: .beach,
+            latitude: 18.21692,
+            longitude: 109.5224,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "A must-visit destination in Sanya (Hainan).",
+            fullDescription: "Explore Dadonghai Beach, one of the key highlights of Sanya (Hainan), China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Sanya Bay",
+            localName: "Sanya Bay",
+            category: .beach,
+            latitude: 18.279309,
+            longitude: 109.470411,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "A must-visit destination in Sanya (Hainan).",
+            fullDescription: "Explore Sanya Bay, one of the key highlights of Sanya (Hainan), China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Nanshan Temple & Guanyin Statue",
+            localName: "Nanshan Temple & Guanyin Statue",
+            category: .religious,
+            latitude: 18.252847,
+            longitude: 109.511909,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "A must-visit destination in Sanya (Hainan).",
+            fullDescription: "Explore Nanshan Temple & Guanyin Statue, one of the key highlights of Sanya (Hainan), China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Wuzhizhou Island",
+            localName: "Wuzhizhou Island",
+            category: .park,
+            latitude: 18.312495,
+            longitude: 109.76599,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "A must-visit destination in Sanya (Hainan).",
+            fullDescription: "Explore Wuzhizhou Island, one of the key highlights of Sanya (Hainan), China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Tianya Haijiao",
+            localName: "Tianya Haijiao",
+            category: .landmark,
+            latitude: 18.2949114,
+            longitude: 109.3477716,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "A must-visit destination in Sanya (Hainan).",
+            fullDescription: "Explore Tianya Haijiao, one of the key highlights of Sanya (Hainan), China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Yanoda Rainforest",
+            localName: "Yanoda Rainforest",
+            category: .park,
+            latitude: 18.440225,
+            longitude: 109.683852,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "A must-visit destination in Sanya (Hainan).",
+            fullDescription: "Explore Yanoda Rainforest, one of the key highlights of Sanya (Hainan), China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Sanya Phoenix International Airport",
+            localName: "Sanya Phoenix International Airport",
+            category: .transport,
+            latitude: 18.303701,
+            longitude: 109.412663,
+            city: "Sanya (Hainan)",
+            country: "China",
+            shortDescription: "International airport serving Sanya (Hainan).",
+            fullDescription: "Main transportation hub for travelers visiting Sanya (Hainan).",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24/7",
+            howToGetThere: "Accessible by taxi, bus, or metro.",
+            tips: "Arrive at least 2 hours before departure.",
+            duration: "N/A"
+        )
+    ]
+}

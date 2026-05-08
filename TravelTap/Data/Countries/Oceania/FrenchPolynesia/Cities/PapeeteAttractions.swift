@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct PapeeteAttractions {
+    static let city = City(
+        name: "Tahiti",
+        localName: "Tahiti",
+        latitude: -17.624135,
+        longitude: -149.513973,
+        description: "The heart of French Polynesia with vibrant culture and dramatic landscapes.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Papeete Market",
+            localName: "Marché de Papeete",
+            category: .shopping,
+            latitude: -17.5387046,
+            longitude: -149.5676542,
+            city: "Tahiti",
+            country: "French Polynesia",
+            shortDescription: "Bustling heart of Tahitian life and culture.",
+            fullDescription: "The largest market in French Polynesia, selling Tahitian vanilla, monoi oil, black pearls, shell leis, tropical fruits, and fresh fish. The ground floor is for food, upper floors for crafts and pearls.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daily 5:00-18:00; Sunday 4:00-9:00",
+            howToGetThere: "Central Papeete, walking distance from cruise port.",
+            tips: "Visit Sunday early morning for authentic local atmosphere and best selection.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Paofai Gardens",
+            localName: "Jardins de Paofai",
+            category: .park,
+            latitude: -17.5428967,
+            longitude: -149.5753998,
+            city: "Tahiti",
+            country: "French Polynesia",
+            shortDescription: "Waterfront park with stunning Moorea views.",
+            fullDescription: "A beautiful oceanfront promenade and park featuring tropical gardens, walking paths, and spectacular views of Moorea. Popular for jogging, picnics, and sunset watching.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Along the waterfront in central Papeete.",
+            tips: "Perfect for sunset with Moorea as backdrop. Local food trucks nearby.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Teahupo'o",
+            localName: "Teahupo'o",
+            category: .beach,
+            latitude: -17.8571228,
+            longitude: -149.2509788,
+            city: "Tahiti",
+            country: "French Polynesia",
+            shortDescription: "World-famous big wave surfing destination.",
+            fullDescription: "Home to the 'heaviest wave on the planet', a legendary break that hosts the Tahiti Pro surf competition. The village offers a glimpse of authentic Tahitian life on the Tahiti Iti peninsula.",
+            photos: [],
+            entranceFee: "Free; Boat tours from XPF 5,000",
+            openingHours: "Daylight hours",
+            howToGetThere: "1.5 hour drive from Papeete on the end of road to Tahiti Iti.",
+            tips: "Book a boat tour to see the wave up close. Swimming not recommended due to currents.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Mont Aorai",
+            localName: "Mont Aorai",
+            category: .park,
+            latitude: -17.6166667,
+            longitude: -149.5,
+            city: "Tahiti",
+            country: "French Polynesia",
+            shortDescription: "Tahiti's second highest peak with challenging hike.",
+            fullDescription: "At 2,066 meters, offers one of the most spectacular hikes in French Polynesia. The trail passes through cloud forest with endemic plants and offers panoramic views of Tahiti and neighboring islands.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours (start early)",
+            howToGetThere: "Trailhead accessible via 4WD from Belvédère parking.",
+            tips: "Challenging 5-7 hour hike. Bring layers as it gets cold at summit. Best in dry season.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Marae Arahurahu",
+            localName: "Marae Arahurahu",
+            category: .archaeological,
+            latitude: -17.6969916,
+            longitude: -149.578903,
+            city: "Tahiti",
+            country: "French Polynesia",
+            shortDescription: "Best-preserved ancient Polynesian temple site.",
+            fullDescription: "A beautifully restored marae (sacred temple) in a jungle setting. Features stone platforms, tikis, and petroglyphs. Hosts the annual Heiva festival reenactments in July.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours",
+            howToGetThere: "Located in Paea, 22km from Papeete on the west coast.",
+            tips: "Visit during Heiva festival in July for traditional ceremonies and performances.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Museum of Tahiti and the Islands",
+            localName: "Musée de Tahiti et des Îles",
+            category: .museum,
+            latitude: -17.6323192,
+            longitude: -149.6137908,
+            city: "Tahiti",
+            country: "French Polynesia",
+            shortDescription: "Comprehensive museum of Polynesian culture and history.",
+            fullDescription: "Excellent museum covering the geology, flora, fauna, and cultural history of French Polynesia. Features artifacts, traditional canoes, and exhibits on Polynesian navigation.",
+            photos: [],
+            entranceFee: "XPF 600",
+            openingHours: "Tue-Sun 9:00-17:00",
+            howToGetThere: "Located in Punaauia, 15km from Papeete.",
+            tips: "Allow 2 hours. Beautiful gardens and ocean views.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Point Venus",
+            localName: "Pointe Vénus",
+            category: .landmark,
+            latitude: -17.494289,
+            longitude: -149.4943525,
+            city: "Tahiti",
+            country: "French Polynesia",
+            shortDescription: "Historic site where Captain Cook observed the transit of Venus.",
+            fullDescription: "A black sand beach with historic lighthouse marking where Captain Cook arrived in 1769. Features a monument, beautiful beach, and views of Moorea.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "10km northeast of Papeete in Mahina.",
+            tips: "Great for swimming. Visit in afternoon for best light on Moorea.",
+            duration: "1-2 hours"
+        )
+    ]
+}

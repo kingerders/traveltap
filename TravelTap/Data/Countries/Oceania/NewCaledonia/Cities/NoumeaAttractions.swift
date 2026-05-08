@@ -1,0 +1,210 @@
+import Foundation
+import CoreLocation
+
+struct NoumeaAttractions {
+    static let city = City(
+        name: "Nouméa",
+        localName: "Nouméa",
+        latitude: -22.280826,
+        longitude: 166.444892,
+        description: "French-influenced capital with stunning beaches and world-class lagoon.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        // City Center
+        Attraction(
+            name: "Place des Cocotiers",
+            localName: "Place des Cocotiers",
+            category: .landmark,
+            latitude: -22.2709538,
+            longitude: 166.4416665,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Heart of Nouméa with historic kiosk and flame trees.",
+            fullDescription: "The main square of Nouméa, shaded by coconut palms and flame trees. Features a historic bandstand, fountains, and the starting point for exploring the city. Hosts markets and events.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Central Nouméa, walking distance from cruise terminal.",
+            tips: "Good starting point for city walks. Cafés line the square.",
+            duration: "30 min-1 hour"
+        ),
+        Attraction(
+            name: "Nouméa Cathedral",
+            localName: "Cathédrale Saint-Joseph",
+            category: .religious,
+            latitude: -22.272894,
+            longitude: 166.4443541,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Neo-Gothic cathedral overlooking the city.",
+            fullDescription: "Built in 1897, this elegant neo-Gothic cathedral sits on a hill with views over Nouméa. Features beautiful stained glass and colonial architecture.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daily 6:00-18:00",
+            howToGetThere: "Short walk uphill from Place des Cocotiers.",
+            tips: "Great city views from the grounds. Quiet and peaceful.",
+            duration: "30 min"
+        ),
+        Attraction(
+            name: "Musée de la Ville de Nouméa",
+            localName: "City Museum",
+            category: .museum,
+            latitude: -22.2704269,
+            longitude: 166.4422951,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "History of New Caledonia in a colonial building.",
+            fullDescription: "Housed in the former town hall, this museum traces the history of Nouméa and New Caledonia from the Kanak civilization through colonization to modern day.",
+            photos: [],
+            entranceFee: "XPF 200",
+            openingHours: "Mon-Sat 9:00-11:30, 12:15-16:30",
+            howToGetThere: "Near Place des Cocotiers.",
+            tips: "Good introduction to local history. Small but informative.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Mwa Ka Monument",
+            localName: "Mwa Ka",
+            category: .landmark,
+            latitude: -22.2761473,
+            longitude: 166.4427802,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "12-meter totem celebrating Kanak culture.",
+            fullDescription: "A striking 12-meter carved totem pole erected in 2003 to recognize Kanak culture. Designed by Kanak artist Gilles Bouquet, it stands as a symbol of reconciliation.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Moselle Bay, near the cruise terminal.",
+            tips: "Best photographed in morning light.",
+            duration: "15 min"
+        ),
+        
+        // Beaches
+        Attraction(
+            name: "Baie des Citrons",
+            localName: "Lemon Bay",
+            category: .beach,
+            latitude: -22.291226,
+            longitude: 166.4375086,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Popular urban beach with restaurants and nightlife.",
+            fullDescription: "A vibrant urban beach lined with restaurants, cafés, and bars. Popular for swimming, beach volleyball, and sunset drinks. The liveliest beach in Nouméa.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Southern Nouméa, bus or 10-min drive from center.",
+            tips: "Great for sunset. Restaurants range from casual to upscale.",
+            duration: "2-4 hours"
+        ),
+        Attraction(
+            name: "Anse Vata Beach",
+            localName: "Anse Vata",
+            category: .beach,
+            latitude: -22.302799,
+            longitude: 166.4421637,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Nouméa's premier beach with windsurfing and hotels.",
+            fullDescription: "The main tourist beach, popular for windsurfing, kitesurfing, and swimming. Lined with hotels and the Aquarium. Water taxis depart for nearby islands.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Southern Nouméa, near major hotels.",
+            tips: "Windy in afternoon - great for water sports. Calmer mornings for swimming.",
+            duration: "Half day"
+        ),
+        
+        // Attractions
+        Attraction(
+            name: "Aquarium des Lagons",
+            localName: "Aquarium des Lagons",
+            category: .experience,
+            latitude: -22.3022373,
+            longitude: 166.4381943,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "World-class aquarium showcasing New Caledonia's marine life.",
+            fullDescription: "One of the best aquariums in the Pacific, featuring the incredible biodiversity of New Caledonia's UNESCO-listed lagoon. Fluorescent corals, nautilus, sea snakes, and reef fish.",
+            photos: [],
+            entranceFee: "XPF 1,500",
+            openingHours: "Tue-Sun 10:00-17:00",
+            howToGetThere: "Anse Vata, southern Nouméa.",
+            tips: "Allow 2 hours minimum. The fluorescent coral display is spectacular.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Jean-Marie Tjibaou Cultural Centre",
+            localName: "Centre Culturel Tjibaou",
+            category: .museum,
+            latitude: -22.2561987,
+            longitude: 166.4818811,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Stunning Renzo Piano-designed center celebrating Kanak culture.",
+            fullDescription: "A masterpiece of modern architecture by Renzo Piano, inspired by traditional Kanak huts. Features exhibitions on Kanak art, culture, and history, plus beautiful gardens and ocean views.",
+            photos: [],
+            entranceFee: "XPF 500",
+            openingHours: "Tue-Sun 9:00-17:00",
+            howToGetThere: "Tina Peninsula, 10km northeast of center. Taxi or rental car.",
+            tips: "The architecture alone is worth the visit. Plan 2-3 hours.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Fort Téremba",
+            localName: "Fort Téremba",
+            category: .historical,
+            latitude: -21.7286868,
+            longitude: 165.7157967,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Restored colonial fort with convict history.",
+            fullDescription: "A restored 1871 fort that served as a prison for convicts and political prisoners. Features exhibitions on the penal colony era and commanding views of the coast.",
+            photos: [],
+            entranceFee: "XPF 300",
+            openingHours: "Wed-Sun 9:00-17:00",
+            howToGetThere: "1.5 hours north of Nouméa on RT1.",
+            tips: "Good day trip combined with other West Coast attractions.",
+            duration: "1-2 hours"
+        ),
+        
+        // Islands
+        Attraction(
+            name: "Amedee Island & Lighthouse",
+            localName: "Îlot Amédée",
+            category: .landmark,
+            latitude: -22.4773325,
+            longitude: 166.4678542,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Iconic lighthouse on a pristine coral island.",
+            fullDescription: "A stunning white sand island topped by a 56-meter iron lighthouse (1862). Offers excellent snorkeling, glass-bottom boat tours, and a buffet lunch with traditional dancing.",
+            photos: [],
+            entranceFee: "Day trip from XPF 12,000",
+            openingHours: "Day trips depart 7:30",
+            howToGetThere: "Boat from Port Moselle (45 min) or Anse Vata.",
+            tips: "Book full-day package. Climb the lighthouse for panoramic views.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Île aux Canards",
+            localName: "Duck Island",
+            category: .beach,
+            latitude: -22.3124112,
+            longitude: 166.43552,
+            city: "Nouméa",
+            country: "New Caledonia",
+            shortDescription: "Tiny island perfect for a quick snorkeling escape.",
+            fullDescription: "A small island just offshore from Anse Vata, reachable by water taxi in 5 minutes. Features a snorkeling trail, white sand, and views back to Nouméa.",
+            photos: [],
+            entranceFee: "Water taxi XPF 1,500 return",
+            openingHours: "Daylight hours",
+            howToGetThere: "Water taxi from Anse Vata beach.",
+            tips: "Bring snorkel gear. No shade - bring sun protection.",
+            duration: "2-4 hours"
+        )
+    ]
+}

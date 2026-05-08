@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct SokobanjaAttractions {
+    static let city = City(
+        name: "Sokobanja",
+        localName: "Sokobanja",
+        latitude: 43.6444,
+        longitude: 21.8719,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Sokobanja Spa",
+            localName: "Sokobanja Spa",
+            category: .landmark,
+            latitude: 43.6468433,
+            longitude: 21.8752118,
+            city: "Sokobanja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Soko Grad Fortress",
+            localName: "Soko Grad Fortress",
+            category: .landmark,
+            latitude: 43.6349566,
+            longitude: 21.8927792,
+            city: "Sokobanja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Lepterija Park",
+            localName: "Lepterija Park",
+            category: .park,
+            latitude: 43.63693749999999,
+            longitude: 21.8875625,
+            city: "Sokobanja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Ozren Mountain",
+            localName: "Ozren Mountain",
+            category: .park,
+            latitude: 43.5863889,
+            longitude: 21.8716667,
+            city: "Sokobanja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Ripaljka Waterfall",
+            localName: "Ripaljka Waterfall",
+            category: .park,
+            latitude: 43.6265625,
+            longitude: 21.8538125,
+            city: "Sokobanja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Turkish Bath (Amam)",
+            localName: "Turkish Bath (Amam)",
+            category: .landmark,
+            latitude: 43.6441369,
+            longitude: 21.8733654,
+            city: "Sokobanja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Moravica River",
+            localName: "Moravica River",
+            category: .park,
+            latitude: 43.6446443,
+            longitude: 21.8706197,
+            city: "Sokobanja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

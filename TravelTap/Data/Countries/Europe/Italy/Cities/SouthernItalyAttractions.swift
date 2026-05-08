@@ -1,0 +1,136 @@
+import Foundation
+import CoreLocation
+
+struct SouthernItalyAttractions {
+    static let city = City(
+        name: "Southern Italy",
+        localName: "Sud Italia",
+        latitude: 40.798386,
+        longitude: 15.469200,
+        description: "Ancient ruins, cave dwellings, baroque towns, and the stunning Amalfi Coast.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Archaeological Areas of Pompeii",
+            localName: "Area Archeologica di Pompei",
+            category: .archaeological,
+            latitude: 40.7512189,
+            longitude: 14.4886761,
+            city: "Pompeii",
+            country: "Italy",
+            shortDescription: "Remarkably preserved Roman city frozen in time by Vesuvius eruption in 79 AD.",
+            fullDescription: "Pompeii was an ancient Roman city buried under volcanic ash when Mount Vesuvius erupted in 79 AD. The excavations provide an extraordinarily detailed insight into life 2,000 years ago. Streets, houses, baths, theaters, and even food shops have been preserved. The plaster casts of victims are hauntingly poignant.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "9:00 AM - 7:00 PM (summer) / 9:00 AM - 5:00 PM (winter)",
+            howToGetThere: "Circumvesuviana train from Naples to Pompei Scavi station.",
+            tips: "Allow at least 4 hours. Bring water and sun protection. Download the official app. The Villa of the Mysteries frescoes are must-sees.",
+            duration: "4-6 hours",
+            website: "pompeiisites.org"
+        ),
+        Attraction(
+            name: "Herculaneum",
+            localName: "Ercolano",
+            category: .archaeological,
+            latitude: 40.8059253,
+            longitude: 14.3473869,
+            city: "Ercolano",
+            country: "Italy",
+            shortDescription: "Smaller but better preserved than Pompeii, with intact wooden structures.",
+            fullDescription: "Herculaneum was a wealthy Roman resort town also destroyed by Vesuvius in 79 AD. Unlike Pompeii, which was buried in ash, Herculaneum was covered by pyroclastic material that carbonized and preserved organic materials including wooden furniture, food, and even papyrus scrolls. The smaller site is more intimate and manageable.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "8:30 AM - 7:30 PM (summer) / 8:30 AM - 5:00 PM (winter)",
+            howToGetThere: "Circumvesuviana train from Naples to Ercolano Scavi.",
+            tips: "More manageable than Pompeii. The preserved wooden furniture is remarkable. Combine with a Vesuvius crater visit. Less crowded than Pompeii.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Sassi di Matera",
+            localName: "Sassi di Matera",
+            category: .historical,
+            latitude: 40.6648626,
+            longitude: 16.6107106,
+            city: "Matera",
+            country: "Italy",
+            shortDescription: "Ancient cave dwellings carved into ravines, continuously inhabited for 9,000 years.",
+            fullDescription: "The Sassi are two districts of the city of Matera carved out of the rock ravine. They are considered among the first human settlements in Italy, with cave dwellings dating back to the Paleolithic era. Once a 'national shame' due to poverty, the restored Sassi are now a UNESCO World Heritage Site and European Capital of Culture 2019.",
+            photos: [],
+            entranceFee: "Free (Cave churches/museums: Paid)",
+            openingHours: "Open 24 hours",
+            howToGetThere: "FAL train from Bari (1.5 hours) or bus.",
+            tips: "Stay in a cave hotel for the full experience. The rock churches contain Byzantine frescoes. The view at sunset is magical. Used as Jerusalem in many films.",
+            duration: "Half to full day"
+        ),
+        Attraction(
+            name: "Trulli of Alberobello",
+            localName: "Trulli di Alberobello",
+            category: .historical,
+            latitude: 40.7822168,
+            longitude: 17.2371954,
+            city: "Alberobello",
+            country: "Italy",
+            shortDescription: "Unique whitewashed stone huts with conical roofs, a Puglia icon.",
+            fullDescription: "Alberobello is famous for its trulli, traditional dry stone huts with a conical roof typical of Puglia. The Aia Piccola and Rione Monti districts contain over 1,500 trulli. The unique structures were built without mortar so they could be quickly dismantled to avoid property taxes. Today many are shops, restaurants, or accommodations.",
+            photos: [],
+            entranceFee: "Free (Some trulli museums: Paid)",
+            openingHours: "Open 24 hours",
+            howToGetThere: "FSE train from Bari (1.5 hours) or direct bus.",
+            tips: "Visit early morning before tour buses arrive. Stay overnight in a trullo hotel. Don't miss the Trullo Sovrano, the only two-story trullo. The symbolic rooftop decorations are fascinating.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Castel del Monte",
+            localName: "Castel del Monte",
+            category: .castle,
+            latitude: 41.0848314,
+            longitude: 16.2710573,
+            city: "Andria",
+            country: "Italy",
+            shortDescription: "Mysterious octagonal castle built by Frederick II, on every €0.01 coin.",
+            fullDescription: "Castel del Monte is a 13th-century citadel and castle in Puglia built by Emperor Frederick II. Its strict octagonal symmetry and the precise mathematical and astronomical layout testify to the Emperor's vast culture. The purpose of the castle remains a mystery - it has no moat, no stables, and minimal defenses.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "9:00 AM - 6:45 PM (summer) / 9:00 AM - 5:30 PM (winter)",
+            howToGetThere: "Bus from Andria (train from Bari).",
+            tips: "The octagonal design is everywhere - 8 rooms, 8 towers. Notice the Gothic and Islamic architectural influences. The views over Puglia are excellent. Appears on Italian €0.01 coin.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Royal Palace of Caserta",
+            localName: "Reggia di Caserta",
+            category: .palace,
+            latitude: 41.0731777,
+            longitude: 14.3271187,
+            city: "Caserta",
+            country: "Italy",
+            shortDescription: "Largest royal residence in the world, rivaling Versailles, with spectacular gardens.",
+            fullDescription: "The Royal Palace of Caserta was commissioned by Charles VII of Naples to rival Versailles. Completed in 1845, it is the largest royal residence in the world with over 1,200 rooms. The gardens extend 3 km with fountains, waterfalls, and an English garden. The Grand Staircase and Throne Room are magnificently decorated.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "8:30 AM - 7:00 PM (Park closes earlier in winter)",
+            howToGetThere: "Train from Naples to Caserta (35 min). Palace is across from station.",
+            tips: "Allow a full day. The gardens are 3 km long - rent a bike or take the shuttle bus. The English Garden is a romantic gem. Featured in Star Wars and Mission: Impossible films.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Cilento and Paestum",
+            localName: "Parco Nazionale del Cilento e Vallo di Diano con Paestum",
+            category: .archaeological,
+            latitude: 40.4269855,
+            longitude: 15.0050404,
+            city: "Paestum",
+            country: "Italy",
+            shortDescription: "Greek temples among the best preserved in the world, in a national park setting.",
+            fullDescription: "Paestum contains three exceptionally well-preserved Greek temples from the 6th-5th century BC: the Temple of Hera I (Basilica), the Temple of Hera II (Neptune), and the Temple of Athena. The site is within the Cilento National Park UNESCO site, which also includes the medieval town of Padula with its enormous Certosa monastery.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "8:30 AM - 7:30 PM (museum closes 1:30 PM first and third Mon)",
+            howToGetThere: "Train from Naples or Salerno to Paestum station.",
+            tips: "The museum contains stunning Tomb of the Diver frescoes. Morning light is best for temple photos. Less crowded than Pompeii. Buffalo mozzarella farms nearby.",
+            duration: "Half day"
+        )
+    ]
+}

@@ -1,0 +1,152 @@
+import Foundation
+import CoreLocation
+
+struct DzangaSanghaAttractions {
+    static let city = City(
+        name: "Dzanga-Sangha Reserve",
+        localName: "Dzanga-Sangha",
+        latitude: 4.726147,
+        longitude: 12.484067,
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Dzanga-Sangha Reserve",
+            localName: "Réserve Spéciale de Dzanga-Sangha",
+            category: .park,
+            latitude: 2.9854211,
+            longitude: 16.2325409,
+            city: "South West Region",
+            country: "Central African Republic",
+            shortDescription: "World-class rainforest wildlife.",
+            fullDescription: "Part of the Sangha Trinational UNESCO site. Famous for its high density of western lowland gorillas and forest elephants.",
+            photos: ["dzanga_sangha", "rainforest_car"],
+            entranceFee: "Permit required",
+            openingHours: "Daylight",
+            howToGetThere: "Charter flight to Bayanga or long drive/boat.",
+            tips: "Must be visited with a guide.",
+            duration: "Multiple days"
+        ),
+        Attraction(
+            name: "Dzanga Bai",
+            localName: "Dzanga Bai",
+            category: .park,
+            latitude: 2.9539082,
+            longitude: 16.3651074,
+            city: "South West Region",
+            country: "Central African Republic",
+            shortDescription: "The 'Village of Elephants'.",
+            fullDescription: "A large mineral-rich clearing in the forest where dozens (sometimes over 100) of forest elephants gather daily to drink and socialize.",
+            photos: ["dzanga_bai", "elephant_bai"],
+            entranceFee: "Included in park fee",
+            openingHours: "Daylight",
+            howToGetThere: "Trek/drive from lodge.",
+            tips: "Observation platform offers incredible viewing.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Bayanga",
+            localName: "Bayanga",
+            category: .neighborhood,
+            latitude: 2.9017408,
+            longitude: 16.2698669,
+            city: "South West Region",
+            country: "Central African Republic",
+            shortDescription: "Gateway to the reserve.",
+            fullDescription: "A village on the banks of the Sangha River serving as the logistical base for reserve visitors.",
+            photos: ["bayanga_village"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "River access or airstrip.",
+            tips: "Stay at Doli Lodge.",
+            duration: "Base for trips"
+        ),
+        
+        Attraction(
+            name: "Sangha River",
+            localName: "Rivière Sangha",
+            category: .park,
+            latitude: 0.4021135,
+            longitude: 16.854229,
+            city: "South West Region",
+            country: "Central African Republic",
+            shortDescription: "Scenic jungle river.",
+            fullDescription: "A major tributary of the Congo, perfect for boat safaris to see hippos, crocodiles, and birdlife.",
+            photos: ["sangha_river"],
+            entranceFee: "Boat hire",
+            openingHours: "Daylight",
+            howToGetThere: "Access from Bayanga.",
+            tips: "Sunset cruise is recommended.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Nola",
+            localName: "Nola",
+            category: .neighborhood,
+            latitude: 3.5222239,
+            longitude: 16.0528602,
+            city: "Sangha-Mbaéré",
+            country: "Central African Republic",
+            shortDescription: "Confluence of rivers.",
+            fullDescription: "A picturesque town located at the confluence of the Sangha and Kadéï rivers.",
+            photos: ["nola_town"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Road from Berbérati.",
+            tips: "Historic colonial buildings.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Berbérati",
+            localName: "Berbérati",
+            category: .neighborhood,
+            latitude: 4.257109199999999,
+            longitude: 15.7879371,
+            city: "Mambéré-Kadéï",
+            country: "Central African Republic",
+            shortDescription: "Third largest city.",
+            fullDescription: "A major commercial center known for its diamond mining history.",
+            photos: ["berberati_city"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "West of Bangui.",
+            tips: "Transit point.",
+            duration: "Overnight"
+        ),
+        Attraction(
+            name: "Carnot",
+            localName: "Carnot",
+            category: .neighborhood,
+            latitude: 4.940421199999999,
+            longitude: 15.8789403,
+            city: "Mambéré-Kadéï",
+            country: "Central African Republic",
+            shortDescription: "Diamond mining town.",
+            fullDescription: "Known for gemstone mining and local markets.",
+            photos: ["carnot_town"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "North of Berbérati.",
+            tips: "Local artisans.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Lobaye River",
+            localName: "Rivière Lobaye",
+            category: .park,
+            latitude: 3.7890633,
+            longitude: 17.8354454,
+            city: "Lobaye",
+            country: "Central African Republic",
+            shortDescription: "Coffee region river.",
+            fullDescription: "Flows through the forest region known for coffee plantations and the Pissa falls.",
+            photos: ["lobaye_river"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Southwest of Bangui.",
+            tips: "Visit coffee plantantions nearby.",
+            duration: "Half day"
+        )
+    ]
+}

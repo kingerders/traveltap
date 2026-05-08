@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct OuterHebridesAttractions {
+    static let city = City(
+        name: "Outer Hebrides",
+        localName: "Na h-Eileanan Siar",
+        latitude: 57.7667,
+        longitude: -7.0167,
+        description: "Chain of islands known for white sandy beaches and Gaelic culture.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Stornoway",
+            localName: "Stornoway",
+            category: .landmark,
+            latitude: 58.209435,
+            longitude: -6.3848692,
+            city: "Outer Hebrides",
+            country: "Scotland",
+            shortDescription: "Stornoway in Outer Hebrides, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Lews Castle",
+            localName: "Lews Castle",
+            category: .landmark,
+            latitude: 58.21185989999999,
+            longitude: -6.3953194,
+            city: "Outer Hebrides",
+            country: "Scotland",
+            shortDescription: "Lews Castle in Outer Hebrides, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Harris Tweed Shop",
+            localName: "Harris Tweed Shop",
+            category: .landmark,
+            latitude: 57.8982104,
+            longitude: -6.8053227,
+            city: "Outer Hebrides",
+            country: "Scotland",
+            shortDescription: "Harris Tweed Shop in Outer Hebrides, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Luskentyre Beach",
+            localName: "Luskentyre Beach",
+            category: .landmark,
+            latitude: 57.89139309999999,
+            longitude: -6.9514482,
+            city: "Outer Hebrides",
+            country: "Scotland",
+            shortDescription: "Luskentyre Beach in Outer Hebrides, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Isle of Harris",
+            localName: "Isle of Harris",
+            category: .landmark,
+            latitude: 57.9932604,
+            longitude: -6.8736215,
+            city: "Outer Hebrides",
+            country: "Scotland",
+            shortDescription: "Isle of Harris in Outer Hebrides, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Kisimul Castle",
+            localName: "Kisimul Castle",
+            category: .landmark,
+            latitude: 56.9521654,
+            longitude: -7.4874638,
+            city: "Outer Hebrides",
+            country: "Scotland",
+            shortDescription: "Kisimul Castle in Outer Hebrides, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "St. Kilda - UNESCO",
+            localName: "St. Kilda - UNESCO",
+            category: .landmark,
+            latitude: 57.81318409999999,
+            longitude: -8.5686575,
+            city: "Outer Hebrides",
+            country: "Scotland",
+            shortDescription: "St. Kilda - UNESCO in Outer Hebrides, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

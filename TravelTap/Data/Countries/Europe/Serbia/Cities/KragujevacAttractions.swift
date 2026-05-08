@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct KragujevacAttractions {
+    static let city = City(
+        name: "Kragujevac",
+        localName: "Kragujevac",
+        latitude: 44.0165,
+        longitude: 20.9189,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Šumarice Memorial Park",
+            localName: "Šumarice Memorial Park",
+            category: .park,
+            latitude: 44.0184375,
+            longitude: 20.8814376,
+            city: "Kragujevac",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "October in Kragujevac Memorial",
+            localName: "October in Kragujevac Memorial",
+            category: .landmark,
+            latitude: 44.0184375,
+            longitude: 20.8814376,
+            city: "Kragujevac",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "21st October Museum",
+            localName: "21st October Museum",
+            category: .museum,
+            latitude: 44.0211875,
+            longitude: 20.8944375,
+            city: "Kragujevac",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Old Church",
+            localName: "Old Church",
+            category: .religious,
+            latitude: 44.0127932,
+            longitude: 20.9114225,
+            city: "Kragujevac",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Knežev Arsenal",
+            localName: "Knežev Arsenal",
+            category: .landmark,
+            latitude: 44.0128194,
+            longitude: 20.9114502,
+            city: "Kragujevac",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "First Grammar School",
+            localName: "First Grammar School",
+            category: .landmark,
+            latitude: 44.0104823,
+            longitude: 20.9111599,
+            city: "Kragujevac",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "National Museum",
+            localName: "National Museum",
+            category: .museum,
+            latitude: 44.009259,
+            longitude: 20.9117636,
+            city: "Kragujevac",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

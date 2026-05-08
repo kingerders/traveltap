@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct VrnjackaBanjaAttractions {
+    static let city = City(
+        name: "Vrnjačka Banja",
+        localName: "Vrnjačka Banja",
+        latitude: 43.6214,
+        longitude: 20.8927,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Mineral Springs",
+            localName: "Mineral Springs",
+            category: .park,
+            latitude: 43.6176875,
+            longitude: 20.8944375,
+            city: "Vrnjačka Banja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Park of Vrnjačka Banja",
+            localName: "Park of Vrnjačka Banja",
+            category: .park,
+            latitude: 43.6169375,
+            longitude: 20.8938125,
+            city: "Vrnjačka Banja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Japanese Garden",
+            localName: "Japanese Garden",
+            category: .park,
+            latitude: 43.6140625,
+            longitude: 20.8950625,
+            city: "Vrnjačka Banja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Bridge of Love",
+            localName: "Bridge of Love",
+            category: .landmark,
+            latitude: 43.62081250000001,
+            longitude: 20.8939375,
+            city: "Vrnjačka Banja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Roman Spa (Rimsko Vrelo)",
+            localName: "Roman Spa (Rimsko Vrelo)",
+            category: .landmark,
+            latitude: 43.6176875,
+            longitude: 20.8944375,
+            city: "Vrnjačka Banja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Belimarković Castle",
+            localName: "Belimarković Castle",
+            category: .landmark,
+            latitude: 43.6184375,
+            longitude: 20.8980625,
+            city: "Vrnjačka Banja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Zamak Cultural Center",
+            localName: "Zamak Cultural Center",
+            category: .museum,
+            latitude: 43.6184375,
+            longitude: 20.8980625,
+            city: "Vrnjačka Banja",
+            country: "Serbia",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

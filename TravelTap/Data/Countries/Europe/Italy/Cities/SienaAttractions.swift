@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct SienaAttractions {
+    static let city = City(
+        name: "Siena",
+        localName: "Siena",
+        latitude: 43.3188,
+        longitude: 11.3308,
+        description: "Medieval brick city famous for its shell-shaped piazza and Palio race.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Siena Cathedral (Duomo)",
+            localName: "Siena Cathedral (Duomo)",
+            category: .landmark,
+            latitude: 43.3177019,
+            longitude: 11.3289071,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Siena Cathedral (Duomo) in Siena, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Piccolomini Library",
+            localName: "Piccolomini Library",
+            category: .landmark,
+            latitude: 43.3178041,
+            longitude: 11.3287098,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Piccolomini Library in Siena, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Torre del Mangia",
+            localName: "Torre del Mangia",
+            category: .landmark,
+            latitude: 43.3182864,
+            longitude: 11.3321952,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Torre del Mangia in Siena, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Palazzo Pubblico",
+            localName: "Palazzo Pubblico",
+            category: .landmark,
+            latitude: 43.317997,
+            longitude: 11.332013,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Palazzo Pubblico in Siena, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Palio di Siena",
+            localName: "Palio di Siena",
+            category: .landmark,
+            latitude: 43.31842049999999,
+            longitude: 11.3316911,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Palio di Siena in Siena, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Basilica of San Domenico",
+            localName: "Basilica of San Domenico",
+            category: .landmark,
+            latitude: 43.3201297,
+            longitude: 11.3264507,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Basilica of San Domenico in Siena, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Santa Maria della Scala",
+            localName: "Santa Maria della Scala",
+            category: .landmark,
+            latitude: 43.3169445,
+            longitude: 11.3287678,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Santa Maria della Scala in Siena, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

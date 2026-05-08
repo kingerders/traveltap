@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct LovechAttractions {
+    static let city = City(
+        name: "Lovech",
+        localName: "Lovech",
+        latitude: 43.1370,
+        longitude: 24.7142,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Covered Bridge",
+            localName: "Covered Bridge",
+            category: .landmark,
+            latitude: 43.1324015,
+            longitude: 24.7164558,
+            city: "Lovech",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Hisarya Fortress",
+            localName: "Hisarya Fortress",
+            category: .landmark,
+            latitude: 43.1285786,
+            longitude: 24.717177,
+            city: "Lovech",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Vasil Levski Monument",
+            localName: "Vasil Levski Monument",
+            category: .landmark,
+            latitude: 43.1299304,
+            longitude: 24.7176045,
+            city: "Lovech",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Vasil Levski Museum",
+            localName: "Vasil Levski Museum",
+            category: .museum,
+            latitude: 43.1299304,
+            longitude: 24.7176045,
+            city: "Lovech",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Varosha Old Town",
+            localName: "Varosha Old Town",
+            category: .landmark,
+            latitude: 43.131817,
+            longitude: 24.7173094,
+            city: "Lovech",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Devetashka Cave",
+            localName: "Devetashka Cave",
+            category: .park,
+            latitude: 43.23349229999999,
+            longitude: 24.8854549,
+            city: "Lovech",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Krushuna Waterfalls",
+            localName: "Krushuna Waterfalls",
+            category: .park,
+            latitude: 43.247686,
+            longitude: 25.03855,
+            city: "Lovech",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

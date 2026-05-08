@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct TashkentAttractions {
+    static let city = City(
+        name: "Tashkent",
+        localName: "Toshkent",
+        latitude: 41.423529,
+        longitude: 69.554143,
+        description: "The modern capital of Uzbekistan, mixing Soviet, Islamic, and modern styles.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Khast-Imam Complex",
+            localName: "Hazrati Imom majmuasi",
+            category: .religious,
+            latitude: 41.3377,
+            longitude: 69.2399,
+            city: "Tashkent",
+            country: "Uzbekistan",
+            shortDescription: "Religious center housing the world's oldest Quran.",
+            fullDescription: "The religious heart of Tashkent, this complex contains majestic mosques and madrasas with blue domes. Its library houses the famous 7th-century Uthman Quran, considered the oldest extant Quran in the world.",
+            photos: [],
+            entranceFee: "Free (Museum small fee)",
+            openingHours: "09:00-21:00",
+            howToGetThere: "Old City district. Taxi recommended.",
+            tips: "Seeing the Uthman Quran is a must. The square is beautiful at sunset.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Chorsu Bazaar",
+            localName: "Chorsu bozori",
+            category: .shopping,
+            latitude: 41.3267,
+            longitude: 69.2350,
+            city: "Tashkent",
+            country: "Uzbekistan",
+            shortDescription: "Massive traditional market under a giant blue dome.",
+            fullDescription: "One of the oldest and largest bazaars in Central Asia, famous for its massive blue-tiled dome. It's a sensory overload of spices, nuts, dried fruits, fresh produce, and local crafts. A perfect place to experience local life.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "05:00-20:00",
+            howToGetThere: "Next to Chorsu Metro station.",
+            tips: "Try the local non (bread) and bargaining is expected.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Magic City",
+            localName: "Magic City",
+            category: .amusement,
+            latitude: 41.3041,
+            longitude: 69.2444,
+            city: "Tashkent",
+            country: "Uzbekistan",
+            shortDescription: "Modern family entertainment park with themed streets.",
+            fullDescription: "A large, modern entertainment park in the center of Tashkent. It features streets mimicking European cities (Paris, London, etc.), a magic castle, musical fountains, an aquarium, and numerous shops and restaurants.",
+            photos: [],
+            entranceFee: "Free entry (Attractions paid)",
+            openingHours: "10:00-23:00",
+            howToGetThere: "Near Milliy Bog metro station.",
+            tips: "Great for families. The evening fountain show is popular.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Tashkent City Park",
+            localName: "Tashkent City",
+            category: .park,
+            latitude: 41.3161,
+            longitude: 69.2485,
+            city: "Tashkent",
+            country: "Uzbekistan",
+            shortDescription: "Futuristic park with musical fountains and skyscrapers.",
+            fullDescription: "The face of modern Uzbekistan. A huge 80-hectare park surrounded by skyscrapers and hotels. It features extensive walking paths, a planetarium, a wax museum, and a spectacular musical fountain show in the central lake.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "06:00-00:00",
+            howToGetThere: "Central Tashkent. Near Paxtakor metro.",
+            tips: "The fountain show happens every evening. Very lively atmosphere.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Chimgan Mountains",
+            localName: "Chimyon",
+            category: .park,
+            latitude: 41.49510,
+            longitude: 70.05790,
+            city: "Tashkent",
+            country: "Uzbekistan",
+            shortDescription: "Popular mountain resort area for hiking and skiing.",
+            fullDescription: "Located 80km from Tashkent in the Tian Shan range. In winter, it's a ski resort; in summer, a hiker's paradise. The Greater Chimgan peak (3,309m) dominates the landscape. The nearby Charvak Reservoir is popular for swimming.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24 hours",
+            howToGetThere: "1.5h drive from Tashkent. Taxi or shared taxi from Buyuk Ipak Yuli.",
+            tips: "Ride the old chairlift for views. Try the local honey/kurt sold on the roadside.",
+            duration: "Full-day trip"
+        ),
+        Attraction(
+            name: "Ugam-Chatkal National Park",
+            localName: "Ugam-Chotqol",
+            category: .park,
+            latitude: 41.92540,
+            longitude: 70.5741000,
+            city: "Tashkent",
+            country: "Uzbekistan",
+            shortDescription: "Biosphere reserve with pristine nature and lakes.",
+            fullDescription: "A vast protected area containing diverse landscapes from mountain forests to alpine meadows. It is home to the stunning Jade Lakes (Urungach) and diverse wildlife. A UNESCO Biosphere Reserve.",
+            photos: [],
+            entranceFee: "Park fee applies",
+            openingHours: "24 hours",
+            howToGetThere: "100km+ from Tashkent. Requires 4x4 or authorized tour.",
+            tips: "Hiking to Urungach Lake is a highlight. Check permit requirements beforehand.",
+            duration: "Full-day trip"
+        ),
+        Attraction(
+            name: "Tashkent International Airport",
+            localName: "Tashkent International Airport",
+            category: .transport,
+            latitude: 41.2596,
+            longitude: 69.2792,
+            city: "Tashkent",
+            country: "Uzbekistan",
+            shortDescription: "Main international airport serving Tashkent.",
+            fullDescription: "The primary airport serving Tashkent and the surrounding region. Offers domestic and international flights with connections to major cities worldwide.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24 hours",
+            howToGetThere: "Accessible by taxi, bus, or airport shuttle from Tashkent city center.",
+            tips: "Arrive at least 2 hours before international flights. Check visa requirements before travel.",
+            duration: "Varies"
+        )
+    ]
+}

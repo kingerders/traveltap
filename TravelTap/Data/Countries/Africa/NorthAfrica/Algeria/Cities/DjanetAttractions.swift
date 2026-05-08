@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct DjanetAttractions {
+    static let city = City(
+        name: "Djanet",
+        localName: "Djanet",
+        latitude: 24.5547,
+        longitude: 9.4847,
+        description: "An oasis town at the edge of the Tassili n'Ajjer, gateway to prehistoric rock art and surreal Saharan landscapes.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Tassili n'Ajjer National Park",
+            localName: "Tassili",
+            category: .park,
+            latitude: 25.0000,
+            longitude: 8.0000,
+            city: "Djanet",
+            country: "Algeria",
+            shortDescription: "Rock forest.",
+            fullDescription: "UNESCO World Heritage Site. Vast plateau with alien-like sandstone formations and thousands of ancient rock art.",
+            photos: ["tassili_n_ajjer"],
+            entranceFee: "Park fee",
+            openingHours: "Daily",
+            howToGetThere: "4x4/Trek from Djanet.",
+            tips: "Camping trek.",
+            duration: "Multi-day"
+        ),
+        Attraction(
+            name: "Rock Art of Tassili",
+            localName: "Cave Paintings",
+            category: .archaeological,
+            latitude: 25.0500,
+            longitude: 8.0000,
+            city: "Djanet",
+            country: "Algeria",
+            shortDescription: "Prehistoric art.",
+            fullDescription: "Over 15,000 drawings and engravings recording climatic changes and human life from 6000 BC.",
+            photos: ["tassili_rock_art"],
+            entranceFee: "Included in tour",
+            openingHours: "Daylight",
+            howToGetThere: "With guide.",
+            tips: "Jabbaren site.",
+            duration: "Part of trek"
+        ),
+        Attraction(
+            name: "Djanet Old Town",
+            localName: "Ksar Djanet",
+            category: .historical,
+            latitude: 24.5547,
+            longitude: 9.4847,
+            city: "Djanet",
+            country: "Algeria",
+            shortDescription: "Oasis ksour.",
+            fullDescription: "The historic mud-brick villages (ksour) of Djanet: El Mihan, Adjahil, and Zelouaz.",
+            photos: ["djanet_old_town"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Walk.",
+            tips: "Palm groves.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Ihrir Canyon",
+            localName: "Oued Ihrir",
+            category: .park,
+            latitude: 25.2000,
+            longitude: 8.2833,
+            city: "Djanet",
+            country: "Algeria",
+            shortDescription: "Desert gueltas.",
+            fullDescription: "A miraculous lush canyon in the desert with interconnected pools (gueltas) and palm trees. Ramsar site.",
+            photos: ["ihrir_canyon"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "4x4 trip.",
+            tips: "Swim.",
+            duration: "Day trip"
+        ),
+        Attraction(
+            name: "Sefar Rock Formations",
+            localName: "Sefar",
+            category: .park,
+            latitude: 24.9000,
+            longitude: 8.5000,
+            city: "Djanet",
+            country: "Algeria",
+            shortDescription: "Stone city.",
+            fullDescription: "A vast area of the Tassili plateau resembling a ruined city, known as the 'City of Stones'.",
+            photos: ["sefar_rocks"],
+            entranceFee: "Permit",
+            openingHours: "Daily",
+            howToGetThere: "Trek.",
+            tips: "Mysterious.",
+            duration: "Part of trek"
+        ),
+        Attraction(
+            name: "Tamrit Plateau",
+            localName: "Tamrit",
+            category: .park,
+            latitude: 24.8667,
+            longitude: 8.7000,
+            city: "Djanet",
+            country: "Algeria",
+            shortDescription: "Cypress valley.",
+            fullDescription: "Famous for its valley of ancient Saharan Cypress trees, some over 2000 years old.",
+            photos: ["tamrit_cypress"],
+            entranceFee: "Permit",
+            openingHours: "Daily",
+            howToGetThere: "Climb from Djanet.",
+            tips: "Endangered trees.",
+            duration: "Part of trek"
+        ),
+        Attraction(
+            name: "Djanet Lake",
+            localName: "Erg Admer",
+            category: .park,
+            latitude: 24.5547,
+            longitude: 9.4847,
+            city: "Djanet",
+            country: "Algeria",
+            shortDescription: "Dunes nearby.",
+            fullDescription: "The vast sand dunes of Erg Admer located near Djanet/Airport.",
+            photos: ["erg_admer"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "4x4.",
+            tips: "Sunset.",
+            duration: "2 hours"
+        )
+    ]
+}

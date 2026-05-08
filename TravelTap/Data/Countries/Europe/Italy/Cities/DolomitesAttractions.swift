@@ -1,0 +1,136 @@
+import Foundation
+import CoreLocation
+
+struct DolomitesAttractions {
+    static let city = City(
+        name: "Dolomites",
+        localName: "Dolomiti",
+        latitude: 46.540833,
+        longitude: 11.791917,
+        description: "UNESCO World Heritage mountain range with dramatic pink-hued peaks and world-class skiing.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Tre Cime di Lavaredo",
+            localName: "Tre Cime di Lavaredo",
+            category: .park,
+            latitude: 46.6186777,
+            longitude: 12.3027679,
+            city: "Dolomites",
+            country: "Italy",
+            shortDescription: "Iconic three peaks that are the symbol of the Dolomites.",
+            fullDescription: "The Tre Cime di Lavaredo (Three Peaks of Lavaredo) are three distinctive battlement-like peaks that have become the symbol of the Italian Alps. The popular hiking circuit around them offers constantly changing views of these dramatic towers. The peaks range from 2,857 to 2,999 meters and glow pink at sunrise and sunset.",
+            photos: [],
+            entranceFee: "Toll road fee to parking",
+            openingHours: "June-October (weather dependent)",
+            howToGetThere: "Toll road from Misurina (bus/car). Start from Rifugio Auronzo.",
+            tips: "The 9km circuit hike takes 3-4 hours. Start early to beat crowds. The drive to Rifugio Auronzo is scenic but the toll is expensive. Mountain huts offer food and accommodation.",
+            duration: "Half day to full day"
+        ),
+        Attraction(
+            name: "Lago di Braies",
+            localName: "Pragser Wildsee",
+            category: .park,
+            latitude: 46.6931167,
+            longitude: 12.084608,
+            city: "Dolomites",
+            country: "Italy",
+            shortDescription: "Stunning turquoise alpine lake surrounded by towering peaks.",
+            fullDescription: "Lake Braies (Pragser Wildsee) is a pristine alpine lake famous for its emerald-green waters and dramatic mountain backdrop. The old wooden boathouse and rowing boats have made it one of the most photographed locations in the Dolomites. A flat trail circles the lake.",
+            photos: [],
+            entranceFee: "Free (Rowing boats: rental fee)",
+            openingHours: "Open 24 hours (Summer: parking restrictions)",
+            howToGetThere: "Bus from Braies/Prags (car parking limited in summer).",
+            tips: "Arrive before 10 AM to avoid crowds. In peak summer, car access may be restricted. The lake path is easy and suitable for all. Row a boat for the classic photo.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Seceda",
+            localName: "Seceda",
+            category: .viewpoint,
+            latitude: 46.5980566,
+            longitude: 11.7241679,
+            city: "Val Gardena",
+            country: "Italy",
+            shortDescription: "Dramatic ridge with iconic grass slopes dropping into jagged peaks.",
+            fullDescription: "Seceda is a mountain in the Dolomites known for its sharp ridgeline and sweeping alpine pastures. Accessible by cable car from Ortisei in Val Gardena, the summit at 2,500 meters offers one of the most photographed views in the Alps. The green slopes contrast dramatically with the pale Dolomite rock.",
+            photos: [],
+            entranceFee: "Cable car ticket",
+            openingHours: "Cable car hours (typically 8:30 AM - 5:00 PM)",
+            howToGetThere: "Cable car from Ortisei/St. Ulrich in Val Gardena.",
+            tips: "Sunrise and sunset are magical. In summer, hike down through Alpine meadows. In winter, it's a ski area. The Geisler/Odle peaks across the valley are spectacular.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Alpe di Siusi",
+            localName: "Seiser Alm",
+            category: .park,
+            latitude: 46.5427144,
+            longitude: 11.6198196,
+            city: "Dolomites",
+            country: "Italy",
+            shortDescription: "Europe's largest high-altitude Alpine meadow with iconic peaks.",
+            fullDescription: "Alpe di Siusi (Seiser Alm) is the largest high-altitude Alpine meadow in Europe, covering 56 square kilometers at an elevation of 1,800-2,200 meters. Traditional wooden huts dot the flowering meadows, with the distinctive Sciliar/Schlern massif and Sassolungo as backdrops. It's spectacular for hiking, biking, and skiing.",
+            photos: [],
+            entranceFee: "Cable car ticket (car access restricted)",
+            openingHours: "Cable car hours vary seasonally",
+            howToGetThere: "Cable car from Siusi/Seis or Ortisei.",
+            tips: "Car access is restricted during the day in peak seasons. Rent an e-bike to cover more ground. Mountain huts serve hearty South Tyrolean food. The meadow flowers peak in June-July.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Cortina d'Ampezzo",
+            localName: "Cortina d'Ampezzo",
+            category: .experience,
+            latitude: 46.5378431,
+            longitude: 12.1358821,
+            city: "Dolomites",
+            country: "Italy",
+            shortDescription: "Glamorous resort town hosting 2026 Winter Olympics.",
+            fullDescription: "Cortina d'Ampezzo is a chic Alpine resort known as the 'Queen of the Dolomites'. It hosted the 1956 Winter Olympics and will host the 2026 Games. The town offers world-class skiing, hiking, and the boutique-lined Corso Italia. Surrounding peaks include Tofane, Cristallo, and access to the Tre Cime area.",
+            photos: [],
+            entranceFee: "Free (Lifts, museums: Paid)",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus from Dobbiaco (train from Bolzano/Venice).",
+            tips: "Take the Freccia nel Cielo cable car to Tofana for views. The WWI outdoor museum on Lagazuoi is fascinating. Aperitivo on Corso Italia is a must.",
+            duration: "Multi-day"
+        ),
+        Attraction(
+            name: "Via Ferrata delle Bocchette",
+            localName: "Via Ferrata",
+            category: .experience,
+            latitude: 46.1647887,
+            longitude: 10.8946442,
+            city: "Brenta Dolomites",
+            country: "Italy",
+            shortDescription: "Protected climbing routes through dramatic Dolomite rock faces.",
+            fullDescription: "Via ferrata (iron paths) are protected mountain routes equipped with steel cables, ladders, and bridges. The Dolomites have an extensive network, many dating from WWI. Routes range from beginner to extreme. The Brenta Bocchette traverse is famous; easier routes exist throughout the range. Equipment (harness, helmet, via ferrata set) is essential.",
+            photos: [],
+            entranceFee: "Free (Equipment rental available)",
+            openingHours: "Summer months (June-September)",
+            howToGetThere: "Various access points throughout the Dolomites.",
+            tips: "Never attempt without proper equipment. Beginners should hire guides. Check weather carefully - lightning risk is real. Many mountain huts provide access to routes.",
+            duration: "Variable"
+        )
+,
+        Attraction(
+            name: "Bolzano",
+            localName: "Bolzano",
+            category: .landmark,
+            latitude: 46.4949259,
+            longitude: 11.3402543,
+            city: "Dolomites",
+            country: "Italy",
+            shortDescription: "Bolzano in Dolomites, Italy.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+    ]
+}

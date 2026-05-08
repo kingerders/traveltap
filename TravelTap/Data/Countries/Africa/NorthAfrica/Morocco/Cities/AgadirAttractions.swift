@@ -1,0 +1,191 @@
+import Foundation
+import CoreLocation
+
+struct AgadirAttractions {
+    static let city = City(
+        name: "Agadir, Taroudant & Legzira",
+        localName: "Agadir",
+        latitude: 30.4278,
+        longitude: -9.5981,
+        description: "Morocco's premier beach resort, rebuilt after a 1960 earthquake, with a long sandy coast and nearby mountain valleys.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        // Agadir
+        Attraction(
+            name: "Agadir Beach",
+            localName: "Plage d'Agadir",
+            category: .beach,
+            latitude: 30.4167,
+            longitude: -9.6000,
+            city: "Agadir",
+            country: "Morocco",
+            shortDescription: "Resort beach.",
+            fullDescription: "A long, crescent-shaped sandy beach sheltered from the ocean winds, lined with a modern promenade.",
+            photos: ["agadir_beach"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City front.",
+            tips: "Sunset walk.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Agadir Oufella",
+            localName: "Kasbah",
+            category: .viewpoint,
+            latitude: 30.4289,
+            longitude: -9.6256,
+            city: "Agadir",
+            country: "Morocco",
+            shortDescription: "Hilltop fortress.",
+            fullDescription: "The ruins of the old kasbah destroyed in the 1960 earthquake. Offers the best panoramic view of the bay.",
+            photos: ["agadir_oufella"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Taxi/Cable car.",
+            tips: "God Country King.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Souk El Had",
+            localName: "The Souk",
+            category: .shopping,
+            latitude: 30.4137,
+            longitude: -9.5815,
+            city: "Agadir",
+            country: "Morocco",
+            shortDescription: "Huge market.",
+            fullDescription: "One of the largest retail markets in Morocco, with over 6,000 shops selling everything from spices to electronics.",
+            photos: ["souk_el_had"],
+            entranceFee: "Free",
+            openingHours: "Tue-Sun",
+            howToGetThere: "Taxi.",
+            tips: "Closed Mondays.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Paradise Valley",
+            localName: "Paradise Valley",
+            category: .park,
+            latitude: 30.5878,
+            longitude: -9.5330,
+            city: "Agadir",
+            country: "Morocco",
+            shortDescription: "Natural pools.",
+            fullDescription: "A section of the Tamraght River valley known for its rock pools and small waterfalls. Popular for swimming.",
+            photos: ["paradise_valley_agadir"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "40 min drive.",
+            tips: "Cliff jumping.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Crocoparc",
+            localName: "Crocoparc",
+            category: .park,
+            latitude: 30.3956,
+            longitude: -9.5298,
+            city: "Agadir",
+            country: "Morocco",
+            shortDescription: "Crocodile park.",
+            fullDescription: "A botanical garden and zoo home to hundreds of Nile crocodiles.",
+            photos: ["crocoparc_agadir"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Drarga.",
+            tips: "Feeding time.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Marina of Agadir",
+            localName: "Marina",
+            category: .landmark,
+            latitude: 30.4167,
+            longitude: -9.6167,
+            city: "Agadir",
+            country: "Morocco",
+            shortDescription: "Luxury harbor.",
+            fullDescription: "Upscale shops, restaurants, and yachts at the northern end of the beach.",
+            photos: ["agadir_marina"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Walk from beach.",
+            tips: "Ice cream.",
+            duration: "1 hour"
+        ),
+        
+        // Taroudant
+        Attraction(
+            name: "Taroudant Ramparts",
+            localName: "The Walls",
+            category: .historical,
+            latitude: 30.4708,
+            longitude: -8.8769,
+            city: "Taroudant",
+            country: "Morocco",
+            shortDescription: "Little Marrakech.",
+            fullDescription: "Magnificent red-mud walls surrounding the city, often called 'Grandmother of Marrakech'.",
+            photos: ["taroudant_ramparts"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "80km east of Agadir.",
+            tips: "Carriage ride.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Taroudant Souks",
+            localName: "Souks",
+            category: .shopping,
+            latitude: 30.4700,
+            longitude: -8.8767,
+            city: "Taroudant",
+            country: "Morocco",
+            shortDescription: "Berber market.",
+            fullDescription: "Relaxed souks selling jewelry, carpets, and leather without the high pressure of Marrakech.",
+            photos: ["taroudant_souks"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "Medina.",
+            tips: "Buying silver.",
+            duration: "1 hour"
+        ),
+        
+        // Legzira & Sidi Ifni
+        Attraction(
+            name: "Legzira Beach",
+            localName: "Legzira",
+            category: .park,
+            latitude: 29.4464,
+            longitude: -10.1126,
+            city: "Sidi Ifni",
+            country: "Morocco",
+            shortDescription: "Red arches.",
+            fullDescription: "Famous for its massive natural red stone arches carved by the tide. One collapsed in 2016, but others remain.",
+            photos: ["legzira_beach"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "South of Mirleft.",
+            tips: "Low tide walk.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Sidi Ifni Town",
+            localName: "Sidi Ifni",
+            category: .landmark,
+            latitude: 29.3833,
+            longitude: -10.1667,
+            city: "Sidi Ifni",
+            country: "Morocco",
+            shortDescription: "Spanish art deco.",
+            fullDescription: "A former Spanish enclave featuring fading Art Deco architecture and a slow-paced vibe.",
+            photos: ["sidi_ifni_town"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Coastal road.",
+            tips: "Fresh fish.",
+            duration: "1 hour"
+        )
+    ]
+}

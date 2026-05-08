@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct OuluAttractions {
+    static let city = City(
+        name: "Oulu",
+        localName: "Oulu",
+        latitude: 65.0121,
+        longitude: 25.4651,
+        description: "Major northern city and technology hub with a lively market square.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Oulu Market Hall",
+            localName: "Oulu Market Hall",
+            category: .landmark,
+            latitude: 65.0132121,
+            longitude: 25.4645566,
+            city: "Oulu",
+            country: "Finland",
+            shortDescription: "Oulu Market Hall in Oulu, Finland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Science Centre Tietomaa",
+            localName: "Science Centre Tietomaa",
+            category: .landmark,
+            latitude: 65.0184632,
+            longitude: 25.4852381,
+            city: "Oulu",
+            country: "Finland",
+            shortDescription: "Science Centre Tietomaa in Oulu, Finland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Nallikari Beach",
+            localName: "Nallikari Beach",
+            category: .landmark,
+            latitude: 65.0306233,
+            longitude: 25.4113969,
+            city: "Oulu",
+            country: "Finland",
+            shortDescription: "Nallikari Beach in Oulu, Finland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Ainola Park",
+            localName: "Ainola Park",
+            category: .landmark,
+            latitude: 65.0195586,
+            longitude: 25.480913,
+            city: "Oulu",
+            country: "Finland",
+            shortDescription: "Ainola Park in Oulu, Finland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Hupisaaret Park",
+            localName: "Hupisaaret Park",
+            category: .landmark,
+            latitude: 65.0195586,
+            longitude: 25.480913,
+            city: "Oulu",
+            country: "Finland",
+            shortDescription: "Hupisaaret Park in Oulu, Finland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Oulu Castle Ruins",
+            localName: "Oulu Castle Ruins",
+            category: .landmark,
+            latitude: 65.0173695,
+            longitude: 25.4682036,
+            city: "Oulu",
+            country: "Finland",
+            shortDescription: "Oulu Castle Ruins in Oulu, Finland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Turkansaari Open-Air Museum",
+            localName: "Turkansaari Open-Air Museum",
+            category: .landmark,
+            latitude: 64.9483047,
+            longitude: 25.7071051,
+            city: "Oulu",
+            country: "Finland",
+            shortDescription: "Turkansaari Open-Air Museum in Oulu, Finland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

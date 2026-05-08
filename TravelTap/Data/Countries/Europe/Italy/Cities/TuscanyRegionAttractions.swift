@@ -1,0 +1,136 @@
+import Foundation
+import CoreLocation
+
+struct TuscanyRegionAttractions {
+    static let city = City(
+        name: "Tuscan Hill Towns",
+        localName: "Toscana",
+        latitude: 43.307714,
+        longitude: 11.423814,
+        description: "The rolling hills of Tuscany featuring medieval towns, Renaissance art, and iconic landscapes.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Piazza del Campo",
+            localName: "Piazza del Campo",
+            category: .landmark,
+            latitude: 43.31842049999999,
+            longitude: 11.3316911,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "One of Europe's greatest medieval squares, famous for the Palio horse race.",
+            fullDescription: "Piazza del Campo is the principal public space of the historic centre of Siena. The shell-shaped square is renowned for its beauty and architectural integrity. Twice a year, the Palio di Siena horse race transforms the square into a racetrack. The Palazzo Pubblico and Torre del Mangia dominate the lower edge.",
+            photos: [],
+            entranceFee: "Free (Tower: Paid)",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus from Siena train station to city center.",
+            tips: "Sit at the edge of the square with a gelato. The Palio races (July 2, Aug 16) require early booking. Climb Torre del Mangia for views.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Siena Cathedral",
+            localName: "Duomo di Siena",
+            category: .religious,
+            latitude: 43.3177019,
+            longitude: 11.3289071,
+            city: "Siena",
+            country: "Italy",
+            shortDescription: "Gothic masterpiece with stunning marble facade and Piccolomini Library frescoes.",
+            fullDescription: "Siena Cathedral is a medieval church dedicated to the Assumption of Mary. The distinctive Romanesque-Gothic facade is faced in white and greenish-black marble. Inside, the marble floor features 56 intricate inlaid panels. The Piccolomini Library contains vibrant frescoes by Pinturicchio depicting the life of Pope Pius II.",
+            photos: [],
+            entranceFee: "Paid",
+            openingHours: "10:30 AM - 7:00 PM",
+            howToGetThere: "Short walk from Piazza del Campo.",
+            tips: "The floor panels are only fully uncovered in autumn. Combined ticket covers baptistery, crypt, and museum. Don't miss the Piccolomini Library.",
+            duration: "1.5-2 hours"
+        ),
+        Attraction(
+            name: "Historic Centre of San Gimignano",
+            localName: "Centro Storico di San Gimignano",
+            category: .historical,
+            latitude: 43.4676264,
+            longitude: 11.0431188,
+            city: "San Gimignano",
+            country: "Italy",
+            shortDescription: "Medieval 'Manhattan' famous for its 14 surviving tower houses.",
+            fullDescription: "San Gimignano is a small walled medieval hill town known as the 'Town of Fine Towers'. Of the original 72 tower houses, 14 still survive, creating an unforgettable skyline. The town preserves its medieval atmosphere with narrow streets, Romanesque churches, and the collegiate church with magnificent frescoes.",
+            photos: [],
+            entranceFee: "Free (Museums: Paid)",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus from Florence or Siena. No trains.",
+            tips: "Climb Torre Grossa for the best panoramic views. Get there early to avoid crowds. The local Vernaccia white wine is excellent.",
+            duration: "Half day",
+            website: "sangimignano.com"
+        ),
+        Attraction(
+            name: "Val d'Orcia",
+            localName: "Val d'Orcia",
+            category: .park,
+            latitude: 43.0601882,
+            longitude: 11.6034992,
+            city: "Val d'Orcia",
+            country: "Italy",
+            shortDescription: "UNESCO-listed landscape of rolling hills, cypress trees, and Renaissance influence.",
+            fullDescription: "Val d'Orcia is a region of Tuscany that became a UNESCO World Heritage Site for its exceptional Renaissance agricultural landscape. The distinctive aesthetic of rolling hills, flat chalk plains, and conical hills topped by fortified settlements has inspired many artists, especially painters of the Sienese School.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Best explored by car from Siena. Key towns: Pienza, Montalcino, Montepulciano.",
+            tips: "Best in spring (wildflowers) or autumn (golden colors). The winding road through cypress trees near Monticchiello is iconic. Taste Brunello wine in Montalcino.",
+            duration: "Full day"
+        ),
+        Attraction(
+            name: "Montepulciano",
+            localName: "Montepulciano",
+            category: .historical,
+            latitude: 43.0984902,
+            longitude: 11.7873736,
+            city: "Montepulciano",
+            country: "Italy",
+            shortDescription: "Renaissance hill town famous for Vino Nobile wine and grand architecture.",
+            fullDescription: "Montepulciano is a medieval and Renaissance hill town perched 605 meters above sea level. Its main street, Corso, is lined with Renaissance palaces, antique shops, and wine cellars. The town is famous for its Vino Nobile red wine. The Piazza Grande features the Duomo and the Palazzo Comunale, which offers panoramic views.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus from Siena or Chiusi train station.",
+            tips: "Sample Vino Nobile in the ancient underground cellars. The walk up the main street is steep but rewarding. Views extend to Lake Trasimeno.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Pienza",
+            localName: "Pienza",
+            category: .historical,
+            latitude: 43.0776004,
+            longitude: 11.6774515,
+            city: "Pienza",
+            country: "Italy",
+            shortDescription: "The 'Ideal Renaissance City' created by Pope Pius II.",
+            fullDescription: "Pienza was rebuilt as an 'ideal Renaissance town' in 1459 by Pope Pius II, who was born here. The historic centre, designed by Bernardo Rossellino, is centered on Piazza Pio II with its harmonious arrangement of cathedral, papal palace, and town hall. It's also famous for its pecorino cheese.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus from Siena or Montepulciano.",
+            tips: "Walk around the ramparts for stunning Val d'Orcia views. Try the local pecorino cheese. The tiny town can be seen in a couple of hours.",
+            duration: "2-3 hours"
+        ),
+        Attraction(
+            name: "Medici Villas and Gardens in Tuscany",
+            localName: "Ville e giardini medicei in Toscana",
+            category: .palace,
+            latitude: 43.8192967,
+            longitude: 11.228837,
+            city: "Florence Area",
+            country: "Italy",
+            shortDescription: "UNESCO World Heritage collection of 14 Medici residences and gardens.",
+            fullDescription: "The Medici Villas are a group of rural building complexes in the Tuscan countryside near Florence, owned by the Medici family between the 15th and 17th centuries. The UNESCO-listed sites include Villa di Castello, Villa La Petraia, Boboli Gardens, and Villa Medici at Fiesole, representing innovative approaches to harmonizing gardens with natural environment.",
+            photos: [],
+            entranceFee: "Varies by villa",
+            openingHours: "Varies by villa",
+            howToGetThere: "Various locations around Florence, accessible by bus or car.",
+            tips: "Villa di Castello has beautiful gardens. Villa La Petraia offers great views of Florence. Combine several in a day trip from Florence.",
+            duration: "Half to full day"
+        )
+    ]
+}

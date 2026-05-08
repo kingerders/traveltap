@@ -1,0 +1,237 @@
+Processing ErzurumAttractions.swift...
+ Geocoding 'Erzurum' in Erzurum...
+  Error searching 'Erzurum, Erzurum, Turkey': The read operation timed out
+  Error searching 'Erzurum, Turkey': HTTP Error 503: Service Temporarily Unavailable
+  FAILED to find: Erzurum
+ Geocoding 'Erzurum Castle' in Erzurum...
+  Error searching 'Erzurum Castle, Erzurum, Turkey': HTTP Error 503: Service Temporarily Unavailable
+  Error searching 'Erzurum Castle, Turkey': HTTP Error 503: Service Temporarily Unavailable
+  FAILED to find: Erzurum Castle
+ Geocoding 'Double Minaret Madrasa' in Erzurum...
+  Error searching 'Double Minaret Madrasa, Erzurum, Turkey': HTTP Error 503: Service Temporarily Unavailable
+  Error searching 'Double Minaret Madrasa, Turkey': HTTP Error 503: Service Temporarily Unavailable
+  FAILED to find: Double Minaret Madrasa
+ Geocoding 'Three Tombs' in Erzurum...
+  Error searching 'Three Tombs, Erzurum, Turkey': HTTP Error 503: Service Temporarily Unavailable
+  Error searching 'Three Tombs, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Three Tombs
+ Geocoding 'Yakutiye Madrasa' in Erzurum...
+  Error searching 'Yakutiye Madrasa, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Yakutiye Madrasa, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Yakutiye Madrasa
+ Geocoding 'Palandöken Ski Center' in Erzurum...
+  Error searching 'Palandöken Ski Center, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Palandöken Ski Center, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Palandöken Ski Center
+ Geocoding 'Narman Fairy Chimneys' in Erzurum...
+  Error searching 'Narman Fairy Chimneys, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Narman Fairy Chimneys, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Narman Fairy Chimneys
+ Geocoding 'Tortum Waterfall' in Erzurum...
+  Error searching 'Tortum Waterfall, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Tortum Waterfall, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Tortum Waterfall
+ Geocoding 'Erzurum Congress Building' in Erzurum...
+  Error searching 'Erzurum Congress Building, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Erzurum Congress Building, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Erzurum Congress Building
+ Geocoding 'Lala Mustafa Pasha Mosque' in Erzurum...
+  Error searching 'Lala Mustafa Pasha Mosque, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Lala Mustafa Pasha Mosque, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Lala Mustafa Pasha Mosque
+ Geocoding 'Rustem Pasha Caravanserai' in Erzurum...
+  Error searching 'Rustem Pasha Caravanserai, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Rustem Pasha Caravanserai, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Rustem Pasha Caravanserai
+ Geocoding 'Ataturk University' in Erzurum...
+  Error searching 'Ataturk University, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Ataturk University, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Ataturk University
+ Geocoding 'Abdurrahman Gazi Tomb' in Erzurum...
+  Error searching 'Abdurrahman Gazi Tomb, Erzurum, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Abdurrahman Gazi Tomb, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Abdurrahman Gazi Tomb
+Processing AgriAttractions.swift...
+ Geocoding 'Agri' in Agri...
+  Error searching 'Agri, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Agri
+ Geocoding 'Mount Ararat' in Agri...
+  Error searching 'Mount Ararat, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Mount Ararat, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Mount Ararat
+ Geocoding 'Ishak Pasha Palace' in Agri...
+  Error searching 'Ishak Pasha Palace, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Ishak Pasha Palace, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Ishak Pasha Palace
+ Geocoding 'Meteor Crater' in Agri...
+  Error searching 'Meteor Crater, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Meteor Crater, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Meteor Crater
+ Geocoding 'Noah's Ark National Park' in Agri...
+  Error searching 'Noah's Ark National Park, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Noah's Ark National Park, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Noah's Ark National Park
+ Geocoding 'Dogubayazit Castle' in Agri...
+  Error searching 'Dogubayazit Castle, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Dogubayazit Castle, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Dogubayazit Castle
+ Geocoding 'Ahmed-i Hani Tomb' in Agri...
+  Error searching 'Ahmed-i Hani Tomb, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Ahmed-i Hani Tomb, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Ahmed-i Hani Tomb
+ Geocoding 'Ice Cave' in Agri...
+  Error searching 'Ice Cave, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Ice Cave, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Ice Cave
+ Geocoding 'Diyadin Hot Springs' in Agri...
+  Error searching 'Diyadin Hot Springs, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Diyadin Hot Springs, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Diyadin Hot Springs
+ Geocoding 'Fish Lake' in Agri...
+  Error searching 'Fish Lake, Agri, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Fish Lake, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Fish Lake
+Processing SinopAttractions.swift...
+ Geocoding 'Sinop' in Sinop...
+  Error searching 'Sinop, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Sinop
+ Geocoding 'Sinop Fortress' in Sinop...
+  Error searching 'Sinop Fortress, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Sinop Fortress, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Sinop Fortress
+ Geocoding 'Sinop Prison Museum' in Sinop...
+  Error searching 'Sinop Prison Museum, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Sinop Prison Museum, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Sinop Prison Museum
+ Geocoding 'Hamsilos Fiord' in Sinop...
+  Error searching 'Hamsilos Fiord, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Hamsilos Fiord, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Hamsilos Fiord
+ Geocoding 'Inceburun Lighthouse' in Sinop...
+  Error searching 'Inceburun Lighthouse, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Inceburun Lighthouse, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Inceburun Lighthouse
+ Geocoding 'Erfelek Waterfalls' in Sinop...
+  Error searching 'Erfelek Waterfalls, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Erfelek Waterfalls, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Erfelek Waterfalls
+ Geocoding 'Sinop Archeological Museum' in Sinop...
+  Error searching 'Sinop Archeological Museum, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Sinop Archeological Museum, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Sinop Archeological Museum
+ Geocoding 'Balatlar Church' in Sinop...
+  Error searching 'Balatlar Church, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Balatlar Church, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Balatlar Church
+ Geocoding 'Pasha Bastion' in Sinop...
+  Error searching 'Pasha Bastion, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Pasha Bastion, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Pasha Bastion
+ Geocoding 'Karakum Beach' in Sinop...
+  Error searching 'Karakum Beach, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Karakum Beach, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Karakum Beach
+ Geocoding 'Boyabat Castle' in Sinop...
+  Error searching 'Boyabat Castle, Sinop, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Boyabat Castle, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Boyabat Castle
+Processing AmasraAttractions.swift...
+ Geocoding 'Amasra' in Amasra...
+  Error searching 'Amasra, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Amasra
+ Geocoding 'Amasra Castle' in Amasra...
+  Error searching 'Amasra Castle, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Amasra Castle, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Amasra Castle
+ Geocoding 'Kemere Bridge' in Amasra...
+  Error searching 'Kemere Bridge, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Kemere Bridge, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Kemere Bridge
+ Geocoding 'Weeping Tree' in Amasra...
+  Error searching 'Weeping Tree, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Weeping Tree, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Weeping Tree
+ Geocoding 'Amasra Museum' in Amasra...
+  Error searching 'Amasra Museum, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Amasra Museum, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Amasra Museum
+ Geocoding 'Rabbit Island' in Amasra...
+  Error searching 'Rabbit Island, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Rabbit Island, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Rabbit Island
+ Geocoding 'Kucuk Liman Beach' in Amasra...
+  Error searching 'Kucuk Liman Beach, Amasra, Turkey': <urlopen error timed out>
+  Error searching 'Kucuk Liman Beach, Turkey': <urlopen error timed out>
+  FAILED to find: Kucuk Liman Beach
+ Geocoding 'Buyuk Liman Beach' in Amasra...
+  Error searching 'Buyuk Liman Beach, Amasra, Turkey': <urlopen error timed out>
+  Error searching 'Buyuk Liman Beach, Turkey': <urlopen error timed out>
+  FAILED to find: Buyuk Liman Beach
+ Geocoding 'Galla Bazaar' in Amasra...
+  Error searching 'Galla Bazaar, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Galla Bazaar, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Galla Bazaar
+ Geocoding 'Fatih Mosque' in Amasra...
+  Error searching 'Fatih Mosque, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Fatih Mosque, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Fatih Mosque
+ Geocoding 'Kuskayasi Road Monument' in Amasra...
+  Error searching 'Kuskayasi Road Monument, Amasra, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Kuskayasi Road Monument, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Kuskayasi Road Monument
+Processing VanAttractions.swift...
+ Geocoding 'Van' in Van...
+  Error searching 'Van, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Van
+ Geocoding 'Van Castle' in Van...
+  Error searching 'Van Castle, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Van Castle, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Van Castle
+ Geocoding 'Akdamar Island' in Van...
+  Error searching 'Akdamar Adası, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Akdamar Island, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Akdamar Island, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Akdamar Island
+ Geocoding 'Akdamar Church' in Van...
+  Error searching 'Akdamar Adası, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Akdamar Church, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Akdamar Church, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Akdamar Church
+ Geocoding 'Lake Van' in Van...
+  Error searching 'Lake Van, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Lake Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Lake Van
+ Geocoding 'Muradiye Waterfall' in Van...
+  Error searching 'Muradiye Waterfall, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Muradiye Waterfall, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Muradiye Waterfall
+ Geocoding 'Van Cat House' in Van...
+  Error searching 'Van Cat House, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Van Cat House, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Van Cat House
+ Geocoding 'Hosap Castle' in Van...
+  Error searching 'Hosap Castle, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Hosap Castle, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Hosap Castle
+ Geocoding 'Van Museum' in Van...
+  Error searching 'Van Museum, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Van Museum, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Van Museum
+ Geocoding 'Cavustepe Castle' in Van...
+  Error searching 'Cavustepe Castle, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Cavustepe Castle, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Cavustepe Castle
+ Geocoding 'Seven Churches' in Van...
+  Error searching 'Seven Churches, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Seven Churches, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Seven Churches
+ Geocoding 'Halime Hatun Kumbet' in Van...
+  Error searching 'Halime Hatun Kumbet, Van, Turkey': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Halime Hatun Kumbet, Turkey': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Halime Hatun Kumbet
+ Geocoding 'Kanispi Waterfall' in Van...
+  Error searching 'Kanispi Waterfall, Van, Turkey': <urlopen error [Errno 61] Connection refused>

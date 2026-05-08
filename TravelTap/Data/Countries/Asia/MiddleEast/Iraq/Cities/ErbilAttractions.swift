@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct ErbilAttractions {
+    static let city = City(
+        name: "Erbil",
+        localName: "هەولێر",
+        latitude: 36.290014,
+        longitude: 44.029629,
+        description: "Ancient Kurdish capital with one of the world's oldest continuously inhabited citadels.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Erbil Citadel",
+            localName: "قەڵای هەولێر",
+            category: .archaeological,
+            latitude: 36.1915358,
+            longitude: 44.0092062,
+            city: "Erbil",
+            country: "Iraq",
+            shortDescription: "UNESCO World Heritage site inhabited for 6,000+ years.",
+            fullDescription: "The Erbil Citadel (Qalat Hawler) is a fortified settlement on a tell (mound) rising 26 meters above the city, continuously inhabited for over 6,000 years—making it one of the oldest continuously inhabited places on Earth. The UNESCO World Heritage Site features Ottoman-era houses, museums, and restoration projects bringing it back to life.",
+            photos: [],
+            entranceFee: "Free (museums paid)",
+            openingHours: "Daily 8:00-20:00",
+            howToGetThere: "Located in the heart of Erbil city center.",
+            tips: "Sunset views from the citadel are beautiful. The Kurdish Textile Museum inside is excellent. Allow 2+ hours to explore.",
+            duration: "2.5 hours"
+        ),
+        Attraction(
+            name: "Kurdish Textile Museum",
+            localName: "مۆزەخانەی تەکستایلی کوردی",
+            category: .museum,
+            latitude: 36.1902,
+            longitude: 44.0100,
+            city: "Erbil",
+            country: "Iraq",
+            shortDescription: "Private museum showcasing Kurdish weaving traditions.",
+            fullDescription: "The Kurdish Textile Museum is housed in a beautifully restored 19th-century house within the Erbil Citadel. The personal collection of Lolan Mustafa showcases traditional Kurdish textiles, costumes, and weaving techniques from across Kurdistan. The museum offers insight into Kurdish culture and craftsmanship.",
+            photos: [],
+            entranceFee: "IQD 5,000",
+            openingHours: "Sat-Thu 9:00-17:00",
+            howToGetThere: "Located inside the Erbil Citadel.",
+            tips: "The host is very knowledgeable. Tea is often offered. A highlight of the citadel visit.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Sami Abdul Rahman Park",
+            localName: "پارکی سامی عەبدوڕەحمان",
+            category: .park,
+            latitude: 36.1912,
+            longitude: 43.9850,
+            city: "Erbil",
+            country: "Iraq",
+            shortDescription: "Large urban park with lakes, gardens, and entertainment.",
+            fullDescription: "Sami Abdul Rahman Park is the largest park in Erbil and one of the largest in the Middle East, featuring beautiful landscaped gardens, lakes with boat rides, walking paths, playgrounds, and restaurants. Named after a Kurdish leader, it's a popular gathering place for families and offers green respite in the city.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daily 6:00-23:00",
+            howToGetThere: "Located in central Erbil. Walking distance from the citadel.",
+            tips: "Beautiful in the evening when lit up. Boat rides are popular. Many restaurants and cafes within.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Erbil Bazaar (Qaysari)",
+            localName: "بازاڕی قەیساری",
+            category: .shopping,
+            latitude: 36.188100,
+            longitude: 44.0100,
+            city: "Erbil",
+            country: "Iraq",
+            shortDescription: "Historic covered market at the foot of the citadel.",
+            fullDescription: "The Erbil Bazaar (Qaysari Bazaar) is a historic covered market at the base of the citadel, featuring narrow alleys selling spices, textiles, gold jewelry, and Kurdish traditional items. The atmosphere is authentic and less touristy than many Middle Eastern souks, offering genuine Kurdish shopping experience.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daily 9:00-21:00, closed Friday morning",
+            howToGetThere: "Located at the base of the Erbil Citadel.",
+            tips: "Great for Kurdish souvenirs. The spice section is aromatic. Bargaining is expected. Try Kurdish tea.",
+            duration: "1.5 hours"
+        ),
+        Attraction(
+            name: "Shanidar Cave",
+            localName: "ئەشکەوتی شانەدەر",
+            category: .archaeological,
+            latitude: 36.8348,
+            longitude: 44.2191,
+            city: "Erbil",
+            country: "Iraq",
+            shortDescription: "Archaeological site of Neanderthal flower burial discovery.",
+            fullDescription: "Shanidar Cave is a world-famous archaeological site where remains of 10 Neanderthals were discovered, including the famous 'flower burial' suggesting Neanderthals may have had burial rituals. Located in the Zagros Mountains, the cave has evidence of occupation spanning 65,000+ years. The surrounding scenery is stunning.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daylight hours",
+            howToGetThere: "Located 130 km north of Erbil in the Zagros Mountains. 4x4 recommended.",
+            tips: "Combine with mountain scenery trip. The journey is part of the experience. Historical significance is remarkable.",
+            duration: "Half day (including travel)"
+        ),
+        Attraction(
+            name: "Jalil Khayat Mosque",
+            localName: "مزگەوتی جەلیل خایەت",
+            category: .religious,
+            latitude: 36.2011,
+            longitude: 44.0185,
+            city: "Erbil",
+            country: "Iraq",
+            shortDescription: "Erbil's largest and most beautiful modern mosque.",
+            fullDescription: "Jalil Khayat Mosque is Erbil's largest mosque, a beautiful modern structure completed in 2007. The mosque features striking Ottoman-inspired architecture with multiple domes and minarets, elegant interior decoration, and can accommodate thousands of worshippers. Non-Muslims are generally welcome outside prayer times.",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "Daily, outside prayer times",
+            howToGetThere: "Located south of the citadel in central Erbil.",
+            tips: "Beautiful architecture inside and out. Remove shoes and dress modestly. Best photographed at sunset.",
+            duration: "30 minutes"
+        ),
+        Attraction(
+            name: "Erbil International Airport (EIA)",
+            localName: "Erbil International Airport (EIA)",
+            category: .transport,
+            latitude: 36.2335,
+            longitude: 43.9554,
+            city: "Erbil",
+            country: "Iraq",
+            shortDescription: "Main international airport serving Erbil.",
+            fullDescription: "The primary airport serving Erbil and the surrounding region. Offers domestic and international flights with connections to major cities worldwide.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24 hours",
+            howToGetThere: "Accessible by taxi, bus, or airport shuttle from Erbil city center.",
+            tips: "Arrive at least 2 hours before international flights. Check visa requirements before travel.",
+            duration: "Varies"
+        )
+    ]
+}

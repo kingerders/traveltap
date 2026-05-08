@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct StirlingAttractions {
+    static let city = City(
+        name: "Stirling",
+        localName: "Stirling",
+        latitude: 56.1165,
+        longitude: -3.9369,
+        description: "Historic city dominated by its great castle and the Wallace Monument.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Wallace Monument",
+            localName: "Wallace Monument",
+            category: .landmark,
+            latitude: 56.1387732,
+            longitude: -3.917889499999999,
+            city: "Stirling",
+            country: "Scotland",
+            shortDescription: "Wallace Monument in Stirling, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Old Town Jail Stirling",
+            localName: "Old Town Jail Stirling",
+            category: .landmark,
+            latitude: 56.119954,
+            longitude: -3.9440662,
+            city: "Stirling",
+            country: "Scotland",
+            shortDescription: "Old Town Jail Stirling in Stirling, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Church of the Holy Rude",
+            localName: "Church of the Holy Rude",
+            category: .landmark,
+            latitude: 56.1206684,
+            longitude: -3.9444743,
+            city: "Stirling",
+            country: "Scotland",
+            shortDescription: "Church of the Holy Rude in Stirling, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Mar's Wark",
+            localName: "Mar's Wark",
+            category: .landmark,
+            latitude: 56.1211705,
+            longitude: -3.9442191,
+            city: "Stirling",
+            country: "Scotland",
+            shortDescription: "Mar's Wark in Stirling, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Argyll's Lodging",
+            localName: "Argyll's Lodging",
+            category: .landmark,
+            latitude: 56.1216054,
+            longitude: -3.9439293,
+            city: "Stirling",
+            country: "Scotland",
+            shortDescription: "Argyll's Lodging in Stirling, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "The National Wallace Monument",
+            localName: "The National Wallace Monument",
+            category: .landmark,
+            latitude: 56.1387732,
+            longitude: -3.917889499999999,
+            city: "Stirling",
+            country: "Scotland",
+            shortDescription: "The National Wallace Monument in Stirling, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Bridge of Allan",
+            localName: "Bridge of Allan",
+            category: .landmark,
+            latitude: 56.153149,
+            longitude: -3.942207999999999,
+            city: "Stirling",
+            country: "Scotland",
+            shortDescription: "Bridge of Allan in Stirling, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

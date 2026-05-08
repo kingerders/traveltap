@@ -1,0 +1,4 @@
+5499: Failed frontend command:
+5541: /Users/erders/Documents/TravelTap/TravelTap/Views/AttractionDetailView.swift:90:102: error: extra trailing closure passed in call
+8513: ** BUILD FAILED **
+8516: The following build commands failed:

@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct KazanlakAttractions {
+    static let city = City(
+        name: "Kazanlak",
+        localName: "Kazanlak",
+        latitude: 42.6194,
+        longitude: 25.3930,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Thracian Tomb of Kazanlak",
+            localName: "Thracian Tomb of Kazanlak",
+            category: .landmark,
+            latitude: 42.6258404,
+            longitude: 25.3991644,
+            city: "Kazanlak",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Valley of Roses",
+            localName: "Valley of Roses",
+            category: .park,
+            latitude: 42.6209305,
+            longitude: 25.3936575,
+            city: "Kazanlak",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Rose Museum",
+            localName: "Rose Museum",
+            category: .museum,
+            latitude: 42.6235109,
+            longitude: 25.3886145,
+            city: "Kazanlak",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Thracian Tombs (Golyama Kosmatka)",
+            localName: "Thracian Tombs (Golyama Kosmatka)",
+            category: .landmark,
+            latitude: 42.6999724,
+            longitude: 25.3334659,
+            city: "Kazanlak",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Shipka Memorial Church",
+            localName: "Shipka Memorial Church",
+            category: .religious,
+            latitude: 42.71609489999999,
+            longitude: 25.3289779,
+            city: "Kazanlak",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Shipka Pass",
+            localName: "Shipka Pass",
+            category: .landmark,
+            latitude: 42.7666738,
+            longitude: 25.3166676,
+            city: "Kazanlak",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Buzludzha Monument",
+            localName: "Buzludzha Monument",
+            category: .landmark,
+            latitude: 42.7333333,
+            longitude: 25.4,
+            city: "Kazanlak",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

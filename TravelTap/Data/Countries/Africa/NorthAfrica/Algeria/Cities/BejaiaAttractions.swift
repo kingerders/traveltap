@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct BejaiaAttractions {
+    static let city = City(
+        name: "Bejaia",
+        localName: "Vgayet",
+        latitude: 36.7533,
+        longitude: 5.0847,
+        description: "A picturesque Mediterranean port city backed by mountains, known for its stunning coastline and Gouraya National Park.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Cap Carbon",
+            localName: "Cap Carbon",
+            category: .landmark,
+            latitude: 36.7833,
+            longitude: 5.1167,
+            city: "Bejaia",
+            country: "Algeria",
+            shortDescription: "Lighthouse cape.",
+            fullDescription: "A dramatic headland with one of the highest lighthouses in the Mediterranean. Spectacular sea views.",
+            photos: ["cap_carbon"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Drive north.",
+            tips: "Sunset spot.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Gouraya National Park",
+            localName: "Parc Gouraya",
+            category: .park,
+            latitude: 36.7667,
+            longitude: 5.0833,
+            city: "Bejaia",
+            country: "Algeria",
+            shortDescription: "Coastal park.",
+            fullDescription: "UNESCO Biosphere Reserve featuring Mount Gouraya, monkey peak, and beautiful coastline.",
+            photos: ["gouraya_national_park"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "West of city.",
+            tips: "Barbary Macaques.",
+            duration: "Half day"
+        ),
+        Attraction(
+            name: "Béjaïa Fort",
+            localName: "Fort de la Casbah",
+            category: .historical,
+            latitude: 36.7500,
+            longitude: 5.0833,
+            city: "Bejaia",
+            country: "Algeria",
+            shortDescription: "Spanish fort.",
+            fullDescription: "A fortress built by the Spanish in the 16th century, overlooking the port and bay.",
+            photos: ["bejaia_fort"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Near port.",
+            tips: "History exhibit.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Yemma Gouraya",
+            localName: "Yemma Gouraya",
+            category: .landmark,
+            latitude: 36.7833,
+            longitude: 5.0833,
+            city: "Bejaia",
+            country: "Algeria",
+            shortDescription: "Summit shrine.",
+            fullDescription: "The peak of Mount Gouraya, home to the shrine of the city's patron saint. Offers breathtaking panoramic views.",
+            photos: ["yemma_gouraya"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Hike up.",
+            tips: "Pilgrimage site.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Bougie Beach",
+            localName: "Les Aiguades",
+            category: .beach,
+            latitude: 36.7500,
+            longitude: 5.0833,
+            city: "Bejaia",
+            country: "Algeria",
+            shortDescription: "Pebble beach.",
+            fullDescription: "A scenic beach nestled in a cove, popular for swimming and relaxing in the shade of trees.",
+            photos: ["bougie_beach"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Near Zigzag road.",
+            tips: "Crystal water.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Béjaïa Old Town",
+            localName: "Medina",
+            category: .historical,
+            latitude: 36.7533,
+            longitude: 5.0847,
+            city: "Bejaia",
+            country: "Algeria",
+            shortDescription: "Historic center.",
+            fullDescription: "The historic heart of the city, with French colonial buildings and older Ottoman remnants.",
+            photos: ["bejaia_old_town"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City center.",
+            tips: "Try sardine.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Pic des Singes",
+            localName: "Monkey Peak",
+            category: .park,
+            latitude: 36.7917,
+            longitude: 5.0667,
+            city: "Bejaia",
+            country: "Algeria",
+            shortDescription: "Monkey habitat.",
+            fullDescription: "A popular spot in Gouraya National Park known for its friendly Barbary Macaques.",
+            photos: ["pic_des_singes"],
+            entranceFee: "Free",
+            openingHours: "Daylight",
+            howToGetThere: "Gouraya road.",
+            tips: "Don't feed.",
+            duration: "1 hour"
+        )
+    ]
+}

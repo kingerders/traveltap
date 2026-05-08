@@ -1,0 +1,152 @@
+import Foundation
+import CoreLocation
+
+struct ZhangjiajieAttractions {
+    static let city = City(
+        name: "Zhangjiajie",
+        localName: "Zhangjiajie", // Chinese name would be better
+        latitude: 29.11667,
+        longitude: 110.478392,
+        description: "Explore the wonders of Zhangjiajie.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Zhangjiajie National Forest Park",
+            localName: "张家界国家森林公园",
+            category: .park,
+            latitude: 29.315305,
+            longitude: 110.434767,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "Home of the Hallelujah Mountains (Avatar).",
+            fullDescription: "This UNESCO World Heritage site is famous for its 3,000 quartzite-sandstone pillars, many over 200m high. The 'Southern Sky Column' was renamed 'Avatar Hallelujah Mountain' after inspiring the movie's floating mountains. Key areas include Bailong Elevator (world's tallest outdoor lift) and Yuanjiajie.",
+            photos: [],
+            entranceFee: "¥224 (4-day pass)",
+            openingHours: "7:00-18:00",
+            howToGetThere: "Bus from Zhangjiajie city center (40 mins).",
+            tips: "Valid for 4 days - you need at least 2. The Bailong Elevator is a must. Watch out for aggressive wild monkeys.",
+            duration: "1-2 days"
+        ),
+        Attraction(
+            name: "Avatar Hallelujah Mountain",
+            localName: "Avatar Hallelujah Mountain",
+            category: .park,
+            latitude: 29.315305,
+            longitude: 110.434767,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "A must-visit destination in Zhangjiajie.",
+            fullDescription: "Explore Avatar Hallelujah Mountain, one of the key highlights of Zhangjiajie, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Tianmen Mountain",
+            localName: "天门山",
+            category: .park,
+            latitude: 29.046809,
+            longitude: 110.482084,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "Mountain with a massive natural arch and cliff walks.",
+            fullDescription: "Tianmen Mountain dominates the skyline south of the city. Access is via the world's longest cable car (7.4km). The summit features a cliff-hanging walkway (with glass sections), the 99-bend road, and Tianmen Cave - a massive natural hole in the mountain known as the 'Stairway to Heaven'.",
+            photos: [],
+            entranceFee: "¥258 (includes cable car)",
+            openingHours: "8:00-18:00",
+            howToGetThere: "Cable car station is in Zhangjiajie city center.",
+            tips: "Book time slot in advance. The cable car ride takes 30 mins and is spectacular. Bring a jacket as it's cold at the top.",
+            duration: "4-6 hours"
+        ),
+        Attraction(
+            name: "Glass Bridge",
+            localName: "Glass Bridge",
+            category: .landmark,
+            latitude: 29.3982154,
+            longitude: 110.6962154,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "A must-visit destination in Zhangjiajie.",
+            fullDescription: "Explore Glass Bridge, one of the key highlights of Zhangjiajie, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Baofeng Lake",
+            localName: "宝峰湖",
+            category: .park,
+            latitude: 29.32775,
+            longitude: 110.54937,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "Tranquil alpine lake surrounded by mountains.",
+            fullDescription: "Baofeng Lake is a freshwater lake perched high in the mountains of the Wulingyuan Scenic Area. A boat ride here offers a peaceful contrast to the hiking, with folk songs performed by locals on boats. The water reflects the surrounding limestone peaks.",
+            photos: [],
+            entranceFee: "¥96 (includes boat)",
+            openingHours: "7:00-18:00",
+            howToGetThere: "Bus/taxi from Wulingyuan town.",
+            tips: "Good place to relax after hiking. There's a waterfall at the entrance. Boat ride lasts 30 mins.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Huanglong Cave",
+            localName: "Huanglong Cave",
+            category: .park,
+            latitude: 29.36296,
+            longitude: 110.614949,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "A must-visit destination in Zhangjiajie.",
+            fullDescription: "Explore Huanglong Cave, one of the key highlights of Zhangjiajie, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "Fenghuang Ancient Town",
+            localName: "Fenghuang Ancient Town",
+            category: .historical,
+            latitude: 27.9528119,
+            longitude: 109.6009703,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "A must-visit destination in Zhangjiajie.",
+            fullDescription: "Explore Fenghuang Ancient Town, one of the key highlights of Zhangjiajie, China. Known for its rich history and cultural significance.",
+            photos: [],
+            entranceFee: "Varies",
+            openingHours: "9:00 AM - 6:00 PM",
+            howToGetThere: "Accessible by public transport.",
+            tips: "Visit early to avoid crowds.",
+            duration: "1-2 hours"
+        ),
+        Attraction(
+            name: "荷花机场",
+            localName: "荷花机场",
+            category: .transport,
+            latitude: 29.103856,
+            longitude: 110.451191,
+            city: "Zhangjiajie",
+            country: "China",
+            shortDescription: "International airport serving Zhangjiajie.",
+            fullDescription: "Main transportation hub for travelers visiting Zhangjiajie.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24/7",
+            howToGetThere: "Accessible by taxi, bus, or metro.",
+            tips: "Arrive at least 2 hours before departure.",
+            duration: "N/A"
+        )
+    ]
+}

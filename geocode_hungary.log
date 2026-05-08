@@ -1,0 +1,22 @@
+Processing /Users/erders/Documents/TravelTap/TravelTap/Data/Countries/Europe/Hungary/Cities/SzekesfehervarAttractions.swift...
+ Geocoding 'Szekesfehervar' in Szekesfehervar...
+  Error searching 'Szekesfehervar, Szekesfehervar, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Szekesfehervar, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Szekesfehervar': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Szekesfehervar
+ Geocoding 'Garden of Ruins' in Szekesfehervar...
+  Error searching 'Garden of Ruins, Szekesfehervar, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Garden of Ruins, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Garden of Ruins': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Garden of Ruins
+ Geocoding 'Coronation Church Site' in Szekesfehervar...
+  Error searching 'Coronation Church Site, Szekesfehervar, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Coronation Church Site, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'Coronation Church Site': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: Coronation Church Site
+ Geocoding 'King Stephen Museum' in Szekesfehervar...
+  Error searching 'King Stephen Museum, Szekesfehervar, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'King Stephen Museum, Hungary': <urlopen error [Errno 61] Connection refused>
+  Error searching 'King Stephen Museum': <urlopen error [Errno 61] Connection refused>
+  FAILED to find: King Stephen Museum
+ Geocoding 'Bory Castle' in Szekesfehervar...

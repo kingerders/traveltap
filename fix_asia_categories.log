@@ -1,0 +1,2488 @@
+======================================================================
+Asian Attractions Category Fix Script
+Fixes incorrect .landmark categories using keyword matching
+======================================================================
+
+📌 Processing CentralAsia...
+📝 YerevanAttractions.swift: fixed 1 categories
+    • Armenian Opera Theatre: .landmark → .entertainment
+📝 BakuAttractions.swift: fixed 1 categories
+    • Yanar Dag (Burning Mountain): .landmark → .park
+📝 BatumiAttractions.swift: fixed 1 categories
+    • Ali and Nino Statue: .landmark → .monument
+📝 TbilisiAttractions.swift: fixed 1 categories
+    • Gabriadze Theater Clock Tower: .landmark → .entertainment
+📝 AktauAttractions.swift: fixed 8 categories
+    • Mangystau Regional Museum: .landmark → .museum
+    • Caspian Sea Coast: .landmark → .beach
+    • Aktau Beach: .landmark → .beach
+    • Beket Ata Underground Mosque: .landmark → .religious
+    • Underground Mosques of Mangystau: .landmark → .religious
+    • Shakilar Canyon: .landmark → .park
+    • Bozzhira Valley: .landmark → .park
+    • Actau Lighthouse: .landmark → .lighthouse
+📝 AlmatyAttractions.swift: fixed 19 categories
+    • Aktau Mountains: .landmark → .park
+    • Katutau Mountains: .landmark → .park
+    • Altyn-Emel National Park: .landmark → .park
+    • Almaty Botanical Garden: .landmark → .garden
+    • Almaty Zoo: .landmark → .zoo
+    • Esentai Mall: .landmark → .shopping
+    • Abay Opera House: .landmark → .beach
+    • Almaty Central Mosque: .landmark → .religious
+    • Ile-Alatau National Park: .landmark → .park
+    • Turgen Waterfalls: .landmark → .park
+    • Kaindy Lake (Sunken Forest): .landmark → .park
+    • Kolsai Lakes: .landmark → .park
+    • Charyn Canyon: .landmark → .park
+    • Big Almaty Lake: .landmark → .park
+    • Central State Museum of Kazakhstan: .landmark → .museum
+    • Green Bazaar (Zelyony Bazar): .landmark → .shopping
+    • Memorial of Glory & Eternal Flame: .landmark → .monument
+    • Zenkov Cathedral (Ascension Cathedral): .landmark → .religious
+    • Kok Tobe Cable Car: .landmark → .cablecar
+📝 AstanaAttractions.swift: fixed 12 categories
+    • Kurgaldzhino Nature Reserve: .landmark → .park
+    • Tsar's Mosque: .landmark → .religious
+    • Ishim River Embankment: .landmark → .park
+    • Astana Aquarium: .landmark → .zoo
+    • Astana Arena: .landmark → .stadium
+    • Astana Opera: .landmark → .entertainment
+    • Kazakhstan Central Concert Hall: .landmark → .entertainment
+    • National Museum of Kazakhstan: .landmark → .museum
+    • Ak Orda Presidential Palace: .landmark → .palace
+    • Nur-Astana Mosque: .landmark → .religious
+    • Hazret Sultan Mosque: .landmark → .religious
+    • Palace of Peace and Reconciliation (Pyramid): .landmark → .palace
+📝 AtyrauAttractions.swift: fixed 5 categories
+    • Saraishyk Archaeological Site: .landmark → .historical
+    • Ak Zhaik Beach: .landmark → .beach
+    • Atyrau Regional Museum: .landmark → .museum
+    • Isatay-Makhambet Monument: .landmark → .monument
+    • Assumption Cathedral: .landmark → .religious
+📝 BurabayAttractions.swift: fixed 5 categories
+    • Burabay Resorts: .landmark → .beach
+    • Golubye Ozera (Blue Lakes): .landmark → .park
+    • Bolshoe Chebachye Lake: .landmark → .park
+    • Burabay National Park: .landmark → .park
+    • Borovoe Lake: .landmark → .park
+📝 KaragandaAttractions.swift: fixed 6 categories
+    • Balkhash Lake: .landmark → .park
+    • Dolinka (ALZHIR Camp Museum): .landmark → .museum
+    • Spassk Memorial Complex: .landmark → .monument
+    • Karaganda Zoo: .landmark → .zoo
+    • Ecological Museum: .landmark → .museum
+    • Karaganda Regional Museum: .landmark → .museum
+📝 KostanayAttractions.swift: fixed 4 categories
+    • Naurzum Nature Reserve: .landmark → .park
+    • City Beach: .landmark → .beach
+    • Central Mosque: .landmark → .religious
+    • Kostanay Regional Museum: .landmark → .museum
+📝 PavlodarAttractions.swift: fixed 5 categories
+    • Bayanaul National Park (Day Trip): .landmark → .park
+    • Irtysh River Embankment: .landmark → .park
+    • Blagoveshchensk Cathedral: .landmark → .religious
+    • Pavlodar Regional Museum: .landmark → .museum
+    • Mashkhur Zhusup Mosque: .landmark → .religious
+📝 PetropavlAttractions.swift: fixed 5 categories
+    • Imantau-Shalkar Lakes: .landmark → .park
+    • St. Peter and Paul Cathedral: .landmark → .religious
+    • Roman Catholic Church: .landmark → .religious
+    • Petropavl Regional Museum: .landmark → .museum
+    • Rezidentsia (Residence Museum): .landmark → .museum
+📝 SemeyAttractions.swift: fixed 3 categories
+    • Semey Regional Museum: .landmark → .museum
+    • Dostoevsky Museum: .landmark → .museum
+    • Abai Museum: .landmark → .museum
+📝 ShymkentAttractions.swift: fixed 7 categories
+    • Sayram-Ugam National Park: .landmark → .park
+    • Aksu-Zhabagly Nature Reserve (Day Trip): .landmark → .park
+    • Mega Silk Way Mall: .landmark → .shopping
+    • Central Bazaar: .landmark → .shopping
+    • Abay Park: .landmark → .beach
+    • Shymkent Zoo: .landmark → .zoo
+    • Ken Baba Mausoleum: .landmark → .religious
+📝 TarazAttractions.swift: fixed 6 categories
+    • Merke Ancient Settlement: .landmark → .historical
+    • Tekturmas Mountain: .landmark → .park
+    • Taraz Regional Museum: .landmark → .museum
+    • Karakhan Mausoleum: .landmark → .religious
+    • Aisha Bibi Mausoleum: .landmark → .religious
+    • Akyrtas Palace Ruins: .landmark → .palace
+📝 TurkestanAttractions.swift: fixed 6 categories
+    • Oriental Bazaar: .landmark → .shopping
+    • Hilvet Underground Mosque: .landmark → .religious
+    • Asha Bibi Mausoleum: .landmark → .religious
+    • Aristan Bab Mausoleum: .landmark → .religious
+    • Turkestan Ancient City Walls: .landmark → .historical
+    • Mausoleum of Khoja Ahmed Yasawi (UNESCO): .landmark → .religious
+📝 AlaArchaNationalParkAttractions.swift: fixed 5 categories
+    • Waterfall Hikes: .landmark → .park
+    • Korona Peak: .landmark → .park
+    • Adygene Gorge: .landmark → .park
+    • Ak-Sai Glacier: .landmark → .park
+    • Ala Archa Gorge: .landmark → .park
+📝 ArslanbobAttractions.swift: fixed 4 categories
+    • Kol-Mazar Holy Lake: .landmark → .park
+    • Big Waterfall: .landmark → .park
+    • Small Waterfall: .landmark → .park
+    • Arslanbob Walnut Forest: .landmark → .park
+📝 BatkenAttractions.swift: fixed 2 categories
+    • Batken Mountains: .landmark → .park
+    • Aikol Village: .landmark → .neighborhood
+📝 BishkekAttractions.swift: fixed 6 categories
+    • Bishkek Botanical Garden: .landmark → .garden
+    • National Museum of Fine Arts: .landmark → .museum
+    • Frunze House Museum: .landmark → .museum
+    • Dordoy Bazaar: .landmark → .shopping
+    • Osh Bazaar: .landmark → .shopping
+    • State Historical Museum: .landmark → .museum
+📝 CholponAtaAttractions.swift: fixed 4 categories
+    • Issyk-Kul State Museum: .landmark → .museum
+    • Semenovka Gorge: .landmark → .park
+    • Grigorievka Gorge: .landmark → .park
+    • Issyk-Kul Lake (North Shore): .landmark → .park
+📝 JalalAbadAttractions.swift: fixed 1 categories
+    • Kyzyl-Unkur Walnut Forests: .landmark → .park
+📝 KarakolAttractions.swift: fixed 10 categories
+    • Jyrgalan Village: .landmark → .neighborhood
+    • Ala-Kul Lake Trek: .landmark → .park
+    • Altyn Arashan Valley: .landmark → .park
+    • Skazka Canyon (Fairy Tale Canyon): .landmark → .park
+    • Barskoon Waterfall: .landmark → .park
+    • Przhevalsky Memorial: .landmark → .monument
+    • Regional Museum: .landmark → .museum
+    • Karakol Animal Market (Sunday): .landmark → .zoo
+    • Dungan Mosque: .landmark → .religious
+    • Karakol Wooden Orthodox Church: .landmark → .religious
+📝 NarynAttractions.swift: fixed 2 categories
+    • Naryn River Valley: .landmark → .park
+    • Naryn Regional Museum: .landmark → .museum
+📝 OshAttractions.swift: fixed 7 categories
+    • Uzgen Minaret & Mausoleums (Day Trip): .landmark → .religious
+    • Osh Central Mosque: .landmark → .religious
+    • Alymbek Datka Monument: .landmark → .monument
+    • Three-Storey Yurt Museum: .landmark → .museum
+    • Osh Regional Museum: .landmark → .museum
+    • Osh Bazaar (Jayma Bazaar): .landmark → .shopping
+    • Sulaiman-Too Sacred Mountain (UNESCO): .landmark → .park
+📝 SaryChelekAttractions.swift: fixed 3 categories
+    • Arkit Village: .landmark → .neighborhood
+    • Kyzyl-Kol Lake: .landmark → .park
+    • Sary-Chelek Lake: .landmark → .park
+📝 SongKulRegionAttractions.swift: fixed 1 categories
+    • Song Kul High Alpine Lake: .landmark → .park
+📝 SuusamyrValleyAttractions.swift: fixed 2 categories
+    • Chychkan Gorge: .landmark → .park
+    • Kyzyl-Oi Village: .landmark → .neighborhood
+📝 TalasAttractions.swift: fixed 2 categories
+    • Besh-Tash National Park: .landmark → .park
+    • Talas Regional Museum: .landmark → .museum
+📝 TashRabatAttractions.swift: fixed 3 categories
+    • Silk Road Heritage: .landmark → .historical
+    • Chatyr-Kul Lake: .landmark → .park
+    • At-Bashy District: .landmark → .neighborhood
+📝 ToktogulAttractions.swift: fixed 2 categories
+    • Uzun-Akmat Waterfall: .landmark → .park
+    • Chychkan Valley: .landmark → .park
+📝 NukusAttractions.swift: fixed 1 categories
+    • Ship Cemetery (Muynak): .landmark → .monument
+
+📌 Processing EastAsia...
+📝 BeijingAttractions.swift: fixed 11 categories
+    • Beijing Zoo: .landmark → .zoo
+    • Beijing Ancient Observatory: .landmark → .historical
+    • Houhai Lake & Bar Street: .landmark → .park
+    • Shichahai Lakes: .landmark → .park
+    • Capital Museum: .landmark → .museum
+    • Wangfujing Street: .landmark → .neighborhood
+    • Qianmen Street: .landmark → .neighborhood
+    • Olympic Park (Bird's Nest & Water Cube): .landmark → .stadium
+    • Confucius Temple: .landmark → .religious
+    • Lama Temple (Yonghe Temple): .landmark → .religious
+    • Forbidden City (Palace Museum): .landmark → .museum
+📝 ChengduAttractions.swift: fixed 7 categories
+    • Jinsha Site Museum: .landmark → .museum
+    • Sichuan Museum: .landmark → .museum
+    • Qingyang Palace: .landmark → .palace
+    • Sanxingdui Museum: .landmark → .museum
+    • Sichuan Opera (Face Changing): .landmark → .entertainment
+    • Wenshu Monastery: .landmark → .religious
+    • Wide and Narrow Alleys (Kuanzhai Xiangzi): .landmark → .neighborhood
+📝 DunhuangAttractions.swift: fixed 2 categories
+    • Mingsha Mountain & Crescent Lake: .landmark → .park
+    • Mogao Caves (UNESCO): .landmark → .park
+📝 GuangzhouAttractions.swift: fixed 5 categories
+    • Qingping Market: .landmark → .shopping
+    • Sacred Heart Cathedral: .landmark → .religious
+    • Baiyun Mountain: .landmark → .park
+    • Yuexiu Park & Five Rams Statue: .landmark → .monument
+    • Shamian Island: .landmark → .park
+📝 GuilinAttractions.swift: fixed 6 categories
+    • Crown Cave: .landmark → .park
+    • Silver Cave: .landmark → .park
+    • Xingping Ancient Town: .landmark → .historical
+    • Yulong River Bamboo Rafting: .landmark → .park
+    • Yangshuo West Street: .landmark → .neighborhood
+    • Reed Flute Cave: .landmark → .park
+📝 HangzhouAttractions.swift: fixed 10 categories
+    • Yue Fei Temple: .landmark → .religious
+    • Impression West Lake Show: .landmark → .park
+    • Hubin Road Pedestrian Street: .landmark → .neighborhood
+    • China National Tea Museum: .landmark → .museum
+    • Hefang Street: .landmark → .neighborhood
+    • Leifeng Pagoda: .landmark → .religious
+    • Six Harmonies Pagoda: .landmark → .religious
+    • Meijiawu Tea Village: .landmark → .neighborhood
+    • Longjing Tea Village: .landmark → .neighborhood
+    • West Lake (UNESCO): .landmark → .park
+📝 HarbinAttractions.swift: fixed 3 categories
+    • Sun Island: .landmark → .park
+    • Central Street (Zhongyang Dajie): .landmark → .neighborhood
+    • Saint Sophia Cathedral: .landmark → .religious
+📝 HongKongAttractions.swift: fixed 9 categories
+    • Lantau Island: .landmark → .park
+    • Cheung Chau Island: .landmark → .park
+    • Aberdeen Floating Village: .landmark → .neighborhood
+    • Hong Kong Disneyland: .landmark → .amusement
+    • Wong Tai Sin Temple: .landmark → .religious
+    • Man Mo Temple: .landmark → .religious
+    • Ladies Market (Mong Kok): .landmark → .shopping
+    • Temple Street Night Market: .landmark → .religious
+    • Victoria Peak: .landmark → .park
+📝 HuangshanAttractions.swift: fixed 3 categories
+    • Tunxi Old Street: .landmark → .neighborhood
+    • Hongcun Ancient Village (UNESCO): .landmark → .historical
+    • Xidi Ancient Village (UNESCO): .landmark → .historical
+📝 JiayuguanAttractions.swift: fixed 1 categories
+    • Great Wall Museum: .landmark → .museum
+📝 KashgarAttractions.swift: fixed 4 categories
+    • Karakul Lake: .landmark → .park
+    • Kashgar Sunday Bazaar: .landmark → .shopping
+    • Id Kah Mosque: .landmark → .religious
+    • Kashgar Old City: .landmark → .historical
+📝 LhasaAttractions.swift: fixed 2 categories
+    • Namtso Lake: .landmark → .park
+    • Drepung Monastery: .landmark → .religious
+📝 MacauAttractions.swift: fixed 5 categories
+    • Lou Lim Ieoc Garden: .landmark → .garden
+    • Taipa Village: .landmark → .neighborhood
+    • Coloane Village: .landmark → .neighborhood
+    • A-Ma Temple: .landmark → .religious
+    • Ruins of St. Paul's: .landmark → .historical
+📝 NanjingAttractions.swift: fixed 8 categories
+    • Jiming Temple: .landmark → .religious
+    • Qinhuai River: .landmark → .park
+    • Presidential Palace: .landmark → .palace
+    • Nanjing Massacre Memorial Hall: .landmark → .monument
+    • Xuanwu Lake: .landmark → .park
+    • Confucius Temple (Fuzimiao): .landmark → .religious
+    • Ming Xiaoling Mausoleum (UNESCO): .landmark → .religious
+    • Sun Yat-sen Mausoleum: .landmark → .religious
+📝 PingyaoAttractions.swift: fixed 2 categories
+    • Shuanglin Temple: .landmark → .religious
+    • Pingyao Ancient City (UNESCO): .landmark → .historical
+📝 QingdaoAttractions.swift: fixed 2 categories
+    • St. Michael's Cathedral: .landmark → .religious
+    • Laoshan Mountain: .landmark → .park
+📝 SanyaAttractions.swift: fixed 6 categories
+    • Yanoda Rainforest: .landmark → .park
+    • Wuzhizhou Island: .landmark → .park
+    • Nanshan Temple & Guanyin Statue: .landmark → .religious
+    • Sanya Bay: .landmark → .beach
+    • Dadonghai Beach: .landmark → .beach
+    • Yalong Bay: .landmark → .beach
+📝 ShanghaiAttractions.swift: fixed 9 categories
+    • Lujiazui Financial District: .landmark → .neighborhood
+    • Shanghai Ocean Aquarium: .landmark → .zoo
+    • M50 Art District: .landmark → .neighborhood
+    • Longhua Temple: .landmark → .religious
+    • Shanghai Disneyland: .landmark → .amusement
+    • Qibao Ancient Town: .landmark → .historical
+    • Shanghai Natural History Museum: .landmark → .museum
+    • Yu Garden (Yuyuan): .landmark → .garden
+    • Huangpu River Cruise: .landmark → .park
+📝 SuzhouAttractions.swift: fixed 3 categories
+    • Shantang Street: .landmark → .neighborhood
+    • Lingering Garden (UNESCO): .landmark → .garden
+    • Humble Administrator's Garden (UNESCO): .landmark → .garden
+📝 TurpanAttractions.swift: fixed 5 categories
+    • Grape Valley: .landmark → .park
+    • Flaming Mountains: .landmark → .park
+    • Bezeklik Thousand Buddha Caves: .landmark → .park
+    • Gaochang Ancient City: .landmark → .historical
+    • Jiaohe Ancient City: .landmark → .historical
+📝 UrumqiAttractions.swift: fixed 3 categories
+    • Xinjiang Regional Museum: .landmark → .museum
+    • Heavenly Lake (Tianchi): .landmark → .park
+    • Xinjiang International Grand Bazaar: .landmark → .shopping
+📝 WuhanAttractions.swift: fixed 4 categories
+    • Han Show Theatre: .landmark → .entertainment
+    • Wuhan Yangtze River Bridge: .landmark → .park
+    • Hubei Provincial Museum: .landmark → .museum
+    • East Lake: .landmark → .park
+📝 XiamenAttractions.swift: fixed 3 categories
+    • Jimei School Village: .landmark → .neighborhood
+    • Nanputuo Temple: .landmark → .religious
+    • Gulangyu Island (UNESCO): .landmark → .park
+📝 XianAttractions.swift: fixed 10 categories
+    • Tang Dynasty Music and Dance Show: .landmark → .entertainment
+    • Yongxingfang Food Street: .landmark → .neighborhood
+    • Hanyangling Mausoleum: .landmark → .religious
+    • Huaqing Hot Springs: .landmark → .park
+    • Forest of Stone Steles Museum: .landmark → .museum
+    • Daming Palace National Heritage Park: .landmark → .palace
+    • Big Wild Goose Pagoda: .landmark → .religious
+    • Great Mosque of Xi'an: .landmark → .religious
+    • Ancient City Wall: .landmark → .historical
+    • Qin Shi Huang Mausoleum: .landmark → .religious
+📝 YunnanAttractions.swift: fixed 10 categories
+    • Xishuangbanna Tropical Rainforest: .landmark → .park
+    • Kunming Green Lake Park: .landmark → .park
+    • Stone Forest (Shilin): .landmark → .park
+    • Three Pagodas of Chongsheng Temple: .landmark → .religious
+    • Erhai Lake: .landmark → .park
+    • Dali Old Town: .landmark → .historical
+    • Songzanlin Monastery: .landmark → .religious
+    • Tiger Leaping Gorge: .landmark → .park
+    • Jade Dragon Snow Mountain: .landmark → .park
+    • Lijiang Old Town (UNESCO): .landmark → .historical
+📝 ZhangjiajieAttractions.swift: fixed 3 categories
+    • Fenghuang Ancient Town: .landmark → .historical
+    • Huanglong Cave: .landmark → .park
+    • Avatar Hallelujah Mountain: .landmark → .park
+📝 CausewayBayAttractions.swift: fixed 3 categories
+    • Shau Kei Wan Wholesale Fish Market: .landmark → .shopping
+    • Quarry Bay Monster Building: .landmark → .beach
+    • Tin Hau Temple: .landmark → .religious
+📝 CentralWesternAttractions.swift: fixed 9 categories
+    • Graham Street Market: .landmark → .shopping
+    • Western Market: .landmark → .shopping
+    • Hong Kong Zoological and Botanical Gardens: .landmark → .garden
+    • Dr. Sun Yat-sen Museum: .landmark → .museum
+    • Cat Street (Upper Lascar Row): .landmark → .neighborhood
+    • Man Mo Temple: .landmark → .religious
+    • The Peak Tower: .landmark → .park
+    • Peak Tram: .landmark → .park
+    • Victoria Peak: .landmark → .park
+📝 CheungChauAttractions.swift: fixed 5 categories
+    • Cheung Chau Windsurfing Beach: .landmark → .beach
+    • Tung Wan Beach: .landmark → .beach
+    • Pak Tai Temple: .landmark → .religious
+    • Cheung Po Tsai Cave: .landmark → .park
+    • Cheung Chau Island: .landmark → .park
+📝 HikingTrailsAttractions.swift: fixed 3 categories
+    • Sharp Peak: .landmark → .park
+    • Sunset Peak: .landmark → .park
+    • Victoria Peak Circle Walk: .landmark → .park
+📝 KowloonCityAttractions.swift: fixed 3 categories
+    • Lei Yue Mun Seafood Village: .landmark → .neighborhood
+    • Nan Lian Garden: .landmark → .garden
+    • Wong Tai Sin Temple: .landmark → .religious
+📝 LammaAttractions.swift: fixed 5 categories
+    • Tin Hau Temple: .landmark → .religious
+    • Kamikaze Caves: .landmark → .park
+    • Lo So Shing Beach: .landmark → .beach
+    • Hung Shing Yeh Beach: .landmark → .beach
+    • Lamma Island Family Walk: .landmark → .park
+📝 LantauAttractions.swift: fixed 9 categories
+    • Hong Kong Disneyland: .landmark → .amusement
+    • Silvermine Bay Beach: .landmark → .beach
+    • Discovery Bay: .landmark → .beach
+    • Sunset Peak: .landmark → .park
+    • Lantau Peak: .landmark → .park
+    • Tai O Fishing Village: .landmark → .neighborhood
+    • Ngong Ping Village: .landmark → .neighborhood
+    • Ngong Ping 360 Cable Car: .landmark → .cablecar
+    • Po Lin Monastery: .landmark → .religious
+📝 MongKokAttractions.swift: fixed 5 categories
+    • Bird Garden: .landmark → .garden
+    • Goldfish Market: .landmark → .shopping
+    • Flower Market Road: .landmark → .shopping
+    • Sneaker Street (Fa Yuen Street): .landmark → .neighborhood
+    • Ladies' Market: .landmark → .shopping
+📝 PengChauAttractions.swift: fixed 3 categories
+    • Leather Factory Heritage: .landmark → .historical
+    • Tin Hau Temple: .landmark → .religious
+    • Peng Chau Island: .landmark → .park
+📝 SaiKungAttractions.swift: fixed 4 categories
+    • Ham Tin Beach: .landmark → .beach
+    • Tai Long Wan Beach: .landmark → .beach
+    • High Island Reservoir: .landmark → .park
+    • Sharp Island: .landmark → .park
+📝 ShaTinAttractions.swift: fixed 4 categories
+    • Shing Mun River: .landmark → .park
+    • Hong Kong Heritage Museum: .landmark → .museum
+    • Che Kung Temple: .landmark → .religious
+    • Ten Thousand Buddhas Monastery: .landmark → .religious
+📝 SouthernDistrictAttractions.swift: fixed 6 categories
+    • Big Wave Bay: .landmark → .beach
+    • Shek O Beach: .landmark → .beach
+    • Stanley Market: .landmark → .shopping
+    • Repulse Bay Beach: .landmark → .beach
+    • Jumbo Floating Restaurant (Historic Site): .landmark → .historical
+    • Aberdeen Floating Village: .landmark → .neighborhood
+📝 TaiPoNorthAttractions.swift: fixed 3 categories
+    • Ping Shan Heritage Trail: .landmark → .historical
+    • Lung Yeuk Tau Heritage Trail: .landmark → .historical
+    • Kadoorie Farm and Botanic Garden: .landmark → .garden
+📝 TsimShaTsuiAttractions.swift: fixed 3 categories
+    • 1881 Heritage: .landmark → .historical
+    • Hong Kong Museum of Art: .landmark → .museum
+    • Hong Kong Space Museum: .landmark → .museum
+📝 TuenMunYuenLongAttractions.swift: fixed 3 categories
+    • Yuen Long Old Town: .landmark → .historical
+    • Castle Peak Monastery: .landmark → .religious
+    • Miu Fat Buddhist Monastery: .landmark → .religious
+📝 WanChaiAttractions.swift: fixed 4 categories
+    • Tai Yuen Street (Toy Street): .landmark → .neighborhood
+    • Wan Chai Heritage Trail: .landmark → .historical
+    • Pak Tai Temple: .landmark → .religious
+    • Hong Kong Convention and Exhibition Centre: .landmark → .museum
+📝 YauMaTeiJordanAttractions.swift: fixed 5 categories
+    • Shanghai Street: .landmark → .neighborhood
+    • Wholesale Fruit Market: .landmark → .shopping
+    • Jade Market: .landmark → .shopping
+    • Tin Hau Temple (Yau Ma Tei): .landmark → .religious
+    • Temple Street Night Market: .landmark → .religious
+📝 BeppuAttractions.swift: fixed 1 categories
+    • Beppu Hot Springs: .landmark → .park
+📝 FukuokaAttractions.swift: fixed 3 categories
+    • Hakata Machiya Folk Museum: .landmark → .museum
+    • Yatai (Street Food Stalls): .landmark → .neighborhood
+    • Dazaifu Tenmangu Shrine: .landmark → .religious
+📝 HakoneAttractions.swift: fixed 3 categories
+    • Hot Springs (Onsen): .landmark → .park
+    • Hakone Ropeway: .landmark → .cablecar
+    • Owakudani Valley: .landmark → .park
+📝 HiroshimaAttractions.swift: fixed 5 categories
+    • Shukkeien Garden: .landmark → .garden
+    • Miyajima Island: .landmark → .park
+    • Itsukushima Shrine (Floating Torii): .landmark → .religious
+    • Hiroshima Peace Memorial Museum: .landmark → .museum
+    • Hiroshima Peace Memorial Park: .landmark → .monument
+📝 IseAttractions.swift: fixed 1 categories
+    • Ise Grand Shrine (Ise): .landmark → .religious
+📝 KamakuraAttractions.swift: fixed 5 categories
+    • Komachi Street: .landmark → .neighborhood
+    • Enoshima Island: .landmark → .park
+    • Hokoku-ji Temple (Bamboo Grove): .landmark → .religious
+    • Hase-dera Temple: .landmark → .religious
+    • Tsurugaoka Hachimangu Shrine: .landmark → .religious
+📝 KanazawaAttractions.swift: fixed 7 categories
+    • Nagamachi Samurai District: .landmark → .neighborhood
+    • 21st Century Museum of Contemporary Art: .landmark → .museum
+    • Omicho Market: .landmark → .shopping
+    • Ninjadera (Myoryuji Temple): .landmark → .religious
+    • Higashi Chaya District: .landmark → .neighborhood
+    • Kanazawa Castle: .landmark → .castle
+    • Kenroku-en Garden: .landmark → .garden
+📝 KobeAttractions.swift: fixed 3 categories
+    • Himeji Castle (Day Trip, UNESCO): .landmark → .castle
+    • Ikuta Shrine: .landmark → .religious
+    • Nunobiki Herb Gardens: .landmark → .garden
+📝 KyotoAttractions.swift: fixed 11 categories
+    • Kamogawa River: .landmark → .park
+    • Daitoku-ji Temple: .landmark → .religious
+    • Tofuku-ji Temple: .landmark → .religious
+    • Nanzen-ji Temple: .landmark → .religious
+    • Sanjusangendo Temple: .landmark → .religious
+    • Tenryu-ji Temple: .landmark → .religious
+    • Kifune Shrine: .landmark → .religious
+    • Ryoan-ji Temple (Zen Garden): .landmark → .religious
+    • Gion District (Geisha District): .landmark → .neighborhood
+    • Kiyomizu-dera Temple: .landmark → .religious
+    • Fushimi Inari Shrine (Thousand Torii Gates): .landmark → .religious
+📝 MatsumotoAttractions.swift: fixed 1 categories
+    • Matsumoto Castle: .landmark → .castle
+📝 MatsuyamaAttractions.swift: fixed 7 categories
+    • 88 Temple Pilgrimage: .landmark → .religious
+    • Iya Valley: .landmark → .park
+    • Naoshima Art Island: .landmark → .park
+    • Ritsurin Garden (Takamatsu): .landmark → .garden
+    • Kotohira Shrine: .landmark → .religious
+    • Ishiteji Temple: .landmark → .religious
+    • Matsuyama Castle: .landmark → .castle
+📝 MountFujiAttractions.swift: fixed 4 categories
+    • Aokigahara Forest: .landmark → .park
+    • Chureito Pagoda: .landmark → .religious
+    • Kawaguchiko Lake: .landmark → .park
+    • Fuji Five Lakes: .landmark → .park
+📝 NagasakiAttractions.swift: fixed 3 categories
+    • Oura Church: .landmark → .religious
+    • Glover Garden: .landmark → .garden
+    • Atomic Bomb Museum: .landmark → .museum
+📝 NagoyaAttractions.swift: fixed 4 categories
+    • Toyota Commemorative Museum: .landmark → .museum
+    • Osu Shopping District: .landmark → .shopping
+    • Atsuta Shrine: .landmark → .religious
+    • Nagoya Castle: .landmark → .castle
+📝 NaraAttractions.swift: fixed 5 categories
+    • Yoshikien Garden: .landmark → .garden
+    • Horyu-ji Temple (UNESCO): .landmark → .religious
+    • Naramachi Old Town: .landmark → .historical
+    • Kasuga Taisha Shrine: .landmark → .religious
+    • Todai-ji Temple (Great Buddha): .landmark → .religious
+📝 NikkoAttractions.swift: fixed 3 categories
+    • Taiyuin Temple: .landmark → .religious
+    • Rinnoji Temple: .landmark → .religious
+    • Toshogu Shrine (UNESCO): .landmark → .religious
+📝 OkayamaAttractions.swift: fixed 2 categories
+    • Kurashiki Bikan Historical Quarter: .landmark → .neighborhood
+    • Okayama Korakuen Garden: .landmark → .garden
+📝 OkinawaAttractions.swift: fixed 7 categories
+    • Zamami Island: .landmark → .park
+    • Manza Beach: .landmark → .beach
+    • Naminoue Shrine: .landmark → .religious
+    • Kabira Bay (Ishigaki): .landmark → .beach
+    • Churaumi Aquarium: .landmark → .zoo
+    • Kerama Islands: .landmark → .park
+    • Kokusai Street (Naha): .landmark → .neighborhood
+📝 OsakaAttractions.swift: fixed 4 categories
+    • Osaka Museum of History: .landmark → .museum
+    • Sumiyoshi Taisha Shrine: .landmark → .religious
+    • Tennoji Zoo & Park: .landmark → .zoo
+    • Kuromon Market: .landmark → .shopping
+📝 SapporoAttractions.swift: fixed 2 categories
+    • Asahiyama Zoo: .landmark → .zoo
+    • Lake Toya: .landmark → .park
+📝 TakayamaAttractions.swift: fixed 4 categories
+    • Gokayama Villages: .landmark → .neighborhood
+    • Hida Folk Village: .landmark → .neighborhood
+    • Takayama Morning Markets: .landmark → .shopping
+    • Takayama Old Town: .landmark → .historical
+📝 TokyoAttractions.swift: fixed 9 categories
+    • Tokyo Disneyland & DisneySea: .landmark → .amusement
+    • Yanaka Old Town: .landmark → .historical
+    • Ueno Park & Museums: .landmark → .museum
+    • TeamLab Borderless / TeamLab Planets: .landmark → .neighborhood
+    • Imperial Palace & East Gardens: .landmark → .garden
+    • Toyosu Fish Market: .landmark → .shopping
+    • Shinjuku Gyoen National Garden: .landmark → .garden
+    • Harajuku & Takeshita Street: .landmark → .neighborhood
+    • Senso-ji Temple (Asakusa): .landmark → .religious
+📝 YokohamaAttractions.swift: fixed 3 categories
+    • Cup Noodles Museum: .landmark → .museum
+    • Sankeien Garden: .landmark → .garden
+    • Yokohama Chinatown: .landmark → .neighborhood
+📝 AltaiAttractions.swift: fixed 4 categories
+    • Eagle Hunters of Bayan-Ölgii: .landmark → .beach
+    • Khurgan Lake: .landmark → .park
+    • Khoton Lake: .landmark → .park
+    • Altai Tavan Bogd National Park: .landmark → .park
+📝 DalanzadgadAttractions.swift: fixed 1 categories
+    • Flaming Cliffs (Bayanzag): .landmark → .beach
+📝 EasternMongoliaAttractions.swift: fixed 3 categories
+    • Khalkh Gol Memorial: .landmark → .monument
+    • Ganga Lake: .landmark → .park
+    • Shiliin Bogd Mountain: .landmark → .park
+📝 GobiAttractions.swift: fixed 4 categories
+    • Dungenee Canyon: .landmark → .park
+    • Bayanzag (Flaming Cliffs): .landmark → .beach
+    • Yolyn Am (Eagle Valley): .landmark → .park
+    • Gobi Gurvansaikhan National Park: .landmark → .park
+📝 GunGaluutAttractions.swift: fixed 1 categories
+    • Wildlife & Birdwatching: .landmark → .park
+📝 KharkhorinAttractions.swift: fixed 3 categories
+    • Orkhon Waterfall: .landmark → .park
+    • Orkhon Valley (UNESCO): .landmark → .park
+    • Karakorum Ancient Capital: .landmark → .historical
+📝 KhovsgolAttractions.swift: fixed 4 categories
+    • Darkhad Valley: .landmark → .park
+    • Khövsgöl National Park: .landmark → .park
+    • Khatgal Village: .landmark → .neighborhood
+    • Khövsgöl Lake (Blue Pearl of Mongolia): .landmark → .park
+📝 MongoliaExperiencesAttractions.swift: fixed 1 categories
+    • Hot Springs (Tsenkher): .landmark → .park
+📝 MurunAttractions.swift: fixed 1 categories
+    • Khatgal Village: .landmark → .neighborhood
+📝 NorthernMongoliaAttractions.swift: fixed 3 categories
+    • Buir Lake: .landmark → .park
+    • Selenge River: .landmark → .park
+    • Amarbayasgalant Monastery: .landmark → .religious
+📝 TereljAttractions.swift: fixed 5 categories
+    • Chinggis Khaan Statue: .landmark → .monument
+    • Genghis Khan Statue Complex: .landmark → .monument
+    • Terelj Hot Springs: .landmark → .park
+    • Aryabal Meditation Temple: .landmark → .religious
+    • Gorkhi-Terelj National Park: .landmark → .park
+📝 UlaanbaatarAttractions.swift: fixed 6 categories
+    • International Intellectual Museum: .landmark → .museum
+    • Black Market (Narantuul Market): .landmark → .shopping
+    • National History Museum: .landmark → .museum
+    • Winter Palace of the Bogd Khan: .landmark → .palace
+    • Gandan Monastery (Gandantegchinlen): .landmark → .religious
+    • Narantuul Market (Black Market): .landmark → .shopping
+📝 WesternMongoliaAttractions.swift: fixed 3 categories
+    • Munkh Khairkhan Mountain: .landmark → .park
+    • Khar Us Lake National Park: .landmark → .park
+    • Uvs Lake (UNESCO): .landmark → .park
+📝 AndongAttractions.swift: fixed 3 categories
+    • Bongjeongsa Temple: .landmark → .religious
+    • Andong Mask Museum: .landmark → .museum
+    • Hahoe Folk Village (UNESCO): .landmark → .neighborhood
+📝 BoryeongAttractions.swift: fixed 2 categories
+    • Muchangpo Beach: .landmark → .beach
+    • Daecheon Beach: .landmark → .beach
+📝 BusanAttractions.swift: fixed 7 categories
+    • Songdo Cable Car: .landmark → .cablecar
+    • Songdo Beach: .landmark → .beach
+    • Huinnyeoul Culture Village: .landmark → .neighborhood
+    • SEA LIFE Busan Aquarium: .landmark → .zoo
+    • Dongbaek Island: .landmark → .park
+    • Gukje Market: .landmark → .shopping
+    • Gamcheon Culture Village: .landmark → .neighborhood
+📝 DaeguAttractions.swift: fixed 4 categories
+    • Haeinsa Temple (UNESCO): .landmark → .religious
+    • Suseong Lake: .landmark → .park
+    • Donghwasa Temple: .landmark → .religious
+    • Seomun Market: .landmark → .shopping
+📝 GangwonAttractions.swift: fixed 7 categories
+    • Pyeongchang Olympic Venues: .landmark → .stadium
+    • Odaesan National Park: .landmark → .park
+    • Gyeongpodae Beach (Gangneung): .landmark → .beach
+    • Abai Village: .landmark → .neighborhood
+    • Sokcho Beach: .landmark → .beach
+    • Naksansa Temple: .landmark → .religious
+    • Seoraksan National Park: .landmark → .park
+📝 GwangjuAttractions.swift: fixed 4 categories
+    • Yangnim-dong History Village: .landmark → .neighborhood
+    • Gwangju National Museum: .landmark → .museum
+    • Mudeungsan National Park: .landmark → .park
+    • 5.18 Memorial Park: .landmark → .monument
+📝 GyeongjuAttractions.swift: fixed 6 categories
+    • Bunhwangsa Temple: .landmark → .religious
+    • Namsan Mountain: .landmark → .park
+    • Bomun Lake: .landmark → .park
+    • Gyochon Traditional Village: .landmark → .neighborhood
+    • Anapji Pond (Donggung Palace): .landmark → .palace
+    • Bulguksa Temple (UNESCO): .landmark → .religious
+📝 IncheonAttractions.swift: fixed 3 categories
+    • Muuido Island: .landmark → .park
+    • Gyeyang Mountain: .landmark → .park
+    • Songdo International Business District: .landmark → .neighborhood
+📝 JejuAttractions.swift: fixed 11 categories
+    • Saryeoni Forest Trail: .landmark → .park
+    • Ecoland Theme Park: .landmark → .amusement
+    • Teddy Bear Museum: .landmark → .museum
+    • Jeju Folk Village: .landmark → .neighborhood
+    • Yakcheonsa Temple: .landmark → .religious
+    • Udo Island: .landmark → .park
+    • Woljeongri Beach: .landmark → .beach
+    • Hamdeok Beach: .landmark → .beach
+    • Hyeopjae Beach: .landmark → .beach
+    • Manjanggul Cave (UNESCO Lava Tube): .landmark → .park
+    • Seongsan Ilchulbong (Sunrise Peak): .landmark → .park
+📝 JeonjuAttractions.swift: fixed 5 categories
+    • Nambu Market: .landmark → .shopping
+    • Jeondong Catholic Church: .landmark → .religious
+    • Jeonju National Museum: .landmark → .museum
+    • Gyeonggijeon Shrine: .landmark → .religious
+    • Jeonju Hanok Village: .landmark → .neighborhood
+📝 SeoulAttractions.swift: fixed 9 categories
+    • Jongmyo Shrine (UNESCO): .landmark → .religious
+    • Evergrand Zion Market: .landmark → .shopping
+    • Leeum Samsung Museum of Art: .landmark → .museum
+    • Noryangjin Fish Market: .landmark → .shopping
+    • Gwangjang Market: .landmark → .shopping
+    • Jogyesa Temple: .landmark → .religious
+    • Bongeunsa Temple: .landmark → .religious
+    • COEX Mall: .landmark → .shopping
+    • Changdeokgung Palace (UNESCO): .landmark → .palace
+📝 SuwonAttractions.swift: fixed 3 categories
+    • Suwon Hwaseong Museum: .landmark → .museum
+    • Korean Folk Village: .landmark → .neighborhood
+    • Hwaseong Fortress (UNESCO): .landmark → .palace
+📝 TongyeongAttractions.swift: fixed 4 categories
+    • Hansando Island: .landmark → .park
+    • Dongpirang Mural Village: .landmark → .neighborhood
+    • Tongyeong Cable Car: .landmark → .cablecar
+    • Hallyeohaesang National Park: .landmark → .park
+📝 YeosuAttractions.swift: fixed 2 categories
+    • Aquaplanet Yeosu: .landmark → .neighborhood
+    • Odongdo Island: .landmark → .park
+📝 ChiayiAttractions.swift: fixed 4 categories
+    • Chiayi Art Museum: .landmark → .museum
+    • Hinoki Village: .landmark → .neighborhood
+    • Fenqihu Old Street: .landmark → .neighborhood
+    • Alishan Forest Railway: .landmark → .park
+📝 HualienAttractions.swift: fixed 9 categories
+    • Ruisui Hot Springs: .landmark → .park
+    • Pine Garden: .landmark → .garden
+    • Dongdamen Night Market: .landmark → .shopping
+    • Qixingtan Beach: .landmark → .beach
+    • Liyu Lake: .landmark → .park
+    • Baiyang Waterfall Trail: .landmark → .park
+    • Eternal Spring Shrine: .landmark → .religious
+    • Taroko Gorge: .landmark → .park
+    • Taroko National Park: .landmark → .park
+📝 KaohsiungAttractions.swift: fixed 11 categories
+    • Kaohsiung Museum of Fine Arts: .landmark → .museum
+    • Ruifeng Night Market: .landmark → .shopping
+    • Zuoying Old Town: .landmark → .historical
+    • Love River: .landmark → .park
+    • Qijin Old Street: .landmark → .neighborhood
+    • Cijin Lighthouse: .landmark → .lighthouse
+    • Cijin Beach: .landmark → .beach
+    • Cijin Island: .landmark → .park
+    • Fo Guang Shan Buddha Museum: .landmark → .museum
+    • Liuhe Night Market: .landmark → .shopping
+    • Dragon and Tiger Pagodas: .landmark → .religious
+📝 KentingAttractions.swift: fixed 6 categories
+    • Kenting Night Market: .landmark → .shopping
+    • Eluanbi Lighthouse: .landmark → .lighthouse
+    • Baisha Beach: .landmark → .beach
+    • South Bay Beach: .landmark → .beach
+    • Kenting Beach: .landmark → .beach
+    • Kenting National Park: .landmark → .park
+📝 NantouAttractions.swift: fixed 9 categories
+    • Lushan Hot Springs: .landmark → .park
+    • Lukang Old Town: .landmark → .historical
+    • Monster Village (Xitou): .landmark → .neighborhood
+    • Hehuanshan (Mt. Hehuan): .landmark → .park
+    • Sun Moon Lake Ropeway: .landmark → .park
+    • Ita Thao Village: .landmark → .neighborhood
+    • Ci'en Pagoda: .landmark → .religious
+    • Wenwu Temple: .landmark → .religious
+    • Sun Moon Lake: .landmark → .park
+📝 NewTaipeiAttractions.swift: fixed 12 categories
+    • Sanxia Old Street: .landmark → .neighborhood
+    • Yingge Ceramics Street: .landmark → .neighborhood
+    • Sandiaoling Waterfall Trail: .landmark → .park
+    • Fulong Beach: .landmark → .beach
+    • Wulai Waterfall: .landmark → .park
+    • Wulai Hot Springs: .landmark → .park
+    • Fort San Domingo: .landmark → .palace
+    • Tamsui Old Street: .landmark → .neighborhood
+    • Pingxi District: .landmark → .neighborhood
+    • Shifen Old Street (Sky Lanterns): .landmark → .neighborhood
+    • Shifen Waterfall: .landmark → .park
+    • Jiufen Old Street: .landmark → .neighborhood
+📝 OffshoreIslandsAttractions.swift: fixed 4 categories
+    • Qinbi Village: .landmark → .neighborhood
+    • Matsu Islands: .landmark → .park
+    • Shuitou Village: .landmark → .neighborhood
+    • Kinmen National Park: .landmark → .park
+📝 PenghuAttractions.swift: fixed 5 categories
+    • Penghu Aquarium: .landmark → .zoo
+    • Qimei Island: .landmark → .park
+    • Erkan Traditional Village: .landmark → .neighborhood
+    • Whale Cave (Jingui Cave): .landmark → .park
+    • Tianhou Temple: .landmark → .religious
+📝 TaichungAttractions.swift: fixed 8 categories
+    • Luce Memorial Chapel: .landmark → .religious
+    • Taichung Opera House: .landmark → .entertainment
+    • Qingshui District: .landmark → .neighborhood
+    • Zhongshe Flower Market: .landmark → .shopping
+    • National Taiwan Museum of Fine Arts: .landmark → .museum
+    • National Museum of Natural Science: .landmark → .museum
+    • Fengjia Night Market: .landmark → .shopping
+    • Rainbow Village: .landmark → .neighborhood
+📝 TainanAttractions.swift: fixed 11 categories
+    • Guanziling Hot Springs: .landmark → .park
+    • Eternal Golden Castle: .landmark → .castle
+    • Chimei Museum: .landmark → .museum
+    • Qigu Salt Mountain: .landmark → .park
+    • National Museum of Taiwan Literature: .landmark → .museum
+    • Grand Mazu Temple: .landmark → .religious
+    • Dadong Night Market: .landmark → .shopping
+    • Tainan Flower Night Market: .landmark → .shopping
+    • Shennong Street: .landmark → .neighborhood
+    • Confucius Temple: .landmark → .religious
+    • Anping Old Fort (Fort Zeelandia): .landmark → .palace
+📝 TaipeiAttractions.swift: fixed 18 categories
+    • Taipei Fine Arts Museum: .landmark → .museum
+    • Sun Yat-sen Memorial Hall: .landmark → .monument
+    • Yangmingshan National Park: .landmark → .park
+    • Maokong Gondola: .landmark → .cablecar
+    • Taipei Zoo: .landmark → .zoo
+    • Taipei Botanical Garden: .landmark → .garden
+    • Dihua Street: .landmark → .neighborhood
+    • National Taiwan Museum: .landmark → .museum
+    • Beitou Thermal Valley: .landmark → .park
+    • Beitou Hot Springs: .landmark → .park
+    • Elephant Mountain (Xiangshan): .landmark → .park
+    • Ningxia Night Market: .landmark → .shopping
+    • Raohe Street Night Market: .landmark → .shopping
+    • Shilin Night Market: .landmark → .shopping
+    • Ximending Shopping District: .landmark → .shopping
+    • Longshan Temple: .landmark → .religious
+    • Chiang Kai-shek Memorial Hall: .landmark → .monument
+    • National Palace Museum: .landmark → .museum
+📝 TaitungAttractions.swift: fixed 6 categories
+    • Jhihben Hot Springs: .landmark → .park
+    • Tiehua Music Village: .landmark → .neighborhood
+    • Iron Flower Village: .landmark → .neighborhood
+    • Taitung Forest Park: .landmark → .park
+    • Orchid Island (Lanyu): .landmark → .park
+    • Green Island: .landmark → .park
+📝 YilanAttractions.swift: fixed 6 categories
+    • Guishan Island: .landmark → .park
+    • Taipingshan National Forest: .landmark → .park
+    • Lanyang Museum: .landmark → .museum
+    • Waiao Beach: .landmark → .beach
+    • Luodong Night Market: .landmark → .shopping
+    • Jiaoxi Hot Springs: .landmark → .park
+
+📌 Processing MiddleEast...
+📝 ManamaAttractions.swift: fixed 1 categories
+    • Bahrain National Theatre: .landmark → .entertainment
+📝 ShirazAttractions.swift: fixed 1 categories
+    • Tomb of Hafez: .landmark → .monument
+📝 BaghdadAttractions.swift: fixed 1 categories
+    • Al-Shaheed Monument: .landmark → .monument
+📝 AmmanAttractions.swift: fixed 12 categories
+    • Al Husseini Mosque: .landmark → .religious
+    • Souk Jara: .landmark → .shopping
+    • Jordan National Gallery of Fine Arts: .landmark → .museum
+    • Royal Automobile Museum: .landmark → .museum
+    • Abu Darwish Mosque: .landmark → .religious
+    • King Abdullah I Mosque: .landmark → .religious
+    • Rainbow Street: .landmark → .neighborhood
+    • Jordan Museum: .landmark → .museum
+    • Umayyad Palace: .landmark → .palace
+    • Temple of Hercules: .landmark → .religious
+    • Roman Theatre: .landmark → .entertainment
+    • The Citadel (Jabal al-Qal'a): .landmark → .palace
+📝 AqabaAttractions.swift: fixed 9 categories
+    • Sharif Hussein bin Ali Mosque: .landmark → .religious
+    • Aqaba Marine Park: .landmark → .beach
+    • Japanese Garden Dive Site: .landmark → .garden
+    • Berenice Beach Club: .landmark → .beach
+    • Tala Bay: .landmark → .beach
+    • South Beach: .landmark → .beach
+    • Ayla Ruins (Ancient Islamic City): .landmark → .historical
+    • Aqaba Archaeological Museum: .landmark → .museum
+    • Aqaba Fort (Mamluk Castle): .landmark → .palace
+📝 AzraqAttractions.swift: fixed 2 categories
+    • Shaumari Wildlife Reserve: .landmark → .park
+    • Azraq Castle (Qasr Azraq): .landmark → .castle
+📝 BaptismSiteAttractions.swift: fixed 2 categories
+    • John the Baptist Church: .landmark → .religious
+    • Bethany Beyond the Jordan (Al-Maghtas) - UNESCO World Heritage Site: .landmark → .historical
+📝 DanaAttractions.swift: fixed 4 categories
+    • Dibbin Forest Park: .landmark → .park
+    • Shaumari Wildlife Reserve: .landmark → .park
+    • Ajloun Forest Reserve: .landmark → .park
+    • Wadi Mujib Nature Reserve: .landmark → .park
+📝 DeadSeaAttractions.swift: fixed 7 categories
+    • Wadi Mujib (Grand Canyon of Jordan): .landmark → .park
+    • Ma'in Hot Springs: .landmark → .park
+    • Dead Sea Museum: .landmark → .museum
+    • Lot's Cave: .landmark → .park
+    • O Beach: .landmark → .beach
+    • Amman Beach: .landmark → .beach
+    • Dead Sea Beach Resorts: .landmark → .beach
+📝 DesertCastlesAttractions.swift: fixed 1 categories
+    • Qasr Amra (UNESCO World Heritage Site): .landmark → .historical
+📝 IrbidAttractions.swift: fixed 4 categories
+    • Museum of Jordanian Heritage: .landmark → .museum
+    • Ajloun Forest Reserve: .landmark → .park
+    • Ajloun Castle (Qal'at Ar-Rabad): .landmark → .castle
+    • Umm Qais (Gadara) - Roman Ruins: .landmark → .historical
+📝 JerashAttractions.swift: fixed 7 categories
+    • Cathedral: .landmark → .religious
+    • Cardo Maximus (Colonnaded Street): .landmark → .neighborhood
+    • North Theatre: .landmark → .entertainment
+    • South Theatre: .landmark → .entertainment
+    • Temple of Zeus: .landmark → .religious
+    • Temple of Artemis: .landmark → .religious
+    • Jerash Ruins (Gerasa) - One of Best Preserved Roman Cities: .landmark → .historical
+📝 KarakAttractions.swift: fixed 3 categories
+    • Al-Karak Old Town: .landmark → .historical
+    • Karak Archaeological Museum: .landmark → .museum
+    • Karak Castle (Crusader Fortress): .landmark → .castle
+📝 MadabaAttractions.swift: fixed 7 categories
+    • Machaerus (Herod's Palace): .landmark → .palace
+    • Moses Memorial Church: .landmark → .religious
+    • Burnt Palace: .landmark → .palace
+    • Madaba Museum: .landmark → .museum
+    • Church of the Apostles: .landmark → .religious
+    • Archaeological Park: .landmark → .historical
+    • St. George's Church (Madaba Map - 6th Century Mosaic): .landmark → .religious
+📝 PetraAttractions.swift: fixed 9 categories
+    • Petra Museum: .landmark → .museum
+    • Byzantine Church: .landmark → .religious
+    • Great Temple: .landmark → .religious
+    • Colonnaded Street: .landmark → .neighborhood
+    • The Theatre: .landmark → .entertainment
+    • Street of Facades: .landmark → .neighborhood
+    • The Monastery (Ad Deir): .landmark → .religious
+    • The Siq (Canyon Entrance): .landmark → .park
+    • The Treasury (Al-Khazneh) - UNESCO World Heritage Site: .landmark → .historical
+📝 SaltAttractions.swift: fixed 3 categories
+    • Small Museum (Beit Aziz): .landmark → .museum
+    • Salt Archaeological Museum: .landmark → .museum
+    • As-Salt Historic Core (UNESCO World Heritage Site): .landmark → .historical
+📝 ShobakAttractions.swift: fixed 2 categories
+    • Dana Village: .landmark → .neighborhood
+    • Shobak Castle (Montreal): .landmark → .castle
+📝 WadiRumAttractions.swift: fixed 3 categories
+    • Abu Khashaba Canyon: .landmark → .park
+    • Jebel Um ad Dami (Highest Peak): .landmark → .park
+    • Khazali Canyon: .landmark → .park
+📝 MuscatAttractions.swift: fixed 1 categories
+    • Royal Opera House Muscat: .landmark → .entertainment
+📝 DohaAttractions.swift: fixed 3 categories
+    • Oryx Statue at Hamad Airport: .landmark → .monument
+    • West Bay Skyline: .landmark → .beach
+    • Katara Cultural Village: .landmark → .neighborhood
+📝 AbhaAttractions.swift: fixed 9 categories
+    • Cable Car to Green Mountain: .landmark → .park
+    • Art Street Abha: .landmark → .neighborhood
+    • Asir National Park: .landmark → .park
+    • Al Muftaha Village: .landmark → .neighborhood
+    • Shada Mountain: .landmark → .park
+    • Habala Village: .landmark → .neighborhood
+    • Rijal Almaa Village (UNESCO): .landmark → .neighborhood
+    • Green Mountain (Jabal Akhdar): .landmark → .park
+    • Abha Palace Theme Park: .landmark → .palace
+📝 AlAhsaAttractions.swift: fixed 7 categories
+    • Yellow Lake (Al Asfar Lake): .landmark → .park
+    • Al-Ahsa National Park: .landmark → .park
+    • Land of Civilizations Museum: .landmark → .museum
+    • Al Qarah Mountain & Caves: .landmark → .park
+    • Ibrahim Palace: .landmark → .palace
+    • Jawatha Mosque: .landmark → .religious
+    • Al-Ahsa Oasis (UNESCO World Heritage Site): .landmark → .historical
+📝 AlKhobarAttractions.swift: fixed 3 categories
+    • Giant Oyster Monument: .landmark → .monument
+    • Al Rashid Mall: .landmark → .shopping
+    • Sunset Beach: .landmark → .beach
+📝 AlUlaAttractions.swift: fixed 5 categories
+    • AlUla Heritage Village: .landmark → .historical
+    • Maraya Concert Hall: .landmark → .entertainment
+    • Old Town of AlUla: .landmark → .historical
+    • Dadan (Ancient Dadanite Kingdom): .landmark → .historical
+    • Hegra (Madain Salih - UNESCO World Heritage Site): .landmark → .historical
+📝 DammamAttractions.swift: fixed 6 categories
+    • Thaj Archaeological Site: .landmark → .historical
+    • Dammam Regional Museum: .landmark → .museum
+    • Coral Island: .landmark → .park
+    • Tarout Island: .landmark → .park
+    • Tarout Castle: .landmark → .castle
+    • Half Moon Bay: .landmark → .beach
+📝 HailAttractions.swift: fixed 5 categories
+    • Omar Mosque (Ancient) - Nearby: .landmark → .religious
+    • Marid Castle - Nearby: .landmark → .castle
+    • Ha'il Regional Museum: .landmark → .museum
+    • Barzan Castle: .landmark → .castle
+    • Jubbah Rock Art (UNESCO World Heritage Site): .landmark → .historical
+📝 JazanAttractions.swift: fixed 5 categories
+    • Farasan Islands: .landmark → .park
+    • Al-Dayer Mountain: .landmark → .park
+    • Fifa Mountain: .landmark → .park
+    • Jazan Heritage Village: .landmark → .historical
+    • Farasan Islands Marine Sanctuary: .landmark → .park
+📝 JeddahAttractions.swift: fixed 8 categories
+    • Tayebat City Museum: .landmark → .museum
+    • Jeddah Sculpture Museum (Open Air Museum): .landmark → .museum
+    • Al Shallal Theme Park: .landmark → .amusement
+    • Fakieh Aquarium: .landmark → .zoo
+    • Red Sea Mall: .landmark → .shopping
+    • Nasseef House Museum: .landmark → .museum
+    • Floating Mosque (Al Rahma Mosque): .landmark → .religious
+    • Al-Balad (Historic Jeddah - UNESCO World Heritage Site): .landmark → .historical
+📝 MeccaAttractions.swift: fixed 3 categories
+    • Makkah Museum: .landmark → .museum
+    • Jabal al-Nour (Mount of Light) & Hira Cave: .landmark → .park
+    • Masjid al-Haram (Grand Mosque): .landmark → .religious
+📝 MedinaAttractions.swift: fixed 8 categories
+    • Hejaz Railway Station Museum: .landmark → .museum
+    • Al Noor Mall: .landmark → .shopping
+    • Madinah Museum: .landmark → .museum
+    • Date Market (Souq al-Tamr): .landmark → .shopping
+    • Al-Baqi Cemetery: .landmark → .monument
+    • Qiblatain Mosque: .landmark → .religious
+    • Quba Mosque: .landmark → .religious
+    • Al-Masjid an-Nabawi (Prophet's Mosque): .landmark → .religious
+📝 NajranAttractions.swift: fixed 3 categories
+    • Najran Regional Museum: .landmark → .museum
+    • Najran Fort (Al-Aan Palace): .landmark → .palace
+    • Al-Ukhdood Archaeological Site: .landmark → .historical
+📝 RiyadhAttractions.swift: fixed 8 categories
+    • Imam Turki bin Abdullah Grand Mosque: .landmark → .religious
+    • Al Murabba Historical Palace: .landmark → .palace
+    • King Abdullah Financial District (KAFD): .landmark → .neighborhood
+    • Riyadh Zoo: .landmark → .zoo
+    • Al Bujairi Heritage Park: .landmark → .historical
+    • At-Turaif District: .landmark → .neighborhood
+    • Diriyah (UNESCO World Heritage Site): .landmark → .historical
+    • National Museum of Saudi Arabia: .landmark → .museum
+📝 TabukAttractions.swift: fixed 6 categories
+    • Gayal Beach: .landmark → .beach
+    • Sharma Beach: .landmark → .beach
+    • NEOM Bay (Developing): .landmark → .beach
+    • Al Disah Valley: .landmark → .park
+    • Tabuk Regional Museum: .landmark → .museum
+    • Tabuk Castle: .landmark → .castle
+📝 TaifAttractions.swift: fixed 6 categories
+    • Abdullah bin Abbas Mosque: .landmark → .religious
+    • Taif Zoo: .landmark → .zoo
+    • Souq Okaz (Historic Market): .landmark → .shopping
+    • Cable Car (Telefrique): .landmark → .cablecar
+    • Al Hada Mountain: .landmark → .park
+    • Shubra Palace: .landmark → .palace
+📝 YanbuAttractions.swift: fixed 3 categories
+    • Royal Commission Beach: .landmark → .beach
+    • Yanbu Lakes: .landmark → .park
+    • Radwa Mountain: .landmark → .park
+📝 AbuDhabiAttractions.swift: fixed 19 categories
+    • Lulu Island: .landmark → .park
+    • Al Reem Island: .landmark → .park
+    • The Galleria Al Maryah Island: .landmark → .park
+    • Al Maryah Island: .landmark → .park
+    • Al Hudayriyat Island: .landmark → .park
+    • Arabian Wildlife Park: .landmark → .park
+    • Sir Bani Yas Island: .landmark → .park
+    • Al Ain Palace Museum: .landmark → .museum
+    • Al Ain Zoo: .landmark → .zoo
+    • Abu Dhabi Heritage Village: .landmark → .historical
+    • Saadiyat Beach: .landmark → .beach
+    • Saadiyat Island: .landmark → .park
+    • Yas Beach: .landmark → .beach
+    • Yas Mall: .landmark → .shopping
+    • Yas Island: .landmark → .park
+    • Corniche Beach: .landmark → .beach
+    • Emirates Palace: .landmark → .palace
+    • Qasr Al Watan (Presidential Palace): .landmark → .palace
+    • Sheikh Zayed Grand Mosque: .landmark → .religious
+📝 AjmanAttractions.swift: fixed 3 categories
+    • Ajman Beach: .landmark → .beach
+    • Al Zorah Nature Reserve: .landmark → .park
+    • Ajman Museum: .landmark → .museum
+📝 AlAinAttractions.swift: fixed 5 categories
+    • Al Ain National Museum: .landmark → .museum
+    • Al Ain Camel Market: .landmark → .shopping
+    • Hili Archaeological Park: .landmark → .historical
+    • Al Ain Palace Museum: .landmark → .museum
+    • Al Ain Zoo: .landmark → .zoo
+📝 DubaiAttractions.swift: fixed 29 categories
+    • Desert Safari: .landmark → .park
+    • Dubai Garden Glow: .landmark → .garden
+    • The Green Planet: .landmark → .neighborhood
+    • Ras Al Khor Wildlife Sanctuary: .landmark → .park
+    • Dubai Safari Park: .landmark → .park
+    • Dubai Design District (d3): .landmark → .neighborhood
+    • Mall of the Emirates: .landmark → .shopping
+    • Ski Dubai (Mall of the Emirates): .landmark → .shopping
+    • Legoland Dubai: .landmark → .amusement
+    • Dubai Butterfly Garden: .landmark → .garden
+    • Miracle Garden: .landmark → .garden
+    • Global Village: .landmark → .neighborhood
+    • Dubai Opera: .landmark → .entertainment
+    • Museum of the Future: .landmark → .museum
+    • Deira Old Souk: .landmark → .shopping
+    • Spice Souk: .landmark → .shopping
+    • Gold Souk: .landmark → .shopping
+    • Dubai Museum (Al Fahidi Fort): .landmark → .museum
+    • Al Fahidi Historical District (Bastakiya): .landmark → .neighborhood
+    • La Mer Beach: .landmark → .beach
+    • Kite Beach: .landmark → .beach
+    • Jumeirah Beach: .landmark → .beach
+    • Souk Madinat Jumeirah: .landmark → .shopping
+    • Bluewaters Island: .landmark → .park
+    • JBR Beach (Jumeirah Beach Residence): .landmark → .beach
+    • The Lost Chambers Aquarium: .landmark → .zoo
+    • Dubai Aquarium & Underwater Zoo: .landmark → .zoo
+    • Dubai Mall: .landmark → .shopping
+    • At The Top Observation Deck: .landmark → .viewpoint
+📝 FujairahAttractions.swift: fixed 8 categories
+    • Shark Island: .landmark → .park
+    • Wadi Wurayah National Park: .landmark → .park
+    • Al Hayl Castle: .landmark → .castle
+    • Ain Al Madhab Hot Springs: .landmark → .park
+    • Fujairah Museum: .landmark → .museum
+    • Sandy Beach: .landmark → .beach
+    • Snoopy Island: .landmark → .park
+    • Al Bidyah Mosque (Oldest Mosque in UAE): .landmark → .religious
+📝 HattaAttractions.swift: fixed 4 categories
+    • Hatta Honey Bee Garden: .landmark → .garden
+    • Hatta Fort Hotel: .landmark → .palace
+    • Hatta Mountain Biking: .landmark → .park
+    • Hatta Heritage Village: .landmark → .historical
+📝 RasAlKhaimahAttractions.swift: fixed 4 categories
+    • Iceland Water Park: .landmark → .amusement
+    • Ras Al Khaimah National Museum: .landmark → .museum
+    • Al Hamra Village: .landmark → .neighborhood
+    • Jais Adventure Peak: .landmark → .park
+📝 SharjahAttractions.swift: fixed 12 categories
+    • Blue Souk (Central Market): .landmark → .shopping
+    • Khor Fakkan Beach: .landmark → .beach
+    • Sharjah Classic Cars Museum: .landmark → .museum
+    • Mleiha Archaeological Centre: .landmark → .historical
+    • Sharjah Archaeology Museum: .landmark → .museum
+    • Sharjah Maritime Museum: .landmark → .museum
+    • Sharjah Aquarium: .landmark → .zoo
+    • Al Noor Mosque: .landmark → .religious
+    • Al Noor Island: .landmark → .park
+    • Sharjah Heritage Area: .landmark → .historical
+    • Sharjah Art Museum: .landmark → .museum
+    • Sharjah Museum of Islamic Civilization: .landmark → .museum
+📝 UmmAlQuwainAttractions.swift: fixed 3 categories
+    • Flamingo Beach: .landmark → .beach
+    • Al Sinniyah Island: .landmark → .park
+    • Umm Al Quwain Museum: .landmark → .museum
+
+📌 Processing SouthAsia...
+📝 AgraAttractions.swift: fixed 3 categories
+    • Kinari Bazaar: .landmark → .shopping
+    • Jama Masjid Agra: .landmark → .religious
+    • Akbar's Tomb (Sikandra): .landmark → .monument
+📝 AndamanAttractions.swift: fixed 7 categories
+    • Limestone Caves: .landmark → .park
+    • Baratang Island: .landmark → .park
+    • North Bay Island: .landmark → .park
+    • Ross Island: .landmark → .park
+    • Neil Island: .landmark → .park
+    • Havelock Island: .landmark → .park
+    • Radhanagar Beach: .landmark → .beach
+📝 DarjeelingAttractions.swift: fixed 1 categories
+    • Darjeeling (Tea Gardens): .landmark → .garden
+📝 DelhiAttractions.swift: fixed 6 categories
+    • Lodhi Gardens: .landmark → .garden
+    • Hauz Khas Village: .landmark → .neighborhood
+    • National Museum: .landmark → .museum
+    • Gurudwara Bangla Sahib: .landmark → .religious
+    • Akshardham Temple: .landmark → .religious
+    • Red Fort (Lal Qila): .landmark → .palace
+📝 GoaAttractions.swift: fixed 7 categories
+    • Fontainhas Latin Quarter: .landmark → .neighborhood
+    • Old Goa Churches: .landmark → .religious
+    • Se Cathedral: .landmark → .religious
+    • Palolem Beach: .landmark → .beach
+    • Anjuna Beach: .landmark → .beach
+    • Calangute Beach: .landmark → .beach
+    • Baga Beach: .landmark → .beach
+📝 GujaratAttractions.swift: fixed 4 categories
+    • Statue of Unity: .landmark → .monument
+    • Dwarka Temple: .landmark → .religious
+    • Somnath Temple: .landmark → .religious
+    • Gir National Park: .landmark → .park
+📝 HimachalPradeshAttractions.swift: fixed 5 categories
+    • Kullu Valley: .landmark → .park
+    • Spiti Valley (Key Monastery): .landmark → .religious
+    • Dalai Lama Temple Complex: .landmark → .religious
+    • Manali (Solang Valley): .landmark → .park
+    • Shimla (Mall Road, Ridge): .landmark → .shopping
+📝 HyderabadAttractions.swift: fixed 3 categories
+    • Hussain Sagar Lake: .landmark → .park
+    • Birla Mandir Hyderabad: .landmark → .religious
+    • Salar Jung Museum: .landmark → .museum
+📝 JaipurAttractions.swift: fixed 3 categories
+    • Johri Bazaar: .landmark → .shopping
+    • Birla Mandir Jaipur: .landmark → .religious
+    • Albert Hall Museum: .landmark → .museum
+📝 KarnatakaAttractions.swift: fixed 5 categories
+    • Bandipur National Park: .landmark → .park
+    • Gokarna Beaches: .landmark → .beach
+    • Aihole Temples: .landmark → .religious
+    • Pattadakal Temples: .landmark → .religious
+    • Badami Caves: .landmark → .park
+📝 KeralaAttractions.swift: fixed 4 categories
+    • Varkala Beach: .landmark → .beach
+    • Jewish Synagogue Kochi: .landmark → .religious
+    • St. Francis Church: .landmark → .religious
+    • Kochi (Fort Kochi): .landmark → .palace
+📝 KolkataAttractions.swift: fixed 3 categories
+    • Kalighat Temple: .landmark → .religious
+    • Park Street: .landmark → .neighborhood
+    • Indian Museum: .landmark → .museum
+📝 LadakhAttractions.swift: fixed 5 categories
+    • Tso Moriri Lake: .landmark → .park
+    • Zanskar Valley: .landmark → .park
+    • Diskit Monastery: .landmark → .religious
+    • Hemis Monastery: .landmark → .religious
+    • Shanti Stupa: .landmark → .religious
+📝 MumbaiAttractions.swift: fixed 7 categories
+    • Sanjay Gandhi National Park: .landmark → .park
+    • Kanheri Caves: .landmark → .park
+    • Global Vipassana Pagoda: .landmark → .religious
+    • Crawford Market: .landmark → .shopping
+    • Juhu Beach: .landmark → .beach
+    • Siddhivinayak Temple: .landmark → .religious
+    • Taj Mahal Palace Hotel: .landmark → .palace
+📝 NortheastIndiaAttractions.swift: fixed 7 categories
+    • Rumtek Monastery: .landmark → .religious
+    • Dzukou Valley (Nagaland): .landmark → .park
+    • Majuli Island (Assam): .landmark → .park
+    • Loktak Lake (Manipur): .landmark → .park
+    • Tawang Monastery (Arunachal): .landmark → .religious
+    • Mawlynnong Village (Meghalaya): .landmark → .neighborhood
+    • Kaziranga National Park (Assam): .landmark → .park
+📝 OdishaAttractions.swift: fixed 8 categories
+    • Udayagiri Caves: .landmark → .park
+    • Rajarani Temple: .landmark → .religious
+    • Dhauli Peace Pagoda: .landmark → .religious
+    • Chilika Lake: .landmark → .park
+    • Lingaraj Temple (Bhubaneswar): .landmark → .religious
+    • Konark Sun Temple: .landmark → .religious
+    • Puri Beach: .landmark → .beach
+    • Jagannath Temple (Puri): .landmark → .religious
+📝 RajasthanAttractions.swift: fixed 5 categories
+    • Ranthambore National Park: .landmark → .park
+    • Brahma Temple Pushkar: .landmark → .religious
+    • Pushkar Lake: .landmark → .park
+    • Umaid Bhawan Palace (Jodhpur): .landmark → .palace
+    • Mehrangarh Fort (Jodhpur): .landmark → .palace
+📝 TamilNaduAttractions.swift: fixed 7 categories
+    • Rameswaram Temple: .landmark → .religious
+    • Marina Beach: .landmark → .beach
+    • Kapaleeshwarar Temple (Chennai): .landmark → .religious
+    • Shore Temple: .landmark → .religious
+    • Mahabalipuram Monuments: .landmark → .monument
+    • Brihadisvara Temple (Thanjavur): .landmark → .religious
+    • Meenakshi Amman Temple (Madurai): .landmark → .religious
+📝 UttarakhandAttractions.swift: fixed 4 categories
+    • Kedarnath Temple: .landmark → .religious
+    • Badrinath Temple: .landmark → .religious
+    • Valley of Flowers: .landmark → .park
+    • Jim Corbett National Park: .landmark → .park
+📝 VaranasiAttractions.swift: fixed 1 categories
+    • Dhamek Stupa: .landmark → .religious
+📝 WestBengalAttractions.swift: fixed 1 categories
+    • Sundarbans National Park: .landmark → .park
+📝 AdduAtollAttractions.swift: fixed 6 categories
+    • Meedhoo Island: .landmark → .park
+    • Hulhudhoo Island: .landmark → .park
+    • Feydhoo Island: .landmark → .park
+    • Maradhoo Island: .landmark → .park
+    • Hithadhoo Island: .landmark → .park
+    • Gan Island: .landmark → .park
+📝 AriAtollAttractions.swift: fixed 11 categories
+    • Conrad Maldives Rangali Island: .landmark → .park
+    • Centara Grand Island: .landmark → .park
+    • Sun Island Resort: .landmark → .park
+    • Moofushi Island: .landmark → .park
+    • Rangali Island (Conrad Maldives Undersea Restaurant): .landmark → .park
+    • Thoddoo Island: .landmark → .park
+    • Ukulhas Island: .landmark → .park
+    • Rasdhoo Island: .landmark → .park
+    • Mathiveri Island: .landmark → .park
+    • Dhangethi Island: .landmark → .park
+    • Maamigili Island: .landmark → .park
+📝 BaaAtollAttractions.swift: fixed 6 categories
+    • Milaidhoo Island: .landmark → .park
+    • Kihaadhuffaru Island: .landmark → .park
+    • Thulhaadhoo Island (Lacquer Work): .landmark → .park
+    • Eydhafushi Island: .landmark → .park
+    • Dharavandhoo Island: .landmark → .park
+    • Hanifaru Bay (Manta Ray Gathering): .landmark → .beach
+📝 DhaaluAtollAttractions.swift: fixed 3 categories
+    • Niyama Private Islands: .landmark → .park
+    • Vaani (Ancient Buddhist Mounds): .landmark → .historical
+    • Kudahuvadhoo Island: .landmark → .park
+📝 FuvahmulahAttractions.swift: fixed 4 categories
+    • Fuvahmulah Mud Mosque: .landmark → .religious
+    • Dhadimago Kilhi (Freshwater Lake): .landmark → .park
+    • Thoondu Beach: .landmark → .beach
+    • Fuvahmulah Island: .landmark → .park
+📝 GaafuAlifuAtollAttractions.swift: fixed 2 categories
+    • Kolamaafushi Island: .landmark → .park
+    • Villingili Island: .landmark → .park
+📝 GaafuDhaaluAtollAttractions.swift: fixed 3 categories
+    • Fares-Maathodaa Island: .landmark → .park
+    • Gaddhoo Island: .landmark → .park
+    • Tinadhoo Island: .landmark → .park
+📝 HaaAlifuAtollAttractions.swift: fixed 3 categories
+    • Filladhoo Island: .landmark → .park
+    • Dhidhdhoo Island: .landmark → .park
+    • Uligamu Island: .landmark → .park
+📝 HaaDhaaluAtollAttractions.swift: fixed 3 categories
+    • Nolhivaram Island: .landmark → .park
+    • Hanimadhoo Island: .landmark → .park
+    • Kulhudhuffushi Island: .landmark → .park
+📝 HulhumaleAttractions.swift: fixed 2 categories
+    • Hulhumalé Mosque: .landmark → .religious
+    • Hulhumalé Beach: .landmark → .beach
+📝 LaamuAtollAttractions.swift: fixed 4 categories
+    • Mundoo Island: .landmark → .park
+    • Isdhoo Island: .landmark → .park
+    • Fonadhoo Island: .landmark → .park
+    • Gan Island (Laamu): .landmark → .park
+📝 LhaviyaniAtollAttractions.swift: fixed 6 categories
+    • Hurawalhi Island (Undersea Restaurant): .landmark → .park
+    • Komandoo Island Resort: .landmark → .park
+    • Kuredu Island Resort: .landmark → .park
+    • Kurendhoo Island: .landmark → .park
+    • Hinnavaru Island: .landmark → .park
+    • Naifaru Island: .landmark → .park
+📝 MaleAttractions.swift: fixed 9 categories
+    • Medhu Ziyaaraiy (Shrine): .landmark → .religious
+    • Tsunami Monument: .landmark → .monument
+    • Artificial Beach (Rasfannu): .landmark → .beach
+    • Malé Local Market: .landmark → .shopping
+    • Malé Fish Market: .landmark → .shopping
+    • Mulee Aage (Old Presidential Palace): .landmark → .palace
+    • Maldives National Museum: .landmark → .museum
+    • Islamic Centre & Grand Friday Mosque: .landmark → .religious
+    • Malé Friday Mosque (Hukuru Miskiiy): .landmark → .religious
+📝 NoonuAtollAttractions.swift: fixed 4 categories
+    • Velaa Private Island: .landmark → .park
+    • Velidhoo Island: .landmark → .park
+    • Holhudhoo Island: .landmark → .park
+    • Manadhoo Island: .landmark → .park
+📝 NorthMaleAtollAttractions.swift: fixed 8 categories
+    • Gulhi Island: .landmark → .park
+    • Dhiffushi Island: .landmark → .park
+    • Huraa Island: .landmark → .park
+    • Himmafushi Island: .landmark → .park
+    • Maafushi Island: .landmark → .park
+    • Bandos Island: .landmark → .park
+    • Full Moon Island: .landmark → .park
+    • Paradise Island (Lankanfinolhu): .landmark → .park
+📝 RaaAtollAttractions.swift: fixed 3 categories
+    • Ungoofaaru Island: .landmark → .park
+    • Alifushi Island: .landmark → .park
+    • Meedhoo Island: .landmark → .park
+📝 SouthMaleAtollAttractions.swift: fixed 6 categories
+    • Vadhoo Island (Sea of Stars - Bioluminescence): .landmark → .park
+    • Biyadhoo Island: .landmark → .park
+    • Embudu Village: .landmark → .neighborhood
+    • Cocoa Island: .landmark → .park
+    • Maafushi (Local Island): .landmark → .park
+    • Guraidhoo Island: .landmark → .park
+📝 VillimaleAttractions.swift: fixed 2 categories
+    • Villimalé Mosque: .landmark → .religious
+    • Villimalé Beach: .landmark → .beach
+📝 AnnapurnaAttractions.swift: fixed 2 categories
+    • Tilicho Lake: .landmark → .park
+    • Muktinath Temple: .landmark → .religious
+📝 BardiaAttractions.swift: fixed 3 categories
+    • Karnali River: .landmark → .park
+    • Wildlife Safari: .landmark → .park
+    • Bardia National Park: .landmark → .park
+📝 BhaktapurAttractions.swift: fixed 2 categories
+    • 55 Window Palace: .landmark → .palace
+    • Nyatapola Temple: .landmark → .religious
+📝 ChitwanAttractions.swift: fixed 3 categories
+    • Tharu Village: .landmark → .neighborhood
+    • Elephant Safari: .landmark → .park
+    • Chitwan National Park (UNESCO): .landmark → .park
+📝 EverestRegionAttractions.swift: fixed 4 categories
+    • Sagarmatha National Park (UNESCO): .landmark → .park
+    • Gokyo Lakes: .landmark → .park
+    • Tengboche Monastery: .landmark → .religious
+    • Namche Bazaar: .landmark → .shopping
+📝 GorkhaAttractions.swift: fixed 1 categories
+    • Gorkha (Gorkha Palace): .landmark → .palace
+📝 IlamAttractions.swift: fixed 1 categories
+    • Ilam (Tea Gardens): .landmark → .garden
+📝 JanakpurAttractions.swift: fixed 1 categories
+    • Janakpur (Janaki Temple): .landmark → .religious
+📝 KathmanduAttractions.swift: fixed 10 categories
+    • Chandrragiri Hills Cable Car: .landmark → .cablecar
+    • Kopan Monastery: .landmark → .religious
+    • Narayanhiti Palace Museum: .landmark → .museum
+    • Asan Market: .landmark → .shopping
+    • Kathmandu Valley: .landmark → .park
+    • Garden of Dreams: .landmark → .garden
+    • Thamel District: .landmark → .neighborhood
+    • Pashupatinath Temple (UNESCO): .landmark → .religious
+    • Boudhanath Stupa (UNESCO): .landmark → .religious
+    • Swayambhunath (Monkey Temple): .landmark → .religious
+📝 LangtangAttractions.swift: fixed 3 categories
+    • Gosainkunda Lake: .landmark → .park
+    • Kyanjin Gompa: .landmark → .religious
+    • Langtang Valley Trek: .landmark → .park
+📝 LumbiniAttractions.swift: fixed 3 categories
+    • Lumbini Museum: .landmark → .museum
+    • World Peace Pagoda Lumbini: .landmark → .religious
+    • Maya Devi Temple: .landmark → .religious
+📝 ManakamanaAttractions.swift: fixed 1 categories
+    • Manakamana Temple (Cable Car): .landmark → .religious
+📝 NagarkotAttractions.swift: fixed 1 categories
+    • Nagarkot Viewpoint: .landmark → .viewpoint
+📝 NepalAdventureAttractions.swift: fixed 2 categories
+    • Mountain Biking: .landmark → .park
+    • Canyoning: .landmark → .park
+📝 PatanAttractions.swift: fixed 3 categories
+    • Mahabouddha Temple: .landmark → .religious
+    • Patan Museum: .landmark → .museum
+    • Golden Temple (Hiranya Varna Mahavihar): .landmark → .religious
+📝 PokharaAttractions.swift: fixed 9 categories
+    • Seti River Gorge: .landmark → .park
+    • Begnas Lake: .landmark → .park
+    • Tal Barahi Temple: .landmark → .religious
+    • International Mountain Museum: .landmark → .museum
+    • Sarangkot (Sunrise Viewpoint): .landmark → .viewpoint
+    • Bindabasini Temple: .landmark → .religious
+    • Gupteshwor Cave: .landmark → .park
+    • World Peace Pagoda: .landmark → .religious
+    • Phewa Lake: .landmark → .park
+📝 RaraAttractions.swift: fixed 1 categories
+    • Rara Lake: .landmark → .park
+📝 TrekkingPeaksAttractions.swift: fixed 4 categories
+    • Yala Peak: .landmark → .park
+    • Pisang Peak: .landmark → .park
+    • Mera Peak: .landmark → .park
+    • Island Peak: .landmark → .park
+📝 AzadKashmirAttractions.swift: fixed 7 categories
+    • Banjosa Lake: .landmark → .park
+    • Shounter Lake: .landmark → .park
+    • Kel Village: .landmark → .neighborhood
+    • Chitta Katha Lake: .landmark → .park
+    • Ratti Gali Lake: .landmark → .park
+    • Sharda Temple Ruins: .landmark → .religious
+    • Neelum Valley: .landmark → .park
+📝 FaisalabadAttractions.swift: fixed 3 categories
+    • Gatwala Wildlife Park: .landmark → .park
+    • Jinnah Garden: .landmark → .garden
+    • Eight Bazaars: .landmark → .shopping
+📝 GilgitBaltistanAttractions.swift: fixed 12 categories
+    • Astore Valley: .landmark → .park
+    • Rama Lake: .landmark → .park
+    • Phander Lake: .landmark → .park
+    • Phander Valley: .landmark → .park
+    • Naltar Lakes: .landmark → .park
+    • Naltar Valley: .landmark → .park
+    • Satpara Lake: .landmark → .park
+    • Sheosar Lake: .landmark → .park
+    • Deosai National Park: .landmark → .park
+    • Skardu Fort (Kharpocho): .landmark → .palace
+    • Upper & Lower Kachura Lakes: .landmark → .park
+    • Kachura Lake (Shangrila Resort): .landmark → .park
+📝 GwadarAttractions.swift: fixed 5 categories
+    • Mud Volcanoes: .landmark → .park
+    • Hingol National Park: .landmark → .park
+    • Astola Island: .landmark → .park
+    • Ormara Beach: .landmark → .beach
+    • Gwadar Beach: .landmark → .beach
+📝 HistoricalSitesAttractions.swift: fixed 7 categories
+    • Derawar Fort (Bahawalpur): .landmark → .palace
+    • Shah Jahan Mosque (Thatta): .landmark → .religious
+    • Takht-i-Bahi Buddhist Monastery - UNESCO World Heritage Site: .landmark → .religious
+    • Harappa Archaeological Site (Punjab): .landmark → .historical
+    • Rohtas Fort - UNESCO World Heritage Site (Jhelum): .landmark → .palace
+    • Makli Necropolis - UNESCO World Heritage Site (Thatta): .landmark → .historical
+    • Mohenjo-daro - UNESCO World Heritage Site (Sindh): .landmark → .historical
+📝 HunzaAttractions.swift: fixed 6 categories
+    • Ganish Village (Ancient Settlement): .landmark → .historical
+    • Duikar Viewpoint: .landmark → .viewpoint
+    • Hopper Glacier: .landmark → .park
+    • Borith Lake: .landmark → .park
+    • Attabad Lake: .landmark → .park
+    • Eagle's Nest Viewpoint: .landmark → .viewpoint
+📝 IslamabadAttractions.swift: fixed 9 categories
+    • Lake View Park: .landmark → .park
+    • Saidpur Village: .landmark → .neighborhood
+    • Rawal Lake: .landmark → .park
+    • Centaurus Mall: .landmark → .shopping
+    • Lok Virsa Museum: .landmark → .museum
+    • Margalla Hills National Park: .landmark → .park
+    • Daman-e-Koh Viewpoint: .landmark → .viewpoint
+    • Pakistan Monument: .landmark → .monument
+    • Faisal Mosque: .landmark → .religious
+📝 KarachiAttractions.swift: fixed 16 categories
+    • Hawke's Bay Beach: .landmark → .beach
+    • Sandspit Beach: .landmark → .beach
+    • French Beach: .landmark → .beach
+    • Churna Island: .landmark → .park
+    • Manora Island: .landmark → .park
+    • Empress Market: .landmark → .shopping
+    • Lucky One Mall: .landmark → .shopping
+    • Dolmen Mall: .landmark → .shopping
+    • Karachi Zoo: .landmark → .zoo
+    • PAF Museum: .landmark → .museum
+    • National Museum of Pakistan: .landmark → .museum
+    • Pakistan Maritime Museum: .landmark → .museum
+    • Mohatta Palace Museum: .landmark → .museum
+    • Sea View Beach: .landmark → .beach
+    • Clifton Beach: .landmark → .beach
+    • Quaid-e-Azam's Mausoleum (Mazar-e-Quaid): .landmark → .religious
+📝 LahoreAttractions.swift: fixed 13 categories
+    • Emporium Mall: .landmark → .shopping
+    • Packages Mall: .landmark → .shopping
+    • Tomb of Nur Jahan: .landmark → .monument
+    • Tomb of Jahangir: .landmark → .monument
+    • Wazir Khan Mosque: .landmark → .religious
+    • Sheesh Mahal (Palace of Mirrors): .landmark → .palace
+    • Lahore Museum: .landmark → .museum
+    • Food Street (Fort Road): .landmark → .palace
+    • Anarkali Bazaar: .landmark → .shopping
+    • Data Darbar (Shrine): .landmark → .religious
+    • Shalimar Gardens - UNESCO World Heritage Site: .landmark → .garden
+    • Lahore Fort (Shahi Qila) - UNESCO World Heritage Site: .landmark → .palace
+    • Badshahi Mosque: .landmark → .religious
+📝 MultanAttractions.swift: fixed 4 categories
+    • Shrine of Shah Shams Tabriz: .landmark → .religious
+    • Husain Agahi Bazaar: .landmark → .shopping
+    • Tomb of Bahauddin Zakariya: .landmark → .monument
+    • Tomb of Shah Rukn-e-Alam: .landmark → .monument
+📝 NorthernAreasAttractions.swift: fixed 5 categories
+    • Khunjerab National Park: .landmark → .park
+    • Naran-Kaghan Valley: .landmark → .park
+    • Ansoo Lake: .landmark → .park
+    • Saif-ul-Malook Lake: .landmark → .park
+    • Lulusar Lake: .landmark → .park
+📝 PeshawarAttractions.swift: fixed 4 categories
+    • Peshawar Old City: .landmark → .historical
+    • Mahabat Khan Mosque: .landmark → .religious
+    • Qissa Khwani Bazaar (Street of Storytellers): .landmark → .shopping
+    • Peshawar Museum: .landmark → .museum
+📝 QuettaAttractions.swift: fixed 5 categories
+    • Chiltan National Park: .landmark → .park
+    • Geological Survey Museum: .landmark → .museum
+    • Quetta Bazaar: .landmark → .shopping
+    • Urak Valley: .landmark → .park
+    • Hanna Lake: .landmark → .park
+📝 SwatAttractions.swift: fixed 7 categories
+    • Shingardar Stupa: .landmark → .religious
+    • Swat River: .landmark → .religious
+    • Kalam Valley: .landmark → .park
+    • Ushu Forest: .landmark → .park
+    • Mahodand Lake: .landmark → .park
+    • Butkara Ruins (Buddhist Site): .landmark → .historical
+    • Swat Museum: .landmark → .museum
+📝 TaxilaAttractions.swift: fixed 5 categories
+    • Julian Monastery: .landmark → .religious
+    • Sirkap Ancient City: .landmark → .historical
+    • Jaulian Buddhist Monastery - UNESCO World Heritage Site: .landmark → .religious
+    • Dharmarajika Stupa - UNESCO World Heritage Site: .landmark → .religious
+    • Taxila Museum: .landmark → .museum
+📝 AdamsPeakAttractions.swift: fixed 1 categories
+    • Adam's Peak Pilgrimage: .landmark → .park
+📝 AnuradhapuraAttractions.swift: fixed 1 categories
+    • Aukana Buddha Statue: .landmark → .monument
+📝 ArugamBayAttractions.swift: fixed 2 categories
+    • Surfing in Arugam Bay: .landmark → .beach
+    • Arugam Bay (Surfing): .landmark → .beach
+📝 BatticaloaAttractions.swift: fixed 1 categories
+    • Passikudah Beach: .landmark → .beach
+📝 ColomboAttractions.swift: fixed 9 categories
+    • Tuk-Tuk Safari: .landmark → .park
+    • Dutch Hospital Shopping Precinct: .landmark → .shopping
+    • Mount Lavinia Beach: .landmark → .beach
+    • Jami Ul-Alfar Mosque (Red Mosque): .landmark → .religious
+    • Wolvendaal Church: .landmark → .religious
+    • National Museum of Colombo: .landmark → .museum
+    • Pettah Market: .landmark → .shopping
+    • Beira Lake: .landmark → .park
+    • Gangaramaya Temple: .landmark → .religious
+📝 DambullaAttractions.swift: fixed 1 categories
+    • Dambulla Cave Temple (UNESCO): .landmark → .religious
+📝 EllaAttractions.swift: fixed 2 categories
+    • Ella Gap Viewpoint: .landmark → .viewpoint
+    • Little Adam's Peak: .landmark → .park
+📝 GalleAttractions.swift: fixed 8 categories
+    • Martin Wickramasinghe Folk Museum: .landmark → .museum
+    • Koggala Lake: .landmark → .park
+    • Jungle Beach: .landmark → .beach
+    • Unawatuna Beach: .landmark → .beach
+    • Japanese Peace Pagoda (Unawatuna): .landmark → .religious
+    • Dutch Reformed Church: .landmark → .religious
+    • Galle Lighthouse: .landmark → .lighthouse
+    • Galle Fort (UNESCO): .landmark → .palace
+📝 HikkaduwaAttractions.swift: fixed 1 categories
+    • Hikkaduwa Beach: .landmark → .beach
+📝 JaffnaAttractions.swift: fixed 4 categories
+    • Casuarina Beach: .landmark → .beach
+    • Keerimalai Hot Springs: .landmark → .park
+    • Delft Island: .landmark → .park
+    • Nallur Kandaswamy Temple: .landmark → .religious
+📝 KandyAttractions.swift: fixed 8 categories
+    • Lankathilaka Temple: .landmark → .religious
+    • Gadaladeniya Temple: .landmark → .religious
+    • Kandy Cultural Show: .landmark → .entertainment
+    • Udawattakele Forest Reserve: .landmark → .park
+    • Bahiravokanda Vihara Buddha Statue: .landmark → .monument
+    • Royal Botanical Gardens Peradeniya: .landmark → .garden
+    • Kandy Lake: .landmark → .park
+    • Temple of the Tooth (Sri Dalada Maligawa): .landmark → .religious
+📝 MirissaAttractions.swift: fixed 2 categories
+    • Weligama Beach: .landmark → .beach
+    • Mirissa Beach: .landmark → .beach
+📝 NuwaraEliyaAttractions.swift: fixed 3 categories
+    • Horton Plains National Park: .landmark → .park
+    • Hakgala Botanical Gardens: .landmark → .garden
+    • Gregory Lake: .landmark → .park
+📝 PolonnaruwaAttractions.swift: fixed 3 categories
+    • Kaudulla National Park: .landmark → .park
+    • Minneriya National Park (Elephant Gathering): .landmark → .park
+    • Polonnaruwa Ancient City (UNESCO): .landmark → .historical
+📝 SigiriyaAttractions.swift: fixed 2 categories
+    • Ritigala Ancient Monastery: .landmark → .religious
+    • Sigiriya Rock Fortress (UNESCO): .landmark → .palace
+📝 TrincomaleeAttractions.swift: fixed 4 categories
+    • Marble Beach: .landmark → .beach
+    • Koneswaram Temple: .landmark → .religious
+    • Pigeon Island: .landmark → .park
+    • Nilaveli Beach: .landmark → .beach
+📝 YalaAttractions.swift: fixed 6 categories
+    • Sinharaja Forest Reserve (UNESCO): .landmark → .park
+    • Wilpattu National Park: .landmark → .park
+    • Kumana National Park: .landmark → .park
+    • Bundala National Park: .landmark → .park
+    • Udawalawe National Park: .landmark → .park
+    • Yala National Park: .landmark → .park
+
+📌 Processing SoutheastAsia...
+📝 BattambangAttractions.swift: fixed 8 categories
+    • Banana Boat Village Tour: .landmark → .neighborhood
+    • Wine Estate & Vineyard: .landmark → .winery
+    • Psar Nat (Central Market): .landmark → .shopping
+    • Battambang Provincial Museum: .landmark → .museum
+    • Ek Phnom Temple: .landmark → .religious
+    • Wat Banan Temple: .landmark → .religious
+    • Bat Caves (Sunset Viewing): .landmark → .park
+    • Killing Caves of Phnom Sampeau: .landmark → .park
+📝 KampotAttractions.swift: fixed 9 categories
+    • Rabbit Island (Koh Tonsay): .landmark → .park
+    • Kep National Park: .landmark → .park
+    • Kep Crab Market (Day Trip): .landmark → .shopping
+    • Kampot Night Market: .landmark → .shopping
+    • Phnom Chhngok Cave Temple: .landmark → .religious
+    • Bokor Palace Hotel (Abandoned): .landmark → .palace
+    • Popokvil Waterfall: .landmark → .park
+    • Bokor National Park: .landmark → .park
+    • Kampot Riverside: .landmark → .park
+📝 KepAttractions.swift: fixed 4 categories
+    • Kep Butterfly Garden: .landmark → .garden
+    • Kep National Park: .landmark → .park
+    • Kep Crab Market: .landmark → .shopping
+    • Kep Beach: .landmark → .beach
+📝 KohKongAttractions.swift: fixed 6 categories
+    • Central Cardamom Protected Forest: .landmark → .park
+    • Koh Kong Safari World: .landmark → .park
+    • Koh Kong Island: .landmark → .park
+    • Peam Krasaop Wildlife Sanctuary: .landmark → .park
+    • Cardamom Mountains: .landmark → .park
+    • Tatai Waterfall: .landmark → .park
+📝 KohRongAttractions.swift: fixed 6 categories
+    • Palm Beach: .landmark → .beach
+    • Police Beach: .landmark → .beach
+    • 4K Beach: .landmark → .beach
+    • Lonely Beach: .landmark → .beach
+    • Long Beach (Sok San Beach): .landmark → .beach
+    • Koh Rong Island: .landmark → .park
+📝 KohRongSamloemAttractions.swift: fixed 5 categories
+    • M'Pay Bay: .landmark → .beach
+    • Sunset Beach: .landmark → .beach
+    • Lazy Beach: .landmark → .beach
+    • Saracen Bay: .landmark → .beach
+    • Koh Rong Samloem Island: .landmark → .park
+📝 KompongChamAttractions.swift: fixed 2 categories
+    • Wat Nokor Bachey: .landmark → .religious
+    • Koh Paen Island: .landmark → .park
+📝 KratieAttractions.swift: fixed 3 categories
+    • Mekong River Sunset Cruise: .landmark → .park
+    • 100 Column Pagoda (Wat Sorsor Mouy Roy): .landmark → .religious
+    • Koh Trong Island: .landmark → .park
+📝 MondulkiriAttractions.swift: fixed 6 categories
+    • Dak Dam Waterfall: .landmark → .park
+    • Bunong Indigenous Villages: .landmark → .neighborhood
+    • Putang Village: .landmark → .neighborhood
+    • Sea Forest: .landmark → .park
+    • Bousra Waterfall: .landmark → .park
+    • Elephant Valley Project: .landmark → .park
+📝 PhnomPenhAttractions.swift: fixed 18 categories
+    • Silk Island (Koh Dach): .landmark → .park
+    • Kirirom National Park: .landmark → .park
+    • Phnom Tamao Wildlife Rescue Center: .landmark → .park
+    • Mekong River Cruise: .landmark → .park
+    • Aeon Mall Phnom Penh: .landmark → .shopping
+    • Koh Pich (Diamond Island): .landmark → .park
+    • Olympic Stadium: .landmark → .stadium
+    • Wat Langka: .landmark → .religious
+    • Wat Ounalom: .landmark → .religious
+    • Independence Monument: .landmark → .monument
+    • Riverside Promenade (Sisowath Quay): .landmark → .park
+    • Russian Market (Psar Tuol Tom Poung): .landmark → .shopping
+    • Central Market (Psar Thmei): .landmark → .shopping
+    • Wat Phnom: .landmark → .religious
+    • Tuol Sleng Genocide Museum (S-21): .landmark → .museum
+    • National Museum of Cambodia: .landmark → .museum
+    • Silver Pagoda: .landmark → .religious
+    • Royal Palace: .landmark → .palace
+📝 PreahVihearAttractions.swift: fixed 2 categories
+    • Koh Ker Temple Complex: .landmark → .religious
+    • Preah Vihear Temple (UNESCO): .landmark → .religious
+📝 RatanakiriAttractions.swift: fixed 6 categories
+    • Lumphat Wildlife Sanctuary: .landmark → .park
+    • Voen Sai Tribal Villages: .landmark → .neighborhood
+    • Virachey National Park: .landmark → .park
+    • Ka Tieng Waterfall: .landmark → .park
+    • Cha Ong Waterfall: .landmark → .park
+    • Yeak Laom Volcanic Lake: .landmark → .park
+📝 SiemReapAttractions.swift: fixed 19 categories
+    • Lolei Temple: .landmark → .religious
+    • Roluos Group Temples: .landmark → .religious
+    • Kulen Mountain (Phnom Kulen): .landmark → .park
+    • Apsar Dance Show: .landmark → .entertainment
+    • Kbal Spean (River of a Thousand Lingas): .landmark → .park
+    • Beng Mealea Temple: .landmark → .religious
+    • Mechrey Floating Village: .landmark → .neighborhood
+    • Kompong Phluk Floating Village: .landmark → .neighborhood
+    • Tonle Sap Lake: .landmark → .park
+    • Angkor National Museum: .landmark → .museum
+    • War Museum Cambodia: .landmark → .museum
+    • Cambodian Cultural Village: .landmark → .neighborhood
+    • Old Market (Psar Chas): .landmark → .shopping
+    • Pub Street: .landmark → .neighborhood
+    • Angkor Night Market: .landmark → .shopping
+    • Phnom Bakheng (Sunset Viewpoint): .landmark → .viewpoint
+    • Ta Prohm Temple: .landmark → .religious
+    • Bayon Temple: .landmark → .religious
+    • Angkor Wat (UNESCO): .landmark → .religious
+📝 SihanoukvilleAttractions.swift: fixed 9 categories
+    • Kbal Chhay Waterfall: .landmark → .park
+    • Riem National Park: .landmark → .park
+    • Hawaii Beach: .landmark → .beach
+    • Victory Beach: .landmark → .beach
+    • Sokha Beach: .landmark → .beach
+    • Independence Beach: .landmark → .beach
+    • Otres Beach: .landmark → .beach
+    • Serendipity Beach: .landmark → .beach
+    • Ochheuteal Beach: .landmark → .beach
+📝 TakeoAttractions.swift: fixed 3 categories
+    • Ta Prohm Temple (Tonle Bati): .landmark → .religious
+    • Phnom Chisor Temple: .landmark → .religious
+    • Phnom Da Temple: .landmark → .religious
+📝 AcehAttractions.swift: fixed 5 categories
+    • Rubiah Island: .landmark → .park
+    • Iboih Beach: .landmark → .beach
+    • Weh Island: .landmark → .park
+    • Tsunami Museum: .landmark → .museum
+    • Baiturrahman Grand Mosque: .landmark → .religious
+📝 BandungAttractions.swift: fixed 3 categories
+    • Braga Street: .landmark → .neighborhood
+    • Ciater Hot Springs: .landmark → .park
+    • Tangkuban Perahu Volcano: .landmark → .park
+📝 BelitungAttractions.swift: fixed 4 categories
+    • Batu Berlayar Island: .landmark → .park
+    • Lengkuas Island Lighthouse: .landmark → .park
+    • Tanjung Tinggi Beach: .landmark → .beach
+    • Belitung Island: .landmark → .park
+📝 BintanAttractions.swift: fixed 4 categories
+    • Penyengat Island: .landmark → .park
+    • 500 Lohan Temple: .landmark → .religious
+    • Trikora Beach: .landmark → .beach
+    • Lagoi Bay: .landmark → .beach
+📝 BromoAttractions.swift: fixed 5 categories
+    • Pulau Merah (Red Island): .landmark → .park
+    • Bawean Beach: .landmark → .beach
+    • Madakaripura Waterfall: .landmark → .park
+    • Bromo Tengger Semeru National Park: .landmark → .park
+    • Penanjakan Viewpoint: .landmark → .viewpoint
+📝 BukitLawangAttractions.swift: fixed 1 categories
+    • Gunung Leuser National Park: .landmark → .park
+📝 BukittinggiAttractions.swift: fixed 3 categories
+    • Maninjau Lake: .landmark → .park
+    • Harau Valley: .landmark → .park
+    • Sianok Canyon: .landmark → .park
+📝 CangguAttractions.swift: fixed 5 categories
+    • Finn's Beach Club: .landmark → .beach
+    • Pererenan Beach: .landmark → .beach
+    • Echo Beach: .landmark → .beach
+    • Batu Bolong Beach: .landmark → .beach
+    • Tanah Lot Temple: .landmark → .religious
+📝 EastBaliAttractions.swift: fixed 5 categories
+    • Pura Besakih (Mother Temple): .landmark → .religious
+    • Amed Beach: .landmark → .beach
+    • Tenganan Village: .landmark → .neighborhood
+    • Lempuyang Temple (Gates of Heaven): .landmark → .religious
+    • Tirta Gangga Water Palace: .landmark → .palace
+📝 JakartaAttractions.swift: fixed 8 categories
+    • Thousand Islands (Pulau Seribu): .landmark → .park
+    • Grand Indonesia Mall: .landmark → .shopping
+    • Ragunan Zoo: .landmark → .zoo
+    • National Museum of Indonesia: .landmark → .museum
+    • Old Town (Kota Tua): .landmark → .historical
+    • Jakarta Cathedral: .landmark → .religious
+    • Istiqlal Mosque: .landmark → .religious
+    • National Monument (Monas): .landmark → .monument
+📝 KalimantanAttractions.swift: fixed 5 categories
+    • Dayak Villages: .landmark → .neighborhood
+    • Mahakam River: .landmark → .park
+    • Maludam National Park: .landmark → .park
+    • Derawan Islands: .landmark → .park
+    • Tanjung Puting National Park: .landmark → .park
+📝 KomodoAttractions.swift: fixed 8 categories
+    • Bena Traditional Village: .landmark → .neighborhood
+    • Wae Rebo Traditional Village: .landmark → .neighborhood
+    • Kelimutu Crater Lakes: .landmark → .park
+    • Pink Beach (Komodo): .landmark → .beach
+    • Padar Island: .landmark → .park
+    • Rinca Island: .landmark → .park
+    • Komodo Island: .landmark → .park
+    • Komodo National Park (UNESCO): .landmark → .park
+📝 LakeTobaAttractions.swift: fixed 4 categories
+    • Tomok Village: .landmark → .neighborhood
+    • Sipiso-Piso Waterfall: .landmark → .park
+    • Samosir Island: .landmark → .park
+    • Lake Toba: .landmark → .park
+📝 LombokAttractions.swift: fixed 6 categories
+    • Tiu Kelep Waterfall: .landmark → .park
+    • Sendang Gile Waterfall: .landmark → .park
+    • Sasak Village: .landmark → .neighborhood
+    • Tanjung Aan Beach: .landmark → .beach
+    • Senggigi Beach: .landmark → .beach
+    • Pink Beach: .landmark → .beach
+📝 MakassarAttractions.swift: fixed 2 categories
+    • Losari Beach: .landmark → .beach
+    • Fort Rotterdam: .landmark → .palace
+📝 MalangAttractions.swift: fixed 3 categories
+    • Tumpak Sewu Waterfall: .landmark → .park
+    • Coban Rondo Waterfall: .landmark → .park
+    • Museum Angkut: .landmark → .museum
+📝 ManadoAttractions.swift: fixed 5 categories
+    • Milenium Church: .landmark → .religious
+    • Tomohon Market: .landmark → .shopping
+    • Tangkoko Nature Reserve: .landmark → .park
+    • Manado Tua Island: .landmark → .park
+    • Bunaken National Marine Park: .landmark → .beach
+📝 NorthBaliAttractions.swift: fixed 7 categories
+    • Twin Lakes (Buyan & Tamblingan): .landmark → .park
+    • Ulun Danu Beratan Temple: .landmark → .religious
+    • Brahmavihara-Arama Buddhist Temple: .landmark → .religious
+    • Banjar Hot Springs: .landmark → .park
+    • Sekumpul Waterfall: .landmark → .park
+    • Gitgit Waterfall: .landmark → .park
+    • Lovina Beach: .landmark → .beach
+📝 NusaIslandsAttractions.swift: fixed 3 categories
+    • Crystal Bay: .landmark → .beach
+    • Broken Beach: .landmark → .beach
+    • Kelingking Beach (T-Rex Beach): .landmark → .beach
+📝 PapuaAttractions.swift: fixed 3 categories
+    • Cenderawasih Bay: .landmark → .beach
+    • Dani Tribe Villages: .landmark → .neighborhood
+    • Baliem Valley: .landmark → .park
+📝 RajaAmpatAttractions.swift: fixed 5 categories
+    • Piaynemo Viewpoint: .landmark → .viewpoint
+    • Arborek Village: .landmark → .neighborhood
+    • Wayag Islands: .landmark → .park
+    • Misool Island: .landmark → .park
+    • Raja Ampat Islands: .landmark → .park
+📝 SeminyakAttractions.swift: fixed 6 categories
+    • Potato Head Beach Club: .landmark → .beach
+    • Beachwalk Shopping Center: .landmark → .beach
+    • Legian Beach: .landmark → .beach
+    • Double Six Beach: .landmark → .beach
+    • Seminyak Beach: .landmark → .beach
+    • Kuta Beach: .landmark → .beach
+📝 SurabayaAttractions.swift: fixed 4 categories
+    • Masjid Al-Akbar: .landmark → .religious
+    • Arab Quarter (Ampel): .landmark → .neighborhood
+    • Surabaya Zoo: .landmark → .beach
+    • Submarino Monument: .landmark → .monument
+📝 TanaTorajaAttractions.swift: fixed 4 categories
+    • Rantepao Market: .landmark → .shopping
+    • Lemo Cliff Graves: .landmark → .monument
+    • Londa Burial Cave: .landmark → .park
+    • Ke'te Kesu Village: .landmark → .neighborhood
+📝 UbudAttractions.swift: fixed 8 categories
+    • Blanco Renaissance Museum: .landmark → .museum
+    • AGUNG RAO Museum of Art: .landmark → .museum
+    • Ubud Traditional Art Markets: .landmark → .shopping
+    • Goa Gajah (Elephant Cave): .landmark → .park
+    • Tirta Empul Temple: .landmark → .religious
+    • Ubud Art Market: .landmark → .shopping
+    • Ubud Royal Palace: .landmark → .palace
+    • Ubud Monkey Forest: .landmark → .park
+📝 UluwatuAttractions.swift: fixed 7 categories
+    • Melasti Beach: .landmark → .beach
+    • Dreamland Beach: .landmark → .beach
+    • Jimbaran Bay & Seafood: .landmark → .beach
+    • Balangan Beach: .landmark → .beach
+    • Nyang Nyang Beach: .landmark → .beach
+    • Padang Padang Beach: .landmark → .beach
+    • Uluwatu Temple: .landmark → .religious
+📝 YogyakartaAttractions.swift: fixed 12 categories
+    • Parangtritis Beach: .landmark → .beach
+    • Timang Beach: .landmark → .beach
+    • Pindul Cave Tubing: .landmark → .park
+    • Jomblang Cave: .landmark → .park
+    • Merapi Volcano: .landmark → .park
+    • Ratu Boko Temple: .landmark → .religious
+    • Kotagede Silver Village: .landmark → .neighborhood
+    • Malioboro Street: .landmark → .neighborhood
+    • Taman Sari Water Castle: .landmark → .castle
+    • Sultan's Palace (Kraton): .landmark → .palace
+    • Prambanan Temple (UNESCO): .landmark → .religious
+    • Borobudur Temple (UNESCO): .landmark → .religious
+📝 CameronHighlandsAttractions.swift: fixed 7 categories
+    • Rose Garden: .landmark → .garden
+    • Cactus Valley: .landmark → .park
+    • Orang Asli Village: .landmark → .neighborhood
+    • Pasar Malam (Night Market): .landmark → .shopping
+    • Time Tunnel Museum: .landmark → .museum
+    • Lavender Garden: .landmark → .garden
+    • Mossy Forest: .landmark → .park
+📝 FrasersHillAttractions.swift: fixed 1 categories
+    • Jeriau Waterfall: .landmark → .park
+📝 GentingHighlandsAttractions.swift: fixed 4 categories
+    • SkyAvenue Mall: .landmark → .shopping
+    • Chin Swee Caves Temple: .landmark → .religious
+    • Awana Skyway Cable Car: .landmark → .cablecar
+    • Genting SkyWorlds Theme Park: .landmark → .amusement
+📝 IpohAttractions.swift: fixed 9 categories
+    • Birch Memorial Clock Tower: .landmark → .monument
+    • Mural Art's Lane: .landmark → .neighborhood
+    • Qing Xin Ling Leisure & Cultural Village: .landmark → .neighborhood
+    • Perak Cave Temple (Perak Tong): .landmark → .religious
+    • Kek Lok Tong Temple: .landmark → .religious
+    • Sam Poh Tong Temple: .landmark → .religious
+    • Koncorde Street Art: .landmark → .neighborhood
+    • Ipoh Old Town: .landmark → .historical
+    • Kellie's Castle: .landmark → .castle
+📝 JohorBahruAttractions.swift: fixed 7 categories
+    • Kota Tinggi Firefly River Cruise: .landmark → .park
+    • Desaru Beach: .landmark → .beach
+    • Johor Bahru Old Chinese Temple: .landmark → .religious
+    • Danga Bay: .landmark → .beach
+    • Arulmigu Sri Rajakaliamman Glass Temple: .landmark → .religious
+    • Sultanah Aminah Mosque: .landmark → .religious
+    • Legoland Malaysia: .landmark → .amusement
+📝 KotaKinabaluAttractions.swift: fixed 11 categories
+    • Poring Hot Springs: .landmark → .park
+    • Sabah State Museum: .landmark → .museum
+    • Gaya Street Sunday Market: .landmark → .shopping
+    • Filipino Market: .landmark → .shopping
+    • Lok Kawi Wildlife Park: .landmark → .park
+    • Mari Mari Cultural Village: .landmark → .neighborhood
+    • Mamutik Island: .landmark → .park
+    • Sapi Island: .landmark → .park
+    • Manukan Island: .landmark → .park
+    • Tunku Abdul Rahman Marine Park: .landmark → .beach
+    • Kinabalu National Park (UNESCO): .landmark → .park
+📝 KualaLumpurAttractions.swift: fixed 14 categories
+    • KL Forest Eco Park: .landmark → .park
+    • National Palace (Istana Negara): .landmark → .palace
+    • Perdana Botanical Garden: .landmark → .garden
+    • KL Bird Park: .landmark → .zoo
+    • Jalan Alor (Food Street): .landmark → .neighborhood
+    • Jamek Mosque: .landmark → .religious
+    • Sri Mahamariamman Temple: .landmark → .religious
+    • Thean Hou Temple: .landmark → .religious
+    • Central Market: .landmark → .shopping
+    • Petaling Street (Chinatown): .landmark → .neighborhood
+    • National Museum (Muzium Negara): .landmark → .museum
+    • Islamic Arts Museum: .landmark → .museum
+    • National Mosque (Masjid Negara): .landmark → .religious
+    • Batu Caves: .landmark → .park
+📝 KuchingAttractions.swift: fixed 9 categories
+    • Damai Beach: .landmark → .beach
+    • Tua Pek Kong Temple: .landmark → .religious
+    • Matang Wildlife Centre: .landmark → .park
+    • Semenggoh Wildlife Centre (Orangutans): .landmark → .park
+    • Bako National Park: .landmark → .park
+    • Sarawak Cultural Village: .landmark → .neighborhood
+    • Kuching Cat Museum: .landmark → .museum
+    • Sarawak Museum: .landmark → .museum
+    • Main Bazaar: .landmark → .shopping
+📝 LangkawiAttractions.swift: fixed 9 categories
+    • Langkawi Wildlife Park: .landmark → .park
+    • Seven Wells Waterfall (Telaga Tujuh): .landmark → .park
+    • Temurun Waterfall: .landmark → .park
+    • Mahsuri Tomb & Museum: .landmark → .museum
+    • Pulau Payar Marine Park: .landmark → .beach
+    • Island Hopping Tour: .landmark → .park
+    • Kilim Karst Geoforest Park: .landmark → .park
+    • Tanjung Rhu Beach: .landmark → .beach
+    • Langkawi Cable Car (SkyCab): .landmark → .cablecar
+📝 MelakaAttractions.swift: fixed 10 categories
+    • Melaka Zoo Night Safari: .landmark → .park
+    • Melaka Straits Mosque: .landmark → .religious
+    • Maritime Museum (Flor de la Mar): .landmark → .museum
+    • Melaka Sultanate Palace Museum: .landmark → .museum
+    • Cheng Hoon Teng Temple: .landmark → .religious
+    • Baba & Nyonya Heritage Museum: .landmark → .museum
+    • Melaka River Cruise: .landmark → .park
+    • St. Paul's Church Ruins: .landmark → .religious
+    • Christ Church Melaka: .landmark → .religious
+    • Jonker Street (Jonker Walk): .landmark → .neighborhood
+📝 MiriAttractions.swift: fixed 10 categories
+    • Canada Hill Petroleum Museum: .landmark → .museum
+    • Lambir Hills National Park: .landmark → .park
+    • Loagan Bunut National Park: .landmark → .park
+    • Niah Caves National Park: .landmark → .park
+    • Gunung Mulu National Park: .landmark → .park
+    • Wind Cave: .landmark → .park
+    • Clearwater Cave: .landmark → .park
+    • Lang's Cave: .landmark → .park
+    • Deer Cave: .landmark → .park
+    • Mulu Caves (UNESCO): .landmark → .park
+📝 PenangAttractions.swift: fixed 16 categories
+    • Queensbay Mall: .landmark → .beach
+    • Escape Theme Park: .landmark → .amusement
+    • Penang Botanic Gardens: .landmark → .garden
+    • Batu Ferringhi Beach: .landmark → .beach
+    • Tropical Spice Garden: .landmark → .garden
+    • Monkey Beach: .landmark → .beach
+    • Penang National Park: .landmark → .park
+    • Chinese Temple (Goddess of Mercy): .landmark → .religious
+    • Love Lane: .landmark → .neighborhood
+    • Armenia Street: .landmark → .neighborhood
+    • Little India (Penang): .landmark → .neighborhood
+    • Penang State Museum: .landmark → .museum
+    • Fort Cornwallis: .landmark → .palace
+    • St. George's Church: .landmark → .religious
+    • Kapitan Keling Mosque: .landmark → .religious
+    • Street Art Murals: .landmark → .neighborhood
+📝 PerhentianIslandsAttractions.swift: fixed 2 categories
+    • Coral Bay: .landmark → .beach
+    • Long Beach: .landmark → .beach
+📝 PutrajayaAttractions.swift: fixed 4 categories
+    • Millennium Monument: .landmark → .monument
+    • Putrajaya Botanical Garden: .landmark → .garden
+    • Putrajaya Lake: .landmark → .park
+    • Putra Mosque: .landmark → .religious
+📝 RedangAttractions.swift: fixed 3 categories
+    • Pasir Panjang Beach: .landmark → .beach
+    • Laguna Redang Beach: .landmark → .beach
+    • Redang Marine Park: .landmark → .beach
+📝 SandakanAttractions.swift: fixed 6 categories
+    • Sandakan Memorial Park: .landmark → .monument
+    • Turtle Islands Park: .landmark → .park
+    • Gomantong Caves: .landmark → .park
+    • Kinabatangan River Safari: .landmark → .park
+    • Labuk Bay Proboscis Monkey Sanctuary: .landmark → .beach
+    • Rainforest Discovery Centre: .landmark → .park
+📝 SempornaAttractions.swift: fixed 7 categories
+    • Bohey Dulang Island: .landmark → .park
+    • Tun Sakaran Marine Park: .landmark → .beach
+    • Sibuan Island: .landmark → .park
+    • Mataking Island: .landmark → .park
+    • Kapalai Island: .landmark → .park
+    • Mabul Island: .landmark → .park
+    • Sipadan Island: .landmark → .park
+📝 TamanNegaraAttractions.swift: fixed 3 categories
+    • Gua Telinga (Ear Cave): .landmark → .park
+    • Lata Berkoh Waterfall: .landmark → .park
+    • Taman Negara National Park: .landmark → .park
+📝 TiomanAttractions.swift: fixed 6 categories
+    • Asah Waterfall: .landmark → .park
+    • Mukut Waterfall: .landmark → .park
+    • Juara Beach: .landmark → .beach
+    • Salang Beach: .landmark → .beach
+    • Air Batang (ABC Beach): .landmark → .beach
+    • Tioman Marine Park: .landmark → .beach
+📝 InleLakeAttractions.swift: fixed 1 categories
+    • Floating Gardens: .landmark → .garden
+📝 BacolodAttractions.swift: fixed 1 categories
+    • The Ruins (Talisay): .landmark → .historical
+📝 BaguioAttractions.swift: fixed 1 categories
+    • Baguio Cathedral: .landmark → .religious
+📝 BantayanAttractions.swift: fixed 1 categories
+    • Bantayan Island: .landmark → .park
+📝 BatanesAttractions.swift: fixed 4 categories
+    • Valueg Boulder Beach: .landmark → .beach
+    • Chavayan Village: .landmark → .neighborhood
+    • Sabtang Island: .landmark → .park
+    • Basco Lighthouse: .landmark → .lighthouse
+📝 BoholAttractions.swift: fixed 3 categories
+    • Man-Made Forest: .landmark → .park
+    • Baclayon Church: .landmark → .religious
+    • Loboc River Cruise: .landmark → .park
+📝 BoracayAttractions.swift: fixed 6 categories
+    • D'Mall: .landmark → .shopping
+    • Island Hopping: .landmark → .park
+    • Diniwid Beach: .landmark → .beach
+    • Puka Shell Beach: .landmark → .beach
+    • Bulabog Beach: .landmark → .beach
+    • White Beach: .landmark → .beach
+📝 CebuCityAttractions.swift: fixed 5 categories
+    • Cebu Taoist Temple: .landmark → .religious
+    • Tops Lookout: .landmark → .viewpoint
+    • Temple of Leah: .landmark → .religious
+    • Fort San Pedro: .landmark → .palace
+    • Basilica del Santo Niño: .landmark → .religious
+📝 CoronAttractions.swift: fixed 3 categories
+    • Malcapuya Island: .landmark → .park
+    • Barracuda Lake: .landmark → .park
+    • Kayangan Lake: .landmark → .park
+📝 DumagueteAttractions.swift: fixed 2 categories
+    • Twin Lakes (Balinsasayao): .landmark → .park
+    • Apo Island: .landmark → .park
+📝 ElNidoAttractions.swift: fixed 3 categories
+    • Corong-Corong Beach: .landmark → .beach
+    • Nacpan Beach: .landmark → .beach
+    • Small Lagoon: .landmark → .shopping
+📝 LaoagAttractions.swift: fixed 1 categories
+    • Paoay Church (UNESCO): .landmark → .religious
+📝 LeyteAttractions.swift: fixed 2 categories
+    • Kalanggaman Island: .landmark → .park
+    • MacArthur Landing Memorial: .landmark → .monument
+📝 MalapascuaAttractions.swift: fixed 1 categories
+    • Malapascua Island: .landmark → .park
+📝 ManilaCityAttractions.swift: fixed 8 categories
+    • Manila Baywalk: .landmark → .beach
+    • Quiapo Church: .landmark → .religious
+    • San Sebastian Church: .landmark → .religious
+    • Binondo (Chinatown): .landmark → .neighborhood
+    • National Museum Complex: .landmark → .museum
+    • Manila Cathedral: .landmark → .religious
+    • San Agustin Church (UNESCO): .landmark → .religious
+    • Fort Santiago: .landmark → .palace
+📝 PangasinanAttractions.swift: fixed 1 categories
+    • Hundred Islands: .landmark → .park
+📝 PanglaoAttractions.swift: fixed 5 categories
+    • Virgin Island: .landmark → .park
+    • Balicasag Island: .landmark → .park
+    • Hinagdanan Cave: .landmark → .park
+    • Alona Beach: .landmark → .beach
+    • Panglao Island: .landmark → .park
+📝 PuertoPrincesaAttractions.swift: fixed 2 categories
+    • Honda Bay: .landmark → .beach
+    • Puerto Princesa Underground River (UNESCO): .landmark → .park
+📝 SagadaAttractions.swift: fixed 2 categories
+    • Kiltepan Viewpoint: .landmark → .viewpoint
+    • Sumaguing Cave: .landmark → .park
+📝 SamalIslandAttractions.swift: fixed 1 categories
+    • Samal Island: .landmark → .park
+📝 SanVicenteAttractions.swift: fixed 1 categories
+    • San Vicente Long Beach: .landmark → .beach
+📝 SiargaoAttractions.swift: fixed 4 categories
+    • Sohoton Cove: .landmark → .beach
+    • Guyam Island: .landmark → .park
+    • Daku Island: .landmark → .park
+    • Naked Island: .landmark → .park
+📝 SibongaAttractions.swift: fixed 1 categories
+    • Simala Shrine: .landmark → .religious
+📝 SiquijorAttractions.swift: fixed 1 categories
+    • Siquijor Island: .landmark → .park
+📝 SubicAttractions.swift: fixed 1 categories
+    • Subic Bay: .landmark → .beach
+📝 SurigaoDelSurAttractions.swift: fixed 1 categories
+    • Enchanted River (Surigao del Sur): .landmark → .park
+📝 ZambalesAttractions.swift: fixed 1 categories
+    • Anawangin Cove: .landmark → .beach
+📝 SingaporeAttractions.swift: fixed 32 categories
+    • Singapore Cable Car: .landmark → .cablecar
+    • ION Orchard: .landmark → .garden
+    • Bugis Street: .landmark → .neighborhood
+    • Kusu Island: .landmark → .park
+    • St. John's Island: .landmark → .park
+    • Fort Canning Park: .landmark → .palace
+    • Esplanade – Theatres on the Bay: .landmark → .beach
+    • ArtScience Museum: .landmark → .museum
+    • Asian Civilisations Museum: .landmark → .museum
+    • Singapore National Museum: .landmark → .museum
+    • East Coast Park: .landmark → .beach
+    • Jurong Bird Park: .landmark → .zoo
+    • River Wonders: .landmark → .park
+    • Singapore Zoo: .landmark → .zoo
+    • Night Safari: .landmark → .park
+    • National Orchid Garden: .landmark → .garden
+    • Singapore Botanic Gardens (UNESCO): .landmark → .garden
+    • National Gallery Singapore: .landmark → .museum
+    • Haji Lane: .landmark → .neighborhood
+    • Sultan Mosque (Masjid Sultan): .landmark → .religious
+    • Arab Street: .landmark → .neighborhood
+    • Little India: .landmark → .neighborhood
+    • Buddha Tooth Relic Temple: .landmark → .religious
+    • Sri Mariamman Temple: .landmark → .religious
+    • Chinatown: .landmark → .neighborhood
+    • Orchard Road: .landmark → .garden
+    • S.E.A. Aquarium: .landmark → .zoo
+    • Universal Studios Singapore: .landmark → .amusement
+    • Sentosa Island: .landmark → .park
+    • Cloud Forest: .landmark → .park
+    • Gardens by the Bay: .landmark → .beach
+    • Marina Bay Sands: .landmark → .beach
+📝 AyutthayaAttractions.swift: fixed 8 categories
+    • Chao Sam Phraya National Museum: .landmark → .museum
+    • Ayutthaya Elephant Palace: .landmark → .palace
+    • Bang Pa-In Royal Palace: .landmark → .palace
+    • Wat Lokayasutharam: .landmark → .religious
+    • Wat Yai Chai Mongkhon: .landmark → .religious
+    • Wat Chaiwatthanaram: .landmark → .religious
+    • Wat Phra Si Sanphet: .landmark → .religious
+    • Wat Mahathat (Buddha Head in Tree): .landmark → .religious
+📝 BangkokAttractions.swift: fixed 13 categories
+    • Klong Lat Mayom Floating Market: .landmark → .shopping
+    • Taling Chan Floating Market: .landmark → .shopping
+    • Pak Khlong Talat (Flower Market): .landmark → .shopping
+    • Wat Suthat & Giant Swing: .landmark → .religious
+    • Bangkok National Museum: .landmark → .museum
+    • Dusit Palace: .landmark → .palace
+    • Wat Benchamabophit (Marble Temple): .landmark → .religious
+    • Asiatique The Riverfront: .landmark → .park
+    • Wat Traimit (Golden Buddha): .landmark → .religious
+    • Wat Saket (Golden Mount): .landmark → .religious
+    • Erawan Shrine: .landmark → .religious
+    • Wat Pho (Reclining Buddha): .landmark → .religious
+    • Wat Phra Kaew (Temple of the Emerald Buddha): .landmark → .religious
+📝 HuaHinAttractions.swift: fixed 9 categories
+    • Ao Manao Beach: .landmark → .beach
+    • Prachuap Bay: .landmark → .beach
+    • Phraya Nakhon Cave: .landmark → .park
+    • Sam Roi Yot National Park: .landmark → .park
+    • Pa La-U Waterfall: .landmark → .park
+    • Maruekhathaiyawan Palace: .landmark → .palace
+    • Hua Hin Night Market: .landmark → .shopping
+    • Cicada Market: .landmark → .shopping
+    • Hua Hin Beach: .landmark → .beach
+📝 IsaanAttractions.swift: fixed 3 categories
+    • Pha Taem National Park: .landmark → .park
+    • Wat Phu Tok: .landmark → .religious
+    • Khao Yai National Park: .landmark → .park
+📝 KanchanaburiAttractions.swift: fixed 7 categories
+    • Kanchanaburi War Cemetery: .landmark → .monument
+    • Sai Yok National Park: .landmark → .park
+    • Kwai River: .landmark → .park
+    • Erawan Waterfalls: .landmark → .park
+    • Erawan National Park: .landmark → .park
+    • Hellfire Pass Memorial Museum: .landmark → .museum
+    • Bridge Over the River Kwai: .landmark → .park
+📝 KhaoSokAttractions.swift: fixed 4 categories
+    • Night Safari: .landmark → .park
+    • Nam Talu Cave: .landmark → .park
+    • Cheow Lan Lake: .landmark → .park
+    • Khao Sok National Park: .landmark → .park
+📝 LopburiAttractions.swift: fixed 3 categories
+    • San Phra Kan Shrine: .landmark → .religious
+    • King Narai's Palace: .landmark → .palace
+    • Phra Prang Sam Yot (Monkey Temple): .landmark → .religious
+📝 NorthernThailandAttractions.swift: fixed 25 categories
+    • Yun Lai Viewpoint: .landmark → .viewpoint
+    • Pai Memorial Bridge: .landmark → .monument
+    • Baan Santichon (Chinese Village): .landmark → .neighborhood
+    • Tham Lod Cave: .landmark → .park
+    • Pam Bok Waterfall: .landmark → .park
+    • Mo Paeng Waterfall: .landmark → .park
+    • Pai Walking Street: .landmark → .neighborhood
+    • Pai Canyon: .landmark → .park
+    • Khun Korn Waterfall: .landmark → .park
+    • Mae Fah Luang Garden: .landmark → .garden
+    • Baan Dam Museum (Black House): .landmark → .museum
+    • Wat Rong Suea Ten (Blue Temple): .landmark → .religious
+    • Doi Pui Hmong Village: .landmark → .neighborhood
+    • Huay Tung Tao Lake: .landmark → .park
+    • Wat Suan Dok: .landmark → .religious
+    • Bo Sang Umbrella Village: .landmark → .neighborhood
+    • San Kamphaeng Hot Springs: .landmark → .park
+    • Bua Thong Sticky Waterfalls: .landmark → .park
+    • Wat Umong: .landmark → .religious
+    • Night Bazaar: .landmark → .shopping
+    • Sunday Walking Street: .landmark → .neighborhood
+    • Wat Chiang Man: .landmark → .religious
+    • Wat Phra Singh: .landmark → .religious
+    • Wat Chedi Luang: .landmark → .religious
+    • Doi Suthep Temple (Wat Phra That Doi Suthep): .landmark → .religious
+📝 PattayaAttractions.swift: fixed 5 categories
+    • Silver Lake Vineyard: .landmark → .park
+    • Walking Street Pattaya: .landmark → .neighborhood
+    • Nong Nooch Tropical Garden: .landmark → .garden
+    • Jomtien Beach: .landmark → .beach
+    • Pattaya Beach: .landmark → .beach
+📝 PhuketKrabiAttractions.swift: fixed 18 categories
+    • Thung Teao Forest Natural Park: .landmark → .park
+    • Shell Cemetery (Susan Hoi): .landmark → .monument
+    • Tub Kaek Beach: .landmark → .beach
+    • Four Islands Tour: .landmark → .park
+    • Hot Springs Waterfall: .landmark → .park
+    • Tiger Cave Temple (Wat Tham Suea): .landmark → .religious
+    • Ao Nang Beach: .landmark → .beach
+    • Racha Islands: .landmark → .park
+    • James Bond Island: .landmark → .park
+    • Phang Nga Bay: .landmark → .beach
+    • Banzaan Fresh Market: .landmark → .shopping
+    • Wat Chalong: .landmark → .religious
+    • Freedom Beach: .landmark → .beach
+    • Kamala Beach: .landmark → .beach
+    • Surin Beach: .landmark → .beach
+    • Bang Tao Beach: .landmark → .beach
+    • Kata Beach: .landmark → .beach
+    • Karon Beach: .landmark → .beach
+📝 SukhothaiAttractions.swift: fixed 4 categories
+    • Ramkhamhaeng National Museum: .landmark → .museum
+    • Wat Sa Si: .landmark → .religious
+    • Wat Si Chum: .landmark → .religious
+    • Wat Mahathat Sukhothai: .landmark → .religious
+📝 ThaiIslandsAttractions.swift: fixed 31 categories
+    • Mu Koh Chang National Park: .landmark → .park
+    • Klong Plu Waterfall: .landmark → .park
+    • Bang Bao Fishing Village: .landmark → .neighborhood
+    • Lonely Beach: .landmark → .beach
+    • Klong Prao Beach: .landmark → .beach
+    • White Sand Beach: .landmark → .beach
+    • Tarutao National Marine Park: .landmark → .beach
+    • Walking Street: .landmark → .neighborhood
+    • Pattaya Beach: .landmark → .beach
+    • Sunset Beach: .landmark → .beach
+    • Sunrise Beach: .landmark → .beach
+    • Japanese Gardens (Snorkeling): .landmark → .garden
+    • Mango Bay: .landmark → .beach
+    • Tanote Bay: .landmark → .beach
+    • Shark Bay: .landmark → .beach
+    • Sairee Beach: .landmark → .beach
+    • Malibu Beach: .landmark → .beach
+    • Secret Beach: .landmark → .beach
+    • Chinese Temple (Guan Yin): .landmark → .religious
+    • Wat Khao Tham: .landmark → .religious
+    • Than Sadet Waterfall: .landmark → .park
+    • Bottle Beach: .landmark → .beach
+    • Thong Nai Pan Beach: .landmark → .beach
+    • Haad Rin Beach (Full Moon Party): .landmark → .beach
+    • Ang Thong National Marine Park: .landmark → .beach
+    • Secret Buddha Garden: .landmark → .garden
+    • Na Muang Waterfalls: .landmark → .park
+    • Wat Plai Laem: .landmark → .religious
+    • Bophut Beach (Fisherman's Village): .landmark → .beach
+    • Lamai Beach: .landmark → .beach
+    • Chaweng Beach: .landmark → .beach
+📝 CanThoAttractions.swift: fixed 3 categories
+    • Binh Thuy Ancient House: .landmark → .historical
+    • Phong Dien Floating Market: .landmark → .shopping
+    • Cai Rang Floating Market: .landmark → .shopping
+📝 ChauDocAttractions.swift: fixed 1 categories
+    • Sam Mountain: .landmark → .park
+📝 ConDaoAttractions.swift: fixed 3 categories
+    • Bay Canh Island: .landmark → .park
+    • Dam Trau Beach: .landmark → .beach
+    • Con Dao National Park: .landmark → .park
+📝 DaLatAttractions.swift: fixed 10 categories
+    • Da Lat Night Market: .landmark → .shopping
+    • Valley of Love: .landmark → .park
+    • Truc Lam Monastery: .landmark → .religious
+    • Domain de Marie Church: .landmark → .religious
+    • Bao Dai Summer Palace: .landmark → .palace
+    • Elephant Waterfall: .landmark → .park
+    • Datanla Waterfall: .landmark → .park
+    • Lang Biang Mountain: .landmark → .park
+    • Da Lat Flower Gardens: .landmark → .garden
+    • Xuan Huong Lake: .landmark → .park
+📝 DaNangAttractions.swift: fixed 6 categories
+    • Museum of Cham Sculpture: .landmark → .museum
+    • Non Nuoc Beach: .landmark → .beach
+    • Han River Bridge: .landmark → .park
+    • Lady Buddha (Linh Ung Pagoda): .landmark → .religious
+    • Marble Mountains: .landmark → .park
+    • My Khe Beach: .landmark → .beach
+📝 HaLongBayAttractions.swift: fixed 8 categories
+    • Floating Villages: .landmark → .neighborhood
+    • Bai Tu Long Bay: .landmark → .beach
+    • Lan Ha Bay: .landmark → .beach
+    • Cat Ba Island: .landmark → .park
+    • Ti Top Island: .landmark → .park
+    • Thien Cung Cave: .landmark → .park
+    • Sung Sot Cave (Surprise Cave): .landmark → .park
+    • Ha Long Bay Cruise (UNESCO): .landmark → .beach
+📝 HanoiAttractions.swift: fixed 16 categories
+    • Bat Trang Ceramic Village: .landmark → .neighborhood
+    • Water Puppet Theatre: .landmark → .entertainment
+    • Train Street: .landmark → .neighborhood
+    • Dong Xuan Market: .landmark → .shopping
+    • Imperial Citadel of Thang Long (UNESCO): .landmark → .palace
+    • Vietnam Museum of Ethnology: .landmark → .museum
+    • West Lake: .landmark → .park
+    • Tran Quoc Pagoda: .landmark → .religious
+    • St. Joseph's Cathedral: .landmark → .religious
+    • Temple of Literature: .landmark → .religious
+    • One Pillar Pagoda: .landmark → .religious
+    • Ho Chi Minh Museum: .landmark → .museum
+    • Ho Chi Minh Mausoleum: .landmark → .religious
+    • Old Quarter (36 Streets): .landmark → .neighborhood
+    • Ngoc Son Temple: .landmark → .religious
+    • Hoan Kiem Lake: .landmark → .park
+📝 HoChiMinhCityAttractions.swift: fixed 11 categories
+    • Thien Hau Temple: .landmark → .religious
+    • History Museum: .landmark → .museum
+    • Tan Dinh Church (Pink Church): .landmark → .religious
+    • Saigon Opera House: .landmark → .entertainment
+    • Nguyen Hue Walking Street: .landmark → .neighborhood
+    • Binh Tay Market (Cholon): .landmark → .shopping
+    • Jade Emperor Pagoda: .landmark → .religious
+    • Reunification Palace: .landmark → .palace
+    • Notre-Dame Cathedral Basilica: .landmark → .religious
+    • War Remnants Museum: .landmark → .museum
+    • Ben Thanh Market: .landmark → .shopping
+📝 HoiAnAttractions.swift: fixed 9 categories
+    • Thu Bon River: .landmark → .park
+    • Night Market: .landmark → .shopping
+    • Thanh Ha Pottery Village: .landmark → .neighborhood
+    • Tra Que Vegetable Village: .landmark → .neighborhood
+    • Cua Dai Beach: .landmark → .beach
+    • An Bang Beach: .landmark → .beach
+    • Central Market: .landmark → .shopping
+    • Japanese Covered Bridge: .landmark → .beach
+    • Hoi An Ancient Town (UNESCO): .landmark → .historical
+📝 HueAttractions.swift: fixed 8 categories
+    • An Dinh Palace: .landmark → .palace
+    • Hue Citadel: .landmark → .palace
+    • Perfume River Cruise: .landmark → .park
+    • Dong Ba Market: .landmark → .shopping
+    • Tomb of Minh Mang: .landmark → .monument
+    • Tomb of Khai Dinh: .landmark → .monument
+    • Tomb of Tu Duc: .landmark → .monument
+    • Thien Mu Pagoda: .landmark → .religious
+📝 MuiNeAttractions.swift: fixed 3 categories
+    • Ke Ga Lighthouse: .landmark → .lighthouse
+    • Mui Ne Beach: .landmark → .beach
+    • Fishing Village: .landmark → .neighborhood
+📝 NhaTrangAttractions.swift: fixed 4 categories
+    • Nha Trang Night Market: .landmark → .shopping
+    • Hon Mun Island: .landmark → .park
+    • Long Son Pagoda: .landmark → .religious
+    • Nha Trang Beach: .landmark → .beach
+📝 NinhBinhAttractions.swift: fixed 7 categories
+    • Phat Diem Cathedral: .landmark → .religious
+    • Cuc Phuong National Park: .landmark → .park
+    • Van Long Nature Reserve: .landmark → .park
+    • Hoa Lu Ancient Capital: .landmark → .historical
+    • Mua Cave: .landmark → .park
+    • Bai Dinh Pagoda: .landmark → .religious
+    • Tam Coc (Three Caves): .landmark → .park
+📝 PhongNhaAttractions.swift: fixed 7 categories
+    • Botanic Garden: .landmark → .garden
+    • Hang En Cave: .landmark → .park
+    • Dark Cave: .landmark → .park
+    • Son Doong Cave (World's Largest): .landmark → .park
+    • Paradise Cave: .landmark → .park
+    • Phong Nha Cave: .landmark → .park
+    • Phong Nha-Ke Bang National Park (UNESCO): .landmark → .park
+📝 PhuQuocAttractions.swift: fixed 7 categories
+    • Onong Island: .landmark → .park
+    • An Thoi Islands: .landmark → .park
+    • Phu Quoc Night Market: .landmark → .shopping
+    • Dinh Cau Rock Temple: .landmark → .religious
+    • Sunset Sanato Beach: .landmark → .beach
+    • Long Beach: .landmark → .beach
+    • Sao Beach: .landmark → .beach
+📝 QuyNhonAttractions.swift: fixed 3 categories
+    • Ky Co Beach: .landmark → .beach
+    • Bai Xep Beach: .landmark → .beach
+    • Quy Nhon Beach: .landmark → .beach
+📝 SapaAttractions.swift: fixed 8 categories
+    • Bac Ha Market: .landmark → .shopping
+    • Ham Rong Mountain: .landmark → .park
+    • Sapa Love Waterfall: .landmark → .park
+    • Muong Hoa Valley: .landmark → .park
+    • Lao Chai Village: .landmark → .neighborhood
+    • Ta Van Village: .landmark → .neighborhood
+    • Cat Cat Village: .landmark → .neighborhood
+    • Fansipan Mountain: .landmark → .park
+
+======================================================================
+📊 CATEGORY FIX SUMMARY
+======================================================================
+  Files processed:     490
+  Attractions checked: 4138
+  Categories fixed:    2051
+  Already correct:     2087
+  Time elapsed:        0.1 seconds
+======================================================================
+
+📈 CATEGORY DISTRIBUTION (changes):
+  .park: 658
+  .religious: 355
+  .beach: 243
+  .neighborhood: 163
+  .museum: 162
+  .shopping: 126
+  .historical: 72
+  .palace: 62
+  .garden: 53
+  .monument: 46
+  .zoo: 27
+  .entertainment: 20
+  .castle: 17
+  .viewpoint: 13
+  .amusement: 12
+  .cablecar: 11
+  .lighthouse: 6
+  .stadium: 4
+  .winery: 1
+
+✅ Category fix complete!

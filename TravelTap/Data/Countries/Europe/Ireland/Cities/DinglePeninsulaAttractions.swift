@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct DinglePeninsulaAttractions {
+    static let city = City(
+        name: "Dingle Peninsula",
+        localName: "Corca Dhuibhne",
+        latitude: 52.1409,
+        longitude: -10.2640,
+        description: "Rugged peninsula with stunning coastal scenery and Gaelic culture.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Dunmore Head",
+            localName: "Dunmore Head",
+            category: .landmark,
+            latitude: 52.1086111,
+            longitude: -10.4819444,
+            city: "Dingle Peninsula",
+            country: "Ireland",
+            shortDescription: "Dunmore Head in Dingle Peninsula, Ireland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Blasket Islands",
+            localName: "Blasket Islands",
+            category: .landmark,
+            latitude: 52.09082429999999,
+            longitude: -10.5410599,
+            city: "Dingle Peninsula",
+            country: "Ireland",
+            shortDescription: "Blasket Islands in Dingle Peninsula, Ireland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Blasket Centre",
+            localName: "Blasket Centre",
+            category: .landmark,
+            latitude: 52.1325179,
+            longitude: -10.4626825,
+            city: "Dingle Peninsula",
+            country: "Ireland",
+            shortDescription: "Blasket Centre in Dingle Peninsula, Ireland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Gallarus Oratory",
+            localName: "Gallarus Oratory",
+            category: .landmark,
+            latitude: 52.1737155,
+            longitude: -10.3529474,
+            city: "Dingle Peninsula",
+            country: "Ireland",
+            shortDescription: "Gallarus Oratory in Dingle Peninsula, Ireland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Inch Beach",
+            localName: "Inch Beach",
+            category: .landmark,
+            latitude: 52.14272,
+            longitude: -9.98101,
+            city: "Dingle Peninsula",
+            country: "Ireland",
+            shortDescription: "Inch Beach in Dingle Peninsula, Ireland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Conor Pass",
+            localName: "Conor Pass",
+            category: .landmark,
+            latitude: 52.1818742,
+            longitude: -10.2072805,
+            city: "Dingle Peninsula",
+            country: "Ireland",
+            shortDescription: "Conor Pass in Dingle Peninsula, Ireland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Dingle Distillery",
+            localName: "Dingle Distillery",
+            category: .landmark,
+            latitude: 52.1418352,
+            longitude: -10.2890318,
+            city: "Dingle Peninsula",
+            country: "Ireland",
+            shortDescription: "Dingle Distillery in Dingle Peninsula, Ireland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

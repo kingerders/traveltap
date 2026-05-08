@@ -1,0 +1,85 @@
+import Foundation
+import CoreLocation
+
+struct SarandeAttractions {
+    static let city = City(
+        name: "Sarande",
+        localName: "Sarandë",
+        latitude: 39.746800,
+        longitude: 19.988275,
+        description: "The unofficial capital of the Albanian Riviera, gateway to pristine beaches.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Lëkurësi Castle",
+            localName: "Kalaja e Lëkurësit",
+            category: .castle,
+            latitude: 39.86590,
+            longitude: 20.02570,
+            city: "Sarande",
+            country: "Albania",
+            shortDescription: "Strategic fortress offering the best sunset views.",
+            fullDescription: "Built in 1537 by Sultan Suleiman the Magnificent, this fortress sits on a strategic hill overlooking the entire bay of Sarande, the Ksamil islands, and Corfu. It now houses a restaurant with a large terrace, perfect for watching the sun set over the Ionian Sea.",
+            photos: ["https://images.unsplash.com/photo-1596711737181-70bf8994d509?w=800&q=80"],
+            entranceFee: "Free (Restaurant patrons)",
+            openingHours: "Open late",
+            howToGetThere: "Taxi or a steep 45-min hike.",
+            tips: "Go for dinner or drinks at sunset. The road up is steep and winding.",
+            duration: "2 hours",
+        ),
+        Attraction(
+            name: "Butrint National Park",
+            localName: "Butrinti",
+            category: .historical,
+            latitude: 39.74400,
+            longitude: 20.01950,
+            city: "Sarande",
+            country: "Albania",
+            shortDescription: "Ancient Greek and Roman ruins in a lush national park.",
+            fullDescription: "Just south of Sarande lies Butrint, a UNESCO World Heritage site and one of the most important archaeological sites in the Balkans. It features a Greek theater, Roman forum, Byzantine basilica, and Venetian towers, all nestled in a beautiful wooded marshland.",
+            photos: ["https://images.unsplash.com/photo-1596711737181-70bf8994d509?w=800&q=80"],
+            entranceFee: "Paid",
+            openingHours: "8:00 AM - Dusk",
+            howToGetThere: "Bus from Sarande center (30 mins).",
+            tips: "Allow at least 2-3 hours to walk the full circuit.",
+            duration: "3-4 hours",
+            website: "butrint.al",
+        ),
+        Attraction(
+            name: "Ksamil Islands",
+            localName: "Ishujt e Ksamilit",
+            category: .park,
+            latitude: 39.775400,
+            longitude: 19.99620,
+            city: "Sarande",
+            country: "Albania",
+            shortDescription: "The 'Maldives of Europe' with turquoise waters and white sand.",
+            fullDescription: "A short drive from Sarande, Ksamil is famous for its crystalline turquoise waters and three small islands just off the beach. You can swim or rent a paddleboat to reach the islands. It is one of the most beautiful beach destinations in Europe.",
+            photos: ["https://images.unsplash.com/photo-1596711737181-70bf8994d509?w=800&q=80"],
+            entranceFee: "Free",
+            openingHours: "Open 24 hours",
+            howToGetThere: "Bus from Sarande.",
+            tips: "It gets extremely crowded in July/August. Go early or in shoulder season.",
+            duration: "Half day or full day",
+        ),
+        Attraction(
+            name: "Corfu Airport (Serving Saranda)",
+            localName: "Ioannis Kapodistrias Airport",
+            category: .landmark,
+            latitude: 39.6071325,
+            longitude: 19.9149916,
+            city: "Saranda",
+            country: "Albania",
+            shortDescription: "The closest airport to Saranda, located on the nearby Greek island of Corfu.",
+            fullDescription: "Saranda does not have an airport. The most convenient option is to fly into Corfu Airport (CFU) in Greece and take a 30-minute hydrofoil ferry across to Saranda. Alternatively, fly to Tirana (TIA) and take a 3-4 hour bus south.",
+            photos: [],
+            entranceFee: "N/A",
+            openingHours: "24/7 (Ferry times vary)",
+            howToGetThere: "Taxi to Corfu Port, then Ferry to Saranda.",
+            tips: "Check ferry schedules (Finikas Lines or Ionian Seaways) in advance. The view arriving by boat is beautiful.",
+            duration: "N/A",
+        )
+    ]
+}

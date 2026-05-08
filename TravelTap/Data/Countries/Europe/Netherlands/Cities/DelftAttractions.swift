@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct DelftAttractions {
+    static let city = City(
+        name: "Delft",
+        localName: "Delft",
+        latitude: 52.0116,
+        longitude: 4.3571,
+        description: "Historic city famous for Vermeer, pottery, and canals.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Nieuwe Kerk Delft",
+            localName: "Nieuwe Kerk Delft",
+            category: .landmark,
+            latitude: 52.0124176,
+            longitude: 4.3609178,
+            city: "Delft",
+            country: "Netherlands",
+            shortDescription: "Nieuwe Kerk Delft in Delft, Netherlands.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Oude Kerk Delft",
+            localName: "Oude Kerk Delft",
+            category: .landmark,
+            latitude: 52.012638,
+            longitude: 4.356049899999999,
+            city: "Delft",
+            country: "Netherlands",
+            shortDescription: "Oude Kerk Delft in Delft, Netherlands.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Vermeer Centrum",
+            localName: "Vermeer Centrum",
+            category: .landmark,
+            latitude: 52.0123809,
+            longitude: 4.3594362,
+            city: "Delft",
+            country: "Netherlands",
+            shortDescription: "Vermeer Centrum in Delft, Netherlands.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Prinsenhof Museum",
+            localName: "Prinsenhof Museum",
+            category: .landmark,
+            latitude: 52.0121165,
+            longitude: 4.3546292,
+            city: "Delft",
+            country: "Netherlands",
+            shortDescription: "Prinsenhof Museum in Delft, Netherlands.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Delft Canals",
+            localName: "Delft Canals",
+            category: .landmark,
+            latitude: 52.01157689999999,
+            longitude: 4.3570677,
+            city: "Delft",
+            country: "Netherlands",
+            shortDescription: "Delft Canals in Delft, Netherlands.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Delft City Hall",
+            localName: "Delft City Hall",
+            category: .landmark,
+            latitude: 52.0114446,
+            longitude: 4.3584474,
+            city: "Delft",
+            country: "Netherlands",
+            shortDescription: "Delft City Hall in Delft, Netherlands.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Eastern Gate (Oostpoort)",
+            localName: "Eastern Gate (Oostpoort)",
+            category: .landmark,
+            latitude: 52.0108719,
+            longitude: 4.3684712,
+            city: "Delft",
+            country: "Netherlands",
+            shortDescription: "Eastern Gate (Oostpoort) in Delft, Netherlands.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

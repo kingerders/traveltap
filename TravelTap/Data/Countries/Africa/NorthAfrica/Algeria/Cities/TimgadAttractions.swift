@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct TimgadAttractions {
+    static let city = City(
+        name: "Timgad",
+        localName: "Thamugadi",
+        latitude: 35.4850,
+        longitude: 6.4686,
+        description: "A remarkably preserved Roman colonial town, often called the 'Pompeii of Africa,' founded by Emperor Trajan.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Timgad Roman Ruins",
+            localName: "Timgad",
+            category: .archaeological,
+            latitude: 35.4850,
+            longitude: 6.4686,
+            city: "Timgad",
+            country: "Algeria",
+            shortDescription: "Roman city grid.",
+            fullDescription: "UNESCO World Heritage Site. An excellent example of a Roman military colony with a perfect grid plan.",
+            photos: ["timgad_ruins"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "East of Batna.",
+            tips: "Pompeii of Africa.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Trajan's Arch",
+            localName: "Arch of Trajan",
+            category: .archaeological,
+            latitude: 35.4847,
+            longitude: 6.4692,
+            city: "Timgad",
+            country: "Algeria",
+            shortDescription: "Triumphal arch.",
+            fullDescription: "The massive 12-meter high triumphal arch that marks the western entrance to the city via the Decumanus Maximus.",
+            photos: ["trajan_arch"],
+            entranceFee: "Included",
+            openingHours: "Daily",
+            howToGetThere: "West gate.",
+            tips: "Iconic photo.",
+            duration: "20 mins"
+        ),
+        Attraction(
+            name: "Timgad Theatre",
+            localName: "Theatre",
+            category: .archaeological,
+            latitude: 35.4853,
+            longitude: 6.4683,
+            city: "Timgad",
+            country: "Algeria",
+            shortDescription: "Ancient theatre.",
+            fullDescription: "A well-preserved theatre built into a hillside, capable of seating 3,500 people. Still used for the Timgad Festival.",
+            photos: ["timgad_theatre"],
+            entranceFee: "Included",
+            openingHours: "Daily",
+            howToGetThere: "South side.",
+            tips: "Acoustics.",
+            duration: "30 mins"
+        ),
+        Attraction(
+            name: "Capitol Temple",
+            localName: "Capitol",
+            category: .archaeological,
+            latitude: 35.4850,
+            longitude: 6.4686,
+            city: "Timgad",
+            country: "Algeria",
+            shortDescription: "Temple columns.",
+            fullDescription: "The remains of the Capitol temple dedicated to Jupiter, boasting huge Corinthian columns.",
+            photos: ["timgad_capitol"],
+            entranceFee: "Included",
+            openingHours: "Daily",
+            howToGetThere: "Near theatre.",
+            tips: "Tallest columns.",
+            duration: "20 mins"
+        ),
+        Attraction(
+            name: "Timgad Museum",
+            localName: "Musée",
+            category: .museum,
+            latitude: 35.4847,
+            longitude: 6.4689,
+            city: "Timgad",
+            country: "Algeria",
+            shortDescription: "Site museum.",
+            fullDescription: "Museum containing over 200 mosaics found at Timgad, preserved in excellent condition.",
+            photos: ["timgad_museum"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Entrance.",
+            tips: "Mosaic floors.",
+            duration: "45 mins"
+        ),
+        Attraction(
+            name: "Library of Timgad",
+            localName: "Library",
+            category: .archaeological,
+            latitude: 35.4851,
+            longitude: 6.4684,
+            city: "Timgad",
+            country: "Algeria",
+            shortDescription: "Public library.",
+            fullDescription: "Extensive ruins of a public library, showing the sophisticated culture of the Roman city.",
+            photos: ["timgad_library"],
+            entranceFee: "Included",
+            openingHours: "Daily",
+            howToGetThere: "Cardo North.",
+            tips: "Shelves visible.",
+            duration: "15 mins"
+        ),
+        Attraction(
+            name: "Forum of Timgad",
+            localName: "Forum",
+            category: .archaeological,
+            latitude: 35.4850,
+            longitude: 6.4686,
+            city: "Timgad",
+            country: "Algeria",
+            shortDescription: "City square.",
+            fullDescription: "The political and social center of the town, surrounded by the curia, basilica, and temple.",
+            photos: ["timgad_forum"],
+            entranceFee: "Included",
+            openingHours: "Daily",
+            howToGetThere: "Center.",
+            tips: "Heart of city.",
+            duration: "20 mins"
+        )
+    ]
+}

@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct TarguMuresAttractions {
+    static let city = City(
+        name: "Târgu Mureș",
+        localName: "Târgu Mureș",
+        latitude: 46.5456,
+        longitude: 24.5625,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Palace of Culture",
+            localName: "Palace of Culture",
+            category: .landmark,
+            latitude: 46.5433313,
+            longitude: 24.557944,
+            city: "Târgu Mureș",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Fortress Square",
+            localName: "Fortress Square",
+            category: .landmark,
+            latitude: 46.54801250000001,
+            longitude: 24.5679963,
+            city: "Târgu Mureș",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Medieval Fortress",
+            localName: "Medieval Fortress",
+            category: .landmark,
+            latitude: 46.54801250000001,
+            longitude: 24.5679963,
+            city: "Târgu Mureș",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Orthodox Cathedral",
+            localName: "Orthodox Cathedral",
+            category: .religious,
+            latitude: 46.5462415,
+            longitude: 24.5633783,
+            city: "Târgu Mureș",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Teleki Library",
+            localName: "Teleki Library",
+            category: .museum,
+            latitude: 46.5428729,
+            longitude: 24.5654533,
+            city: "Târgu Mureș",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Rose Square",
+            localName: "Rose Square",
+            category: .landmark,
+            latitude: 46.5446137,
+            longitude: 24.5611857,
+            city: "Târgu Mureș",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Zoo",
+            localName: "Zoo",
+            category: .park,
+            latitude: 46.55171379999999,
+            longitude: 24.5934564,
+            city: "Târgu Mureș",
+            country: "Romania",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

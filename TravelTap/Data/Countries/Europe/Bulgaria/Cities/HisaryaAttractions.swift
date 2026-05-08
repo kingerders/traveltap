@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct HisaryaAttractions {
+    static let city = City(
+        name: "Hisarya",
+        localName: "Hisarya",
+        latitude: 42.5028,
+        longitude: 24.7077,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Roman Walls",
+            localName: "Roman Walls",
+            category: .landmark,
+            latitude: 42.4956214,
+            longitude: 24.7028875,
+            city: "Hisarya",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Camel Gate (Kamilite)",
+            localName: "Camel Gate (Kamilite)",
+            category: .landmark,
+            latitude: 42.498738,
+            longitude: 24.7058963,
+            city: "Hisarya",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Roman Baths",
+            localName: "Roman Baths",
+            category: .landmark,
+            latitude: 42.4956214,
+            longitude: 24.7028875,
+            city: "Hisarya",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Momina Salza Spring",
+            localName: "Momina Salza Spring",
+            category: .landmark,
+            latitude: 42.5034328,
+            longitude: 24.7125991,
+            city: "Hisarya",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Archaeological Museum",
+            localName: "Archaeological Museum",
+            category: .museum,
+            latitude: 42.5019962,
+            longitude: 24.7062899,
+            city: "Hisarya",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Roman Tomb",
+            localName: "Roman Tomb",
+            category: .landmark,
+            latitude: 42.4956214,
+            longitude: 24.7028875,
+            city: "Hisarya",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Starosel Thracian Tomb",
+            localName: "Starosel Thracian Tomb",
+            category: .landmark,
+            latitude: 42.5118968,
+            longitude: 24.547058,
+            city: "Hisarya",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct DundeeAttractions {
+    static let city = City(
+        name: "Dundee",
+        localName: "Dundee",
+        latitude: 56.4620,
+        longitude: -2.9707,
+        description: "UNESCO City of Design, home to the V&A Dundee and RRS Discovery.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "RRS Discovery",
+            localName: "RRS Discovery",
+            category: .landmark,
+            latitude: 56.4567025,
+            longitude: -2.9690615,
+            city: "Dundee",
+            country: "Scotland",
+            shortDescription: "RRS Discovery in Dundee, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Discovery Point",
+            localName: "Discovery Point",
+            category: .landmark,
+            latitude: 56.4567025,
+            longitude: -2.9690615,
+            city: "Dundee",
+            country: "Scotland",
+            shortDescription: "Discovery Point in Dundee, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Verdant Works",
+            localName: "Verdant Works",
+            category: .landmark,
+            latitude: 56.4614572,
+            longitude: -2.9834752,
+            city: "Dundee",
+            country: "Scotland",
+            shortDescription: "Verdant Works in Dundee, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Dundee Law",
+            localName: "Dundee Law",
+            category: .landmark,
+            latitude: 56.469734,
+            longitude: -2.99,
+            city: "Dundee",
+            country: "Scotland",
+            shortDescription: "Dundee Law in Dundee, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Broughty Castle",
+            localName: "Broughty Castle",
+            category: .landmark,
+            latitude: 56.4629931,
+            longitude: -2.8701123,
+            city: "Dundee",
+            country: "Scotland",
+            shortDescription: "Broughty Castle in Dundee, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Broughty Ferry Beach",
+            localName: "Broughty Ferry Beach",
+            category: .landmark,
+            latitude: 56.4657366,
+            longitude: -2.8617155,
+            city: "Dundee",
+            country: "Scotland",
+            shortDescription: "Broughty Ferry Beach in Dundee, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        ),
+        Attraction(
+            name: "Dundee Contemporary Arts",
+            localName: "Dundee Contemporary Arts",
+            category: .landmark,
+            latitude: 56.4570737,
+            longitude: -2.9745031,
+            city: "Dundee",
+            country: "Scotland",
+            shortDescription: "Dundee Contemporary Arts in Dundee, Scotland.",
+            fullDescription: "Detailed description awaiting update.",
+            photos: [],
+            entranceFee: "Varies (many free to view)",
+            openingHours: "Open 24 hours (exterior)",
+            howToGetThere: "Central location, accessible by public transport",
+            tips: "Visit early morning for fewer crowds. Night viewing often spectacular.",
+            duration: "30 min - 1 hour"
+        )
+    ]
+}

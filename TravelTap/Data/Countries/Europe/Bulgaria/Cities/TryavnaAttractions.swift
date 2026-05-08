@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct TryavnaAttractions {
+    static let city = City(
+        name: "Tryavna",
+        localName: "Tryavna",
+        latitude: 42.8687,
+        longitude: 25.4988,
+        description: "",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Clock Tower",
+            localName: "Clock Tower",
+            category: .landmark,
+            latitude: 42.8661967,
+            longitude: 25.489532,
+            city: "Tryavna",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Old Bridge (Kivgieniy Most)",
+            localName: "Old Bridge (Kivgieniy Most)",
+            category: .landmark,
+            latitude: 42.8662658,
+            longitude: 25.4891869,
+            city: "Tryavna",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Daskalov House",
+            localName: "Daskalov House",
+            category: .museum,
+            latitude: 42.8653018,
+            longitude: 25.4866518,
+            city: "Tryavna",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Woodcarving Museum",
+            localName: "Woodcarving Museum",
+            category: .museum,
+            latitude: 42.86521520000001,
+            longitude: 25.4867408,
+            city: "Tryavna",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Slaveykov House",
+            localName: "Slaveykov House",
+            category: .museum,
+            latitude: 42.8652911,
+            longitude: 25.4860428,
+            city: "Tryavna",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Tryavna School of Art",
+            localName: "Tryavna School of Art",
+            category: .landmark,
+            latitude: 42.8670388,
+            longitude: 25.4816891,
+            city: "Tryavna",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Church of St. Michael the Archangel",
+            localName: "Church of St. Michael the Archangel",
+            category: .religious,
+            latitude: 42.8664279,
+            longitude: 25.4903622,
+            city: "Tryavna",
+            country: "Bulgaria",
+            shortDescription: "",
+            fullDescription: "",
+            photos: [],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "City Center",
+            tips: "None",
+            duration: "1 hour"
+        )
+    ]
+}

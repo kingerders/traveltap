@@ -1,0 +1,135 @@
+import Foundation
+import CoreLocation
+
+struct TlemcenAttractions {
+    static let city = City(
+        name: "Tlemcen",
+        localName: "Tlemcen",
+        latitude: 34.8783,
+        longitude: -1.3150,
+        description: "A jewel of Islamic architecture in western Algeria, once the capital of the Zianid dynasty.",
+        attractions: attractions
+    )
+    
+    static let attractions: [Attraction] = [
+        Attraction(
+            name: "Great Mosque of Tlemcen",
+            localName: "Grande Mosquée",
+            category: .religious,
+            latitude: 34.8781,
+            longitude: -1.3142,
+            city: "Tlemcen",
+            country: "Algeria",
+            shortDescription: "Almoravid mosque.",
+            fullDescription: "A masterpiece of Almoravid architecture founded in 1082, with significant additions by the Zayyanids.",
+            photos: ["tlemcen_great_mosque"],
+            entranceFee: "Free",
+            openingHours: "Prayer times",
+            howToGetThere: "City center.",
+            tips: "Chandelier.",
+            duration: "30 mins"
+        ),
+        Attraction(
+            name: "El Mechouar Palace",
+            localName: "Mechouar",
+            category: .historical,
+            latitude: 34.8767,
+            longitude: -1.3167,
+            city: "Tlemcen",
+            country: "Algeria",
+            shortDescription: "Royal citadel.",
+            fullDescription: "The former official residence of the Zayyanid princes. Includes a restored palace and mosque within ramparts.",
+            photos: ["el_mechouar"],
+            entranceFee: "Entry fee",
+            openingHours: "Daily",
+            howToGetThere: "Central Tlemcen.",
+            tips: "Night lights.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Mansourah Mosque",
+            localName: "Mansourah",
+            category: .historical,
+            latitude: 34.8667,
+            longitude: -1.3333,
+            city: "Tlemcen",
+            country: "Algeria",
+            shortDescription: "Minaret ruins.",
+            fullDescription: "The imposing ruins of a 14th-century mosque and minaret built by the Merinid sultan during the siege of Tlemcen.",
+            photos: ["mansourah_ruins"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "West of city.",
+            tips: "Golden stone.",
+            duration: "45 mins"
+        ),
+        Attraction(
+            name: "Sidi Boumediene Mosque",
+            localName: "El Eubbad",
+            category: .religious,
+            latitude: 34.8583,
+            longitude: -1.3000,
+            city: "Tlemcen",
+            country: "Algeria",
+            shortDescription: "Sufi complex.",
+            fullDescription: "A religious complex dedicated to the patron saint of Tlemcen, featuring a mosque, madrasa, and mausoleum. Andalusian style.",
+            photos: ["sidi_boumediene"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "East of city.",
+            tips: "Complex entrance.",
+            duration: "1 hour"
+        ),
+        Attraction(
+            name: "Lalla Setti Plateau",
+            localName: "Lalla Setti",
+            category: .park,
+            latitude: 34.8500,
+            longitude: -1.3167,
+            city: "Tlemcen",
+            country: "Algeria",
+            shortDescription: "Park & View.",
+            fullDescription: "A plateau overlooking the city with a park, tower, and cable car access. Great for families.",
+            photos: ["lalla_setti"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Cable car.",
+            tips: "Sunset view.",
+            duration: "2 hours"
+        ),
+        Attraction(
+            name: "Royal Tomb of Sidi Brahim",
+            localName: "Koubba",
+            category: .historical,
+            latitude: 34.8750,
+            longitude: -1.3150,
+            city: "Tlemcen",
+            country: "Algeria",
+            shortDescription: "Historic tomb.",
+            fullDescription: "Tomb of Sidi Brahim and other dignitaries.",
+            photos: ["sidi_brahim_tomb"],
+            entranceFee: "Free",
+            openingHours: "Daily",
+            howToGetThere: "City center.",
+            tips: "Quick visit.",
+            duration: "15 mins"
+        ),
+        Attraction(
+            name: "Tlemcen National Park",
+            localName: "National Park",
+            category: .park,
+            latitude: 34.8333,
+            longitude: -1.3000,
+            city: "Tlemcen",
+            country: "Algeria",
+            shortDescription: "Nature reserve.",
+            fullDescription: "Protected area surrounding the city, including the Lalla Setti plateau and the El Ourit waterfalls.",
+            photos: ["tlemcen_national_park"],
+            entranceFee: "Free",
+            openingHours: "24/7",
+            howToGetThere: "Surrounds city.",
+            tips: "Waterfalls.",
+            duration: "Half day"
+        )
+    ]
+}
